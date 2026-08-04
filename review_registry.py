@@ -12,9 +12,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from zipfile import ZipFile
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parent
 RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
-SOURCE_REVIEWS_DIR = REPO_ROOT / "Cochrane_reviews" / "source_reviews"
+SOURCE_REVIEWS_DIR = REPO_ROOT / "source_reviews"
 
 SOURCE_FILENAMES = {
     "included_ris": "{review}-included.ris",
@@ -50,6 +50,15 @@ class ReviewSource:
             filename = SOURCE_FILENAMES[source_kind].format(review=self.review_id)
         except KeyError as exc:
             raise ValueError(f"Unknown review source kind: {source_kind}") from exc
+
+        if not self.source_package.exists():
+            relative_package = self.source_package.relative_to(REPO_ROOT)
+            raise FileNotFoundError(
+                f"{self.review_id}: missing source package {relative_package}. "
+                "Restore source_reviews/ from the former parent repo to regenerate "
+                "review analyses, cross-review characteristics, citation audits, or "
+                "the demo data."
+            )
 
         if self.source_package.suffix == ".zip":
             with ZipFile(self.source_package) as archive:

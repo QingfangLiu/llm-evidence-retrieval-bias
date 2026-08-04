@@ -5,7 +5,7 @@ Run from the repository root:
 ```bash
 MPLCONFIGDIR=/private/tmp/retrieval-bias-matplotlib \
 XDG_CACHE_HOME=/private/tmp/retrieval-bias-cache \
-  python3 retrieval_bias/figures/make_paper_figures.py
+  python3 figures/make_paper_figures.py
 ```
 
 The script writes each figure in editable vector and high-resolution raster

@@ -32,18 +32,16 @@ from overlap_metrics import (
 
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(REPO_ROOT / "retrieval_bias"))
+sys.path.insert(0, str(REPO_ROOT))
 
 from review_registry import ReviewSource, review_sources  # noqa: E402
 
-DEFAULT_CHARACTERISTIC_ROWS = (
-    REPO_ROOT / "retrieval_bias" / "recall_pattern_by_characteristic.csv"
-)
+DEFAULT_CHARACTERISTIC_ROWS = REPO_ROOT / "recall_pattern_by_characteristic.csv"
 DEFAULT_LOGISTIC_REGRESSION_RESULTS = (
-    REPO_ROOT / "retrieval_bias" / "logistic_regression_results.json"
+    REPO_ROOT / "logistic_regression_results.json"
 )
 DEFAULT_ROLE_DEPENDENCE_LOGISTIC_REGRESSION_RESULTS = (
-    REPO_ROOT / "retrieval_bias" / "role_dependence_logistic_regression_results.json"
+    REPO_ROOT / "role_dependence_logistic_regression_results.json"
 )
 DEFAULT_OUTPUT = Path(__file__).resolve().parent / "data.js"
 
@@ -1199,7 +1197,7 @@ def build_citation_issue_summary(
     identity_issue marks a matched citation with conflicting bibliographic
     details - almost always a wrong author, year, or journal on an otherwise
     correctly-identified study, not an invented one. See
-    retrieval_bias/README.md, "Citation issues (identity_issue) are not
+    README.md, "Citation issues (identity_issue) are not
     fabrication," for the full explanation and a dedicated fabrication check.
     This is purely a reporting summary for the demo; identity_issue is not
     used to filter any recall, Venn, or regression number elsewhere in this
@@ -1452,7 +1450,7 @@ def build_predictor_correlations(rows: list[dict[str, str]]) -> dict[str, Any]:
 
 
 # (field, display label) in reporting order, matching the printed table in
-# retrieval_bias/analyze_recall_logistic_regression.py. The intercept
+# analyze_recall_logistic_regression.py. The intercept
 # ("const") is handled separately since its odds ratio is not a meaningful
 # quantity to display (see that script's print_summary for why).
 LOGISTIC_REGRESSION_PREDICTOR_ORDER = [
@@ -1466,7 +1464,7 @@ LOGISTIC_REGRESSION_PREDICTOR_ORDER = [
 def load_logistic_regression_results(path: Path) -> dict[str, Any]:
     """Load the pre-computed logistic regression results.
 
-    Produced by retrieval_bias/analyze_recall_logistic_regression.py, which
+    Produced by analyze_recall_logistic_regression.py, which
     must be run before build_demo.py for this file to exist or be current.
     """
 

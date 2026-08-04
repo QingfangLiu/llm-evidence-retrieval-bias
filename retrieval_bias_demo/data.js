@@ -27931,9 +27931,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Prophylactic versus selective surfactant administration in preterm infants"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD000510-dataPackage.zip :: CD000510-study-data/CD000510-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD000510-dataPackage.zip :: CD000510-study-data/CD000510-excluded.ris",
-        "matches": "retrieval_bias/CD000510/cd000510_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD000510-dataPackage.zip :: CD000510-study-data/CD000510-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD000510-dataPackage.zip :: CD000510-study-data/CD000510-excluded.ris",
+        "matches": "CD000510/cd000510_role_study_matches.csv"
       }
     },
     {
@@ -29397,9 +29397,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Venepuncture versus heel lance for blood sampling in term neonates"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD001452-SUP-06-dataPackage.zip :: CD001452-study-data/CD001452-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD001452-SUP-06-dataPackage.zip :: CD001452-study-data/CD001452-excluded.ris",
-        "matches": "retrieval_bias/CD001452/cd001452_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD001452-SUP-06-dataPackage.zip :: CD001452-study-data/CD001452-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD001452-SUP-06-dataPackage.zip :: CD001452-study-data/CD001452-excluded.ris",
+        "matches": "CD001452/cd001452_role_study_matches.csv"
       }
     },
     {
@@ -37700,9 +37700,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Recombinant follicle-stimulating hormone (rFSH) versus other recombinant or urinary gonadotropins for ovarian stimulation in assisted reproductive technology cycles"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD005354-SUP-07-dataPackage.zip :: CD005354-study-data/CD005354-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD005354-SUP-07-dataPackage.zip :: CD005354-study-data/CD005354-excluded.ris",
-        "matches": "retrieval_bias/CD005354/cd005354_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD005354-SUP-07-dataPackage.zip :: CD005354-study-data/CD005354-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD005354-SUP-07-dataPackage.zip :: CD005354-study-data/CD005354-excluded.ris",
+        "matches": "CD005354/cd005354_role_study_matches.csv"
       }
     },
     {
@@ -48502,9 +48502,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Long-term effects of weight-reducing drugs in people with hypertension"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD007654-SUP-06-dataPackage/CD007654-study-data/CD007654-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD007654-SUP-06-dataPackage/CD007654-study-data/CD007654-excluded.ris",
-        "matches": "retrieval_bias/CD007654/cd007654_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_6/CD007654-SUP-06-dataPackage/CD007654-study-data/CD007654-included.ris",
+        "excludedRis": "source_reviews/2026_issue_6/CD007654-SUP-06-dataPackage/CD007654-study-data/CD007654-excluded.ris",
+        "matches": "CD007654/cd007654_role_study_matches.csv"
       }
     },
     {
@@ -55256,9 +55256,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Exercise for osteoarthritis of the hip"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD007912-SUP-07-dataPackage.zip :: CD007912-study-data/CD007912-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD007912-SUP-07-dataPackage.zip :: CD007912-study-data/CD007912-excluded.ris",
-        "matches": "retrieval_bias/CD007912/cd007912_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD007912-SUP-07-dataPackage.zip :: CD007912-study-data/CD007912-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD007912-SUP-07-dataPackage.zip :: CD007912-study-data/CD007912-excluded.ris",
+        "matches": "CD007912/cd007912_role_study_matches.csv"
       }
     },
     {
@@ -61297,9 +61297,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Oral or parenteral iron supplementation to reduce deferral, iron deficiency and/or anaemia in blood donors"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD009532-SUP-08-dataPackage/CD009532-study-data/CD009532-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD009532-SUP-08-dataPackage/CD009532-study-data/CD009532-excluded.ris",
-        "matches": "retrieval_bias/CD009532/cd009532_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_6/CD009532-SUP-08-dataPackage/CD009532-study-data/CD009532-included.ris",
+        "excludedRis": "source_reviews/2026_issue_6/CD009532-SUP-08-dataPackage/CD009532-study-data/CD009532-excluded.ris",
+        "matches": "CD009532/cd009532_role_study_matches.csv"
       }
     },
     {
@@ -63816,9 +63816,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Repositioning for pressure injury prevention in adults"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD009958-SUP-07-dataPackage/CD009958-study-data/CD009958-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD009958-SUP-07-dataPackage/CD009958-study-data/CD009958-excluded.ris",
-        "matches": "retrieval_bias/CD009958/cd009958_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_6/CD009958-SUP-07-dataPackage/CD009958-study-data/CD009958-included.ris",
+        "excludedRis": "source_reviews/2026_issue_6/CD009958-SUP-07-dataPackage/CD009958-study-data/CD009958-excluded.ris",
+        "matches": "CD009958/cd009958_role_study_matches.csv"
       }
     },
     {
@@ -73576,9 +73576,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Topical ciclosporine A therapy for dry eye disease"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD010051-SUP-07-dataPackage.zip :: CD010051-study-data/CD010051-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD010051-SUP-07-dataPackage.zip :: CD010051-study-data/CD010051-excluded.ris",
-        "matches": "retrieval_bias/CD010051/cd010051_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD010051-SUP-07-dataPackage.zip :: CD010051-study-data/CD010051-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD010051-SUP-07-dataPackage.zip :: CD010051-study-data/CD010051-excluded.ris",
+        "matches": "CD010051/cd010051_role_study_matches.csv"
       }
     },
     {
@@ -76679,9 +76679,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Advanced sperm selection techniques for assisted reproduction"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD010461-SUP-07-dataPackage/CD010461-study-data/CD010461-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD010461-SUP-07-dataPackage/CD010461-study-data/CD010461-excluded.ris",
-        "matches": "retrieval_bias/CD010461/cd010461_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_6/CD010461-SUP-07-dataPackage/CD010461-study-data/CD010461-included.ris",
+        "excludedRis": "source_reviews/2026_issue_6/CD010461-SUP-07-dataPackage/CD010461-study-data/CD010461-excluded.ris",
+        "matches": "CD010461/cd010461_role_study_matches.csv"
       }
     },
     {
@@ -82389,9 +82389,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "(Ultra-)short-acting insulin analogues for adults with type 1 diabetes mellitus on multiple daily injections: a network meta-analysis"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD012161-SUP-06-dataPackage/CD012161-study-data/CD012161-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD012161-SUP-06-dataPackage/CD012161-study-data/CD012161-excluded.ris",
-        "matches": "retrieval_bias/CD012161/cd012161_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_6/CD012161-SUP-06-dataPackage/CD012161-study-data/CD012161-included.ris",
+        "excludedRis": "source_reviews/2026_issue_6/CD012161-SUP-06-dataPackage/CD012161-study-data/CD012161-excluded.ris",
+        "matches": "CD012161/cd012161_role_study_matches.csv"
       }
     },
     {
@@ -90360,9 +90360,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Biologic drugs for induction and maintenance of remission in Crohn's disease: a network meta-analysis"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD012751-SUP-07-dataPackage/CD012751-study-data/CD012751-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD012751-SUP-07-dataPackage/CD012751-study-data/CD012751-excluded.ris",
-        "matches": "retrieval_bias/CD012751/cd012751_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_6/CD012751-SUP-07-dataPackage/CD012751-study-data/CD012751-included.ris",
+        "excludedRis": "source_reviews/2026_issue_6/CD012751-SUP-07-dataPackage/CD012751-study-data/CD012751-excluded.ris",
+        "matches": "CD012751/cd012751_role_study_matches.csv"
       }
     },
     {
@@ -94369,9 +94369,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Blue versus white light for transurethral resection of non-muscle invasive bladder cancer"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD013776-SUP-06-dataPackage/CD013776-study-data/CD013776-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD013776-SUP-06-dataPackage/CD013776-study-data/CD013776-excluded.ris",
-        "matches": "retrieval_bias/CD013776/cd013776_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_6/CD013776-SUP-06-dataPackage/CD013776-study-data/CD013776-included.ris",
+        "excludedRis": "source_reviews/2026_issue_6/CD013776-SUP-06-dataPackage/CD013776-study-data/CD013776-excluded.ris",
+        "matches": "CD013776/cd013776_role_study_matches.csv"
       }
     },
     {
@@ -98561,9 +98561,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Clinical effectiveness of telepharmacy services in patients with non-communicable diseases in ambulatory care settings"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD015136-SUP-08-dataPackage/CD015136-study-data/CD015136-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD015136-SUP-08-dataPackage/CD015136-study-data/CD015136-excluded.ris",
-        "matches": "retrieval_bias/CD015136/cd015136_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_6/CD015136-SUP-08-dataPackage/CD015136-study-data/CD015136-included.ris",
+        "excludedRis": "source_reviews/2026_issue_6/CD015136-SUP-08-dataPackage/CD015136-study-data/CD015136-excluded.ris",
+        "matches": "CD015136/cd015136_role_study_matches.csv"
       }
     },
     {
@@ -101083,9 +101083,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Non-surgical treatment for lower limb apophyseal injuries"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD015156-SUP-07-dataPackage.zip :: CD015156-study-data/CD015156-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD015156-SUP-07-dataPackage.zip :: CD015156-study-data/CD015156-excluded.ris",
-        "matches": "retrieval_bias/CD015156/cd015156_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD015156-SUP-07-dataPackage.zip :: CD015156-study-data/CD015156-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD015156-SUP-07-dataPackage.zip :: CD015156-study-data/CD015156-excluded.ris",
+        "matches": "CD015156/cd015156_role_study_matches.csv"
       }
     },
     {
@@ -104812,9 +104812,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Minimally invasive trabecular meshwork surgery for open-angle glaucoma"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD015186-SUP-08-dataPackage.zip :: CD015186-study-data/CD015186-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD015186-SUP-08-dataPackage.zip :: CD015186-study-data/CD015186-excluded.ris",
-        "matches": "retrieval_bias/CD015186/cd015186_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD015186-SUP-08-dataPackage.zip :: CD015186-study-data/CD015186-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD015186-SUP-08-dataPackage.zip :: CD015186-study-data/CD015186-excluded.ris",
+        "matches": "CD015186/cd015186_role_study_matches.csv"
       }
     },
     {
@@ -110113,9 +110113,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Vitamin B12 supplementation for growth, development, and cognition in children"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD015264-SUP-08-dataPackage/CD015264-study-data/CD015264-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_6/CD015264-SUP-08-dataPackage/CD015264-study-data/CD015264-excluded.ris",
-        "matches": "retrieval_bias/CD015264/cd015264_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_6/CD015264-SUP-08-dataPackage/CD015264-study-data/CD015264-included.ris",
+        "excludedRis": "source_reviews/2026_issue_6/CD015264-SUP-08-dataPackage/CD015264-study-data/CD015264-excluded.ris",
+        "matches": "CD015264/cd015264_role_study_matches.csv"
       }
     },
     {
@@ -117210,9 +117210,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Larger versus smaller red blood cell volume per transfusion in hospitalized adults, children and preterm neonates"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD015898-SUP-07-dataPackage.zip :: CD015898-study-data/CD015898-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD015898-SUP-07-dataPackage.zip :: CD015898-study-data/CD015898-excluded.ris",
-        "matches": "retrieval_bias/CD015898/cd015898_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD015898-SUP-07-dataPackage.zip :: CD015898-study-data/CD015898-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD015898-SUP-07-dataPackage.zip :: CD015898-study-data/CD015898-excluded.ris",
+        "matches": "CD015898/cd015898_role_study_matches.csv"
       }
     },
     {
@@ -121189,9 +121189,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Interventions for smoking cessation in inpatient psychiatry settings"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD015934-SUP-07-dataPackage.zip :: CD015934-study-data/CD015934-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD015934-SUP-07-dataPackage.zip :: CD015934-study-data/CD015934-excluded.ris",
-        "matches": "retrieval_bias/CD015934/cd015934_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD015934-SUP-07-dataPackage.zip :: CD015934-study-data/CD015934-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD015934-SUP-07-dataPackage.zip :: CD015934-study-data/CD015934-excluded.ris",
+        "matches": "CD015934/cd015934_role_study_matches.csv"
       }
     },
     {
@@ -123392,9 +123392,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Blood pressure management in reperfused ischemic stroke"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD016085-SUP-08-dataPackage.zip :: CD016085-study-data/CD016085-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD016085-SUP-08-dataPackage.zip :: CD016085-study-data/CD016085-excluded.ris",
-        "matches": "retrieval_bias/CD016085/cd016085_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD016085-SUP-08-dataPackage.zip :: CD016085-study-data/CD016085-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD016085-SUP-08-dataPackage.zip :: CD016085-study-data/CD016085-excluded.ris",
+        "matches": "CD016085/cd016085_role_study_matches.csv"
       }
     },
     {
@@ -125544,9 +125544,9 @@ window.RETRIEVAL_BIAS_DEMO_DATA = {
         "reviewTitle": "Perioperative immune checkpoint inhibitors with or without chemotherapy versus placebo/no treatment in elderly people with localized non-small cell lung cancer"
       },
       "source": {
-        "includedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD016104-SUP-07-dataPackage.zip :: CD016104-study-data/CD016104-included.ris",
-        "excludedRis": "Cochrane_reviews/source_reviews/2026_issue_7/CD016104-SUP-07-dataPackage.zip :: CD016104-study-data/CD016104-excluded.ris",
-        "matches": "retrieval_bias/CD016104/cd016104_role_study_matches.csv"
+        "includedRis": "source_reviews/2026_issue_7/CD016104-SUP-07-dataPackage.zip :: CD016104-study-data/CD016104-included.ris",
+        "excludedRis": "source_reviews/2026_issue_7/CD016104-SUP-07-dataPackage.zip :: CD016104-study-data/CD016104-excluded.ris",
+        "matches": "CD016104/cd016104_role_study_matches.csv"
       }
     }
   ]

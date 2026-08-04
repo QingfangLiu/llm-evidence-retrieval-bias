@@ -1,7 +1,11 @@
 """Tests for retrieval-bias overlap and blocked-permutation metrics."""
 
+import sys
+from pathlib import Path
 from random import Random
 from unittest import TestCase
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from overlap_metrics import (
     calculate_balanced_label_permutation_baseline,

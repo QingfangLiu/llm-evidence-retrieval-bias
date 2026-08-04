@@ -1484,7 +1484,7 @@
               mapped to real papers or protocols, though several conflated an
               author, comparator, intervention, or source; only one had no
               findable real match (see
-              retrieval_bias/README.md, "Citation issues (identity_issue) are not
+              README.md, "Citation issues (identity_issue) are not
               fabrication," for the full write-up). This flag is a reporting count
               only - it is not used to filter or exclude any citation from the
               recall, Venn, or regression numbers shown elsewhere in this demo; a

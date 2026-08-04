@@ -30,7 +30,7 @@ here.
 
 Run from the repository root:
 
-    python3 retrieval_bias/analyze_role_dependence_logistic_regression.py
+    python3 analyze_role_dependence_logistic_regression.py
 
 Writes `role_dependence_logistic_regression_results.json` (coefficients, odds
 ratios, 95% CIs, p-values, VIFs, and fit statistics) and prints a summary.
@@ -49,7 +49,7 @@ import pandas as pd
 import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parent
 RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
 INPUT_PATH = RETRIEVAL_BIAS_DIR / "recall_pattern_by_characteristic.csv"
 OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "role_dependence_logistic_regression_results.json"

@@ -2,7 +2,7 @@
 """Resolve each included study's PMIDs and fetch Semantic Scholar citation counts.
 
 PMID resolution reuses the repository's existing, tested reference-resolution
-pipeline (`Cochrane_reviews/benchmark_tools/build_reference_indexing_from_cochrane_ris.py`,
+pipeline (`benchmark_tools/build_reference_indexing_from_cochrane_ris.py`,
 the same module the active benchmark-curation path imports directly) rather
 than re-implementing it. That module tries, per RIS record, in order:
 
@@ -46,9 +46,9 @@ Two artifacts are written:
 Run from the repository root, one review at a time while validating, or all
 20 at once:
 
-    python3 retrieval_bias/fetch_citation_counts.py --reviews CD012161
-    python3 retrieval_bias/fetch_citation_counts.py
-    python3 retrieval_bias/fetch_citation_counts.py --no-network
+    python3 fetch_citation_counts.py --reviews CD012161
+    python3 fetch_citation_counts.py
+    python3 fetch_citation_counts.py --no-network
 
 `--no-network` reuses only what is already cached (both PubMed and Semantic
 Scholar), for iterating without spending new API calls.
@@ -68,12 +68,15 @@ from typing import Any
 
 import requests
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parent
 RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
-BENCHMARK_TOOLS_DIR = REPO_ROOT / "Cochrane_reviews" / "benchmark_tools"
+BENCHMARK_TOOLS_DIR = REPO_ROOT / "benchmark_tools"
 sys.path.insert(0, str(BENCHMARK_TOOLS_DIR))
 
-import build_reference_indexing_from_cochrane_ris as ris_lib  # noqa: E402
+try:
+    import build_reference_indexing_from_cochrane_ris as ris_lib  # noqa: E402
+except ModuleNotFoundError:
+    ris_lib = None  # type: ignore[assignment]
 from review_registry import REVIEW_SOURCES  # noqa: E402
 
 PMID_CACHE_PATH = RETRIEVAL_BIAS_DIR / "pmid_resolution_cache.json"
@@ -84,9 +87,22 @@ SEMANTIC_SCHOLAR_BATCH_SIZE = 250
 SEMANTIC_SCHOLAR_THROTTLE_SECONDS = 1.1
 CURRENT_YEAR = datetime.now().year
 
+
+def require_ris_lib() -> Any:
+    """Return the RIS reference-resolution module, or explain how to restore it."""
+
+    if ris_lib is None:
+        raise SystemExit(
+            "Missing benchmark_tools/build_reference_indexing_from_cochrane_ris.py. "
+            "Restore the benchmark_tools directory from the former parent repo before "
+            "running fetch_citation_counts.py."
+        )
+    return ris_lib
+
 def parse_ris_text(text: str) -> list[dict[str, list[str]]]:
     """Parse RIS text loaded from either an extracted package or ZIP member."""
 
+    ris = require_ris_lib()
     records: list[dict[str, list[str]]] = []
     record: dict[str, list[str]] = {}
     current_tag = ""
@@ -106,7 +122,7 @@ def parse_ris_text(text: str) -> list[dict[str, list[str]]]:
                 record.setdefault(tag, []).append(value)
             current_tag = tag
         elif current_tag and record:
-            record[current_tag][-1] = ris_lib.compact(
+            record[current_tag][-1] = ris.compact(
                 f"{record[current_tag][-1]} {line.strip()}"
             )
     return records
@@ -121,7 +137,7 @@ def group_records_by_study_label(records: list[dict[str, list[str]]]) -> dict[st
         label = (
             ns_values[0].strip()
             if ns_values
-            else ris_lib.label_from_record(record, index)
+            else require_ris_lib().label_from_record(record, index)
         )
         grouped[label].append(record)
     return grouped
@@ -135,7 +151,7 @@ def resolve_study_pmids(
     all_pmids: list[str] = []
     all_methods: list[str] = []
     for record in records:
-        pmids, methods, _errors = ris_lib.resolve_record_pmids(
+        pmids, methods, _errors = require_ris_lib().resolve_record_pmids(
             record,
             cache=cache,
             cache_path=PMID_CACHE_PATH,

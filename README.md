@@ -7,7 +7,7 @@ with a README that fixes the prompts and run protocol before responses are
 collected:
 
 ```text
-retrieval_bias/
+./
 ├── CD000510/
 │   ├── analyze_cd000510_roles.py
 │   ├── cd000510_role_study_matches.csv
@@ -115,6 +115,28 @@ candidate extraction remains in each review folder; aggregate analyses and the
 demo use the shared registry to discover the current review set and source
 artifacts.
 
+## Standalone source inputs
+
+This repository now treats its own top-level directory as the project root.
+Scripts that regenerate match tables or rebuild cross-review characteristics
+expect Cochrane source packages under `source_reviews/`, preserving the
+existing `2026_issue_6/` and `2026_issue_7/` subdirectories recorded in
+`review_registry.py`. The PMID/citation refresh script also expects the former
+parent repo's RIS reference-resolution helper at
+`benchmark_tools/build_reference_indexing_from_cochrane_ris.py`.
+
+`source_reviews/` is intentionally not included in this repository because it
+contains Cochrane review data packages, including RIS exports and analysis-data
+rows, that are not redistributed here for Cochrane copyright/licensing reasons.
+To fully regenerate the analyses, restore `source_reviews/` locally from an
+authorized copy of the source material while preserving the paths recorded in
+`review_registry.py`.
+
+`benchmark_tools/` is also not present in this checkout; `fetch_citation_counts.py`
+needs its RIS reference-resolution helper from the former parent repository.
+The committed CSV, JSON, figure, and demo artifacts can still be inspected
+without either directory.
+
 ## 2026 Issue 7 expansion
 
 Eleven reviews from Cochrane 2026 Issue 7 were staged as retrieval-bias
@@ -141,26 +163,26 @@ To validate and regenerate all current citation-match tables, run from the
 repository root:
 
 ```bash
-python3 retrieval_bias/CD000510/analyze_cd000510_roles.py
-python3 retrieval_bias/CD001452/analyze_cd001452_roles.py
-python3 retrieval_bias/CD005354/analyze_cd005354_roles.py
-python3 retrieval_bias/CD007654/analyze_cd007654_roles.py
-python3 retrieval_bias/CD007912/analyze_cd007912_roles.py
-python3 retrieval_bias/CD009532/analyze_cd009532_roles.py
-python3 retrieval_bias/CD009958/analyze_cd009958_roles.py
-python3 retrieval_bias/CD010051/analyze_cd010051_roles.py
-python3 retrieval_bias/CD010461/analyze_cd010461_roles.py
-python3 retrieval_bias/CD012161/analyze_cd012161_roles.py
-python3 retrieval_bias/CD012751/analyze_cd012751_roles.py
-python3 retrieval_bias/CD013776/analyze_cd013776_roles.py
-python3 retrieval_bias/CD015136/analyze_cd015136_roles.py
-python3 retrieval_bias/CD015156/analyze_cd015156_roles.py
-python3 retrieval_bias/CD015186/analyze_cd015186_roles.py
-python3 retrieval_bias/CD015264/analyze_cd015264_roles.py
-python3 retrieval_bias/CD015898/analyze_cd015898_roles.py
-python3 retrieval_bias/CD015934/analyze_cd015934_roles.py
-python3 retrieval_bias/CD016085/analyze_cd016085_roles.py
-python3 retrieval_bias/CD016104/analyze_cd016104_roles.py
+python3 CD000510/analyze_cd000510_roles.py
+python3 CD001452/analyze_cd001452_roles.py
+python3 CD005354/analyze_cd005354_roles.py
+python3 CD007654/analyze_cd007654_roles.py
+python3 CD007912/analyze_cd007912_roles.py
+python3 CD009532/analyze_cd009532_roles.py
+python3 CD009958/analyze_cd009958_roles.py
+python3 CD010051/analyze_cd010051_roles.py
+python3 CD010461/analyze_cd010461_roles.py
+python3 CD012161/analyze_cd012161_roles.py
+python3 CD012751/analyze_cd012751_roles.py
+python3 CD013776/analyze_cd013776_roles.py
+python3 CD015136/analyze_cd015136_roles.py
+python3 CD015156/analyze_cd015156_roles.py
+python3 CD015186/analyze_cd015186_roles.py
+python3 CD015264/analyze_cd015264_roles.py
+python3 CD015898/analyze_cd015898_roles.py
+python3 CD015934/analyze_cd015934_roles.py
+python3 CD016085/analyze_cd016085_roles.py
+python3 CD016104/analyze_cd016104_roles.py
 ```
 
 These tables cover the CD000510, CD001452, CD005354, CD007654, CD007912,
@@ -289,7 +311,7 @@ audit of the studies that chatbots cited even though the corresponding Cochrane
 review explicitly excluded them. Run from the repository root:
 
 ```bash
-python3 retrieval_bias/analyze_cited_excluded_reasons.py
+python3 analyze_cited_excluded_reasons.py
 ```
 
 The analysis reads `cochrane_excluded` rows from every registered
@@ -329,7 +351,7 @@ each (review, model, role) cell, independent of the review-specific analyses
 above. Run from the repository root:
 
 ```bash
-python3 retrieval_bias/analyze_role_consistency.py
+python3 analyze_role_consistency.py
 ```
 
 For every cell's four replicates, the script computes the pairwise Jaccard
@@ -358,7 +380,7 @@ chatbot ever recalls, or that only one chatbot recalls, from the rest. Run
 from the repository root:
 
 ```bash
-python3 retrieval_bias/analyze_recall_by_characteristic.py
+python3 analyze_recall_by_characteristic.py
 ```
 
 For the 20 reviews with a balanced user-role experiment, it labels every
@@ -421,12 +443,12 @@ citation counts, run separately from (and before) `analyze_recall_by_characteris
 since it makes live network calls:
 
 ```bash
-python3 retrieval_bias/fetch_citation_counts.py
-python3 retrieval_bias/analyze_recall_by_characteristic.py
+python3 fetch_citation_counts.py
+python3 analyze_recall_by_characteristic.py
 ```
 
 PMID resolution reuses the repository's existing, tested reference-resolution
-pipeline in `Cochrane_reviews/benchmark_tools/build_reference_indexing_from_cochrane_ris.py`
+pipeline in `benchmark_tools/build_reference_indexing_from_cochrane_ris.py`
 (the same module the active benchmark-curation path imports directly) rather
 than re-implementing citation matching: explicit PMIDs found anywhere in a
 study's RIS record, then a DOI search, then a validated author+title(+journal
@@ -489,7 +511,7 @@ controlled for - the pairwise comparisons and correlation matrix above can
 each show a difference, but not whether it survives alongside the others:
 
 ```bash
-python3 retrieval_bias/analyze_recall_logistic_regression.py
+python3 analyze_recall_logistic_regression.py
 ```
 
 Uses the same 330 of 442 studies with all four predictors present (adding

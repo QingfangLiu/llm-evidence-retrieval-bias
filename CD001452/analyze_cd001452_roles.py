@@ -17,11 +17,10 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[1]
 REVIEW_DIR = Path(__file__).resolve().parent
 SOURCE_ZIP = (
     REPO_ROOT
-    / "Cochrane_reviews"
     / "source_reviews"
     / "2026_issue_7"
     / "CD001452-SUP-06-dataPackage.zip"

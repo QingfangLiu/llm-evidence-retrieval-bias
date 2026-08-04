@@ -42,7 +42,7 @@ from matplotlib.ticker import PercentFormatter
 
 FIGURES_DIR = Path(__file__).resolve().parent
 RETRIEVAL_BIAS_DIR = FIGURES_DIR.parent
-REPO_ROOT = RETRIEVAL_BIAS_DIR.parent
+REPO_ROOT = RETRIEVAL_BIAS_DIR
 DEMO_DATA_PATH = REPO_ROOT / "retrieval_bias_demo" / "data.js"
 FIGURE_1_OUTPUT_STEM = (
     FIGURES_DIR / "figure_1_retrieval_recall_by_chatbot_and_role"

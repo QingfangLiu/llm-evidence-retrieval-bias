@@ -74,7 +74,7 @@ from scipy.stats import fisher_exact
 
 from review_registry import review_sources
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
+REPO_ROOT = Path(__file__).resolve().parent
 RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
 OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "recall_pattern_by_characteristic.csv"
 MODELS = ("claude", "gemini", "gpt")

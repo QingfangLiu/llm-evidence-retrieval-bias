@@ -1,42 +1,42 @@
 # Retrieval Bias Demo
 
 Static study-by-condition views for all 20 balanced chatbot retrieval-bias
-audits registered in `retrieval_bias/review_registry.py`, plus an automatically
+audits registered in `review_registry.py`, plus an automatically
 generated cross-review summary. The review header switches with the selected
 view.
 
 ## Build
 
 ```bash
-python3 retrieval_bias/CD000510/analyze_cd000510_roles.py
-python3 retrieval_bias/CD001452/analyze_cd001452_roles.py
-python3 retrieval_bias/CD005354/analyze_cd005354_roles.py
-python3 retrieval_bias/CD007654/analyze_cd007654_roles.py
-python3 retrieval_bias/CD007912/analyze_cd007912_roles.py
-python3 retrieval_bias/CD009532/analyze_cd009532_roles.py
-python3 retrieval_bias/CD009958/analyze_cd009958_roles.py
-python3 retrieval_bias/CD010051/analyze_cd010051_roles.py
-python3 retrieval_bias/CD010461/analyze_cd010461_roles.py
-python3 retrieval_bias/CD012161/analyze_cd012161_roles.py
-python3 retrieval_bias/CD012751/analyze_cd012751_roles.py
-python3 retrieval_bias/CD013776/analyze_cd013776_roles.py
-python3 retrieval_bias/CD015136/analyze_cd015136_roles.py
-python3 retrieval_bias/CD015156/analyze_cd015156_roles.py
-python3 retrieval_bias/CD015186/analyze_cd015186_roles.py
-python3 retrieval_bias/CD015264/analyze_cd015264_roles.py
-python3 retrieval_bias/CD015898/analyze_cd015898_roles.py
-python3 retrieval_bias/CD015934/analyze_cd015934_roles.py
-python3 retrieval_bias/CD016085/analyze_cd016085_roles.py
-python3 retrieval_bias/CD016104/analyze_cd016104_roles.py
-python3 retrieval_bias/fetch_citation_counts.py  # network; only needed to refresh citation counts
-python3 retrieval_bias/analyze_recall_by_characteristic.py
-python3 retrieval_bias/analyze_recall_logistic_regression.py
-python3 retrieval_bias/analyze_role_dependence_logistic_regression.py
+python3 CD000510/analyze_cd000510_roles.py
+python3 CD001452/analyze_cd001452_roles.py
+python3 CD005354/analyze_cd005354_roles.py
+python3 CD007654/analyze_cd007654_roles.py
+python3 CD007912/analyze_cd007912_roles.py
+python3 CD009532/analyze_cd009532_roles.py
+python3 CD009958/analyze_cd009958_roles.py
+python3 CD010051/analyze_cd010051_roles.py
+python3 CD010461/analyze_cd010461_roles.py
+python3 CD012161/analyze_cd012161_roles.py
+python3 CD012751/analyze_cd012751_roles.py
+python3 CD013776/analyze_cd013776_roles.py
+python3 CD015136/analyze_cd015136_roles.py
+python3 CD015156/analyze_cd015156_roles.py
+python3 CD015186/analyze_cd015186_roles.py
+python3 CD015264/analyze_cd015264_roles.py
+python3 CD015898/analyze_cd015898_roles.py
+python3 CD015934/analyze_cd015934_roles.py
+python3 CD016085/analyze_cd016085_roles.py
+python3 CD016104/analyze_cd016104_roles.py
+python3 fetch_citation_counts.py  # network; only needed to refresh citation counts
+python3 analyze_recall_by_characteristic.py
+python3 analyze_recall_logistic_regression.py
+python3 analyze_role_dependence_logistic_regression.py
 python3 retrieval_bias_demo/build_demo.py
 ```
 
 `fetch_citation_counts.py` makes live PubMed/Semantic Scholar calls and
-writes `retrieval_bias/citation_counts_by_study.csv`, which
+writes `citation_counts_by_study.csv`, which
 `analyze_recall_by_characteristic.py` requires to exist. It has its own
 cache and does not need to be rerun on every build - only when you want
 fresher citation counts. Its output also includes `is_open_access`
@@ -47,29 +47,29 @@ below.
 `analyze_recall_logistic_regression.py` requires
 `recall_pattern_by_characteristic.csv` (written by
 `analyze_recall_by_characteristic.py`, run just before it) and writes
-`retrieval_bias/logistic_regression_results.json`, which `build_demo.py`
+`logistic_regression_results.json`, which `build_demo.py`
 reads to render the "Multiple logistic regression on recall" table.
 
 `analyze_role_dependence_logistic_regression.py` reads the same
 `recall_pattern_by_characteristic.csv` and writes
-`retrieval_bias/role_dependence_logistic_regression_results.json`, which
+`role_dependence_logistic_regression_results.json`, which
 `build_demo.py` reads to render the "Multiple logistic regression on role
 dependence" table - the same model refit on the two role-universality groups
 described below instead of on recalled-vs-not.
 
 The analysis commands validate the curated response annotations and rewrite
 their respective match tables. For every entry in
-`retrieval_bias/review_registry.py`, the demo builder reads the review's match
+`review_registry.py`, the demo builder reads the review's match
 table, README, included RIS, excluded RIS, and analysis-data rows. It also
 reads:
 
-- `retrieval_bias/recall_pattern_by_characteristic.csv` (written by
+- `recall_pattern_by_characteristic.csv` (written by
   `analyze_recall_by_characteristic.py`; feeds the "Study characteristics by
   recall pattern" distribution charts on the Across-reviews tab)
-- `retrieval_bias/logistic_regression_results.json` (written by
+- `logistic_regression_results.json` (written by
   `analyze_recall_logistic_regression.py`; feeds the "Multiple logistic
   regression on recall" table on the Across-reviews tab)
-- `retrieval_bias/role_dependence_logistic_regression_results.json` (written
+- `role_dependence_logistic_regression_results.json` (written
   by `analyze_role_dependence_logistic_regression.py`; feeds the "Multiple
   logistic regression on role dependence" table on the Across-reviews tab)
 Study truth for all 20 reviews is prepared directly from their RIS exports;
@@ -253,9 +253,9 @@ Semantic Scholar count - the first divides by years since publication so a
 study is not penalized just for being too new to have accumulated citations,
 the second is the raw, unnormalized count kept alongside it rather than
 instead of it, since the two measures can disagree (see
-`retrieval_bias/README.md` for a concrete example). All four metrics and
+`README.md` for a concrete example). All four metrics and
 their coverage are documented in
-`retrieval_bias/analyze_recall_by_characteristic.py`; the charts render the
+`analyze_recall_by_characteristic.py`; the charts render the
 box-plot statistics (`characteristicDistributions` in `data.js`) that
 `build_demo.py` computes from that script's output CSV.
 
@@ -300,7 +300,7 @@ implementations live alongside the other overlap/permutation metrics in
 Open-access status is 45% among not-recalled studies and 56% among recalled
 studies; the univariate Fisher's exact p-value is 0.077. It is also not
 significant in the multiple logistic regression below once the other
-predictors are controlled (see `retrieval_bias/README.md`, "Multiple
+predictors are controlled (see `README.md`, "Multiple
 logistic regression", for the full result).
 
 The **Predictor correlations** section, right below it, is a multicollinearity
@@ -327,7 +327,7 @@ per year correlates positively with year (rho=0.32). Sample size correlates
 with citations per year at rho=0.41 and with total citations at rho=0.33.
 
 This section previously mirrored a standalone
-`retrieval_bias/plot_predictor_correlations.py` script producing a plain
+`plot_predictor_correlations.py` script producing a plain
 (non-grouped, no significance stars) 4x4 scatter matrix PNG. That script has
 been removed: once the demo gained group coloring and significance testing,
 maintaining a visually simpler static duplicate added no value. The
@@ -337,7 +337,7 @@ scipy for its p-value) lives alongside `calculate_mann_whitney_test` in
 
 The **Multiple logistic regression on recall** section, on the Across-reviews
 tab, shows the coefficient table from
-`retrieval_bias/analyze_recall_logistic_regression.py`: a joint
+`analyze_recall_logistic_regression.py`: a joint
 `logit(recalled) ~ year + log(sample_size) + log(citations_per_year + 0.01) +
 is_open_access` model, asking whether each characteristic has an independent
 effect on recall once the others are controlled for, rather than the
@@ -350,7 +350,7 @@ they describe the odds at year = 0, which is not meaningful. A caption below
 the table reports McFadden's pseudo R-squared, the log-likelihood, and the
 likelihood-ratio test p-value against the null model. `build_demo.py` reads
 the pre-computed JSON directly rather than refitting the model in the
-browser - see `retrieval_bias/README.md` for the full methodology and
+browser - see `README.md` for the full methodology and
 result interpretation.
 
 The **Citation issues by chatbot, role, and review** section reports
@@ -373,7 +373,7 @@ an "All reviews" totals row. The section's own explanatory text states
 plainly that this is misattribution, not fabrication, and that the flag is a
 reporting count only - it is never used to filter or exclude a citation from
 any recall, Venn, or regression number shown elsewhere in the demo or in
-`retrieval_bias/`. See `retrieval_bias/README.md`, "Citation issues
+the analysis. See `README.md`, "Citation issues
 (`identity_issue`) are not fabrication," for the full investigation,
 including a dedicated check of the rarer case where a citation could not be
 resolved to any study at all.
@@ -456,7 +456,7 @@ After collecting and analyzing another balanced role experiment:
 
 1. Add its normal per-review folder and source package.
 2. Add its ID, title, and source-package path to
-   `retrieval_bias/review_registry.py`.
+   `review_registry.py`.
 3. Run the review analyzer and aggregate build commands above.
 
 The individual page and cross-review citation, recall, Venn, and permutation
@@ -469,7 +469,7 @@ citations per response across their repetitions. This count includes included,
 excluded, and out-of-set studies. Amber outlines flag citation-identity issues -
 a matched citation with conflicting bibliographic details (almost always a wrong
 lead author on an otherwise correctly-identified study; see
-`retrieval_bias/README.md`, "Citation issues (`identity_issue`) are not
+`README.md`, "Citation issues (`identity_issue`) are not
 fabrication," for what this flag does and does not capture, current per-review
 rates, and a dedicated check of the rarer, more serious "citation resolves to
 no real study at all" case). This is a per-cell display flag only - hovering a
@@ -477,4 +477,4 @@ flagged cell shows the issue count in its tooltip, and the legend above the
 matrix marks it. The Across-reviews citation-issue table aggregates the flag
 for reporting, but it does not affect any recall, Venn, or regression number:
 a citation with an identity issue still gets full credit for its underlying
-study everywhere else in this demo and in `retrieval_bias/`.
+study everywhere else in this demo and in the analysis.

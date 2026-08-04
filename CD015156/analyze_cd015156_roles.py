@@ -16,11 +16,10 @@ from dataclasses import dataclass
 from pathlib import Path
 
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
+REPO_ROOT = Path(__file__).resolve().parents[1]
 REVIEW_DIR = Path(__file__).resolve().parent
 SOURCE_ZIP = (
     REPO_ROOT
-    / "Cochrane_reviews"
     / "source_reviews"
     / "2026_issue_7"
     / "CD015156-SUP-07-dataPackage.zip"
@@ -1074,7 +1073,7 @@ def build_match_rows() -> list[dict[str, str | int]]:
                     "model": model,
                     "role_id": role_id,
                     "replicate": int(replicate_text),
-                    "source_file": f"retrieval_bias/CD015156/{run_id}.md",
+                    "source_file": f"CD015156/{run_id}.md",
                     "reported_citation": REPORTED_CITATION_OVERRIDES.get(
                         (run_id, key), candidate.label
                     ),
