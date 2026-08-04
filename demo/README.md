@@ -5,7 +5,28 @@ audits registered in `shared/review_registry.py`, plus an automatically
 generated cross-review summary. The review header switches with the selected
 view.
 
-## Build
+## View Committed Demo
+
+The committed repository includes the prepared static inputs needed to view the
+demo: `index.html`, `app.js`, `styles.css`, and `data.js`.
+
+From the repository root:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000/demo/
+```
+
+## Rebuild Data
+
+Rebuilding `demo/data.js` requires a local authorized copy of `source_reviews/`
+because the builder reads the Cochrane included/excluded RIS exports and
+analysis-data rows recorded in `shared/review_registry.py`.
 
 ```bash
 python3 reviews/CD000510/analyze_cd000510_roles.py
@@ -32,7 +53,7 @@ python3 scripts/fetch_citation_counts.py  # network; only needed to refresh cita
 python3 scripts/analyze_recall_by_characteristic.py
 python3 scripts/analyze_recall_logistic_regression.py
 python3 scripts/analyze_role_dependence_logistic_regression.py
-python3 retrieval_bias_demo/build_demo.py
+python3 demo/build_demo.py
 ```
 
 `scripts/fetch_citation_counts.py` makes live PubMed/Semantic Scholar calls and
@@ -74,7 +95,7 @@ reads:
   logistic regression on role dependence" table on the Across-reviews tab)
 Study truth for all 20 reviews is prepared directly from their RIS exports;
 the demo build does not require or create benchmark JSON files. The builder
-writes `retrieval_bias_demo/data.js`, and the browser only renders this prepared
+writes `demo/data.js`, and the browser only renders this prepared
 data. The same build automatically recalculates the `Across reviews` tab from
 the registry; cross-review values are not entered manually.
 
@@ -83,20 +104,6 @@ dedicated final primary-study or reference-list block, as documented in their
 experiment READMEs. The other reviews retain their existing response-level
 study-identification rules; the demo does not re-extract candidates from raw
 answers.
-
-## View
-
-From the repository root:
-
-```bash
-python -m http.server 8000
-```
-
-Then open:
-
-```text
-http://localhost:8000/retrieval_bias_demo/
-```
 
 The **Across reviews** tab summarizes all 20 balanced experiments (720
 responses, 442 included study labels, and 932 excluded study labels). Citation
@@ -122,7 +129,7 @@ Cochrane-included study label only — using the same 0–100% bar scale as the
 recall tables. Two empty replicate sets count as fully consistent (Jaccard
 1.0) rather than as maximal disagreement. The reusable
 `calculate_replicate_consistency` implementation lives in
-`retrieval_bias_demo/overlap_metrics.py` alongside the other overlap metrics.
+`demo/overlap_metrics.py` alongside the other overlap metrics.
 
 The two recall comparisons use omnibus blocked permutation tests with the range
 of the three group means as the statistic. Chatbot labels are shuffled within
@@ -230,7 +237,7 @@ The demo displays the observed multi-set Jaccard, permutation-null mean, and 95%
 null interval.
 
 The reusable multi-set Jaccard, balanced label-permutation, and two- and three-set
-partition implementations live in `retrieval_bias_demo/overlap_metrics.py`.
+partition implementations live in `demo/overlap_metrics.py`.
 
 The **Study characteristics by recall pattern** section, further down the
 Across-reviews tab, shows box-and-whisker charts (interquartile box, median
@@ -278,7 +285,7 @@ family-wise error rate that running ten comparisons at an unadjusted p<0.05
 would otherwise inflate. The reusable `calculate_mann_whitney_test`,
 `calculate_kruskal_wallis_test`, and `calculate_dunn_posthoc_test`
 implementations live alongside the other overlap/permutation metrics in
-`retrieval_bias_demo/overlap_metrics.py`.
+`demo/overlap_metrics.py`.
 
 The **Open access by recall pattern** section, right below it, applies the
 same two comparisons (recalled vs. not, and by recall combination) to
@@ -295,7 +302,7 @@ Fisher's exact tests instead of Dunn's test, since the outcome is a rate,
 not a rank. The reusable `calculate_fisher_exact_test`,
 `calculate_chi_square_test`, and `calculate_fisher_posthoc_test`
 implementations live alongside the other overlap/permutation metrics in
-`retrieval_bias_demo/overlap_metrics.py`.
+`demo/overlap_metrics.py`.
 
 Open-access status is 45% among not-recalled studies and 56% among recalled
 studies; the univariate Fisher's exact p-value is 0.077. It is also not
@@ -333,7 +340,7 @@ been removed: once the demo gained group coloring and significance testing,
 maintaining a visually simpler static duplicate added no value. The
 reusable `calculate_spearman_correlation` implementation (now backed by
 scipy for its p-value) lives alongside `calculate_mann_whitney_test` in
-`retrieval_bias_demo/overlap_metrics.py`.
+`demo/overlap_metrics.py`.
 
 The **Multiple logistic regression on recall** section, on the Across-reviews
 tab, shows the coefficient table from

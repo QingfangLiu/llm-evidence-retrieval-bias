@@ -25,7 +25,7 @@ Current layout:
 │       ├── CD001452/
 │       ├── ...
 │       └── CD016104/
-├── retrieval_bias_demo/
+├── demo/
 ├── figures/
 ├── shared/
 │   ├── __init__.py

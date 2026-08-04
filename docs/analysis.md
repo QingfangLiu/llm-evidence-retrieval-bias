@@ -215,7 +215,7 @@ analysis is built and rendered entirely in the demo now (a ggpairs-style
 in the lower triangle, Spearman rho with significance stars in the upper
 triangle, both overall and split by recall status) rather than as a
 separate script; see the "Predictor correlations" section of
-`retrieval_bias_demo/README.md` for how to view and reproduce it. An
+`demo/README.md` for how to view and reproduce it. An
 earlier standalone `plot_predictor_correlations.py` script producing a
 plain (non-grouped, no significance stars) static PNG has been removed,
 since the demo version is now a strict superset of what it showed.
@@ -264,7 +264,7 @@ R-squared is 0.134 and the likelihood-ratio p-value against the null model
 is 3.4e-09.
 
 This coefficient table is also rendered directly in the demo's Across-reviews
-tab (see `retrieval_bias_demo/README.md`, "Multiple logistic regression on
+tab (see `demo/README.md`, "Multiple logistic regression on
 recall"), reading `data/analysis/logistic_regression_results.json` rather than refitting
 the model in the browser.
 

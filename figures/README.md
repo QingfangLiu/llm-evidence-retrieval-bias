@@ -39,7 +39,7 @@ trailing annotation, alongside the number of responses and mean studies
 per response.
 
 Figure 2 reads the marginal mean response-level recall from the current
-`retrieval_bias_demo/data.js` artifact. It validates the stored means and sample
+`demo/data.js` artifact. It validates the stored means and sample
 SDs against response-level recall reconstructed from the 20 committed
 `data/reviews/*/*_role_study_matches.csv`
 tables. A grayscale 3 × 3 heatmap with square cells
