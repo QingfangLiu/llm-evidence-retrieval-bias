@@ -8,26 +8,26 @@ view.
 ## Build
 
 ```bash
-python3 CD000510/analyze_cd000510_roles.py
-python3 CD001452/analyze_cd001452_roles.py
-python3 CD005354/analyze_cd005354_roles.py
-python3 CD007654/analyze_cd007654_roles.py
-python3 CD007912/analyze_cd007912_roles.py
-python3 CD009532/analyze_cd009532_roles.py
-python3 CD009958/analyze_cd009958_roles.py
-python3 CD010051/analyze_cd010051_roles.py
-python3 CD010461/analyze_cd010461_roles.py
-python3 CD012161/analyze_cd012161_roles.py
-python3 CD012751/analyze_cd012751_roles.py
-python3 CD013776/analyze_cd013776_roles.py
-python3 CD015136/analyze_cd015136_roles.py
-python3 CD015156/analyze_cd015156_roles.py
-python3 CD015186/analyze_cd015186_roles.py
-python3 CD015264/analyze_cd015264_roles.py
-python3 CD015898/analyze_cd015898_roles.py
-python3 CD015934/analyze_cd015934_roles.py
-python3 CD016085/analyze_cd016085_roles.py
-python3 CD016104/analyze_cd016104_roles.py
+python3 reviews/CD000510/analyze_cd000510_roles.py
+python3 reviews/CD001452/analyze_cd001452_roles.py
+python3 reviews/CD005354/analyze_cd005354_roles.py
+python3 reviews/CD007654/analyze_cd007654_roles.py
+python3 reviews/CD007912/analyze_cd007912_roles.py
+python3 reviews/CD009532/analyze_cd009532_roles.py
+python3 reviews/CD009958/analyze_cd009958_roles.py
+python3 reviews/CD010051/analyze_cd010051_roles.py
+python3 reviews/CD010461/analyze_cd010461_roles.py
+python3 reviews/CD012161/analyze_cd012161_roles.py
+python3 reviews/CD012751/analyze_cd012751_roles.py
+python3 reviews/CD013776/analyze_cd013776_roles.py
+python3 reviews/CD015136/analyze_cd015136_roles.py
+python3 reviews/CD015156/analyze_cd015156_roles.py
+python3 reviews/CD015186/analyze_cd015186_roles.py
+python3 reviews/CD015264/analyze_cd015264_roles.py
+python3 reviews/CD015898/analyze_cd015898_roles.py
+python3 reviews/CD015934/analyze_cd015934_roles.py
+python3 reviews/CD016085/analyze_cd016085_roles.py
+python3 reviews/CD016104/analyze_cd016104_roles.py
 python3 fetch_citation_counts.py  # network; only needed to refresh citation counts
 python3 analyze_recall_by_characteristic.py
 python3 analyze_recall_logistic_regression.py
@@ -454,7 +454,7 @@ role-dependence regression tables rather than duplicated.
 
 After collecting and analyzing another balanced role experiment:
 
-1. Add its normal per-review folder and source package.
+1. Add its per-review folder under `reviews/` and restore its source package locally.
 2. Add its ID, title, and source-package path to
    `review_registry.py`.
 3. Run the review analyzer and aggregate build commands above.

@@ -8,112 +8,26 @@ collected:
 
 ```text
 ./
-├── CD000510/
-│   ├── analyze_cd000510_roles.py
-│   ├── cd000510_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD001452/
-│   ├── analyze_cd001452_roles.py
-│   ├── cd001452_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD005354/
-│   ├── analyze_cd005354_roles.py
-│   ├── cd005354_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD007654/
-│   ├── analyze_cd007654_roles.py
-│   ├── cd007654_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD007912/
-│   ├── analyze_cd007912_roles.py
-│   ├── cd007912_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD009532/
-│   ├── analyze_cd009532_roles.py
-│   ├── cd009532_role_study_matches.csv
-│   └── <36 model-role response files>
-├── CD009958/
-│   ├── analyze_cd009958_roles.py
-│   ├── cd009958_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD010051/
-│   ├── analyze_cd010051_roles.py
-│   ├── cd010051_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD010461/
-│   ├── analyze_cd010461_roles.py
-│   ├── cd010461_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD012161/
-│   ├── analyze_cd012161_roles.py
-│   ├── cd012161_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD012751/
-│   ├── analyze_cd012751_roles.py
-│   ├── cd012751_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD013776/
-│   ├── analyze_cd013776_roles.py
-│   ├── cd013776_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD015136/
-│   ├── analyze_cd015136_roles.py
-│   ├── cd015136_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD015156/
-│   ├── analyze_cd015156_roles.py
-│   ├── cd015156_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD015186/
-│   ├── analyze_cd015186_roles.py
-│   ├── cd015186_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD015264/
-│   ├── analyze_cd015264_roles.py
-│   ├── cd015264_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD015898/
-│   ├── analyze_cd015898_roles.py
-│   ├── cd015898_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD015934/
-│   ├── analyze_cd015934_roles.py
-│   ├── cd015934_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-├── CD016085/
-│   ├── analyze_cd016085_roles.py
-│   ├── cd016085_role_study_matches.csv
-│   ├── README.md
-│   └── <36 model-role response files>
-└── CD016104/
-    ├── analyze_cd016104_roles.py
-    ├── cd016104_role_study_matches.csv
-    ├── README.md
-    └── <36 model-role response files>
+├── reviews/
+│   ├── CD000510/
+│   │   ├── analyze_cd000510_roles.py
+│   │   ├── cd000510_role_study_matches.csv
+│   │   ├── README.md
+│   │   └── <36 model-role response files>
+│   ├── CD001452/
+│   ├── ...
+│   └── CD016104/
+├── retrieval_bias_demo/
+├── figures/
+├── review_registry.py
+└── analyze_*.py
 ```
 
-For a future review, create a sibling folder such as `CD012345/`, then add its
-title and Cochrane source package to `review_registry.py`. Review-specific
-candidate extraction remains in each review folder; aggregate analyses and the
-demo use the shared registry to discover the current review set and source
-artifacts.
+For a future review, create a sibling folder such as `reviews/CD012345/`, then
+add its title and Cochrane source package to `review_registry.py`.
+Review-specific candidate extraction remains in each review folder; aggregate
+analyses and the demo use the shared registry to discover the current review
+set and source artifacts.
 
 ## Standalone source inputs
 
@@ -163,26 +77,26 @@ To validate and regenerate all current citation-match tables, run from the
 repository root:
 
 ```bash
-python3 CD000510/analyze_cd000510_roles.py
-python3 CD001452/analyze_cd001452_roles.py
-python3 CD005354/analyze_cd005354_roles.py
-python3 CD007654/analyze_cd007654_roles.py
-python3 CD007912/analyze_cd007912_roles.py
-python3 CD009532/analyze_cd009532_roles.py
-python3 CD009958/analyze_cd009958_roles.py
-python3 CD010051/analyze_cd010051_roles.py
-python3 CD010461/analyze_cd010461_roles.py
-python3 CD012161/analyze_cd012161_roles.py
-python3 CD012751/analyze_cd012751_roles.py
-python3 CD013776/analyze_cd013776_roles.py
-python3 CD015136/analyze_cd015136_roles.py
-python3 CD015156/analyze_cd015156_roles.py
-python3 CD015186/analyze_cd015186_roles.py
-python3 CD015264/analyze_cd015264_roles.py
-python3 CD015898/analyze_cd015898_roles.py
-python3 CD015934/analyze_cd015934_roles.py
-python3 CD016085/analyze_cd016085_roles.py
-python3 CD016104/analyze_cd016104_roles.py
+python3 reviews/CD000510/analyze_cd000510_roles.py
+python3 reviews/CD001452/analyze_cd001452_roles.py
+python3 reviews/CD005354/analyze_cd005354_roles.py
+python3 reviews/CD007654/analyze_cd007654_roles.py
+python3 reviews/CD007912/analyze_cd007912_roles.py
+python3 reviews/CD009532/analyze_cd009532_roles.py
+python3 reviews/CD009958/analyze_cd009958_roles.py
+python3 reviews/CD010051/analyze_cd010051_roles.py
+python3 reviews/CD010461/analyze_cd010461_roles.py
+python3 reviews/CD012161/analyze_cd012161_roles.py
+python3 reviews/CD012751/analyze_cd012751_roles.py
+python3 reviews/CD013776/analyze_cd013776_roles.py
+python3 reviews/CD015136/analyze_cd015136_roles.py
+python3 reviews/CD015156/analyze_cd015156_roles.py
+python3 reviews/CD015186/analyze_cd015186_roles.py
+python3 reviews/CD015264/analyze_cd015264_roles.py
+python3 reviews/CD015898/analyze_cd015898_roles.py
+python3 reviews/CD015934/analyze_cd015934_roles.py
+python3 reviews/CD016085/analyze_cd016085_roles.py
+python3 reviews/CD016104/analyze_cd016104_roles.py
 ```
 
 These tables cover the CD000510, CD001452, CD005354, CD007654, CD007912,

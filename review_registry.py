@@ -14,6 +14,7 @@ from zipfile import ZipFile
 
 REPO_ROOT = Path(__file__).resolve().parent
 RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
+REVIEWS_DIR = RETRIEVAL_BIAS_DIR / "reviews"
 SOURCE_REVIEWS_DIR = REPO_ROOT / "source_reviews"
 
 SOURCE_FILENAMES = {
@@ -34,14 +35,14 @@ class ReviewSource:
     @property
     def matches_path(self) -> Path:
         return (
-            RETRIEVAL_BIAS_DIR
+            REVIEWS_DIR
             / self.review_id
             / f"{self.review_id.lower()}_role_study_matches.csv"
         )
 
     @property
     def readme_path(self) -> Path:
-        return RETRIEVAL_BIAS_DIR / self.review_id / "README.md"
+        return REVIEWS_DIR / self.review_id / "README.md"
 
     def source_locator(self, source_kind: str) -> tuple[Path, str | None]:
         """Return the package path and optional ZIP member for one source kind."""
