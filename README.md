@@ -3,8 +3,7 @@
 Each Cochrane review has its own folder named with the review ID. Completed
 experiments keep the review-specific analysis script, README, and unchanged
 chatbot answers together. Curated CSV/JSON data artifacts live under `data/`.
-A planned experiment can begin with a README that fixes the prompts and run
-protocol before responses are collected:
+Current layout:
 
 ```text
 ./
@@ -41,13 +40,6 @@ protocol before responses are collected:
     └── fetch_citation_counts.py
 ```
 
-For a future review, create a sibling folder such as `reviews/CD012345/`, then
-add its title and Cochrane source package to
-`shared/review_registry.py`.
-Review-specific candidate extraction remains in each review folder; aggregate
-analyses and the demo use the shared registry to discover the current review
-set and source artifacts.
-
 ## Standalone source inputs
 
 This repository now treats its own top-level directory as the project root.
@@ -66,9 +58,6 @@ authorized copy of the source material while preserving the paths recorded in
 `benchmark_tools/` contains only the minimal RIS reference-resolution helper
 needed by `scripts/fetch_citation_counts.py`: the Cochrane RIS resolver, its
 TSV schema helper, a small source-file finder, and PubMed/PMC lookup helpers.
-Other benchmark-building, review-plan extraction, audit, and update scripts
-from the former parent repository are intentionally not included because this
-standalone repo does not call them.
 
 The committed CSV, JSON, figure, and demo artifacts can still be inspected
 without `source_reviews/`.

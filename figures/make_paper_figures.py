@@ -1,22 +1,16 @@
 #!/usr/bin/env python3
 """Create publication figures for the retrieval-bias experiments.
 
-Figure 1 aligns a grayscale chatbot-by-role recall heatmap with marginal
+Figure 1 shows the mean within-response composition of retrieved candidates by
+Cochrane status, overall and stratified by chatbot and user role.
+Figure 2 aligns a grayscale chatbot-by-role recall heatmap with marginal
 chatbot and user-role bar charts. The marginal means come from the committed
 demo artifact, while heatmap cells and review-clustered bootstrap confidence
 intervals reconstruct response-level recall from the committed match tables.
 Pairwise tests use blocked, balanced label permutations and Holm-adjusted
 significance brackets. A top-right panel shows marginal replicate consistency
 for included-study retrieval using mean within-cell Jaccard similarity.
-
-Figure 2 shows cross-review included- and excluded-study overlap as four
-UpSet plots stratified by chatbot and user role.
-Figure 3 ranks the high-level Cochrane exclusion reasons assigned to
-chatbot-cited excluded studies and aligns each category with up to three
-deterministically selected, manually shortened examples.
-Figure 4 shows the mean within-response composition of retrieved candidates by
-Cochrane status, overall and stratified by chatbot and user role.
-Figure 5 shows the same four overlap comparisons as Figure 2 using
+Figure 3 shows cross-review included- and excluded-study overlap using
 proportional-circle Venn panels.
 """
 
@@ -44,22 +38,11 @@ FIGURES_DIR = Path(__file__).resolve().parent
 RETRIEVAL_BIAS_DIR = FIGURES_DIR.parent
 REPO_ROOT = RETRIEVAL_BIAS_DIR
 DEMO_DATA_PATH = REPO_ROOT / "retrieval_bias_demo" / "data.js"
-FIGURE_1_OUTPUT_STEM = (
-    FIGURES_DIR / "figure_1_retrieval_recall_by_chatbot_and_role"
+FIGURE_1_OUTPUT_STEM = FIGURES_DIR / "figure_1_candidate_status_composition"
+FIGURE_2_OUTPUT_STEM = (
+    FIGURES_DIR / "figure_2_retrieval_recall_by_chatbot_and_role"
 )
-FIGURE_2_OUTPUT_STEM = FIGURES_DIR / "figure_2_study_overlap"
-FIGURE_3_OUTPUT_STEM = FIGURES_DIR / "figure_3_cited_excluded_reasons"
-FIGURE_4_OUTPUT_STEM = FIGURES_DIR / "figure_4_candidate_status_composition"
-FIGURE_5_OUTPUT_STEM = FIGURES_DIR / "figure_5_proportional_venn_overlap"
-CITED_EXCLUDED_STUDY_AUDIT_PATH = (
-    RETRIEVAL_BIAS_DIR / "data" / "analysis" / "cited_excluded_study_reason_audit.csv"
-)
-CITED_EXCLUDED_REASON_COUNTS_PATH = (
-    RETRIEVAL_BIAS_DIR / "data" / "analysis" / "cited_excluded_reason_counts.csv"
-)
-FIGURE_3_ANNOTATIONS_PATH = (
-    RETRIEVAL_BIAS_DIR / "data" / "curation" / "figure_3_example_annotations.csv"
-)
+FIGURE_3_OUTPUT_STEM = FIGURES_DIR / "figure_3_proportional_venn_overlap"
 ROLE_CONSISTENCY_PATH = (
     RETRIEVAL_BIAS_DIR / "data" / "analysis" / "role_consistency_jaccard.csv"
 )
@@ -136,21 +119,6 @@ CANDIDATE_STATUS_COLORS = {
     "excluded": "#D55E00",
     "other": "#A7ADB2",
 }
-
-REASON_CATEGORY_LABELS = {
-    "population": "Population",
-    "intervention": "Intervention",
-    "comparator": "Comparator",
-    "outcome": "Outcome",
-    "study_design": "Study design",
-    "setting": "Setting",
-    "timing_or_follow_up": "Timing or follow-up",
-    "unit_of_analysis": "Unit of analysis",
-    "publication_or_trial_status": "Publication or\ntrial status",
-    "insufficient_or_unavailable_data": "Insufficient or\nunavailable data",
-    "unspecified_eligibility": "Unspecified\neligibility",
-}
-
 
 def load_demo_data() -> dict[str, Any]:
     """Load the generated retrieval-bias demo artifact."""
@@ -956,7 +924,7 @@ def draw_included_jaccard_margins(
     *,
     summaries: dict[str, dict[str, dict[str, float]]],
 ) -> None:
-    """Draw included-study replicate consistency marginals in Figure 1."""
+    """Draw included-study replicate consistency marginals in Figure 2."""
 
     draw_consistency_bar_axis(
         chatbot_axis,
@@ -972,7 +940,7 @@ def draw_included_jaccard_margins(
     )
 
 
-def create_figure_1(
+def create_figure_2(
     summaries: dict[str, dict[str, dict[str, float]]],
     confidence_intervals: dict[str, dict[str, dict[str, float]]],
     pairwise_results: dict[
@@ -981,7 +949,7 @@ def create_figure_1(
     response_rows: list[dict[str, str | int | float]],
     included_jaccard_summaries: dict[str, dict[str, dict[str, float]]],
 ):
-    """Build Figure 1 as a heatmap with aligned marginal summaries."""
+    """Build Figure 2 as a heatmap with aligned marginal summaries."""
 
     interaction_means = np.empty((len(ROLES), len(MODELS)), dtype=float)
     for role_index, role in enumerate(ROLES):
@@ -1005,7 +973,6 @@ def create_figure_1(
             "axes.unicode_minus": False,
             "pdf.fonttype": 42,
             "ps.fonttype": 42,
-            "svg.fonttype": "none",
         }
     )
     figure = plt.figure(figsize=(7.4, 6.6), facecolor="white")
@@ -1233,317 +1200,6 @@ def load_main_overlap_panels(
                     "match union count"
                 )
     return panels
-
-
-def draw_upset_panel(
-    figure,
-    subplot_spec,
-    *,
-    dimension: str,
-    study_status: str,
-    panel_label: str,
-    panel: dict[str, Any],
-) -> None:
-    """Draw one three-set UpSet panel plus its known-universe complement."""
-
-    if study_status not in {"included", "excluded"}:
-        raise ValueError(f"Unexpected study status: {study_status}")
-    paper_font_scale = 1.35
-    style = PANEL_STYLES[dimension]
-    groups = DIMENSION_GROUPS[dimension]
-    benchmark_count = int(panel["benchmarkStudyCount"])
-    not_recalled_count = benchmark_count - int(panel["unionCount"])
-    set_counts = [int(count) for count in panel["setCounts"]]
-    if list(panel["setLabels"]) != [
-        style["labels"][group] for group in groups
-    ]:
-        raise ValueError(f"{dimension}: unexpected set-label order")
-
-    intersections = sorted(
-        (
-            {
-                "members": tuple(int(index) for index in region["memberIndexes"]),
-                "count": int(region["studyCount"]),
-            }
-            for region in panel["regions"]
-        ),
-        key=lambda intersection: (
-            -int(intersection["count"]),
-            -len(intersection["members"]),
-            intersection["members"],
-        ),
-    )
-    intersection_x = np.arange(len(intersections), dtype=float)
-    not_recalled_x = float(len(intersections)) + 0.65
-
-    inner = subplot_spec.subgridspec(
-        2,
-        2,
-        width_ratios=(1.28, 2.72),
-        height_ratios=(2.35, 1.0),
-        wspace=0.055,
-        hspace=0.04,
-    )
-    context_axis = figure.add_subplot(inner[0, 0])
-    intersection_axis = figure.add_subplot(inner[0, 1])
-    set_size_axis = figure.add_subplot(inner[1, 0])
-    matrix_axis = figure.add_subplot(inner[1, 1])
-
-    context_axis.axis("off")
-    context_axis.text(
-        0.0,
-        1.04,
-        f"{panel_label}  {style['title']}",
-        transform=context_axis.transAxes,
-        fontsize=10.5 * paper_font_scale,
-        fontweight="bold",
-        color=TEXT_COLOR,
-        ha="left",
-        va="bottom",
-    )
-    intersection_counts = [
-        int(intersection["count"]) for intersection in intersections
-    ]
-    all_bar_x = np.append(intersection_x, not_recalled_x)
-    intersection_ymax = 260 if study_status == "included" else 110
-    not_recalled_bar_height = not_recalled_count
-    complement_is_truncated = not_recalled_count >= intersection_ymax
-    if complement_is_truncated:
-        not_recalled_bar_height = 0.88 * intersection_ymax
-    all_bar_heights = intersection_counts + [not_recalled_bar_height]
-    all_bar_labels = intersection_counts + [not_recalled_count]
-    bar_colors = [UPSET_COLOR] * len(intersections) + [NOT_RECALLED_COLOR]
-    intersection_axis.bar(
-        all_bar_x,
-        all_bar_heights,
-        width=0.68,
-        color=bar_colors,
-        edgecolor=TEXT_COLOR,
-        linewidth=0.55,
-        zorder=3,
-    )
-    label_offset = 5 if study_status == "included" else 2
-    for x_position, height, count in zip(
-        all_bar_x, all_bar_heights, all_bar_labels
-    ):
-        intersection_axis.text(
-            x_position,
-            height + label_offset,
-            str(count),
-            ha="center",
-            va="bottom",
-            fontsize=7.5 * paper_font_scale,
-            fontweight="bold",
-            color=TEXT_COLOR,
-        )
-    if complement_is_truncated:
-        break_y = 0.71 * intersection_ymax
-        for x_offset in (-0.10, 0.10):
-            intersection_axis.plot(
-                (
-                    not_recalled_x - 0.18 + x_offset,
-                    not_recalled_x + 0.18 + x_offset,
-                ),
-                (break_y - 2.2, break_y + 2.2),
-                color="white",
-                linewidth=1.4,
-                solid_capstyle="round",
-                zorder=5,
-            )
-    intersection_axis.axvline(
-        not_recalled_x - 0.65,
-        color=GRID_COLOR,
-        linewidth=0.9,
-        zorder=1,
-    )
-    intersection_axis.set_title(
-        f"Cochrane {study_status} (N = {benchmark_count})",
-        loc="left",
-        fontsize=8.5 * paper_font_scale,
-        fontweight="bold",
-        color=TEXT_COLOR,
-        pad=6,
-    )
-    intersection_axis.set_ylabel(
-        "Number of studies",
-        fontsize=8 * paper_font_scale,
-        color=TEXT_COLOR,
-    )
-    intersection_axis.set_xlim(-0.55, not_recalled_x + 0.55)
-    intersection_axis.set_ylim(0, intersection_ymax)
-    intersection_axis.set_yticks(
-        np.arange(0, 251, 50)
-        if study_status == "included"
-        else np.arange(0, 101, 25)
-    )
-    intersection_axis.set_xticks([])
-    intersection_axis.grid(
-        axis="y", color=GRID_COLOR, linewidth=0.7, zorder=0
-    )
-    intersection_axis.tick_params(
-        axis="y", labelsize=7.5 * paper_font_scale, length=3
-    )
-    intersection_axis.spines["top"].set_visible(False)
-    intersection_axis.spines["right"].set_visible(False)
-    intersection_axis.spines["bottom"].set_color(TEXT_COLOR)
-    intersection_axis.spines["left"].set_color(TEXT_COLOR)
-    intersection_axis.spines["bottom"].set_linewidth(0.75)
-    intersection_axis.spines["left"].set_linewidth(0.75)
-
-    row_positions = np.arange(3)
-    set_colors = [style["colors"][group] for group in groups]
-    set_size_axis.barh(
-        row_positions,
-        set_counts,
-        height=0.64,
-        color=set_colors,
-        edgecolor=TEXT_COLOR,
-        linewidth=0.5,
-        zorder=3,
-    )
-    set_size_axis_max = 340 if study_status == "included" else 125
-    for row_position, count in zip(row_positions, set_counts):
-        label_is_inside = count >= 0.40 * set_size_axis_max
-        set_size_axis.text(
-            count - 8 if label_is_inside else count + 4,
-            row_position,
-            (
-                f"{count}/{benchmark_count}\n"
-                f"({100 * count / benchmark_count:.1f}%)"
-            ),
-            ha="left" if label_is_inside else "right",
-            va="center",
-            fontsize=6.1 * paper_font_scale,
-            fontweight="bold",
-            color="white" if label_is_inside else TEXT_COLOR,
-            linespacing=0.95,
-            zorder=4,
-        )
-    set_size_axis.set_yticks(
-        row_positions,
-        [style["labels"][group] for group in groups],
-    )
-    set_size_axis.set_ylim(2.5, -0.5)
-    set_size_axis.set_xlim(set_size_axis_max, 0)
-    set_size_axis.set_xticks(
-        (0, 100, 200, 300)
-        if study_status == "included"
-        else (0, 25, 50, 75, 100)
-    )
-    set_size_axis.set_xlabel(
-        (
-            "Studies cited by each chatbot"
-            if dimension == "chatbot"
-            else "Studies cited by each role"
-        ),
-        fontsize=7.5 * paper_font_scale,
-        color=TEXT_COLOR,
-    )
-    set_size_axis.grid(
-        axis="x", color=GRID_COLOR, linewidth=0.7, zorder=0
-    )
-    set_size_axis.tick_params(
-        axis="x",
-        labelsize=7 * paper_font_scale,
-        length=3,
-        color=TEXT_COLOR,
-    )
-    set_size_axis.tick_params(
-        axis="y",
-        labelsize=7.5 * paper_font_scale,
-        length=0,
-        pad=4,
-    )
-    set_size_axis.spines["top"].set_visible(False)
-    set_size_axis.spines["right"].set_color(TEXT_COLOR)
-    set_size_axis.spines["left"].set_visible(False)
-    set_size_axis.spines["bottom"].set_color(TEXT_COLOR)
-    set_size_axis.spines["right"].set_linewidth(0.75)
-    set_size_axis.spines["bottom"].set_linewidth(0.75)
-
-    for row_position in row_positions:
-        matrix_axis.axhline(
-            row_position, color=GRID_COLOR, linewidth=0.65, zorder=0
-        )
-    for x_position, intersection in zip(
-        intersection_x, intersections
-    ):
-        members = tuple(intersection["members"])
-        matrix_axis.scatter(
-            [x_position] * 3,
-            row_positions,
-            s=18,
-            color=INACTIVE_DOT_COLOR,
-            edgecolors="none",
-            zorder=2,
-        )
-        if len(members) > 1:
-            matrix_axis.plot(
-                [x_position, x_position],
-                [min(members), max(members)],
-                color=UPSET_COLOR,
-                linewidth=1.5,
-                zorder=3,
-            )
-        matrix_axis.scatter(
-            [x_position] * len(members),
-            members,
-            s=30,
-            color=UPSET_COLOR,
-            edgecolors="none",
-            zorder=4,
-        )
-    matrix_axis.scatter(
-        [not_recalled_x] * 3,
-        row_positions,
-        s=28,
-        marker="x",
-        linewidths=1.1,
-        color=NOT_RECALLED_COLOR,
-        zorder=4,
-    )
-    matrix_axis.axvline(
-        not_recalled_x - 0.65,
-        color=GRID_COLOR,
-        linewidth=0.9,
-        zorder=1,
-    )
-    matrix_axis.set_xlim(-0.55, not_recalled_x + 0.55)
-    matrix_axis.set_ylim(2.5, -0.5)
-    matrix_axis.set_yticks([])
-    matrix_axis.set_xticks([not_recalled_x], ["Not\ncited"])
-    matrix_axis.tick_params(
-        axis="x", labelsize=7 * paper_font_scale, length=0, pad=4
-    )
-    for spine in matrix_axis.spines.values():
-        spine.set_visible(False)
-
-
-def create_figure_2(demo_data: dict[str, Any]):
-    """Build Figure 2 as included/excluded chatbot and role UpSet plots."""
-
-    panels = load_main_overlap_panels(demo_data)
-    figure = plt.figure(figsize=(10.4, 9.2), facecolor="white")
-    outer = figure.add_gridspec(2, 2, wspace=0.23, hspace=0.30)
-    panel_specs = (
-        ("included", "chatbot", "A"),
-        ("included", "role", "B"),
-        ("excluded", "chatbot", "C"),
-        ("excluded", "role", "D"),
-    )
-    for panel_index, (study_status, dimension, panel_label) in enumerate(
-        panel_specs
-    ):
-        draw_upset_panel(
-            figure,
-            outer[panel_index // 2, panel_index % 2],
-            dimension=dimension,
-            study_status=study_status,
-            panel_label=panel_label,
-            panel=panels[study_status][dimension],
-        )
-    figure.subplots_adjust(left=0.055, right=0.992, top=0.96, bottom=0.055)
-    return figure
 
 
 VENN_REGION_POSITIONS = {
@@ -1829,8 +1485,8 @@ def draw_proportional_venn_panel(
     summary_axis.set_ylim(-1.62, 1.98)
 
 
-def create_figure_5(demo_data: dict[str, Any]):
-    """Build Figure 5 as proportional-circle versions of Figure 2 panels."""
+def create_figure_3(demo_data: dict[str, Any]):
+    """Build Figure 3 as proportional-circle overlap panels."""
 
     plt.rcParams.update(
         {
@@ -1839,7 +1495,6 @@ def create_figure_5(demo_data: dict[str, Any]):
             "axes.unicode_minus": False,
             "pdf.fonttype": 42,
             "ps.fonttype": 42,
-            "svg.fonttype": "none",
         }
     )
     panels = load_main_overlap_panels(demo_data)
@@ -1863,294 +1518,6 @@ def create_figure_5(demo_data: dict[str, Any]):
             panel=panels[study_status][dimension],
         )
     figure.subplots_adjust(left=0.045, right=0.985, top=0.96, bottom=0.045)
-    return figure
-
-
-def load_figure_3_rows() -> tuple[list[dict[str, Any]], int]:
-    """Load and validate Figure 3 counts and deterministic example annotations."""
-
-    with CITED_EXCLUDED_STUDY_AUDIT_PATH.open(
-        newline="", encoding="utf-8"
-    ) as handle:
-        study_rows = list(csv.DictReader(handle))
-    with CITED_EXCLUDED_REASON_COUNTS_PATH.open(
-        newline="", encoding="utf-8"
-    ) as handle:
-        count_rows = list(csv.DictReader(handle))
-    with FIGURE_3_ANNOTATIONS_PATH.open(
-        newline="", encoding="utf-8"
-    ) as handle:
-        annotation_rows = list(csv.DictReader(handle))
-
-    study_keys = {
-        (row["review"], row["study_label"])
-        for row in study_rows
-    }
-    if len(study_keys) != len(study_rows):
-        raise ValueError(
-            f"{CITED_EXCLUDED_STUDY_AUDIT_PATH.name}: duplicate study key"
-        )
-    total_studies = len(study_rows)
-    if not total_studies:
-        raise ValueError(
-            f"{CITED_EXCLUDED_STUDY_AUDIT_PATH.name}: no study rows"
-        )
-
-    annotations_by_key: dict[tuple[str, str, str], dict[str, str]] = {}
-    for row in annotation_rows:
-        key = (row["reason_category"], row["review"], row["study_label"])
-        if key in annotations_by_key:
-            raise ValueError(
-                f"{FIGURE_3_ANNOTATIONS_PATH.name}: duplicate annotation {key}"
-            )
-        if not row["display_label"].strip() or not row["example_detail"].strip():
-            raise ValueError(
-                f"{FIGURE_3_ANNOTATIONS_PATH.name}: incomplete annotation {key}"
-            )
-        annotations_by_key[key] = row
-
-    figure_rows: list[dict[str, Any]] = []
-    expected_annotation_keys: set[tuple[str, str, str]] = set()
-    seen_categories: set[str] = set()
-    for category_position, count_row in enumerate(count_rows):
-        category = count_row["reason_category"]
-        if category not in REASON_CATEGORY_LABELS:
-            raise ValueError(f"Figure 3 has no display label for {category}")
-        if category in seen_categories:
-            raise ValueError(
-                f"{CITED_EXCLUDED_REASON_COUNTS_PATH.name}: duplicate {category}"
-            )
-        seen_categories.add(category)
-
-        category_studies = [
-            row
-            for row in study_rows
-            if category in row["reason_categories"].split(";")
-        ]
-        count = len(category_studies)
-        expected_count = int(count_row["unique_excluded_studies"])
-        if count != expected_count:
-            raise ValueError(
-                f"{category}: count artifact reports {expected_count}, "
-                f"study audit contains {count}"
-            )
-        percent = 100 * count / total_studies
-        expected_percent = float(
-            count_row["percent_of_unique_excluded_studies"]
-        )
-        if round(percent, 1) != expected_percent:
-            raise ValueError(
-                f"{category}: percent artifact reports {expected_percent}, "
-                f"study audit implies {percent:.1f}"
-            )
-
-        selected_studies = sorted(
-            category_studies,
-            key=lambda row: (
-                -int(row["response_study_mentions"]),
-                row["review"],
-                row["study_label"],
-            ),
-        )[:3]
-        examples = []
-        for study in selected_studies:
-            annotation_key = (
-                category,
-                study["review"],
-                study["study_label"],
-            )
-            expected_annotation_keys.add(annotation_key)
-            annotation = annotations_by_key.get(annotation_key)
-            if annotation is None:
-                raise ValueError(
-                    f"{FIGURE_3_ANNOTATIONS_PATH.name}: missing "
-                    f"deterministically selected example {annotation_key}"
-                )
-            examples.append(
-                {
-                    "display_label": annotation["display_label"],
-                    "detail": annotation["example_detail"],
-                    "response_study_mentions": int(
-                        study["response_study_mentions"]
-                    ),
-                }
-            )
-        figure_rows.append(
-            {
-                "category": category,
-                "display_label": REASON_CATEGORY_LABELS[category],
-                "category_position": category_position,
-                "count": count,
-                "percent": percent,
-                "examples": examples,
-            }
-        )
-
-    annotation_keys = set(annotations_by_key)
-    if annotation_keys != expected_annotation_keys:
-        missing = sorted(expected_annotation_keys - annotation_keys)
-        stale = sorted(annotation_keys - expected_annotation_keys)
-        raise ValueError(
-            "Figure 3 annotations must exactly cover the deterministic "
-            f"selection; missing={missing}, stale={stale}"
-        )
-
-    figure_rows.sort(
-        key=lambda row: (-row["count"], row["category_position"])
-    )
-    return figure_rows, total_studies
-
-
-def create_figure_3(
-    figure_rows: list[dict[str, Any]], total_studies: int
-):
-    """Build Figure 3 as ranked bars aligned with qualitative examples."""
-
-    paper_font_scale = 1.6
-    plt.rcParams.update(
-        {
-            "font.family": "DejaVu Sans",
-            "font.size": 9,
-            "axes.unicode_minus": False,
-            "pdf.fonttype": 42,
-            "ps.fonttype": 42,
-            "svg.fonttype": "none",
-        }
-    )
-    figure = plt.figure(figsize=(10.4, 9.2), facecolor="white")
-    grid = figure.add_gridspec(
-        1,
-        2,
-        width_ratios=(0.36, 0.64),
-        wspace=0.055,
-    )
-    bar_axis = figure.add_subplot(grid[0])
-    example_axis = figure.add_subplot(grid[1], sharey=bar_axis)
-    for axis in (bar_axis, example_axis):
-        axis.set_facecolor("white")
-
-    y_positions = np.arange(len(figure_rows))
-    counts = [row["count"] for row in figure_rows]
-    bar_axis.barh(
-        y_positions,
-        counts,
-        height=0.58,
-        color=UPSET_COLOR,
-        edgecolor=TEXT_COLOR,
-        linewidth=0.65,
-        zorder=3,
-    )
-    for y_position, row in zip(y_positions, figure_rows):
-        bar_axis.text(
-            row["count"] + 0.7,
-            y_position,
-            f"{row['count']}/{total_studies} ({row['percent']:.1f}%)",
-            ha="left",
-            va="center",
-            fontsize=7.4 * paper_font_scale,
-            fontweight="bold",
-            color=TEXT_COLOR,
-            zorder=4,
-        )
-
-    bar_axis.set_title(
-        "A  Exclusion category",
-        loc="left",
-        pad=10,
-        fontsize=10.5 * paper_font_scale,
-        fontweight="bold",
-        color=TEXT_COLOR,
-    )
-    bar_axis.set_yticks(
-        y_positions,
-        [row["display_label"] for row in figure_rows],
-    )
-    bar_axis.set_ylim(len(figure_rows) - 0.5, -0.5)
-    bar_axis.set_xlim(0, 56)
-    bar_axis.set_xticks((0, 10, 20, 30, 40))
-    bar_axis.set_xlabel(
-        "Cited excluded studies, n",
-        fontsize=8 * paper_font_scale,
-        color=TEXT_COLOR,
-        labelpad=6,
-    )
-    bar_axis.grid(axis="x", color=GRID_COLOR, linewidth=0.7, zorder=0)
-    bar_axis.tick_params(
-        axis="x",
-        labelsize=7.5 * paper_font_scale,
-        length=3,
-        color=TEXT_COLOR,
-    )
-    bar_axis.tick_params(
-        axis="y",
-        labelsize=7.4 * paper_font_scale,
-        length=0,
-        pad=6,
-    )
-    bar_axis.spines["top"].set_visible(False)
-    bar_axis.spines["right"].set_visible(False)
-    bar_axis.spines["left"].set_visible(False)
-    bar_axis.spines["bottom"].set_color(TEXT_COLOR)
-    bar_axis.spines["bottom"].set_linewidth(0.75)
-
-    example_axis.set_title(
-        "B  Examples: study and Cochrane exclusion reason",
-        loc="left",
-        pad=10,
-        fontsize=10.5 * paper_font_scale,
-        fontweight="bold",
-        color=TEXT_COLOR,
-    )
-    example_axis.set_xlim(0, 1)
-    example_axis.tick_params(
-        axis="both",
-        which="both",
-        left=False,
-        bottom=False,
-        labelleft=False,
-        labelbottom=False,
-    )
-    for spine in example_axis.spines.values():
-        spine.set_visible(False)
-
-    for boundary in np.arange(0.5, len(figure_rows), 1):
-        bar_axis.axhline(
-            boundary, color=GRID_COLOR, linewidth=0.65, zorder=0
-        )
-        example_axis.axhline(
-            boundary, color=GRID_COLOR, linewidth=0.65, zorder=0
-        )
-
-    for y_position, row in zip(y_positions, figure_rows):
-        examples = row["examples"]
-        offsets = (-0.21, 0.0, 0.21) if len(examples) == 3 else (-0.105, 0.105)
-        for offset, example in zip(offsets, examples):
-            example_axis.text(
-                0.0,
-                y_position + offset,
-                example["display_label"],
-                ha="left",
-                va="center",
-                fontsize=6.1 * paper_font_scale,
-                fontweight="bold",
-                color=TEXT_COLOR,
-            )
-            example_axis.text(
-                0.36,
-                y_position + offset,
-                example["detail"],
-                ha="left",
-                va="center",
-                fontsize=6.1 * paper_font_scale,
-                color=TEXT_COLOR,
-            )
-
-    figure.subplots_adjust(
-        left=0.16,
-        right=0.995,
-        top=0.945,
-        bottom=0.06,
-    )
     return figure
 
 
@@ -2268,7 +1635,7 @@ def summarize_candidate_status_group(
 def build_candidate_status_summaries(
     response_rows: list[dict[str, Any]],
 ) -> dict[str, list[dict[str, Any]]]:
-    """Prepare Figure 4 groups in stable overall and marginal order."""
+    """Prepare Figure 1 groups in stable overall and marginal order."""
 
     model_labels = CHATBOT_FULL_LABELS
     role_labels = PANEL_STYLES["role"]["labels"]
@@ -2325,7 +1692,7 @@ def draw_candidate_status_panel(
     x_max: float,
     show_x_label: bool,
 ) -> None:
-    """Draw one Figure 4 panel as bars scaled to mean studies/response.
+    """Draw one Figure 1 panel as bars scaled to mean studies/response.
 
     Bar length encodes each group's mean candidate count on a shared scale
     across all panels; stacked segment widths encode composition. Segments
@@ -2443,10 +1810,10 @@ def draw_candidate_status_panel(
         spine.set_visible(False)
 
 
-def create_figure_4(
+def create_figure_1(
     summaries: dict[str, list[dict[str, Any]]],
 ):
-    """Build Figure 4 as overall and marginal candidate-status compositions."""
+    """Build Figure 1 as overall and marginal candidate-status compositions."""
 
     plt.rcParams.update(
         {
@@ -2455,7 +1822,6 @@ def create_figure_4(
             "axes.unicode_minus": False,
             "pdf.fonttype": 42,
             "ps.fonttype": 42,
-            "svg.fonttype": "none",
         }
     )
     figure, axes = plt.subplots(
@@ -2518,25 +1884,16 @@ def create_figure_4(
 
 
 def save_figure_outputs(figure, output_stem: Path) -> None:
-    """Write one figure as PDF, normalized SVG, and 600-dpi PNG."""
+    """Write one publication figure as PDF."""
 
-    for extension in ("pdf", "svg", "png"):
-        output_path = output_stem.with_suffix(f".{extension}")
-        save_options = {
-            "bbox_inches": "tight",
-            "pad_inches": 0.03,
-            "facecolor": figure.get_facecolor(),
-        }
-        if extension == "png":
-            save_options["dpi"] = 600
-        figure.savefig(output_path, **save_options)
-        if extension == "svg":
-            svg_lines = output_path.read_text(encoding="utf-8").splitlines()
-            output_path.write_text(
-                "\n".join(line.rstrip() for line in svg_lines) + "\n",
-                encoding="utf-8",
-            )
-        print(f"Wrote: {output_path.relative_to(REPO_ROOT)}")
+    output_path = output_stem.with_suffix(".pdf")
+    figure.savefig(
+        output_path,
+        bbox_inches="tight",
+        pad_inches=0.03,
+        facecolor=figure.get_facecolor(),
+    )
+    print(f"Wrote: {output_path.relative_to(REPO_ROOT)}")
     plt.close(figure)
 
 
@@ -2563,7 +1920,7 @@ def print_pairwise_results(
 
 
 def main() -> None:
-    """Load current artifacts and write all retrieval-bias paper figures."""
+    """Load current artifacts and write retained retrieval-bias paper figures."""
 
     demo_data = load_demo_data()
     summaries = dimension_summaries(demo_data)
@@ -2572,31 +1929,25 @@ def main() -> None:
     included_jaccard_summaries = load_included_jaccard_summaries()
     confidence_intervals = review_clustered_bootstrap_intervals(response_rows)
     pairwise_results = calculate_pairwise_tests(response_rows)
+    candidate_status_responses = load_candidate_status_responses()
+    candidate_status_summaries = build_candidate_status_summaries(
+        candidate_status_responses
+    )
     save_figure_outputs(
-        create_figure_1(
+        create_figure_1(candidate_status_summaries),
+        FIGURE_1_OUTPUT_STEM,
+    )
+    save_figure_outputs(
+        create_figure_2(
             summaries,
             confidence_intervals,
             pairwise_results,
             response_rows,
             included_jaccard_summaries,
         ),
-        FIGURE_1_OUTPUT_STEM,
+        FIGURE_2_OUTPUT_STEM,
     )
-    save_figure_outputs(create_figure_2(demo_data), FIGURE_2_OUTPUT_STEM)
-    figure_3_rows, cited_excluded_study_count = load_figure_3_rows()
-    save_figure_outputs(
-        create_figure_3(figure_3_rows, cited_excluded_study_count),
-        FIGURE_3_OUTPUT_STEM,
-    )
-    candidate_status_responses = load_candidate_status_responses()
-    candidate_status_summaries = build_candidate_status_summaries(
-        candidate_status_responses
-    )
-    save_figure_outputs(
-        create_figure_4(candidate_status_summaries),
-        FIGURE_4_OUTPUT_STEM,
-    )
-    save_figure_outputs(create_figure_5(demo_data), FIGURE_5_OUTPUT_STEM)
+    save_figure_outputs(create_figure_3(demo_data), FIGURE_3_OUTPUT_STEM)
     print_pairwise_results(pairwise_results)
 
 
