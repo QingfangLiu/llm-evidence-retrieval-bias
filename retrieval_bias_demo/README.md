@@ -1,7 +1,7 @@
 # Retrieval Bias Demo
 
 Static study-by-condition views for all 20 balanced chatbot retrieval-bias
-audits registered in `llm_evidence_retrieval_bias/review_registry.py`, plus an automatically
+audits registered in `shared/review_registry.py`, plus an automatically
 generated cross-review summary. The review header switches with the selected
 view.
 
@@ -59,7 +59,7 @@ described below instead of on recalled-vs-not.
 
 The analysis commands validate the curated response annotations and rewrite
 their respective match tables. For every entry in
-`llm_evidence_retrieval_bias/review_registry.py`, the demo builder reads the review's match
+`shared/review_registry.py`, the demo builder reads the review's match
 table, README, included RIS, excluded RIS, and analysis-data rows. It also
 reads:
 
@@ -456,7 +456,7 @@ After collecting and analyzing another balanced role experiment:
 
 1. Add its per-review folder under `reviews/` and restore its source package locally.
 2. Add its ID, title, and source-package path to
-   `llm_evidence_retrieval_bias/review_registry.py`.
+   `shared/review_registry.py`.
 3. Run the review analyzer and aggregate build commands above.
 
 The individual page and cross-review citation, recall, Venn, and permutation

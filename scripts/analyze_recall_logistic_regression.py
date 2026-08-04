@@ -69,7 +69,7 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
-from llm_evidence_retrieval_bias.review_registry import ANALYSIS_DATA_DIR  # noqa: E402
+from shared.review_registry import ANALYSIS_DATA_DIR  # noqa: E402
 
 RETRIEVAL_BIAS_DIR = REPO_ROOT
 INPUT_PATH = ANALYSIS_DATA_DIR / "recall_pattern_by_characteristic.csv"

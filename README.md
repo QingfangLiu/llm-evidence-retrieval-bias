@@ -28,7 +28,7 @@ protocol before responses are collected:
 │       └── CD016104/
 ├── retrieval_bias_demo/
 ├── figures/
-├── llm_evidence_retrieval_bias/
+├── shared/
 │   ├── __init__.py
 │   └── review_registry.py
 └── scripts/
@@ -38,7 +38,7 @@ protocol before responses are collected:
 
 For a future review, create a sibling folder such as `reviews/CD012345/`, then
 add its title and Cochrane source package to
-`llm_evidence_retrieval_bias/review_registry.py`.
+`shared/review_registry.py`.
 Review-specific candidate extraction remains in each review folder; aggregate
 analyses and the demo use the shared registry to discover the current review
 set and source artifacts.
@@ -49,7 +49,7 @@ This repository now treats its own top-level directory as the project root.
 Scripts that regenerate match tables or rebuild cross-review characteristics
 expect Cochrane source packages under `source_reviews/`, preserving the
 existing `2026_issue_6/` and `2026_issue_7/` subdirectories recorded in
-`llm_evidence_retrieval_bias/review_registry.py`. The PMID/citation refresh
+`shared/review_registry.py`. The PMID/citation refresh
 script also expects the former parent repo's RIS reference-resolution helper at
 `benchmark_tools/build_reference_indexing_from_cochrane_ris.py`.
 
@@ -58,7 +58,7 @@ contains Cochrane review data packages, including RIS exports and analysis-data
 rows, that are not redistributed here for Cochrane copyright/licensing reasons.
 To fully regenerate the analyses, restore `source_reviews/` locally from an
 authorized copy of the source material while preserving the paths recorded in
-`llm_evidence_retrieval_bias/review_registry.py`.
+`shared/review_registry.py`.
 
 `benchmark_tools/` is also not present in this checkout;
 `scripts/fetch_citation_counts.py` needs its RIS reference-resolution helper

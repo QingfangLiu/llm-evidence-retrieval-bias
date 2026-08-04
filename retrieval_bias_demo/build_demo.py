@@ -34,7 +34,7 @@ from overlap_metrics import (
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from llm_evidence_retrieval_bias.review_registry import (  # noqa: E402
+from shared.review_registry import (  # noqa: E402
     ANALYSIS_DATA_DIR,
     ReviewSource,
     review_sources,

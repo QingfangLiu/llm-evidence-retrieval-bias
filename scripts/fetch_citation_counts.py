@@ -78,7 +78,7 @@ try:
     import build_reference_indexing_from_cochrane_ris as ris_lib  # noqa: E402
 except ModuleNotFoundError:
     ris_lib = None  # type: ignore[assignment]
-from llm_evidence_retrieval_bias.review_registry import (  # noqa: E402
+from shared.review_registry import (  # noqa: E402
     ANALYSIS_DATA_DIR,
     CACHE_DATA_DIR,
     REVIEW_SOURCES,

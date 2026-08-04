@@ -65,7 +65,7 @@ ROLE_CONSISTENCY_PATH = (
 )
 
 sys.path.insert(0, str(RETRIEVAL_BIAS_DIR))
-from llm_evidence_retrieval_bias.review_registry import review_sources
+from shared.review_registry import review_sources
 
 MODELS = ("claude", "gemini", "gpt")
 ROLES = ("patient", "clinician", "researcher")
