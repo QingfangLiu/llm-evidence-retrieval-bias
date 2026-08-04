@@ -31,6 +31,11 @@ protocol before responses are collected:
 ├── shared/
 │   ├── __init__.py
 │   └── review_registry.py
+├── benchmark_tools/
+│   ├── build_reference_indexing_from_cochrane_ris.py
+│   ├── cochrane_review_source.py
+│   ├── pubmed_utils.py
+│   └── reference_indexing_schema.py
 └── scripts/
     ├── analyze_*.py
     └── fetch_citation_counts.py
@@ -49,9 +54,7 @@ This repository now treats its own top-level directory as the project root.
 Scripts that regenerate match tables or rebuild cross-review characteristics
 expect Cochrane source packages under `source_reviews/`, preserving the
 existing `2026_issue_6/` and `2026_issue_7/` subdirectories recorded in
-`shared/review_registry.py`. The PMID/citation refresh
-script also expects the former parent repo's RIS reference-resolution helper at
-`benchmark_tools/build_reference_indexing_from_cochrane_ris.py`.
+`shared/review_registry.py`.
 
 `source_reviews/` is intentionally not included in this repository because it
 contains Cochrane review data packages, including RIS exports and analysis-data
@@ -60,10 +63,15 @@ To fully regenerate the analyses, restore `source_reviews/` locally from an
 authorized copy of the source material while preserving the paths recorded in
 `shared/review_registry.py`.
 
-`benchmark_tools/` is also not present in this checkout;
-`scripts/fetch_citation_counts.py` needs its RIS reference-resolution helper
-from the former parent repository. The committed CSV, JSON, figure, and demo
-artifacts can still be inspected without either directory.
+`benchmark_tools/` contains only the minimal RIS reference-resolution helper
+needed by `scripts/fetch_citation_counts.py`: the Cochrane RIS resolver, its
+TSV schema helper, a small source-file finder, and PubMed/PMC lookup helpers.
+Other benchmark-building, review-plan extraction, audit, and update scripts
+from the former parent repository are intentionally not included because this
+standalone repo does not call them.
+
+The committed CSV, JSON, figure, and demo artifacts can still be inspected
+without `source_reviews/`.
 
 ## 2026 Issue 7 expansion
 
@@ -375,15 +383,14 @@ python3 scripts/fetch_citation_counts.py
 python3 scripts/analyze_recall_by_characteristic.py
 ```
 
-PMID resolution reuses the repository's existing, tested reference-resolution
-pipeline in `benchmark_tools/build_reference_indexing_from_cochrane_ris.py`
-(the same module the active benchmark-curation path imports directly) rather
-than re-implementing citation matching: explicit PMIDs found anywhere in a
-study's RIS record, then a DOI search, then a validated author+title(+journal
-+year) citation search that rejects weak or non-article matches (corrections,
-errata, retractions). An earlier from-scratch attempt using only a study's
-`DO`/`PUBMED` RIS fields reached roughly half this coverage; reusing the
-existing pipeline resolved a PMID for 379 of 442 included studies (86%) and
+PMID resolution reuses the retained RIS reference-resolution pipeline in
+`benchmark_tools/build_reference_indexing_from_cochrane_ris.py` rather than
+re-implementing citation matching: explicit PMIDs found anywhere in a study's
+RIS record, then a DOI search, then a validated author+title(+journal+year)
+citation search that rejects weak or non-article matches (corrections, errata,
+retractions). An earlier from-scratch attempt using only a study's
+`DO`/`PUBMED` RIS fields reached roughly half this coverage; reusing this
+pipeline resolved a PMID for 379 of 442 included studies (86%) and
 a computable citations-per-year for 366 (83%). Citation counts come from the
 Semantic Scholar Graph API's batch endpoint (no API key), matched by PMID; a
 study's `citation_count` is the maximum across all of its resolved PMIDs

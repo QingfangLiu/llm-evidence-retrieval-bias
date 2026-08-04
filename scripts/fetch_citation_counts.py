@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Resolve each included study's PMIDs and fetch Semantic Scholar citation counts.
 
-PMID resolution reuses the repository's existing, tested reference-resolution
-pipeline (`benchmark_tools/build_reference_indexing_from_cochrane_ris.py`,
-the same module the active benchmark-curation path imports directly) rather
-than re-implementing it. That module tries, per RIS record, in order:
+PMID resolution reuses the retained standalone reference-resolution pipeline
+(`benchmark_tools/build_reference_indexing_from_cochrane_ris.py`) rather than
+re-implementing it. That module tries, per RIS record, in order:
 
 - `ris_explicit_pmid` - a PMID pattern found anywhere in the record's fields;
 - `ris_doi_search` - a DOI found anywhere in the record's fields, searched via
@@ -99,8 +98,8 @@ def require_ris_lib() -> Any:
     if ris_lib is None:
         raise SystemExit(
             "Missing benchmark_tools/build_reference_indexing_from_cochrane_ris.py. "
-            "Restore the benchmark_tools directory from the former parent repo before "
-            "running scripts/fetch_citation_counts.py."
+            "Restore the retained benchmark_tools helper files before running "
+            "scripts/fetch_citation_counts.py."
         )
     return ris_lib
 
