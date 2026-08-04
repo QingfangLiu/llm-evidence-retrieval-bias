@@ -1,0 +1,24 @@
+I now have enough primary studies. I've compiled a good set. Let me do one more search for any additional distinct primary studies (e.g. UK, and Metse pilot, and Bupropion trial).Here's what I found through targeted searching (PubMed/journal sources) for original empirical studies — trials, cohort studies, and other primary research — evaluating smoking-cessation programmes **initiated while adults are inpatients on a psychiatric ward**. I've excluded reviews, meta-analyses, guidelines, protocols-only publications (unless no results paper exists), and commentaries.
+
+**Key trials and cohort studies identified:**
+
+- Several independent RCT programmes have tested interventions begun during acute psychiatric hospitalization and continued after discharge (motivational counselling, NRT, telephone/quitline support), generally in Australia, the US, and Spain.
+- The US-based trials (Prochaska and colleagues) tested motivationally-tailored counselling plus NRT started on a locked acute unit, later reporting effects on abstinence and psychiatric rehospitalization, and a linked cost-effectiveness analysis.
+- The Australian programme (Baker, Bowman, Stockings, Metse and colleagues) ran a series of linked trials — one large four-site trial testing a universal brief intervention plus post-discharge pharmacological/psychosocial support, and an earlier single-site trial of post-discharge support — with secondary analyses of cessation-aid uptake.
+- The Spanish "061 QuitMental" programme (Ballbè and colleagues) tested a proactive telephone quitline intervention for patients discharged from acute mental-health wards, with a separate paper on participation/acceptability predictors.
+- A smaller Portuguese descriptive study assessed willingness to accept NRT among acute psychiatric inpatients as groundwork for future cessation programmes.
+
+**List of primary studies:**
+
+1. Prochaska JJ, Gill P, Hall SM. Treatment of tobacco use in an inpatient psychiatric setting. *Psychiatr Serv.* 2004;55(11):1265–1270.
+2. Prochaska JJ, Hall SE, Delucchi K, Hall SM. Efficacy of initiating tobacco dependence treatment in inpatient psychiatry: a randomized controlled trial. *Am J Public Health.* 2014;104(8):1557–1565.
+3. Barnett PG, Wong W, Jeffers A, Hall SM, Prochaska JJ. Cost-effectiveness of smoking cessation treatment initiated during psychiatric hospitalization: analysis from a randomized, controlled trial. *J Clin Psychiatry.* 2015;76(10):e1285–e1291.
+4. Prochaska JJ, et al. Treating smoking in adults with co-occurring acute psychiatric and addictive disorders (combined analysis of two inpatient-initiated RCTs). *J Dual Diagn* (PMC5537041).
+5. Stockings EA, Bowman JA, Baker AL, Terry M, Clancy R, Wye PM, Knight J, Icasiano B, Prochaska JJ. Impact of a postdischarge smoking cessation intervention for smokers admitted to an inpatient psychiatric facility: a randomized controlled trial. *Nicotine Tob Res.* 2014;16(11):1417–1428.
+6. Metse AP, Wiggers J, Wye P, Wolfenden L, Freund M, Clancy R, Stockings E, Terry M, Allan J, Colyvas K, Prochaska JJ, Bowman JA. Efficacy of a universal smoking cessation intervention initiated in inpatient psychiatry and continued post-discharge: a randomised controlled trial. *Nicotine Tob Res* / related journal, 2017 (PMID 28195010).
+7. Metse AP, et al. Uptake of smoking cessation aids by smokers with a mental illness (secondary analysis of RCT data). *Soc Psychiatry Psychiatr Epidemiol* (PMC5012253).
+8. Ganhão I, Trigo M, Paixão A. Evaluation of tobacco use and willingness to accept nicotine replacement therapy during stay in an acute inpatient psychiatric ward. *BJPsych Open.* 2021;7(S1). doi:10.1192/bjo.2021.504.
+9. Ballbè M, et al. Effectiveness of a post-discharge phone-based smoking cessation intervention for patients with severe mental health disorders: the 061 QuitMental randomized controlled clinical trial. *Int J Ment Health Addict.* 2024;23(4):2678–2696.
+10. Martínez C, et al. (senior authors Fernández/Ballbè). Acceptability and participation predictors for a pragmatic randomized controlled trial to test a smoking cessation intervention after discharge from mental health wards. *Drug Alcohol Depend.* 2022;234:109390.
+
+A couple of caveats for your synthesis: this was a targeted web/PubMed-style search rather than a full systematic database sweep (PubMed, Embase, PsycINFO, CENTRAL, and trial registries), so there may be additional eligible studies — particularly older or non-English-language trials, or unpublished/registry-only trials such as an ongoing varenicline-vs-patch trial in hospitalized psychiatric patients (ClinicalTrials.gov NCT03809897) that doesn't yet have a results publication. I'd recommend running formal database searches and checking trial registries directly for full coverage before finalizing your evidence base.

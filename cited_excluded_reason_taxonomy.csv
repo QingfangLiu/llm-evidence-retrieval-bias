@@ -1,0 +1,12 @@
+reason_category,definition,boundary_note
+population,Participants or clinical population do not meet the review eligibility criteria,"Includes mixed eligible/ineligible populations when results for the eligible subgroup are not available; setting alone is classified separately."
+intervention,The intervention does not match the eligible intervention,"Includes intervention composition, route, dose, timing, or co-interventions when those features define the intervention mismatch."
+comparator,The comparator or comparison does not match the eligible comparison,"Includes absent eligible controls and comparisons between ineligible variants of an intervention."
+outcome,Required outcomes are absent or ineligible,"Use insufficient_or_unavailable_data instead when the outcome was measured but cannot be separated or obtained."
+study_design,The study design is ineligible,"Includes non-randomized, observational, single-arm, pseudo-randomized, post-hoc, and otherwise ineligible analytic designs."
+setting,The care or recruitment setting is ineligible,"Use population when the problem is who was enrolled rather than where or when care was delivered."
+timing_or_follow_up,Eligibility fails because of treatment timing, study duration, or follow-up duration,"Intervention timing can also receive intervention when Cochrane describes it as part of the intervention mismatch."
+unit_of_analysis,The allocation or analysis unit is ineligible or produces non-independent data,"Kept separate from study_design because the underlying trial may otherwise use an eligible randomized design."
+publication_or_trial_status,The record or trial status makes the evidence ineligible,"Includes protocols, registrations without eligible results, unpublished or withdrawn trials, retractions, and duplicate/secondary reports of included studies."
+insufficient_or_unavailable_data,Eligibility cannot be established or eligible results cannot be separated or obtained,"Includes unavailable reports, missing subgroup results, and analyses that cannot isolate the eligible contrast."
+unspecified_eligibility,Cochrane states only that inclusion criteria were not met without identifying which criterion failed,"Do not infer a more specific category from the chatbot description or study title."

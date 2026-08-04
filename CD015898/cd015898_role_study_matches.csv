@@ -1,0 +1,391 @@
+run_id,model,role_id,replicate,source_file,reported_citation,canonical_candidate,ground_truth_status,cochrane_study_label,design,identity_issue,notes
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,Wong W et al.; Paul 2002 title and PMID,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,1,The response gives Paul 2002's title and PMID but attributes it to Wong.; The source review excludes this study for the wrong outcome.
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,Bhat S et al.; Mallett trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,1,The response identifies the Mallett trial but attributes it to Bhat.
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,Chen 2023 pediatric RBC-volume study; Early Human Development,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,1,The response gives a journal that does not match the cited study.
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,Chantepie 2023; n=230,Chantepie 2023,included,Chantepie 2023,multicenter RCT,1,"The response reports 230 participants; the source review reports 245.; The protocol, conference abstract, and full report are one study cluster."
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,RESTRIC,RESTRIC,outside_other,,randomized trial,0,
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,MINT,MINT,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-clinician-1,claude,clinician,1,retrieval_bias/CD015898/claude-clinician-1.md,OTTOP,OTTOP,outside_other,,registered randomized trial,0,
+claude-clinician-2,claude,clinician,2,retrieval_bias/CD015898/claude-clinician-2.md,Chantepie 2021 abstract and 2023 full report as two RCTs; Bone Marrow Transplant,Chantepie 2023,included,Chantepie 2023,multicenter RCT,1,"The response treats the abstract and full report as separate trials and assigns the full report to the wrong journal.; The protocol, conference abstract, and full report are one study cluster."
+claude-clinician-2,claude,clinician,2,retrieval_bias/CD015898/claude-clinician-2.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+claude-clinician-2,claude,clinician,2,retrieval_bias/CD015898/claude-clinician-2.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+claude-clinician-2,claude,clinician,2,retrieval_bias/CD015898/claude-clinician-2.md,Wang et al.; Luo individualized pediatric trial,Luo 2023,cochrane_excluded,Luo 2023,randomized trial,1,The response calls the study Wang; the source review identifies Luo.; The source review excludes this study for the wrong intervention.
+claude-clinician-2,claude,clinician,2,retrieval_bias/CD015898/claude-clinician-2.md,Kaur thalassemia transfusion-volume trial,Kaur thalassemia transfusion-volume trial,outside_other,,randomized crossover trial,0,
+claude-clinician-2,claude,clinician,2,retrieval_bias/CD015898/claude-clinician-2.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+claude-clinician-2,claude,clinician,2,retrieval_bias/CD015898/claude-clinician-2.md,FOCUS,FOCUS,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-clinician-2,claude,clinician,2,retrieval_bias/CD015898/claude-clinician-2.md,SAHaRA,SAHaRA,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-clinician-2,claude,clinician,2,retrieval_bias/CD015898/claude-clinician-2.md,OTTOP,OTTOP,outside_other,,registered randomized trial,0,
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,FOCUS,FOCUS,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,TRISS,TRISS,cochrane_excluded,Holst 2014,multicenter RCT,0,
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,Villanueva upper-GI-bleeding trial,Villanueva upper-GI-bleeding trial,outside_other,,single-center transfusion-threshold RCT,0,
+claude-clinician-3,claude,clinician,3,retrieval_bias/CD015898/claude-clinician-3.md,Bowman title; Haematologica 2012,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,1,The response gives Bowman's title but combines it with Berger's journal/year.
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,Ma 2005 single-unit transfusion study,Ma 2005 single-unit transfusion study,outside_other,,comparative study,0,
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,Yang 2017 single-unit transfusion study,Yang 2017 single-unit transfusion study,outside_other,,comparative study,0,
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,Heyes single-unit transfusion study,Heyes single-unit transfusion study,outside_other,,before-after study,0,
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,Warner single-unit transfusion study,Warner single-unit transfusion study,outside_other,,comparative study,0,
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,Or 2025 single-unit transfusion study,Or 2025 single-unit transfusion study,outside_other,,comparative study,0,
+claude-clinician-4,claude,clinician,4,retrieval_bias/CD015898/claude-clinician-4.md,OTTOP,OTTOP,outside_other,,registered randomized trial,0,
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,Villanueva upper-GI-bleeding trial,Villanueva upper-GI-bleeding trial,outside_other,,single-center transfusion-threshold RCT,0,
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,TRISS,TRISS,cochrane_excluded,Holst 2014,multicenter RCT,0,
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,FOCUS,FOCUS,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,TITRe2,TITRe2,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,Hematocrit-threshold trial,Hematocrit-threshold trial,outside_other,,randomized threshold trial,0,
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,Carson transfusion-threshold pilot trial,Carson transfusion-threshold pilot trial,outside_other,,randomized pilot trial,0,
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,TRICS-III,TRICS-III,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,TRIPICU,TRIPICU,outside_other,,multicenter pediatric transfusion-threshold RCT,0,
+claude-patient-1,claude,patient,1,retrieval_bias/CD015898/claude-patient-1.md,TRIGGER,TRIGGER,outside_other,,cluster-randomized feasibility threshold trial,0,
+claude-patient-2,claude,patient,2,retrieval_bias/CD015898/claude-patient-2.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+claude-patient-2,claude,patient,2,retrieval_bias/CD015898/claude-patient-2.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+claude-patient-2,claude,patient,2,retrieval_bias/CD015898/claude-patient-2.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+claude-patient-2,claude,patient,2,retrieval_bias/CD015898/claude-patient-2.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+claude-patient-2,claude,patient,2,retrieval_bias/CD015898/claude-patient-2.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+claude-patient-2,claude,patient,2,retrieval_bias/CD015898/claude-patient-2.md,OTTOP,OTTOP,outside_other,,registered randomized trial,0,
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,Kaur thalassemia transfusion-volume trial,Kaur thalassemia transfusion-volume trial,outside_other,,randomized crossover trial,0,
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,FUEL,FUEL,outside_other,,randomized trial,0,
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,Bernard J et al.; Chantepie trial,Chantepie 2023,included,Chantepie 2023,multicenter RCT,1,"The response identifies the Chantepie trial but reports Bernard as author.; The protocol, conference abstract, and full report are one study cluster."
+claude-patient-3,claude,patient,3,retrieval_bias/CD015898/claude-patient-3.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+claude-patient-4,claude,patient,4,retrieval_bias/CD015898/claude-patient-4.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+claude-patient-4,claude,patient,4,retrieval_bias/CD015898/claude-patient-4.md,FOCUS,FOCUS,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-patient-4,claude,patient,4,retrieval_bias/CD015898/claude-patient-4.md,TRISS,TRISS,cochrane_excluded,Holst 2014,multicenter RCT,0,
+claude-patient-4,claude,patient,4,retrieval_bias/CD015898/claude-patient-4.md,TRICS-III,TRICS-III,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-patient-4,claude,patient,4,retrieval_bias/CD015898/claude-patient-4.md,REALITY,REALITY,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-patient-4,claude,patient,4,retrieval_bias/CD015898/claude-patient-4.md,MINT,MINT,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-patient-4,claude,patient,4,retrieval_bias/CD015898/claude-patient-4.md,Villanueva upper-GI-bleeding trial,Villanueva upper-GI-bleeding trial,outside_other,,single-center transfusion-threshold RCT,0,
+claude-patient-4,claude,patient,4,retrieval_bias/CD015898/claude-patient-4.md,TRIPICU,TRIPICU,outside_other,,multicenter pediatric transfusion-threshold RCT,0,
+claude-patient-4,claude,patient,4,retrieval_bias/CD015898/claude-patient-4.md,TITRe2,TITRe2,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Kaur thalassemia transfusion-volume trial,Kaur thalassemia transfusion-volume trial,outside_other,,randomized crossover trial,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Atilla 2017 single-unit transfusion study,Atilla 2017 single-unit transfusion study,outside_other,,comparative study,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,DeZern 2016 transfusion study,DeZern 2016 transfusion study,outside_other,,comparative study,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,OTTOP,OTTOP,outside_other,,registered randomized trial,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,Villanueva upper-GI-bleeding trial,Villanueva upper-GI-bleeding trial,outside_other,,single-center transfusion-threshold RCT,0,
+claude-researcher-1,claude,researcher,1,retrieval_bias/CD015898/claude-researcher-1.md,FOCUS,FOCUS,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-researcher-2,claude,researcher,2,retrieval_bias/CD015898/claude-researcher-2.md,Roberts K et al.; Hamm title and PMID,Hamm 2021,included,Hamm 2021,single-center RCT,1,The response gives Hamm 2021's title and PMID but attributes it to Roberts.; The SMaRT trial registration and primary publication are one cluster.
+claude-researcher-2,claude,researcher,2,retrieval_bias/CD015898/claude-researcher-2.md,Bernard R et al.; Chantepie trial,Chantepie 2023,included,Chantepie 2023,multicenter RCT,1,"The response identifies the Chantepie trial but reports Bernard as author.; The protocol, conference abstract, and full report are one study cluster."
+claude-researcher-2,claude,researcher,2,retrieval_bias/CD015898/claude-researcher-2.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+claude-researcher-2,claude,researcher,2,retrieval_bias/CD015898/claude-researcher-2.md,OTTOP,OTTOP,outside_other,,registered randomized trial,0,
+claude-researcher-2,claude,researcher,2,retrieval_bias/CD015898/claude-researcher-2.md,Wong W et al.; Paul title and PMID,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,1,The response gives Paul 2002's title and PMID but attributes it to Wong.; The source review excludes this study for the wrong outcome.
+claude-researcher-2,claude,researcher,2,retrieval_bias/CD015898/claude-researcher-2.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+claude-researcher-2,claude,researcher,2,retrieval_bias/CD015898/claude-researcher-2.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Atilla 2017 single-unit transfusion study,Atilla 2017 single-unit transfusion study,outside_other,,comparative study,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Webert 2008 transfusion study,Webert 2008 transfusion study,outside_other,,prospective study,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Prick 2014; described as one versus multiple RBC units,Prick 2014 postpartum transfusion trial,outside_other,,randomized non-inferiority trial,1,"The response describes Prick 2014 as a one-versus-multiple-unit trial, which does not match the named postpartum study."
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,TRIFE,TRIFE,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Wong ECC et al.; Paul title,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,1,The response gives Paul 2002's title but attributes it to Wong.; The source review excludes this study for the wrong outcome.
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Balegar 2011 neonatal transfusion study,Balegar 2011 neonatal transfusion study,outside_other,,neonatal comparative study,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,Bell 2005 neonatal transfusion trial,Bell 2005 neonatal transfusion trial,outside_other,,neonatal randomized threshold trial,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,PINT,PINT,outside_other,,multicenter neonatal transfusion-threshold RCT,0,
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,STRATUS,STRATUS,outside_other,,randomized platelet-transfusion study,0,"The response names this indirect, non-RBC-dose study."
+claude-researcher-3,claude,researcher,3,retrieval_bias/CD015898/claude-researcher-3.md,PlaNeT-2/MATISSE,PlaNeT-2/MATISSE,outside_other,,multicenter neonatal platelet-threshold RCT,0,The response names this indirect platelet-threshold study.
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,OTTOP,OTTOP,outside_other,,registered randomized trial,0,
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,Webert KE et al.; Berger title and PMID,Berger 2011,included,Berger 2011,single-center controlled before-after study,1,The response gives Berger 2011's title and PMID but attributes it to Webert.
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,Robinson patient-blood-management implementation study,Robinson patient-blood-management implementation study,outside_other,,implementation study,0,This is not the unrelated Robinson 2005 record excluded by Cochrane.
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,Cardiac-surgery 1–2-unit transfusion cohort,Cardiac-surgery 1–2-unit transfusion cohort,outside_other,,propensity-matched cohort,0,
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,Dilutional-anemia single-unit transfusion study,Dilutional-anemia single-unit transfusion study,outside_other,,prospective observational study,0,
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,Huynh 2024 single-unit transfusion study,Huynh 2024 single-unit transfusion study,outside_other,,comparative study,0,
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,Endocarditis transfusion-dose study,Endocarditis transfusion-dose study,outside_other,,comparative study,0,
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,TITRe2,TITRe2,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,FOCUS,FOCUS,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,SAHaRA,SAHaRA,outside_other,,multicenter transfusion-threshold RCT,0,
+claude-researcher-4,claude,researcher,4,retrieval_bias/CD015898/claude-researcher-4.md,LIBERAL,LIBERAL,outside_other,,transfusion-threshold RCT,0,
+gemini-clinician-1,gemini,clinician,1,retrieval_bias/CD015898/gemini-clinician-1.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gemini-clinician-1,gemini,clinician,1,retrieval_bias/CD015898/gemini-clinician-1.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD015898/gemini-clinician-2.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD015898/gemini-clinician-2.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD015898/gemini-clinician-2.md,Frank 2017 single-unit transfusion study,Frank 2017 single-unit transfusion study,outside_other,,comparative study,0,
+gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD015898/gemini-clinician-2.md,Medvecz 2020 single-unit transfusion study,Medvecz 2020 single-unit transfusion study,outside_other,,comparative study,0,
+gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD015898/gemini-clinician-3.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD015898/gemini-clinician-3.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD015898/gemini-clinician-3.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD015898/gemini-clinician-3.md,Sharma 2022 single-unit transfusion study,Sharma 2022 single-unit transfusion study,outside_other,,comparative study,0,
+gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD015898/gemini-clinician-4.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD015898/gemini-clinician-4.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD015898/gemini-clinician-4.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gemini-patient-1,gemini,patient,1,retrieval_bias/CD015898/gemini-patient-1.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+gemini-patient-1,gemini,patient,1,retrieval_bias/CD015898/gemini-patient-1.md,TRISS,TRISS,cochrane_excluded,Holst 2014,multicenter RCT,0,
+gemini-patient-1,gemini,patient,1,retrieval_bias/CD015898/gemini-patient-1.md,TRIFE,TRIFE,outside_other,,multicenter transfusion-threshold RCT,0,
+gemini-patient-2,gemini,patient,2,retrieval_bias/CD015898/gemini-patient-2.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+gemini-patient-2,gemini,patient,2,retrieval_bias/CD015898/gemini-patient-2.md,FOCUS,FOCUS,outside_other,,multicenter transfusion-threshold RCT,0,
+gemini-patient-2,gemini,patient,2,retrieval_bias/CD015898/gemini-patient-2.md,TRISS,TRISS,cochrane_excluded,Holst 2014,multicenter RCT,0,
+gemini-patient-2,gemini,patient,2,retrieval_bias/CD015898/gemini-patient-2.md,REALITY,REALITY,outside_other,,multicenter transfusion-threshold RCT,0,
+gemini-patient-2,gemini,patient,2,retrieval_bias/CD015898/gemini-patient-2.md,MINT,MINT,outside_other,,multicenter transfusion-threshold RCT,0,
+gemini-patient-3,gemini,patient,3,retrieval_bias/CD015898/gemini-patient-3.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+gemini-patient-3,gemini,patient,3,retrieval_bias/CD015898/gemini-patient-3.md,FOCUS,FOCUS,outside_other,,multicenter transfusion-threshold RCT,0,
+gemini-patient-3,gemini,patient,3,retrieval_bias/CD015898/gemini-patient-3.md,MINT,MINT,outside_other,,multicenter transfusion-threshold RCT,0,
+gemini-patient-4,gemini,patient,4,retrieval_bias/CD015898/gemini-patient-4.md,TRICC,TRICC,cochrane_excluded,Hebert 1997,multicenter RCT,0,The preliminary Hebert 1997 source record and 1999 TRICC report are one trial.
+gemini-patient-4,gemini,patient,4,retrieval_bias/CD015898/gemini-patient-4.md,TRIPICU,TRIPICU,outside_other,,multicenter pediatric transfusion-threshold RCT,0,
+gemini-patient-4,gemini,patient,4,retrieval_bias/CD015898/gemini-patient-4.md,MINT,MINT,outside_other,,multicenter transfusion-threshold RCT,0,
+gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD015898/gemini-researcher-1.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD015898/gemini-researcher-1.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD015898/gemini-researcher-1.md,Luo 2023,Luo 2023,cochrane_excluded,Luo 2023,randomized trial,0,The source review excludes this study for the wrong intervention.
+gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD015898/gemini-researcher-2.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD015898/gemini-researcher-2.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD015898/gemini-researcher-3.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD015898/gemini-researcher-3.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD015898/gemini-researcher-3.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD015898/gemini-researcher-3.md,Lasry 2024 single-unit transfusion study,Lasry 2024 single-unit transfusion study,outside_other,,comparative study,0,
+gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD015898/gemini-researcher-4.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD015898/gemini-researcher-4.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Heyes single-unit transfusion study,Heyes single-unit transfusion study,outside_other,,before-after study,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Byun 2023,Byun 2023,included,Byun 2023,single-center factorial RCT,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD015898/gpt-clinician-1.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Covello 2016,Covello 2016,cochrane_excluded,Covello 2016,randomized trial,0,The source review excludes this study for the wrong intervention.
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Ma 2005 single-unit transfusion study,Ma 2005 single-unit transfusion study,outside_other,,comparative study,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Arslan 2004 transfusion-volume study,Arslan 2004 transfusion-volume study,outside_other,,comparative study,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,ENSURE/Bosch single-unit transfusion study,ENSURE/Bosch single-unit transfusion study,outside_other,,multicenter randomized trial,0,"The ENSURE 2018, de Lil 2019, and Bosch 2021 reports are one cluster."
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Jung YH 2020; Choi title and DOI,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,1,The response gives the Choi study title/DOI but attributes it to Jung.
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD015898/gpt-clinician-2.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Byun 2023,Byun 2023,included,Byun 2023,single-center factorial RCT,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Heyes single-unit transfusion study,Heyes single-unit transfusion study,outside_other,,before-after study,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Yang 2017 single-unit transfusion study,Yang 2017 single-unit transfusion study,outside_other,,comparative study,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Ma 2005 single-unit transfusion study,Ma 2005 single-unit transfusion study,outside_other,,comparative study,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD015898/gpt-clinician-3.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Byun 2023,Byun 2023,included,Byun 2023,single-center factorial RCT,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Gastecki single-unit transfusion study,Gastecki single-unit transfusion study,outside_other,,comparative study,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD015898/gpt-clinician-4.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Byun 2023,Byun 2023,included,Byun 2023,single-center factorial RCT,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Covello 2016,Covello 2016,cochrane_excluded,Covello 2016,randomized trial,0,The source review excludes this study for the wrong intervention.
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Gastecki single-unit transfusion study,Gastecki single-unit transfusion study,outside_other,,comparative study,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Ma 2005 single-unit transfusion study,Ma 2005 single-unit transfusion study,outside_other,,comparative study,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-patient-1,gpt,patient,1,retrieval_bias/CD015898/gpt-patient-1.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Byun 2023,Byun 2023,included,Byun 2023,single-center factorial RCT,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Lamarche 2019,Lamarche 2019,included,Lamarche 2019,single-center controlled before-after study,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Heyes single-unit transfusion study,Heyes single-unit transfusion study,outside_other,,before-after study,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-patient-2,gpt,patient,2,retrieval_bias/CD015898/gpt-patient-2.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Chantepie 2023; Leuk Res 128,Chantepie 2023,included,Chantepie 2023,multicenter RCT,1,"The response reports the journal volume as 128; the publication is volume 129.; The protocol, conference abstract, and full report are one study cluster."
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Byun 2023,Byun 2023,included,Byun 2023,single-center factorial RCT,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Lamarche 2019,Lamarche 2019,included,Lamarche 2019,single-center controlled before-after study,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-patient-3,gpt,patient,3,retrieval_bias/CD015898/gpt-patient-3.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Byun 2023,Byun 2023,included,Byun 2023,single-center factorial RCT,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,ENSURE/Bosch single-unit transfusion study,ENSURE/Bosch single-unit transfusion study,outside_other,,multicenter randomized trial,0,"The ENSURE 2018, de Lil 2019, and Bosch 2021 reports are one cluster."
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-patient-4,gpt,patient,4,retrieval_bias/CD015898/gpt-patient-4.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Byun 2023,Byun 2023,included,Byun 2023,single-center factorial RCT,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Gastecki single-unit transfusion study,Gastecki single-unit transfusion study,outside_other,,comparative study,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD015898/gpt-researcher-1.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Heyes single-unit transfusion study,Heyes single-unit transfusion study,outside_other,,before-after study,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Gob 2019 Choosing Wisely initiative,Gob 2019 Choosing Wisely initiative,outside_other,,quality-improvement study,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,ENSURE/Bosch single-unit transfusion study,ENSURE/Bosch single-unit transfusion study,outside_other,,multicenter randomized trial,0,"The ENSURE 2018, de Lil 2019, and Bosch 2021 reports are one cluster."
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Ma 2005 single-unit transfusion study,Ma 2005 single-unit transfusion study,outside_other,,comparative study,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Olupot-Olupot phase II transfusion-volume trial,Olupot-Olupot phase II transfusion-volume trial,outside_other,,multicenter pediatric RCT,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD015898/gpt-researcher-2.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,ENSURE/Bosch single-unit transfusion study,ENSURE/Bosch single-unit transfusion study,outside_other,,multicenter randomized trial,0,"The ENSURE 2018, de Lil 2019, and Bosch 2021 reports are one cluster."
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Covello 2016,Covello 2016,cochrane_excluded,Covello 2016,randomized trial,0,The source review excludes this study for the wrong intervention.
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Ma 2005 single-unit transfusion study,Ma 2005 single-unit transfusion study,outside_other,,comparative study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Heyes single-unit transfusion study,Heyes single-unit transfusion study,outside_other,,before-after study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Yang 2017 single-unit transfusion study,Yang 2017 single-unit transfusion study,outside_other,,comparative study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Warner single-unit transfusion study,Warner single-unit transfusion study,outside_other,,comparative study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Gob 2019 Choosing Wisely initiative,Gob 2019 Choosing Wisely initiative,outside_other,,quality-improvement study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD015898/gpt-researcher-3.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Hamm 2021,Hamm 2021,included,Hamm 2021,single-center RCT,0,The SMaRT trial registration and primary publication are one cluster.
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Chantepie 2023,Chantepie 2023,included,Chantepie 2023,multicenter RCT,0,"The protocol, conference abstract, and full report are one study cluster."
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Byun 2023,Byun 2023,included,Byun 2023,single-center factorial RCT,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Berger 2011,Berger 2011,included,Berger 2011,single-center controlled before-after study,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Avdic 2016,Avdic 2016,included,Avdic 2016,single-center controlled before-after study,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Chantepie 2017,Chantepie 2017,included,Chantepie 2017,single-center controlled before-after study,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Bowman 2019,Bowman 2019,included,Bowman 2019,single-center controlled before-after study,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Marco-Ayala 2024,Marco-Ayala 2024,included,Marco-Ayala 2024,single-center controlled before-after study,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Maitland 2019 (TRACT),Maitland 2019 (TRACT),included,Maitland 2019,multicenter factorial RCT,0,"TRACT reports, including the George 2022 secondary analysis, are grouped."
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Paul 2002,Paul 2002,cochrane_excluded,Paul 2002,single-center randomized trial,0,The source review excludes this study for the wrong outcome.
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Wong 2005,Wong 2005,included,Wong 2005,single-center RCT,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Mallett pediatric RBC-volume trial,Mallett pediatric RBC-volume trial,outside_other,,pediatric randomized trial,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Choi neonatal RBC-volume trial,Choi neonatal RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Cheema preterm-infant RBC-volume trial,Cheema preterm-infant RBC-volume trial,outside_other,,neonatal randomized trial,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Chen 2023 pediatric RBC-volume study,Chen 2023 pediatric RBC-volume study,outside_other,,pediatric comparative study,0,
+gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD015898/gpt-researcher-4.md,Khodabux 2009,Khodabux 2009,included,Khodabux 2009,two-center controlled before-after study,0,The von Lindern 2011 follow-up is grouped with Khodabux 2009.

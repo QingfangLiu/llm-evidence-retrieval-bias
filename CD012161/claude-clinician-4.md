@@ -1,0 +1,47 @@
+Here's a synthesis of primary studies (RCTs) addressing faster-acting insulin analogues vs. regular human insulin or vs. another rapid-acting analogue, in adults with type 1 diabetes on MDI. I've excluded reviews, meta-analyses, guidelines, and commentaries.
+
+## A) Rapid-acting analogues (aspart, lispro, glulisine) vs. regular/soluble human insulin
+
+These are the foundational trials from the 1990s–2000s establishing rapid-acting analogues as the first generation of "faster-acting" insulins.
+
+- The UK Trial Group's double-blind crossover trial in 93 adults with T1D on MDI found insulin lispro compared with human soluble insulin, examining glucose control, frequency of hypoglycaemia and patient preference in a prospective, randomized, double-blind, crossover comparison, with significantly lower postprandial blood glucose after breakfast and lunch, but higher pre-meal glucose, with lispro.
+- Home et al.'s randomized trial compared insulin aspart against human soluble insulin for long-term glycaemic control in T1D on basal-bolus therapy (Diabet Med 2000).
+- Tamas et al. conducted a randomised multinational study of optimised insulin aspart vs. human insulin in T1D (Diabetes Res Clin Pract 2001).
+- Raskin et al. evaluated insulin aspart as mealtime insulin in T1D management (Diabetes Care 2000).
+- Home et al. also ran a trial of pre-meal insulin aspart vs. pre-meal soluble human insulin (Diabetes Res Clin Pract 2006), which found insulin aspart improved postprandial control by reducing hyperglycemic and hypoglycemic variations, though night-time control was inferior, with fewer major hypoglycemic events on aspart (20 events in 16 patients) versus human insulin (44 events in 24 patients).
+- A larger open-label parallel trial (Standl et al., Diabetologia 2004) in 595 patients compared basal-bolus regimens: insulin detemir combined with insulin aspart versus NPH insulin combined with mealtime regular human insulin, over an 18-week trial with a 6-week titration and 12-week maintenance period, finding improved glycaemic control with the detemir/aspart combination (HbA1c 7.88% vs 8.11%).
+- CSII-based comparisons of lispro vs. buffered regular human insulin also exist, though these use pump delivery rather than MDI, so are less directly relevant to your question but sometimes cited alongside MDI trials — this 24-week multicenter, randomized, two-way crossover trial found insulin lispro was associated with significantly lower HbA1c than buffered regular human insulin.
+
+## B) Newer ultra-rapid-acting analogues vs. standard rapid-acting analogues (head-to-head "faster vs faster")
+
+- **ONSET 1** (Russell-Jones et al., Diabetes Care 2017): this multicenter, treat-to-target, phase 3 trial evaluated fast-acting insulin aspart (faster aspart) versus conventional insulin aspart in adults with type 1 diabetes; after an 8-week run-in, subjects were randomized 1:1:1 to double-blind mealtime faster aspart (n=381), IAsp (n=380), or open-label postmeal faster aspart (n=382), each with insulin detemir, over 26 weeks. Faster aspart effectively improved HbA1c with noninferiority to IAsp confirmed, and superior postprandial glucose control for mealtime faster aspart versus IAsp.
+- **ONSET 1, 52-week extension** (Mathieu et al., Diabetes Obes Metab 2018): this 52-week randomized, treat-to-target, phase III trial across 165 sites in 9 countries found that after 52 weeks, estimated mean changes from baseline HbA1c were -0.08% for faster aspart versus +0.01% for IAsp, significantly favoring faster aspart.
+- **ONSET 8** (Buse et al.): faster aspart vs. IAsp in insulin degludec-treated T1D, confirming noninferiority of faster aspart to IAsp on the primary A1C endpoint.
+- **GEMELLI 1** (biosimilar trial): this 6-month, randomized, open-label, phase 3 study enrolled 597 people with diabetes (497 with T1D), randomized 1:1 to mealtime insulin aspart biosimilar SAR341402 or originator insulin aspart, in combination with insulin glargine on MDI, finding similar glycemic control, safety, and immunogenicity between products.
+- **PRONTO-T1D** (Klaff et al., Diabetes Obes Metab 2020): 1,222 adults with T1D were randomized to double-blind ultra-rapid lispro (URLi) or lispro, or open-label postmeal URLi, on an MDI regimen, and met the primary endpoint of noninferiority of HbA1c change from baseline compared to lispro at 26 weeks.
+- **PRONTO-T1D 52-week extension** (Diabetes Ther 2021): 1-hour and 2-hour postmeal daily mean glucose were statistically significantly lower with URLi than lispro; rates of severe, documented, and postprandial hypoglycemia were similar between treatments, though URLi showed a 31% lower rate more than 4 hours after meals; injection site reactions were reported by 3.3% on URLi versus 0.9% on lispro.
+- **PRONTO-Pump** (compatibility/safety study, though CSII not MDI): a phase 3, double-blind, crossover study in 49 patients randomized to two 6-week treatment periods after a 2-week lispro lead-in, evaluating rate of infusion-set failures with URLi versus lispro.
+
+## Summary of benefit/harm pattern across these trials
+
+- **Benefit**: Consistently better postprandial glucose control with faster-acting analogues (aspart, faster aspart, URLi) compared with both regular human insulin and older rapid-acting analogues, generally with small but statistically significant HbA1c improvements or noninferiority.
+- **Harm**: Signal for increased injection-site reactions with newer ultra-rapid formulations (URLi vs. lispro); overall hypoglycemia rates tend to be similar or occasionally favor the faster agent, but this is not uniform across trials.
+
+## Primary studies (references)
+
+1. Russell-Jones D, Bode BW, De Block C, et al. Fast-Acting Insulin Aspart Improves Glycemic Control in Basal-Bolus Treatment for Type 1 Diabetes: Results of a 26-Week Multicenter, Active-Controlled, Treat-to-Target, Randomized, Parallel-Group Trial (onset 1). *Diabetes Care*. 2017;40(7):943-950.
+2. Mathieu C, Bode BW, Franek E, et al. Efficacy and safety of fast-acting insulin aspart in comparison with insulin aspart in type 1 diabetes (onset 1): A 52-week, randomized, treat-to-target, phase III trial. *Diabetes Obes Metab*. 2018;20(5):1148-1155.
+3. Buse JB, Carlson AL, Komatsu M, Mosenzon O, Rose L, Liang B, Buchholtz K, Horio H, Kadowaki T. Fast-acting insulin aspart versus insulin aspart in the setting of insulin degludec-treated type 1 diabetes: Efficacy and safety from a randomized double-blind trial (onset 8).
+4. Kapitza C, et al. (GEMELLI 1) Efficacy and Safety of Insulin Aspart Biosimilar SAR341402 Versus Originator Insulin Aspart in People with Diabetes Treated for 26 Weeks with Multiple Daily Injections in Combination with Insulin Glargine: A Randomized Open-Label Trial. *Diabetes Technol Ther*. 2020.
+5. Klaff L, Cao D, Dellva MA, et al. Ultra rapid lispro improves postprandial glucose control compared with lispro in patients with type 1 diabetes: results from the 26-week PRONTO-T1D study. *Diabetes Obes Metab*. 2020;22(10):1799-1807.
+6. (PRONTO-T1D extension) Long-Term Efficacy and Safety of Ultra Rapid Lispro (URLi) in Adults with Type 1 Diabetes: The PRONTO-T1D Extension. *Diabetes Ther*. 2021.
+7. (PRONTO-Pump) Compatibility and Safety of Ultra Rapid Lispro with Continuous Subcutaneous Insulin Infusion in Patients with Type 1 Diabetes: PRONTO-Pump Study.
+8. UK Trial Group. A randomized, controlled trial comparing insulin lispro with human soluble insulin in patients with Type 1 diabetes on intensified insulin therapy. *Diabet Med*. 2000.
+9. Home PD, Lindholm A, Riis A. Insulin aspart vs. human insulin in the management of long-term blood glucose control in type 1 diabetes mellitus: a randomized controlled trial. *Diabet Med*. 2000;17:762-770.
+10. Raskin P, Guthrie RA, Leiter L, Riis A, Jovanovic L. Use of insulin aspart, a fast-acting insulin analog, as the mealtime insulin in the management of patients with type 1 diabetes. *Diabetes Care*. 2000;23:583-588.
+11. Tamas G, Marre M, Astorga R, Dedov I, Jacobsen J, Lindholm A. Glycaemic control in type 1 diabetic patients using optimised insulin aspart or human insulin in a randomised multinational study. *Diabetes Res Clin Pract*. 2001;54:105-114.
+12. Home PD, Hallgren P, Usadel KH, et al. Pre-meal insulin aspart compared with pre-meal soluble human insulin in type 1 diabetes. *Diabetes Res Clin Pract*. 2006;71:131-139.
+13. Standl E, Lang H, Roberts A. The 12-month efficacy and safety of insulin detemir and insulin aspart in basal-bolus therapy for type 1 diabetes. *Diabetologia*. 2004.
+14. Bode BW, Weinstein R, Bell D, et al. A comparison of insulin lispro and buffered regular human insulin administered via continuous subcutaneous insulin infusion pump. (CSII population — included for completeness though not strictly MDI.)
+
+A few caveats: several of these (notably ONSET 1/8 and PRONTO-T1D) are the most directly relevant, adequately powered, MDI-specific, adult T1D trials. Some older aspart/lispro trials I've listed by title only, as full abstracts weren't retrievable in this search — you'll want to pull the original articles to verify exact methods and results before using them in guideline work. If you want, I can dig deeper into any single comparison (e.g., glulisine vs. regular insulin, or head-to-head aspart vs. lispro trials) or fetch full-text details on any of these.

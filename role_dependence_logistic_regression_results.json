@@ -1,0 +1,61 @@
+{
+  "citationsPerYearOffset": 0.01,
+  "coefficients": {
+    "const": {
+      "clusteredPValue": 0.6107978158357164,
+      "clusteredStdErr": 55.92012964411925,
+      "coefficient": -28.459708801852077,
+      "naivePValue": 0.41555003451727934,
+      "oddsRatio": 4.3662189557742645e-13,
+      "oddsRatioCiHigh": 1.735426243374385e+35,
+      "oddsRatioCiLow": 1.0985121403197375e-60
+    },
+    "is_open_access": {
+      "clusteredPValue": 0.10000628661370416,
+      "clusteredStdErr": 0.27484069410517625,
+      "coefficient": 0.4520643363111111,
+      "naivePValue": 0.19027321685575727,
+      "oddsRatio": 1.5715530532514248,
+      "oddsRatioCiHigh": 2.6932326432745537,
+      "oddsRatioCiLow": 0.9170314363117947
+    },
+    "log_citations_per_year": {
+      "clusteredPValue": 0.10389494827462652,
+      "clusteredStdErr": 0.1307527533010621,
+      "coefficient": -0.21263760908971627,
+      "naivePValue": 0.059488656041102476,
+      "oddsRatio": 0.8084490587275465,
+      "oddsRatioCiHigh": 1.0445989984795279,
+      "oddsRatioCiLow": 0.625684958064092
+    },
+    "log_sample_size": {
+      "clusteredPValue": 0.3595184155215042,
+      "clusteredStdErr": 0.15096662209236306,
+      "coefficient": -0.13832816854622712,
+      "naivePValue": 0.3741265910066639,
+      "oddsRatio": 0.8708128714556874,
+      "oddsRatioCiHigh": 1.170652134706932,
+      "oddsRatioCiLow": 0.6477714725072796
+    },
+    "year": {
+      "clusteredPValue": 0.6182195654668032,
+      "clusteredStdErr": 0.027950059375351388,
+      "coefficient": 0.013929618327654254,
+      "naivePValue": 0.422880816614812,
+      "oddsRatio": 1.0140270875046788,
+      "oddsRatioCiHigh": 1.07112631755092,
+      "oddsRatioCiLow": 0.959971683399834
+    }
+  },
+  "llrPValue": 0.18459310900909695,
+  "logLikelihood": -128.6262123691011,
+  "n": 250,
+  "nClusters": 20,
+  "pseudoRSquared": 0.023539427946156044,
+  "vif": {
+    "is_open_access": 1.1906695147759314,
+    "log_citations_per_year": 1.3127836401386483,
+    "log_sample_size": 1.1341304067562843,
+    "year": 1.153812100214565
+  }
+}

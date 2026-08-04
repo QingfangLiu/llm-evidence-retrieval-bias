@@ -1,0 +1,12 @@
+reason_category,unique_excluded_studies,percent_of_unique_excluded_studies,response_study_mentions,percent_of_response_study_mentions
+population,25,17.6,200,23.4
+intervention,34,23.9,168,19.6
+comparator,28,19.7,151,17.6
+outcome,2,1.4,22,2.6
+study_design,37,26.1,216,25.2
+setting,6,4.2,23,2.7
+timing_or_follow_up,11,7.7,60,7.0
+unit_of_analysis,2,1.4,16,1.9
+publication_or_trial_status,8,5.6,22,2.6
+insufficient_or_unavailable_data,15,10.6,103,12.0
+unspecified_eligibility,5,3.5,46,5.4

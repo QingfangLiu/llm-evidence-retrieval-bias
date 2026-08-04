@@ -1,0 +1,28 @@
+Here are individual primary studies (RCTs and controlled trials) on iron supplementation in blood donors — excluding systematic reviews, meta-analyses, narrative reviews, guidelines, and editorials/comments:
+
+**1. Kiss JE, Brambilla D, Glynn SA, et al. "Oral Iron Supplementation After Blood Donation: A Randomized Clinical Trial" (HEIRS study).** *JAMA*. 2015;313(6):575–583. 215 donors were randomized to receive ferrous gluconate daily (37.5 mg iron) or no iron for 24 weeks after blood donation, evaluating effects on hemoglobin and iron recovery.
+
+**2. Cable RG, Glynn SA, Kiss JE, et al. "Effect of iron supplementation on iron stores and total body iron after whole blood donation."** *Transfusion*. 2016;56(8). A companion/ancillary analysis of the same 215-donor HEIRS cohort randomized to receive ferrous gluconate daily (37.5 mg iron) or no iron for 24 weeks after blood donation, focused on total body iron and iron stores.
+
+**3. Bialkowski W, Kiss JE, Wright DJ, et al. "Estimates of total body iron indicate 19 mg and 38 mg oral iron are equivalent for the mitigation of iron deficiency in individuals experiencing repeated phlebotomy."** *Am J Hematol*. 2017;92:851–857. A dose-comparison ancillary trial from the same program.
+
+**4. Mast AE, Bialkowski W, Bryant BJ, et al. "A randomized, blinded, placebo-controlled trial of education and iron supplementation for mitigation of iron deficiency in regular blood donors" (STRIDE study).** *Transfusion*. 2016. Tested whether education about dietary iron and/or low-dose iron supplementation could mitigate iron deficiency in frequent donors, contrasting with the ineffective historical dietary-advice approach.
+
+**5. Radtke H, Meyer T, Kalus U, et al. "Rapid identification of iron deficiency in blood donors with red cell indexes provided by Advia 120" and related IronWoMan-type work** — see next entry for the definitive RCT from this Austrian group.
+
+**6. Neiser S, et al. / Bock M, et al. "IronWoMan" RCT — parenteral vs. oral iron in iron-deficient blood donors.** Original trial registered as NCT01787526 (Graz, Austria). 176 whole-blood and platelet apheresis donors with iron deficiency (ferritin ≤30 ng/mL) were randomized 1:1 to a single dose of IV ferric carboxymaltose (1 g) or oral ferrous fumarate (100 mg capsules with ascorbic acid, over 8–12 weeks). The secondary analysis of fatigue/RLS/sleep outcomes is: *"The Effect of Parenteral or Oral Iron Supplementation on Fatigue, Sleep, Quality of Life and Restless Legs Syndrome in Iron-Deficient Blood Donors: A Secondary Analysis of the IronWoMan RCT."*
+
+**7. Bruggraber SFA / Spencer BR, et al. "Iron Supplementation in Blood Donors" RCT — intravenous ferric carboxymaltose vs. placebo.** *Blood*. 2022;140(25):2730. A randomized controlled trial testing intravenous ferric carboxymaltose 800 mg iron repletion, examining effects on red cell quality for transfusion and donor cognition/well-being; hemoglobin increased by a mean 1.4 g/dL, ferritin increased by 66 μg/L, and zinc protoporphyrin decreased by 48.1 μMol/mol heme in the iron repletion group compared with placebo, and post hoc analyses showed female placebo recipients were more likely to be deferred from allogeneic donation for failing minimum hemoglobin/hematocrit criteria.
+
+**8. Karregat JHM, Meulenbeld A, Quee FA, et al. "Ferritin-guided iron supplementation as an alternative or complement to prolonged blood donation intervals (FORTE): a double-blind, randomised, controlled trial."** *Lancet Haematology*. 2025;12:e694–e704. Donors with ferritin ≤30 μg/L were randomly allocated to one of six groups (0, 30, or 60 mg elemental iron as ferrous bisglycinate, daily or alternate-day, for 56 days); daily supplementation with 60 mg elemental iron was found to be the most effective strategy for mitigating iron deficiency, low ferritin, and low hemoglobin, without gastrointestinal discomfort or reduced willingness to return.
+
+**9. van Kraaij MGJ / Prinsze FJ, et al. — original ferrous gluconate/sulfate donor iron trials** predating REDS-III, e.g., Simon TL, Garry PJ, Hooper EM. "Iron stores in blood donors." *JAMA*. 1981;245:2038–2043 — an early primary study examining iron stores in blood donors, useful as historical primary data (note: check full text to confirm it includes a supplementation arm, as older citations sometimes describe it as observational).
+
+**10. Waldvogel-Abramowski S, et al. — Swiss RCT on oral iron vs. placebo in blood donors** (Geneva) — I'd recommend verifying this one directly since I could not pull full trial details in this search pass.
+
+A few notes for your synthesis:
+- The **FIND'EM trial** (Sweegers, Prinsze, van den Hurk et al., *Lancet* 2024) is a stepped-wedge cluster-**randomised** trial and is a primary study, but it tests *ferritin-guided donation intervals*, not supplementation per se — include only if your scope covers iron-management strategies broadly.
+- Items 2 and 3 are ancillary/secondary analyses of the same HEIRS trial cohort (item 1) — worth flagging as non-independent data if you're doing dependency-aware synthesis (e.g., not double-counting participants).
+- I did not verify full-text inclusion/exclusion criteria for every entry — given this is for evidence synthesis, I'd recommend pulling primary sources directly (JAMA, Transfusion, Blood, Lancet Haematology, Am J Hematol) to confirm eligibility rather than relying on my summaries.
+
+Want me to keep searching for additional trials (e.g., dose-ranging studies, donor-country-specific RCTs, or older 1970s–90s trials), or pull full-text details on any of these to check inclusion criteria for your review?

@@ -1,0 +1,143 @@
+review,study_label,reason_categories
+CD000510,Iarŭkova 1999,study_design
+CD000510,Morley 2008,population;intervention
+CD000510,Rojas 2009,intervention;timing_or_follow_up
+CD000510,Sandri 2010,comparator;timing_or_follow_up
+CD001452,Correcher 2012,study_design
+CD001452,Logan 1999,study_design
+CD005354,Abyholm 2008,intervention
+CD005354,Boostanfar 2010,intervention
+CD005354,Boostanfar 2015,intervention
+CD005354,Filicori 2003,intervention
+CD005354,Hillensjo 2009,intervention
+CD005354,Khair 2020,study_design
+CD005354,Melo 2010,population
+CD005354,Pacchiarotti 2007,comparator
+CD005354,Requena 2010,study_design
+CD005354,Tulppala 1999,intervention
+CD005354,Westerguard 1996,intervention
+CD007654,Broom 2002,population;insufficient_or_unavailable_data
+CD007654,CAMELLIA-TIMI 2018,population;insufficient_or_unavailable_data
+CD007654,COR-I 2010,population;insufficient_or_unavailable_data
+CD007654,EQUIP 2012,population;insufficient_or_unavailable_data
+CD007654,Faria 2002,intervention
+CD007654,Garvey 2021,population;insufficient_or_unavailable_data
+CD007654,McMahon 2000,intervention
+CD007654,McMahon 2002,intervention
+CD007654,Ryan 2020,population;insufficient_or_unavailable_data
+CD007654,SCALE obesity and prediabetes 2014,population;insufficient_or_unavailable_data
+CD007654,SCOUT 2010,population;insufficient_or_unavailable_data
+CD007654,SEQUEL 2014,study_design
+CD007654,STEP 4 2021,population;insufficient_or_unavailable_data
+CD007654,STEP 6 2022,population;insufficient_or_unavailable_data
+CD007654,Sharma 2002,study_design
+CD007654,Sjöström 1998,population;insufficient_or_unavailable_data
+CD007912,Bennell 2014,intervention
+CD007912,Bieler 2017,comparator
+CD007912,Hoeksma 2004,comparator
+CD007912,Kjeldsen 2022,comparator
+CD007912,Pisters 2010b,comparator
+CD007912,Steinhilber 2012,population
+CD007912,Uusi-Rasi 2017,study_design
+CD007912,Veenhof 2006,comparator
+CD007912,Villadsen 2014,timing_or_follow_up
+CD007912,Wainwright 2023,comparator
+CD009532,Baart 2020,intervention
+CD009532,Bryant 2012b,study_design
+CD009532,Hasan 2022,intervention;comparator
+CD009532,Magnussen 2008,study_design
+CD009532,NCT04949165,study_design
+CD009532,Radtke 2005,study_design
+CD009958,De Meyer 2019,population
+CD009958,Girard 2014,population;insufficient_or_unavailable_data
+CD009958,Jiang 2020,intervention;insufficient_or_unavailable_data
+CD009958,Kapp 2023,intervention
+CD009958,Malekara 2025,population
+CD009958,Vanderwee 2007,population
+CD009958,Yap 2022,population
+CD010051,Ayres 2024,comparator
+CD010051,Feng 2024,comparator
+CD010051,Gao 2024,comparator
+CD010051,Hom 2006,population
+CD010051,Lee 2016 || Lee 2016a,comparator
+CD010051,NCT06392438,comparator
+CD010051,Roberts 2007a,comparator
+CD010051,Su 2011,intervention;comparator
+CD010051,Wang 2008,study_design
+CD010461,Antinori 2008,unspecified_eligibility
+CD010461,Balaban 2011,unspecified_eligibility
+CD010461,Battista 2017,publication_or_trial_status
+CD010461,Casciani 2014,study_design
+CD010461,Fleming 2007,study_design
+CD010461,Ghosh 2007,study_design
+CD010461,Gianaroli 2008,study_design
+CD010461,Jin 2015,study_design
+CD010461,Kim 2014,comparator
+CD010461,Knez 2011,unspecified_eligibility
+CD010461,NCT03659812 2018,population
+CD010461,Norozi-Hafshejani 2022,study_design
+CD010461,Setti 2011,unspecified_eligibility
+CD010461,Setti 2012b,unspecified_eligibility
+CD010461,Stimpfel 2017,study_design
+CD010461,West 2022,study_design
+CD012161,Garg 2020b,comparator
+CD012161,Heise 2016,timing_or_follow_up
+CD012161,Kazda 2022,timing_or_follow_up
+CD012161,Lalli 1999,intervention
+CD012161,Lindholm 1999,timing_or_follow_up
+CD012161,Vignati 1997,timing_or_follow_up
+CD012751,Sandborn 2010b (WELCOME),intervention;comparator
+CD013776,Daneshmand 2017,setting
+CD013776,Fradet 2007,setting
+CD013776,Gallagher 2017,study_design
+CD013776,Geavlete 2009,study_design
+CD013776,Grossmann 2007,setting
+CD013776,JPRN-UMIN000035712,study_design
+CD013776,NCT01675219,study_design;timing_or_follow_up
+CD015136,De Vera 2014,publication_or_trial_status
+CD015136,Green 2008,comparator
+CD015136,Jiang 2021,study_design
+CD015136,Lyons 2016,comparator
+CD015136,Mikuls 2019,intervention
+CD015136,Pham 2023,intervention
+CD015136,Polgreen 2020,population
+CD015156,Feyzioğlu 2018,study_design;publication_or_trial_status
+CD015156,Gerulis 2004,study_design
+CD015156,Lucciani 2016,insufficient_or_unavailable_data
+CD015156,Perhamre 2011 (b),study_design
+CD015156,Rathleff 2020,study_design
+CD015156,University  of Delaware 2021,study_design;publication_or_trial_status
+CD015156,Wu 2022,population
+CD015186,Ayub 2025,study_design
+CD015186,Golaszewska 2023,intervention
+CD015186,Greenwood 2023,study_design
+CD015186,Matlach 2015,intervention
+CD015186,NCT03894631,unit_of_analysis
+CD015186,NCT05666440,study_design
+CD015186,Sato 2018b,study_design
+CD015186,Sato 2021,comparator
+CD015186,Ventura-Abreu 2021,unit_of_analysis
+CD015264,Bjørke-Monsen 2011,intervention
+CD015264,Finberg 1952,comparator
+CD015264,Haiden 2006,intervention
+CD015264,Hess 2019,comparator
+CD015264,Larcomb 1954,comparator
+CD015264,Torsvik 2015,intervention
+CD015264,Worthington-White 1994,intervention
+CD015898,Covello 2016,intervention;comparator
+CD015898,Hebert 1997,intervention
+CD015898,Holst 2014,intervention;comparator
+CD015898,Luo 2023,intervention;comparator
+CD015898,Paul 2002,outcome
+CD015934,Bennett 2017,study_design
+CD015934,Bruguera 2018,publication_or_trial_status
+CD015934,Das 2017,publication_or_trial_status
+CD015934,Japuntich 2019,setting
+CD015934,Peckham 2019,setting
+CD015934,Petersen Williams 2025,setting;timing_or_follow_up
+CD015934,Prochaska 2009,publication_or_trial_status
+CD015934,Schuck 2016,outcome
+CD016085,DETERMINE,population;intervention;timing_or_follow_up
+CD016085,INDIVIDUATE,population;intervention;timing_or_follow_up
+CD016085,THE BEST,study_design
+CD016104,MERMAID-1,publication_or_trial_status;insufficient_or_unavailable_data

@@ -1,0 +1,33 @@
+I have solid sourcing for a comprehensive list of primary RCTs comparing prophylactic versus selective (rescue) surfactant therapy in preterm infants. Here's a synthesis, organized by era, followed by the study list.
+
+## Summary of findings
+
+**Classic era trials (pre-CPAP-first-strategy, 1985–1997)**
+These trials generally compared prophylactic surfactant (given at or shortly after birth, before RDS is clinically evident) to rescue/selective treatment (given once RDS signs appear), in infants who were routinely intubated and ventilated as the prevailing standard of care. As summarized in the Cochrane review of this era, the majority of these studies found an initial improvement in respiratory status and a decrease in the incidence of RDS with prophylactic surfactant, and in animal models, prophylactic surfactant led to more homogeneous distribution and less lung damage than rescue treatment. Individual trials from this period include Merritt 1986, Kendig 1991, Dunn 1991, Egberts 1993, Kattwinkel 1993, Walti 1995, and the Bevilacqua trials (1993, 1996), among others noted as not routinely placing control infants on CPAP (i.e., true prophylaxis vs. true rescue in intubated infants) — Dunn 1991, Kendig 1991, Merritt 1991, Egberts 1993, Kattwinkel 1993, Walti 1995, Bevilacqua 1996, Bevilacqua 1997, and Iarŭkova 1999.
+
+**Modern CPAP-era trials (2009–2023)**
+As non-invasive respiratory support (nasal CPAP) became standard, the clinical question shifted: is it better to intubate for prophylactic surfactant, or manage on CPAP and give surfactant selectively only if the infant fails CPAP? A ScienceDirect review summarized this shift: initial trials compared prophylactic surfactant to placebo, showing a significant mortality reduction (RR 0.60) and reduced air leaks (RR 0.40), and subsequent trials then compared prophylactic surfactant against selective/targeted treatment strategies, though no RCTs have directly compared prophylactic treatment to early (<2–3h) selective treatment, with only observational cohorts addressing that specific comparison. Trials in this category include Rojas 2009, Sandri/CURPAP 2010, Dunn/Kaempf 2011, Kandraju 2013, and more recently the LISA-based pro.LISA trial and POPART trial testing prophylactic surfactant delivered via less-invasive routes.
+
+## List of primary studies (RCTs)
+
+1. **Merritt TA, Hallman M, Bloom BT, et al.** Prophylactic treatment of very premature infants with human surfactant. *N Engl J Med.* 1986;315(13):785-790.
+2. **Kendig JW, Notter RH, Cox C, et al.** A comparison of surfactant as immediate prophylaxis and as rescue therapy in newborns of less than 30 weeks' gestation. *N Engl J Med.* 1991;324:865-871.
+3. **Dunn MS, Shennan AT, Zayack D, Possmayer F.** Bovine surfactant replacement therapy in neonates of less than 30 weeks' gestation: a randomized controlled trial of prophylaxis versus treatment. *Pediatrics.* 1991;87:377-386.
+4. **Kattwinkel J, Bloom BT, Delmore P, et al.** Prophylactic administration of calf lung surfactant extract is more effective than early treatment of respiratory distress syndrome in neonates of 29-32 weeks' gestation. *Pediatrics.* 1993.
+5. **Egberts J, de Winter JP, Sedin G, et al.** Comparison of prophylaxis and rescue treatment with Curosurf in neonates less than 30 weeks' gestation: a randomized trial. *Pediatrics.* 1993;92:768-774.
+6. **Bevilacqua G, Halliday H, Parmigiani S, Robertson B.** Randomized multicentre trial of treatment with porcine natural surfactant for moderately severe neonatal respiratory distress syndrome. *J Perinat Med.* 1993;21:329-340.
+7. **Walti H, Paris-Llado J, Bréart G, Couchard M.** Porcine surfactant replacement therapy in newborns of 25-31 weeks' gestation: a randomized, multicentre trial of prophylaxis versus rescue with multiple low doses. *Acta Paediatr.* 1995;84:913-921.
+8. **Bevilacqua G, Parmigiani S, Robertson B.** Prophylaxis of respiratory distress syndrome by treatment with modified porcine surfactant at birth: a multicentre prospective randomized trial. *J Perinat Med.* 1996;24:609-620.
+9. **Egberts J, Brand R, Walti H, Bevilacqua G, Bréart G, Gardini F.** Mortality, severe respiratory distress syndrome, and chronic lung disease of the newborn are reduced more after prophylactic than after therapeutic administration of the surfactant Curosurf. *Pediatrics.* 1997;100:E4.
+10. **Rojas MA, Lozano JM, Rojas MX, et al.** Very early surfactant without mandatory ventilation in premature infants treated with early continuous positive airway pressure: a randomized, controlled trial. *Pediatrics.* 2009;123:137-142.
+11. **Sandri F, Plavka R, Ancora G, et al.** (CURPAP Study) Prophylactic or early selective surfactant combined with nCPAP in very preterm infants. *Pediatrics.* 2010;125(6):e1402-e1409.
+12. **Dunn MS, Kaempf J, de Klerk A, et al.** Randomized trial comparing 3 approaches to the initial respiratory management of preterm neonates. *Pediatrics.* 2011;128(5):e1069-e1076.
+13. **Kandraju H, Murki S, Subramanian S, Gaddam P, Deorari A, Kumar P.** Early routine versus late selective surfactant in preterm neonates with respiratory distress syndrome on nasal continuous positive airway pressure: a randomized controlled trial. *Neonatology.* 2013;103(2):148-154.
+14. **Göpel W, Rausch TK, Mitschdörfer B, et al.** A randomised controlled trial in preterm infants comparing prophylactic with selective "less invasive surfactant administration" (pro.LISA). *Trials.* 2023;24:612. (Protocol; safety results reported separately.)
+15. **Murphy MC, Miletin J, Klingenberg C, et al.** Prophylactic Oropharyngeal Surfactant for Preterm Newborns at Birth: A Randomized Clinical Trial (POPART). *JAMA Pediatr.* 2023;178(2):117-125.
+
+A few notes for your review:
+- Studies #1–9 reflect an earlier practice era when both arms were typically intubated/ventilated (true "prophylactic intubation + surfactant" vs. "rescue intubation + surfactant"); studies #10–15 reflect the modern CPAP-based comparisons (prophylactic intubate-and-treat vs. CPAP-with-selective-surfactant).
+- I excluded the Cochrane reviews, the network meta-analysis, and narrative/historical articles themselves, but used them only to identify and verify the primary trials above — you may want to pull full texts directly from PubMed/journal sites to confirm current outcome data, as some citations (e.g., pro.LISA) are protocol papers with results pending or reported in companion publications.
+
+A broader literature search across trial registries and additional databases could surface a few more recent or smaller trials (e.g., regional studies not indexed as prominently), if you want a fully exhaustive set for a systematic synthesis.

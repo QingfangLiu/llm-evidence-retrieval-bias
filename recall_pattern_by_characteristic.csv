@@ -1,0 +1,443 @@
+review,study_label,year,sample_size,citations_per_year,citation_count,is_open_access,recalled_by_claude,recalled_by_gemini,recalled_by_gpt,recall_pattern,recalled_by_patient,recalled_by_clinician,recalled_by_researcher,role_recall_pattern,design_raw,design_category
+CD000510,Bevilacqua 1996,1996,268,1.8,54,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD000510,Bevilacqua 1997,1997,93,0.52,15,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD000510,Dunn 1991,1991,122,3.63,127,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD000510,Dunn 2011,,432,,511,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD000510,Egberts 1993,1993,150,2.45,81,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD000510,Kattwinkel 1993,1993,1248,3.21,106,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD000510,Kendig 1991,1998,479,7.96,223,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD000510,Merritt 1991,1991,148,3.89,136,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD000510,SUPPORT 2010,,1316,,1029,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD000510,Walti 1995,1995,256,2.0,62,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD001452,Alcaraz Sanz 1998,1999,103,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD001452,Eriksson 1999,1999,60,2.59,70,0,1,1,1,All three,1,1,1,All three,randomized factorial trial,parallel-group RCT (or unspecified RCT)
+CD001452,Kvist 2002,2002,60,,,,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD001452,Larsson 1998,1998,97,4.57,128,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD001452,Ogawa 2005,2005,50,3.29,69,1,1,1,1,All three,1,1,1,All three,randomized factorial trial,parallel-group RCT (or unspecified RCT)
+CD001452,Saththasivam 2009,2009,60,0.41,7,0,1,1,1,All three,1,1,1,All three,controlled comparative study,other / controlled comparative study
+CD001452,Shah 1997,1997,27,3.31,96,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD001452,Shrestha 2012,2012,200,,,,1,1,1,All three,1,1,1,All three,controlled comparative study,other / controlled comparative study
+CD005354,Abate 2009,2009,401,0.82,14,0,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD005354,Aboulghar 2010,2010,84,0.75,12,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Andersen 2006,2006,731,15.8,316,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Antoine 2007,2006,151,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Arce 2014,2014,,14.58,175,1,1,0,0,Claude only,0,1,0,Clinician only,Cochrane-included study cluster,cluster-randomized
+CD005354,Baker 2009,2009,152,1.94,33,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Balasch 2003,2003,60,2.78,64,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Barakhoeva 2019,2019,110,3.0,21,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Bergh 1997,1997,235,6.86,199,1,1,0,1,Claude+GPT,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD005354,Bosch 2008,2008,280,5.78,104,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Chapon 2021,2020,168,0.67,4,1,1,1,0,Claude+Gemini,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Cheon 2004,2004,254,1.0,22,0,0,0,1,GPT only,0,1,0,Clinician only,Cochrane-included study cluster,cluster-randomized
+CD005354,Devroey 2012,2012,749,9.21,129,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Dickey 2002,2002,177,0.29,7,0,0,0,1,GPT only,1,0,1,Patient+Researcher,Cochrane-included study cluster,cluster-randomized
+CD005354,Dickey 2003,2003,120,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Drakakis 2002,2002,70,,,,1,0,0,Claude only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD005354,EUCTR2021-001785-38-ES,,300,,,,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,European and Israeli Study Group 2002,2002,781,,,,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Franco 2000,2000,120,1.04,27,1,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Frydman 2000,2000,278,1.0,26,0,0,0,1,GPT only,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Gallego 2003,2003,100,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Gholami 2010,2010,115,0.69,11,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Gordon 2001,2001,98,4.36,109,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Griesinger 2020,2020,,1.83,11,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Hedon 1995,1995,99,1.94,60,0,0,0,1,GPT only,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Hompes 2008,2007,629,4.47,85,1,1,1,0,Claude+Gemini,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD005354,Hoomans 1999,1999,169,2.15,58,1,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD005354,Hu 2020,2020,451,2.5,15,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Hu 2023,2023,354,1.67,5,0,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD005354,Hugues 2001,2001,88,,,,0,0,1,GPT only,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD005354,Ishihara 2021a,2021,348,10.6,53,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Ishihara 2021b,2021,,4.0,20,1,1,0,0,Claude only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD005354,Jansen 1998,1998,109,1.68,47,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Kilani 2003,2003,100,4.04,93,1,1,0,1,Claude+GPT,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD005354,Lenton 2000,2000,168,1.65,43,1,0,0,1,GPT only,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Liu 2015,2015,508,1.45,16,0,0,0,1,GPT only,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD005354,Meden-Vrtovec 2003,2003,131,,,,1,0,0,Claude only,0,1,0,Clinician only,Cochrane-included study cluster,cluster-randomized
+CD005354,Mohamed 2006,2006,257,1.8,36,1,1,0,1,Claude+GPT,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD005354,Moon 2007,2007,97,1.05,20,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Nardo 2000,2000,110,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,NCT00257556,2005,80,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,NCT01687712,2012,1100,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Ng 2001,2001,40,4.4,110,1,1,0,1,Claude+GPT,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD005354,Nyboe Andersen 2017,2017,1329,26.0,234,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Out 1995,1995,1027,6.74,209,0,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Pasqualini 2021,2021,100,0.8,4,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Qiao 2021,2021,1011,10.2,51,1,0,0,1,GPT only,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Rashidi 2005,2005,60,1.48,31,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Recombinant human FSH Study Group 1995,1995,123,,,,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD005354,Rettenbacher 2015,2015,372,6.0,66,1,1,0,1,Claude+GPT,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD005354,Schats 2000,2000,496,2.58,67,1,0,0,1,GPT only,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Selman 2002,2002,267,1.21,29,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD005354,Selman 2010,2010,125,2.06,33,1,1,0,0,Claude only,1,1,0,Patient+Clinician,Cochrane-included study cluster,cluster-randomized
+CD005354,Sohrabvand 2012,2012,160,0.64,9,0,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Strehler 2001,2001,578,3.2,80,1,0,0,1,GPT only,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Strowitzki 2016,2016,299,6.8,68,1,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD005354,Westergaard 2001,2001,379,5.52,138,1,0,0,1,GPT only,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD005354,Witz 2020,2020,620,6.67,40,1,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD005354,Ye 2012,2012,127,1.71,24,0,1,0,0,Claude only,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007654,Bakris 2002,2002,542,4.25,102,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD007654,Cocco 2005,2005,90,,,,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD007654,CONQUER 2013,2013,1305,67.54,878,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD007654,Guy-Grand 2004,2004,614,,,,0,0,1,GPT only,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD007654,Nissen 2016,2016,8283,24.6,246,1,1,0,1,Claude+GPT,1,1,1,All three,randomized cardiovascular-outcome trial,parallel-group RCT (or unspecified RCT)
+CD007654,STEP 1 2023,2022,274,799.75,3199,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD007654,SURMOUNT-1 2024,2024,635,1252.5,2505,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD007654,XENDOS 2001-2006,2004,844,89.68,1973,1,1,0,1,Claude+GPT,0,1,1,Clinician+Researcher,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD007912,Abbott 2013,2013,45,18.08,235,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Bendrik 2021,2021,37,3.8,19,1,0,0,1,GPT only,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD007912,Chopp-Hurley 2017,2017,9,2.89,26,0,0,1,1,Gemini+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,de Sire 2023,2023,20,1.0,3,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD007912,Fernandes 2010,2010,109,6.25,100,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Foley 2003,2003,18,16.48,379,1,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Fransen 2007,2007,20,,,,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,French 2013,2013,88,7.62,99,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Hall 2025,2025,196,12.0,12,0,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Hopman-Rock 2000,2000,24,,,,1,0,1,Claude+GPT,1,0,1,Patient+Researcher,Cochrane-included study cluster,cluster-randomized
+CD007912,Juhakoski 2011,2011,118,4.8,72,0,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Krauß 2014,2014,106,4.75,57,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Sandal 2019,2019,38,1.0,7,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD007912,Tak 2005,2005,109,8.19,172,0,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Teirlinck 2016,2016,203,4.4,44,1,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Thompson 2020,2020,41,2.17,13,0,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,van Baar 1998,1998,70,,,,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD007912,Weber 2024,2024,15,9.5,19,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Birgegard 2010,2010,120,3.31,53,0,0,0,1,GPT only,0,0,1,Researcher only,randomized comparative trial,parallel-group RCT (or unspecified RCT)
+CD009532,Blot 1980,1980,143,0.09,4,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Borch-Iohnsen 1993,1993,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Brittenham 1996,1996,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Bucher 1973,1973,119,0.09,5,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Busch 1972,1972,,0.06,3,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Buzi 1980,1980,64,0.07,3,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Cable 1988,1988,121,0.32,12,0,0,1,1,Gemini+GPT,1,1,1,All three,randomized placebo-controlled trial,parallel-group RCT (or unspecified RCT)
+CD009532,Dara 2017,2017,143,1.56,14,1,0,1,1,Gemini+GPT,1,0,1,Patient+Researcher,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Devasthali 1991,1991,97,1.46,51,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Ehn 1968,1968,,0.31,18,0,0,0,1,GPT only,0,0,1,Researcher only,controlled trial,other / controlled trial
+CD009532,Fontana 2014a (ISUB),2020,405,2.83,17,1,1,0,1,Claude+GPT,1,1,1,All three,randomized placebo-controlled trial,parallel-group RCT (or unspecified RCT)
+CD009532,Frykman 1994,1994,97,2.19,70,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Gordeuk 1987a,1987,70,1.1,43,0,0,0,1,GPT only,1,0,1,Patient+Researcher,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Gordeuk 1987b,1987,50,1.08,42,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Gordeuk 1990,1990,99,2.03,73,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Gybel-Brask 2018,2018,82,,,,0,0,1,GPT only,0,1,1,Clinician+Researcher,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Hod 2022 (DIDS),2022,79,5.25,21,1,1,1,0,Claude+Gemini,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Jacobs 1993,1993,90,0.94,31,0,0,0,1,GPT only,0,1,0,Clinician only,randomized comparative trial,parallel-group RCT (or unspecified RCT)
+CD009532,Jacobs 2000,2000,71,2.23,58,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Kiss 2015 (REDS-III HEIRS),2015,212,15.18,167,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Landucci 1987,1987,40,0.15,6,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Lieden 1975,1975,17,0.27,14,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Lindholm 1981,1981,433,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Linpisarn 1986,1986,98,0.07,3,0,0,0,1,GPT only,0,1,0,Clinician only,controlled trial,other / controlled trial
+CD009532,Macher 2016 (IronWoMan),2016,172,3.6,36,1,1,1,1,All three,1,1,1,All three,randomized comparative trial,parallel-group RCT (or unspecified RCT)
+CD009532,Mackintosh 1988,1988,46,0.55,21,0,0,1,0,Gemini only,0,1,0,Clinician only,randomized trial,parallel-group RCT (or unspecified RCT)
+CD009532,Maghsudlu 2008,2008,367,2.0,36,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Marks 2013 (FIRST),2013,282,2.23,29,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Mast 2016 (STRIDE),2016,416,5.6,56,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Mirrezaie 2008,2008,95,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Pachikian 2020,2020,34,1.5,9,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Radtke 2004a,2004,526,3.64,80,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Radtke 2004b,2004,236,1.59,35,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009532,Rosvik 2010,2010,314,1.0,16,1,0,0,1,GPT only,0,0,1,Researcher only,controlled trial,other / controlled trial
+CD009532,Rybo 1971,1971,1376,0.64,35,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Simon 1984,1984,63,1.05,44,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009532,Waldvogel 2012,2016,145,7.7,77,1,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009958,Bergstrom 2013,2013,647,5.69,74,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009958,Defloor 2005,2005,129,13.71,288,0,1,1,1,All three,1,1,1,All three,cluster-randomized trial,cluster-randomized
+CD009958,Ghezeljeh 2017,2017,80,,,,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009958,Jin 2024,2024,200,5.0,10,1,0,0,1,GPT only,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009958,Manzano 2014,2014,329,4.25,51,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009958,Moore 2011,2011,213,11.47,172,1,1,1,1,All three,1,1,1,All three,cluster-randomized trial,cluster-randomized
+CD009958,Moore 2013,2013,,3.92,51,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009958,Paulden 2014,2014,,0.5,6,0,1,0,0,Claude only,0,0,1,Researcher only,economic substudy,other / economic substudy
+CD009958,Pickham 2018,2018,1226,10.62,85,1,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009958,Tarigan 2021,2021,31,1.6,8,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD009958,Young 2004,2004,39,1.32,29,0,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009958,Zhang 2024,2024,277,2.0,4,1,0,0,1,GPT only,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD009958,Zhou 2014,2014,116,1.0,12,0,1,0,0,Claude only,1,0,1,Patient+Researcher,RCT,parallel-group RCT (or unspecified RCT)
+CD010051,Agarwal 2019,2019,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Akpek 2023,2023,834,20.0,60,1,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Altiparmak 2010,2010,90,1.69,27,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Baiza-Durán 2010,2010,,,,,0,0,1,GPT only,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD010051,Barreto 2009,,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Baudouin 2017,2017,492,10.44,94,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Brignole 2001,2001,,8.8,220,0,1,0,1,Claude+GPT,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD010051,Chen 2010,2010,233,3.69,59,0,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Chen 2019,2019,234,3.71,26,1,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Chung 2013,2013,,6.15,80,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Demiryay 2011,2011,42,3.4,51,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Eom 2023,2023,155,4.67,14,0,1,0,0,Claude only,1,0,0,Patient only,Cochrane-included study cluster,cluster-randomized
+CD010051,Fan 2003,2003,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Gao 2023,2023,30,8.0,24,1,0,1,1,Gemini+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Goldberg 2019,2019,745,14.57,102,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Gündüz 1994,1994,30,4.38,140,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Guzey 2009,2009,64,2.29,39,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Hao 2024,2024,74,2.0,4,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Jain 2007,2007,,1.05,20,0,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD010051,Jo 2022,2022,,3.75,15,1,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD010051,Jung 2023,2023,44,6.0,18,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Kang 2020,2020,36,7.0,42,0,1,0,0,Claude only,0,1,0,Clinician only,Cochrane-included study cluster,cluster-randomized
+CD010051,Kim 2009,,100,,172,0,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Kim 2017,2017,101,4.11,37,1,0,0,1,GPT only,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD010051,Kim 2023,2023,70,1.67,5,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Kudyar 2018,2018,69,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Laibovitz 1993,1993,,3.61,119,0,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Lee 2022,2022,220,2.5,10,1,1,0,0,Claude only,1,0,1,Patient+Researcher,Cochrane-included study cluster,cluster-randomized
+CD010051,Leonardi 2016,2016,245,17.7,177,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Liew 2012,2012,,6.29,88,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Ma 2015,2015,,,,,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD010051,Moon 2024,2024,35,5.0,10,1,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD010051,NCT01319773,,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,NCT04734197,,94,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Park 2017,2017,176,,,,0,0,1,GPT only,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD010051,Park 2019,2019,116,4.29,30,1,1,0,0,Claude only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD010051,Peng 2021,2021,121,2.8,14,0,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Peng 2022,2022,644,3.5,14,1,1,1,1,All three,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD010051,Peng 2024,2024,206,10.0,20,0,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Prabhasawat 2012,,70,,91,0,0,0,1,GPT only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD010051,Priani 2023,2023,19,2.33,7,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Rajpoot 2022,2022,467,2.25,9,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Rao 2010,2010,58,5.5,88,0,1,0,1,Claude+GPT,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD010051,Rao 2023,2023,192,4.0,12,1,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Rhim 2022,,51,,25,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Salib 2006,2006,,4.65,93,0,1,0,0,Claude only,0,1,0,Clinician only,Cochrane-included study cluster,cluster-randomized
+CD010051,Sall 2000,2000,585,15.85,412,0,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Sall 2006,2006,,3.05,61,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Schrell 2012,2012,62,0.71,10,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Shen 2020,2020,120,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Sheppard 2021,2021,328,9.8,49,1,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Shin 2021,2021,50,2.2,11,0,1,0,0,Claude only,0,0,1,Researcher only,Cochrane-included study cluster,cluster-randomized
+CD010051,Stevenson 2000,2000,97,6.54,170,0,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Tauber 2018,2018,304,7.88,63,1,1,1,1,All three,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Willen 2008,2008,44,2.67,48,0,1,0,1,Claude+GPT,0,1,1,Clinician+Researcher,Cochrane-included study cluster,cluster-randomized
+CD010051,Wirta 2019,2019,104,11.29,79,1,1,0,1,Claude+GPT,1,1,1,All three,Cochrane-included study cluster,cluster-randomized
+CD010051,Wu 2009,2009,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010051,Xu 2023,2023,188,2.67,8,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD010461,Esfahani 2016,2016,203,,,,1,0,1,Claude+GPT,1,1,1,All three,double-blind RCT,parallel-group RCT (or unspecified RCT)
+CD010461,Miller 2019,2019,2772,15.43,108,1,1,1,1,All three,1,1,1,All three,multicenter RCT,parallel-group RCT (or unspecified RCT)
+CD010461,Parmegiani 2012a,2012,100,4.86,68,1,1,0,0,Claude only,1,0,0,Patient only,RCT,parallel-group RCT (or unspecified RCT)
+CD010461,Worrilow 2013,2013,555,10.92,142,1,1,0,1,Claude+GPT,1,1,1,All three,multicenter RCT,parallel-group RCT (or unspecified RCT)
+CD010461,Yetkinel 2019,2019,122,9.0,63,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD012161,Dreyer 2005,2005,672,3.9,82,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,Ferguson 2001,2001,,2.08,52,1,0,1,1,Gemini+GPT,1,1,1,All three,randomized crossover trial,crossover RCT
+CD012161,Home 2000,2000,1065,9.42,245,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,Iwamoto 2001,2001,205,,,,0,0,1,GPT only,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,Kawamori 2009,2009,267,1.35,23,0,0,0,1,GPT only,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,Ma 2024,2024,354,7.5,15,1,0,0,1,GPT only,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,ONSET 1,,766,,163,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,ONSET 8,,684,,50,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,PRONTO-T1DM,,893,,78,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,Provenzano 2001,2001,12,0.8,20,0,0,0,1,GPT only,1,1,1,All three,randomized crossover trial,crossover RCT
+CD012161,Raskin 2000,2000,882,9.65,251,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,Recasens 2003,2003,45,1.26,29,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,Z011 2007,2007,167,5.42,103,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,Z013 2007,2007,169,5.42,103,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012161,Z015 2007,2007,98,5.42,103,0,0,1,1,Gemini+GPT,1,0,1,Patient+Researcher,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Allez 2023 (TRIDENT- Part 1),2023,145,2.33,7,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Allez 2023 (TRIDENT- Part 2),2023,196,2.33,7,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Buhl 2022 (STOP-IT),2022,115,6.5,26,0,1,0,0,Claude only,1,1,0,Patient+Clinician,randomized withdrawal trial,parallel-group RCT (or unspecified RCT)
+CD012751,Chen 2020,2020,205,4.33,26,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Chen 2025,2025,215,5.0,5,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Colombel 2007 (CHARM) - Induction (non-responders),2007,,120.74,2294,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Colombel 2007 (CHARM) - Maintenance (responders),2007,499,120.74,2294,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Colombel 2010 (SONIC),2010,339,186.62,2986,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Colombel 2023 - LIBERTY-CD,,325,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,D'Haens 1999 (refractory CD),1999,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,D'Haens 2008,2008,133,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,D'Haens 2022 (ADVANCE),2022,1117,,,,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Duan 2013,2013,16,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Feagan 2008c,2008,185,16.28,293,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Feagan 2015a (UNITI-1),2015,741,132.45,1457,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Feagan 2015b(UNITI-2),2016,628,145.7,1457,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Feagan 2015c (IM-UNITI),2015,397,18.18,200,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Feagan 2017,2017,121,45.11,406,1,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Ferrante 2022 - FORTIFY,2022,843,62.5,250,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Ferrante 2024 (VIVID-1),,,,81,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Ghosh 2003,2003,248,33.39,768,1,1,0,0,Claude only,1,0,0,Patient only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Gordon 2001,2001,30,3.16,79,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Hanauer 2002 (ACCENT I) - Induction (non-response),2002,,41.54,997,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Hanauer 2002 (ACCENT I) - Maintenence (Responders),2002,335,10.54,253,0,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Hanauer 2006 (CLASSIC I),2006,300,86.45,1729,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Hanauer 2021 (VOLTAIRE-CD),2021,147,7.8,39,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Hart 2025 (GRAVITI),,350,,36,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Jairath 2025 (RELIEVE UCCD),2019,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Jorgensen 2017 (NORSWITCH),2017,155,12.67,114,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Lemann 2006,2006,115,19.3,386,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Loftus 2023 (U-ENDURE),2023,502,102.33,307,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Loftus 2023 (U-EXCEED),2023,495,102.33,307,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Loftus 2023 (U-EXCEL),2023,526,102.33,307,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Louis 2023 - SPARE,2023,142,24.33,73,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Matsumoto 2016 (DIAMOND),2016,,21.3,213,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Panaccione 2022 (MOTIVATE),2022,569,,,,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Panaccione 2024 (GALAXI-2),2025,374,27.0,27,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Panaccione 2024 (GALAXI-3),2025,375,27.0,27,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Panes 2017 Induction,2017,280,37.78,340,1,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Panes 2017 Maintenance,2017,180,37.78,340,1,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Peyrin-Biroulet 2024 - SEQUENCE,2024,265,,,,1,1,1,All three,1,1,1,All three,randomized active-comparator trial,parallel-group RCT (or unspecified RCT)
+CD012751,Present 1999,1999,94,94.96,2564,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Röder 2021,2021,121,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Rutgeerts 1999,1999,73,40.74,1100,1,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Rutgeerts 2006,2006,207,3.35,67,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Rutgeerts 2012 (EXTEND),2012,129,40.14,562,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2001a,2001,169,9.84,246,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Sandborn 2001b,2001,43,38.0,950,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Sandborn 2005a (ENACT 1),2005,905,43.95,923,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2005a (ENACT 2),2005,428,43.95,923,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2007a,2007,325,0.0,0,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2007b (CLASSIC II),2007,55,53.0,1007,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2007c (PRECISE 1),2007,662,3.68,70,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2008 (Population 1),2008,104,43.0,774,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Sandborn 2011,2011,439,10.47,157,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Sandborn 2012 (CERTIFI) - Induction,2012,526,77.0,1078,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2012 (CERTIFI) - Induction (non-response),2012,219,77.0,1078,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2012 (CERTIFI) - Maintenance,2012,145,77.0,1078,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2013 (GEMINI II) - Induction,2013,368,160.62,2088,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2013 (GEMINI II) - Maintenance,2013,461,160.62,2088,1,1,1,1,All three,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2014,2017,139,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Sandborn 2020d (CELEST) - Induction,2020,220,46.67,280,1,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2022 - GALAXI 1,2022,288,42.75,171,1,1,1,1,All three,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2023 - BERGAMOT (cohort 1),2023,300,26.67,80,1,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2023 - BERGAMOT (cohort 3),2023,385,14.33,43,0,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sandborn 2023 - BERGAMOT Maintenance,2023,434,14.33,43,0,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sands 2004 (ACCENT II) Induction (Non-responders),2004,87,99.82,2196,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sands 2004 (ACCENT II) Maintenance (Responders),2004,195,99.82,2196,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sands 2007,2007,79,10.21,194,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Sands 2010,2010,220,6.5,104,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Sands 2014 (GEMINI III),2014,416,57.75,693,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sands 2022 (SEAVUE),2022,386,53.75,215,1,1,1,1,All three,1,1,1,All three,randomized active-comparator trial,parallel-group RCT (or unspecified RCT)
+CD012751,Sands 2022 (SERENITY),2022,191,31.0,124,1,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Schreiber 2005,2005,292,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Schreiber 2007 (PRECISE 2),2007,428,12.37,235,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Schreiber 2018a,2018,187,5.0,40,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Targan 1997,1997,108,6.38,185,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Targan 2007 (ENCORE),2007,509,33.26,632,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,VanAssche 2012 (SWITCH),2012,73,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Vermeire 2017 FITZROY  - induction,2017,174,40.11,361,0,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Vermeire 2017 FITZROY - induction non-responders,2017,,40.11,361,0,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Vermeire 2017 FITZROY - maintenance responders,2017,,40.11,361,0,0,0,1,GPT only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Vermeire 2021 (VISIBLE 2),2021,410,28.6,143,1,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Vermeire 2025 - DIVERSITY (maintenance),2025,335,12.0,12,1,0,0,1,GPT only,0,1,1,Clinician+Researcher,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Vermeire 2025 - DIVERSITY A,2025,707,12.0,12,1,0,0,1,GPT only,0,1,1,Clinician+Researcher,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Vermeire 2025 - DIVERSITY B,2025,665,12.0,12,1,0,0,1,GPT only,0,1,1,Clinician+Researcher,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Volkers 2017 - SIMILAR,2022,,9.0,36,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Watanabe 2012 - Induction,2012,90,9.14,128,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Watanabe 2012 - Maintenance,2012,50,9.14,128,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Watanabe 2020 - Induction,2020,157,7.5,45,1,1,0,0,Claude only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Watanabe 2020 - Maintenance,2020,24,7.5,45,1,1,0,0,Claude only,0,0,1,Researcher only,randomized controlled trial,parallel-group RCT (or unspecified RCT)
+CD012751,Winter 2004,2004,92,5.77,127,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Ye 2019,2019,220,24.43,171,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD012751,Young 2024 - iBaSS,2024,,1.5,3,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD013776,Babjuk 2005,2005,122,6.29,132,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Drăgoescu 2017,2017,113,3.56,32,0,0,0,1,GPT only,1,1,1,All three,parallel-group RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Filbeck 2002,2002,191,11.29,271,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Geavlete 2010,2010,136,3.94,63,0,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Geavlete 2012,2012,239,8.07,113,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Gkritsios 2014,2014,85,2.67,32,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Heer 2022,2022,426,13.25,53,1,1,1,1,All three,1,1,1,All three,pragmatic multicenter RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Hermann 2011,2011,145,10.4,156,1,1,0,1,Claude+GPT,1,1,1,All three,two-center RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Karaolides 2012,2012,86,3.64,51,0,1,0,1,Claude+GPT,0,1,1,Clinician+Researcher,RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Kriegmaier 2002,2002,,5.54,133,0,0,0,1,GPT only,0,1,1,Clinician+Researcher,multicenter phase III RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Neuzillet 2014,2014,151,2.58,31,0,0,0,1,GPT only,0,0,1,Researcher only,bicenter RCT,parallel-group RCT (or unspecified RCT)
+CD013776,O’Brien 2013,2013,93,6.0,78,0,1,0,1,Claude+GPT,1,1,1,All three,single-center RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Riedl 2001,2001,102,0.12,3,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Rolevich 2017,2017,525,3.56,32,0,0,0,1,GPT only,1,1,1,All three,factorial RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Schumacher 2010,2010,279,7.81,125,0,1,0,1,Claude+GPT,1,1,1,All three,multicenter RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Stenzl 2010,2010,726,19.12,306,1,1,1,1,All three,1,1,1,All three,international multicenter RCT,parallel-group RCT (or unspecified RCT)
+CD013776,Stenzl 2011,2011,370,5.67,85,0,1,0,1,Claude+GPT,1,1,1,All three,double-blind placebo-controlled RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Alsabbagh 2012,2012,94,1.79,25,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015136,Bosworth 2018,2018,371,4.62,37,0,0,0,1,GPT only,0,0,1,Researcher only,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Bynum 2001,2001,36,5.32,133,0,1,0,0,Claude only,0,0,1,Researcher only,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Gautier 2021,2021,77,5.0,25,0,0,0,1,GPT only,0,1,1,Clinician+Researcher,randomized comparative study,parallel-group RCT (or unspecified RCT)
+CD015136,Gonzales 2021,2021,,6.8,34,1,0,0,1,GPT only,0,1,1,Clinician+Researcher,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Hoda 2023,2023,97,,,,0,0,1,GPT only,0,0,1,Researcher only,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Hussain 2024,2024,,,,,0,0,1,GPT only,0,0,1,Researcher only,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Ibrahim 2022,2022,233,3.0,12,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Ihekoronye 2024,2024,301,,,,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Kosse 2019,2019,234,21.29,149,1,0,0,1,GPT only,0,1,1,Clinician+Researcher,cluster RCT,cluster-randomized
+CD015136,Lauffenburger 2019,2019,1362,6.43,45,1,0,0,1,GPT only,1,1,1,All three,pragmatic RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Margolis 2013,2013,370,41.77,543,1,1,1,1,All three,1,1,1,All three,cluster RCT,cluster-randomized
+CD015136,Mozu 2023,2023,116,2.0,6,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Odegard 2012,2012,,3.07,43,0,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Powers 1983,1983,16,0.3,13,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015136,Salmany 2018,2018,332,2.38,19,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015136,Sarayani 2018,2018,94,8.38,67,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Scala 2018,2018,164,3.5,28,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015136,Shdaifat 2022,2022,84,5.75,23,0,0,0,1,GPT only,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Sudas Na Ayutthaya 2018,2018,50,2.12,17,1,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015136,Young 2012,2012,,4.36,61,1,1,1,1,All three,1,1,1,All three,pilot RCT,parallel-group RCT (or unspecified RCT)
+CD015156,Alfaro-Santafa 2021,2021,208,,,,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015156,James 2016,2016,124,3.5,35,0,1,1,1,All three,1,1,1,All three,factorial RCT,parallel-group RCT (or unspecified RCT)
+CD015156,Kuyucu 2017,2017,22,1.44,13,1,1,1,1,All three,1,1,1,All three,sham-controlled RCT,parallel-group RCT (or unspecified RCT)
+CD015156,Nakase 2020,2020,43,2.83,17,0,1,1,1,All three,1,1,1,All three,double-blind RCT,parallel-group RCT (or unspecified RCT)
+CD015156,Perhamre 2011a,2011,44,2.87,43,0,1,1,1,All three,1,1,1,All three,randomized crossover trial,crossover RCT
+CD015156,Perhamre 2012,2012,30,2.57,36,0,1,1,1,All three,1,1,1,All three,comparative mechanistic study,other / comparative mechanistic study
+CD015156,Reesman 2024,,31,,,,1,0,1,Claude+GPT,1,1,1,All three,terminated three-arm RCT,parallel-group RCT (or unspecified RCT)
+CD015156,Sweeney 2023,2023,43,1.67,5,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015156,Topol 2011,2011,43,5.0,75,1,1,1,1,All three,1,1,1,All three,randomized comparative trial,parallel-group RCT (or unspecified RCT)
+CD015156,Wiegerinck 2016,2016,66,3.4,34,0,1,1,1,All three,1,1,1,All three,three-arm pragmatic RCT,parallel-group RCT (or unspecified RCT)
+CD015186,Arimura 2023,2023,58,,,,1,0,1,Claude+GPT,1,1,1,All three,randomized clinical trial,parallel-group RCT (or unspecified RCT)
+CD015186,Babighian 2010,2010,30,4.75,76,0,0,0,1,GPT only,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015186,Falkenberry 2020,2020,166,11.67,70,0,1,1,1,All three,0,1,1,Clinician+Researcher,RCT,parallel-group RCT (or unspecified RCT)
+CD015186,Goldberg 2024,2024,72,,,,1,0,1,Claude+GPT,0,1,1,Clinician+Researcher,RCT,parallel-group RCT (or unspecified RCT)
+CD015186,Kicinska 2023,2023,48,4.33,13,1,0,0,1,GPT only,0,1,1,Clinician+Researcher,randomized trial,parallel-group RCT (or unspecified RCT)
+CD015186,Maheshwari 2023,2024,114,11.5,23,0,0,0,1,GPT only,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015186,Quaranta 1999,1999,32,0.89,24,0,0,0,1,GPT only,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015186,Sato 2018,2018,18,3.0,24,1,0,0,1,GPT only,1,1,1,All three,pilot RCT,parallel-group RCT (or unspecified RCT)
+CD015186,Ting 2018,2018,18,4.0,32,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015186,Yin 2024,2024,77,9.0,18,0,1,0,1,Claude+GPT,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015264,Areekul 1979,1979,8,0.06,3,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Benjamin 1952,1952,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Chinnock 1952,1952,,0.12,9,0,0,0,1,GPT only,1,0,1,Patient+Researcher,quasi-randomized trial,parallel-group RCT (or unspecified RCT)
+CD015264,Craigmile 1956,1956,47,0.01,1,0,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Deshmukh 2010,2010,35,3.38,54,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Fukui 1959,1959,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Gutiérrez-Diaz 1959,1959,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Kudo 1962,1962,40,0.03,2,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Murakami 1962,1962,200,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Scaglione 1955,1955,,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Scrimshaw 1953,1953,,0.12,9,1,0,0,1,GPT only,1,0,1,Patient+Researcher,controlled school supplementation study,other / controlled school supplementation study
+CD015264,Scrimshaw 1959,1959,,0.18,12,1,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD015264,Shimazono 1963,1963,184,0.02,1,1,0,0,1,GPT only,0,0,1,Researcher only,controlled trial,other / controlled trial
+CD015264,Strand 2020,2020,573,8.33,50,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015264,Taneja 2013,2013,501,4.92,64,1,1,1,1,All three,1,1,1,All three,factorial RCT,parallel-group RCT (or unspecified RCT)
+CD015264,Yajnik 2021,2021,109,1.2,6,1,1,0,0,Claude only,0,0,1,Researcher only,RCT,parallel-group RCT (or unspecified RCT)
+CD015898,Avdic 2016,2016,301,0.7,7,0,0,1,1,Gemini+GPT,1,1,1,All three,single-center controlled before-after study,other / single-center controlled before-after study
+CD015898,Berger 2011,2011,139,6.07,91,1,1,1,1,All three,1,1,1,All three,single-center controlled before-after study,other / single-center controlled before-after study
+CD015898,Bowman 2019,2019,273,2.14,15,1,1,1,1,All three,1,1,1,All three,single-center controlled before-after study,other / single-center controlled before-after study
+CD015898,Byun 2023,2023,77,2.0,6,0,0,0,1,GPT only,1,1,1,All three,single-center factorial RCT,parallel-group RCT (or unspecified RCT)
+CD015898,Chantepie 2017,2017,312,1.22,11,0,1,1,1,All three,1,1,1,All three,single-center controlled before-after study,other / single-center controlled before-after study
+CD015898,Chantepie 2023,2023,245,3.67,11,0,1,0,1,Claude+GPT,1,1,1,All three,multicenter RCT,parallel-group RCT (or unspecified RCT)
+CD015898,Hamm 2021,2021,66,3.6,18,0,1,1,1,All three,1,1,1,All three,single-center RCT,parallel-group RCT (or unspecified RCT)
+CD015898,Khodabux 2009,2009,,0.94,16,0,0,0,1,GPT only,1,1,1,All three,two-center controlled before-after study,other / two-center controlled before-after study
+CD015898,Lamarche 2019,2019,134,1.43,10,0,0,0,1,GPT only,1,0,0,Patient only,single-center controlled before-after study,other / single-center controlled before-after study
+CD015898,Maitland 2019,2019,,7.57,53,1,1,0,1,Claude+GPT,1,1,1,All three,multicenter factorial RCT,parallel-group RCT (or unspecified RCT)
+CD015898,Marco-Ayala 2024,2024,340,1.5,3,1,0,0,1,GPT only,1,1,1,All three,single-center controlled before-after study,other / single-center controlled before-after study
+CD015898,Wong 2005,2005,,0.62,13,0,1,0,1,Claude+GPT,1,1,1,All three,single-center RCT,parallel-group RCT (or unspecified RCT)
+CD015934,Akbarpour 2010,2010,32,,,,0,0,1,GPT only,1,1,1,All three,double-blind placebo-controlled RCT,parallel-group RCT (or unspecified RCT)
+CD015934,Brown 2021,2021,353,4.8,24,1,1,1,1,All three,1,1,1,All three,cluster-randomized trial,cluster-randomized
+CD015934,Chan 2020,2020,,0.83,5,0,0,0,1,GPT only,1,1,1,All three,cluster-randomized parallel study,cluster-randomized
+CD015934,Chen 2013,2013,184,2.08,27,1,0,0,1,GPT only,1,1,1,All three,double-blind active-comparator RCT,parallel-group RCT (or unspecified RCT)
+CD015934,Gelkopf 2012,2012,53,2.36,33,0,1,0,1,Claude+GPT,1,1,1,All three,randomized controlled study,parallel-group RCT (or unspecified RCT)
+CD015934,Hickman 2015,2015,100,3.18,35,1,1,0,1,Claude+GPT,1,1,1,All three,randomized feasibility trial,parallel-group RCT (or unspecified RCT)
+CD015934,Metse 2017,2017,754,4.89,44,1,1,1,1,All three,1,1,1,All three,multisite RCT,parallel-group RCT (or unspecified RCT)
+CD015934,Prochaska 2014,2014,224,12.42,149,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015934,Stockings 2014,2014,205,4.42,53,1,1,1,1,All three,1,1,1,All three,RCT,parallel-group RCT (or unspecified RCT)
+CD015934,Tavakoli-Ardakani 2023,2023,47,0.33,1,0,0,1,1,Gemini+GPT,1,1,1,All three,open-label active-comparator RCT,parallel-group RCT (or unspecified RCT)
+CD016085,Avidzba 2024,2024,69,,,,0,0,0,Not recalled,0,0,0,Not recalled,,(no curated design; study was never named by a response)
+CD016085,BP-TARGET,2021,318,27.2,136,0,1,1,1,All three,1,1,1,All three,multicenter RCT,parallel-group RCT (or unspecified RCT)
+CD016085,CLEVER,2026,80,1.0,1,0,1,0,1,Claude+GPT,1,1,1,All three,single-center RCT,parallel-group RCT (or unspecified RCT)
+CD016085,DETECT,2024,30,8.0,16,1,1,0,1,Claude+GPT,1,1,1,All three,single-center feasibility RCT,parallel-group RCT (or unspecified RCT)
+CD016085,ENCHANTED,2019,2196,56.29,394,1,1,1,1,All three,1,1,1,All three,multicenter phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016085,ENCHANTED2/MT,2022,816,36.25,145,1,1,1,1,All three,1,1,1,All three,multicenter phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016085,IDENTIFY,2025,383,12.0,12,0,1,0,1,Claude+GPT,1,1,1,All three,multicenter RCT,parallel-group RCT (or unspecified RCT)
+CD016085,OPTIMAL-BP,2023,305,49.67,149,1,1,1,1,All three,1,1,1,All three,multicenter RCT,parallel-group RCT (or unspecified RCT)
+CD016085,The BEST-II,2023,120,36.67,110,1,1,1,1,All three,1,1,1,All three,multicenter phase II RCT,parallel-group RCT (or unspecified RCT)
+CD016104,AEGEAN,2023,382,182.0,546,1,1,1,1,All three,1,1,1,All three,phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016104,CCTG BR.31,2024,,,,,1,0,1,Claude+GPT,1,1,1,All three,phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016104,CHECKMATE-77T,2024,259,202.5,405,1,1,1,1,All three,1,1,1,All three,phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016104,CHECKMATE-816,2022,182,511.5,2046,1,1,1,1,All three,1,1,1,All three,phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016104,IMPOWER-010,2021,189,218.8,1094,0,1,1,1,All three,1,1,1,All three,phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016104,KEYNOTE-671,2023,362,253.33,760,1,1,1,1,All three,1,1,1,All three,phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016104,NADIM-II,2023,39,125.0,375,1,1,0,1,Claude+GPT,1,1,1,All three,phase II RCT,parallel-group RCT (or unspecified RCT)
+CD016104,NEOTORCH,2024,,174.0,348,1,1,0,1,Claude+GPT,1,1,1,All three,phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016104,PEARLS/ KEYNOTE-091,2022,,135.25,541,0,1,1,1,All three,1,1,1,All three,phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016104,RATIONALE-315,2025,181,114.0,114,0,1,0,1,Claude+GPT,1,1,1,All three,phase III RCT,parallel-group RCT (or unspecified RCT)
+CD016104,TD-FOREKNOW,2023,25,32.33,97,1,0,0,1,GPT only,1,1,1,All three,phase II RCT,parallel-group RCT (or unspecified RCT)

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="963.037944pt" height="649.811125pt" viewBox="0 0 963.037944 649.811125" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-27T16:32:21.039436</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 649.811125
+L 963.037944 649.811125
+L 963.037944 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 122.0016 611.149375
+L 341.066593 611.149375
+L 341.066593 24.925375
+L 122.0016 24.925375
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 122.0016 78.218466
+L 341.066593 78.218466
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 122.0016 131.511557
+L 341.066593 131.511557
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 122.0016 184.804648
+L 341.066593 184.804648
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 122.0016 238.097739
+L 341.066593 238.097739
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 122.0016 291.39083
+L 341.066593 291.39083
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 122.0016 344.68392
+L 341.066593 344.68392
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 122.0016 397.977011
+L 341.066593 397.977011
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 122.0016 451.270102
+L 341.066593 451.270102
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 122.0016 504.563193
+L 341.066593 504.563193
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 122.0016 557.856284
+L 341.066593 557.856284
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 122.0016 611.149375
+L 341.066593 611.149375
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_12">
+      <path d="M 122.0016 611.149375
+L 122.0016 24.925375
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <defs>
+       <path id="m72cc4f7148" d="M 0 0
+L 0 3
+" style="stroke: #20252b; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m72cc4f7148" x="122.0016" y="611.149375" style="fill: #20252b; stroke: #20252b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="122.0016" y="626.7675" transform="rotate(-0 122.0016 626.7675)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_14">
+      <path d="M 161.120349 611.149375
+L 161.120349 24.925375
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m72cc4f7148" x="161.120349" y="611.149375" style="fill: #20252b; stroke: #20252b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="161.120349" y="626.7675" transform="rotate(-0 161.120349 626.7675)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_16">
+      <path d="M 200.239097 611.149375
+L 200.239097 24.925375
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m72cc4f7148" x="200.239097" y="611.149375" style="fill: #20252b; stroke: #20252b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="200.239097" y="626.7675" transform="rotate(-0 200.239097 626.7675)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_18">
+      <path d="M 239.357846 611.149375
+L 239.357846 24.925375
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m72cc4f7148" x="239.357846" y="611.149375" style="fill: #20252b; stroke: #20252b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="239.357846" y="626.7675" transform="rotate(-0 239.357846 626.7675)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_20">
+      <path d="M 278.476595 611.149375
+L 278.476595 24.925375
+" clip-path="url(#p2f23dfbe67)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#m72cc4f7148" x="278.476595" y="611.149375" style="fill: #20252b; stroke: #20252b; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font: 12px 'DejaVu Sans'; text-anchor: middle" x="278.476595" y="626.7675" transform="rotate(-0 278.476595 626.7675)">40</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="fill: #20252b; font: 12.8px 'DejaVu Sans'; text-anchor: middle" x="231.534096" y="644.989125" transform="rotate(-0 231.534096 644.989125)">Cited excluded studies, n</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_22"/>
+     <g id="text_7">
+      <text style="font: 11.84px 'DejaVu Sans'; text-anchor: end" x="116.0016" y="56.070195" transform="rotate(-0 116.0016 56.070195)">Study design</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_23"/>
+     <g id="text_8">
+      <text style="font: 11.84px 'DejaVu Sans'; text-anchor: end" x="116.0016" y="109.363286" transform="rotate(-0 116.0016 109.363286)">Intervention</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_24"/>
+     <g id="text_9">
+      <text style="font: 11.84px 'DejaVu Sans'; text-anchor: end" x="116.0016" y="162.656377" transform="rotate(-0 116.0016 162.656377)">Comparator</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_25"/>
+     <g id="text_10">
+      <text style="font: 11.84px 'DejaVu Sans'; text-anchor: end" x="116.0016" y="215.949468" transform="rotate(-0 116.0016 215.949468)">Population</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_26"/>
+     <g id="text_11">
+      <text style="font: 11.84px 'DejaVu Sans'" transform="translate(34.60345 263.513109)">Insufficient or</text>
+      <text style="font: 11.84px 'DejaVu Sans'" transform="translate(17.11725 276.771319)">unavailable data</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_27"/>
+     <g id="text_12">
+      <text style="font: 11.84px 'DejaVu Sans'; text-anchor: end" x="116.0016" y="322.53565" transform="rotate(-0 116.0016 322.53565)">Timing or follow-up</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_28"/>
+     <g id="text_13">
+      <text style="font: 11.84px 'DejaVu Sans'" transform="translate(35.15105 370.099291)">Publication or</text>
+      <text style="font: 11.84px 'DejaVu Sans'" transform="translate(52.517 383.357501)">trial status</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_29"/>
+     <g id="text_14">
+      <text style="font: 11.84px 'DejaVu Sans'; text-anchor: end" x="116.0016" y="429.121832" transform="rotate(-0 116.0016 429.121832)">Setting</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_30"/>
+     <g id="text_15">
+      <text style="font: 11.84px 'DejaVu Sans'" transform="translate(46.8042 476.685473)">Unspecified</text>
+      <text style="font: 11.84px 'DejaVu Sans'" transform="translate(62.29795 489.943683)">eligibility</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_31"/>
+     <g id="text_16">
+      <text style="font: 11.84px 'DejaVu Sans'; text-anchor: end" x="116.0016" y="535.708014" transform="rotate(-0 116.0016 535.708014)">Outcome</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_32"/>
+     <g id="text_17">
+      <text style="font: 11.84px 'DejaVu Sans'; text-anchor: end" x="116.0016" y="589.001105" transform="rotate(-0 116.0016 589.001105)">Unit of analysis</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 122.0016 611.149375
+L 341.066593 611.149375
+" style="fill: none; stroke: #20252b; stroke-width: 0.75; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 122.0016 36.116924
+L 266.74097 36.116924
+L 266.74097 67.026917
+L 122.0016 67.026917
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 122.0016 89.410015
+L 255.005346 89.410015
+L 255.005346 120.320008
+L 122.0016 120.320008
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 122.0016 142.703106
+L 231.534096 142.703106
+L 231.534096 173.613099
+L 122.0016 173.613099
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 122.0016 195.996197
+L 219.798472 195.996197
+L 219.798472 226.90619
+L 122.0016 226.90619
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 122.0016 249.289288
+L 180.679723 249.289288
+L 180.679723 280.19928
+L 122.0016 280.19928
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 122.0016 302.582379
+L 165.032224 302.582379
+L 165.032224 333.492371
+L 122.0016 333.492371
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 122.0016 355.87547
+L 153.296599 355.87547
+L 153.296599 386.785462
+L 122.0016 386.785462
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 122.0016 409.16856
+L 145.472849 409.16856
+L 145.472849 440.078553
+L 122.0016 440.078553
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 122.0016 462.461651
+L 141.560974 462.461651
+L 141.560974 493.371644
+L 122.0016 493.371644
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 122.0016 515.754742
+L 129.82535 515.754742
+L 129.82535 546.664735
+L 122.0016 546.664735
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 122.0016 569.047833
+L 129.82535 569.047833
+L 129.82535 599.957826
+L 122.0016 599.957826
+z
+" clip-path="url(#p2f23dfbe67)" style="fill: #303942; stroke: #20252b; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_18">
+    <text style="fill: #20252b; font: 700 16.8px 'DejaVu Sans'; text-anchor: start" x="122.0016" y="14.925375" transform="rotate(-0 122.0016 14.925375)">A  Exclusion category</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="269.479283" y="54.83902" transform="rotate(-0 269.479283 54.83902)">37/142 (26.1%)</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="257.743658" y="108.132111" transform="rotate(-0 257.743658 108.132111)">34/142 (23.9%)</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="234.272409" y="161.425202" transform="rotate(-0 234.272409 161.425202)">28/142 (19.7%)</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="222.536784" y="214.718293" transform="rotate(-0 222.536784 214.718293)">25/142 (17.6%)</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="183.418035" y="268.011384" transform="rotate(-0 183.418035 268.011384)">15/142 (10.6%)</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="167.770536" y="321.304475" transform="rotate(-0 167.770536 321.304475)">11/142 (7.7%)</text>
+   </g>
+   <g id="text_25">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="156.034911" y="374.597566" transform="rotate(-0 156.034911 374.597566)">8/142 (5.6%)</text>
+   </g>
+   <g id="text_26">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="148.211162" y="427.890657" transform="rotate(-0 148.211162 427.890657)">6/142 (4.2%)</text>
+   </g>
+   <g id="text_27">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="144.299287" y="481.183748" transform="rotate(-0 144.299287 481.183748)">5/142 (3.5%)</text>
+   </g>
+   <g id="text_28">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="132.563662" y="534.476839" transform="rotate(-0 132.563662 534.476839)">2/142 (1.4%)</text>
+   </g>
+   <g id="text_29">
+    <text style="fill: #20252b; font: 700 11.84px 'DejaVu Sans'; text-anchor: start" x="132.563662" y="587.76993" transform="rotate(-0 132.563662 587.76993)">2/142 (1.4%)</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_15">
+    <path d="M 357.800724 611.149375
+L 747.2496 611.149375
+L 747.2496 24.925375
+L 357.800724 24.925375
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_33">
+    <path d="M 357.800724 78.218466
+L 747.2496 78.218466
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_34">
+    <path d="M 357.800724 131.511557
+L 747.2496 131.511557
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_35">
+    <path d="M 357.800724 184.804648
+L 747.2496 184.804648
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_36">
+    <path d="M 357.800724 238.097739
+L 747.2496 238.097739
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_37">
+    <path d="M 357.800724 291.39083
+L 747.2496 291.39083
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_38">
+    <path d="M 357.800724 344.68392
+L 747.2496 344.68392
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_39">
+    <path d="M 357.800724 397.977011
+L 747.2496 397.977011
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_40">
+    <path d="M 357.800724 451.270102
+L 747.2496 451.270102
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_41">
+    <path d="M 357.800724 504.563193
+L 747.2496 504.563193
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_42">
+    <path d="M 357.800724 557.856284
+L 747.2496 557.856284
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_43">
+    <path d="M 357.800724 611.149375
+L 747.2496 611.149375
+" clip-path="url(#p06c6f6c2b5)" style="fill: none; stroke: #e5e7e9; stroke-width: 0.65; stroke-linecap: square"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6"/>
+    <g id="xtick_7"/>
+    <g id="xtick_8"/>
+    <g id="xtick_9"/>
+    <g id="xtick_10"/>
+    <g id="xtick_11"/>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_12"/>
+    <g id="ytick_13"/>
+    <g id="ytick_14"/>
+    <g id="ytick_15"/>
+    <g id="ytick_16"/>
+    <g id="ytick_17"/>
+    <g id="ytick_18"/>
+    <g id="ytick_19"/>
+    <g id="ytick_20"/>
+    <g id="ytick_21"/>
+    <g id="ytick_22"/>
+   </g>
+   <g id="text_30">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="43.073521" transform="rotate(-0 357.800724 43.073521)">Rathleff 2020</text>
+   </g>
+   <g id="text_31">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="43.073521" transform="rotate(-0 498.002319 43.073521)">Prospective cohort study rather than a randomized trial.</text>
+   </g>
+   <g id="text_32">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="54.26507" transform="rotate(-0 357.800724 54.26507)">Perhamre 2011</text>
+   </g>
+   <g id="text_33">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="54.26507" transform="rotate(-0 498.002319 54.26507)">Cohort study rather than a randomized trial.</text>
+   </g>
+   <g id="text_34">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="65.38037" transform="rotate(-0 357.800724 65.38037)">Logan 1999</text>
+   </g>
+   <g id="text_35">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="65.45662" transform="rotate(-0 498.002319 65.45662)">Newborn-screening venepuncture versus heel prick study was not randomized.</text>
+   </g>
+   <g id="text_36">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="96.366612" transform="rotate(-0 357.800724 96.366612)">Bennell 2014</text>
+   </g>
+   <g id="text_37">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="96.366612" transform="rotate(-0 498.002319 96.366612)">Multimodal hip-osteoarthritis therapy did not isolate the effect of exercise.</text>
+   </g>
+   <g id="text_38">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="107.558161" transform="rotate(-0 357.800724 107.558161)">Boostanfar 2010</text>
+   </g>
+   <g id="text_39">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="107.558161" transform="rotate(-0 498.002319 107.558161)">Corifollitropin alfa was outside the review's eligible intervention.</text>
+   </g>
+   <g id="text_40">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="118.711585" transform="rotate(-0 357.800724 118.711585)">Bjørke-Monsen 2011</text>
+   </g>
+   <g id="text_41">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="118.74971" transform="rotate(-0 498.002319 118.74971)">Vitamin B12 was given by intramuscular injection—an ineligible route.</text>
+   </g>
+   <g id="text_42">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="149.659703" transform="rotate(-0 357.800724 149.659703)">CURPAP (Sandri 2010)</text>
+   </g>
+   <g id="text_43">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="149.659703" transform="rotate(-0 498.002319 149.659703)">Control received early surfactant after CPAP failure—not eligible selective surfactant.</text>
+   </g>
+   <g id="text_44">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="160.851252" transform="rotate(-0 357.800724 160.851252)">Green 2008</text>
+   </g>
+   <g id="text_45">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="160.851252" transform="rotate(-0 498.002319 160.851252)">Home BP monitoring, web communication and pharmacist care used an ineligible comparator.</text>
+   </g>
+   <g id="text_46">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="172.042801" transform="rotate(-0 357.800724 172.042801)">Bieler 2017</text>
+   </g>
+   <g id="text_47">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="172.042801" transform="rotate(-0 498.002319 172.042801)">Compared Nordic walking with strength and home exercise; there was no eligible control.</text>
+   </g>
+   <g id="text_48">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="202.909332" transform="rotate(-0 357.800724 202.909332)">SELECT (Ryan 2020)</text>
+   </g>
+   <g id="text_49">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="202.952794" transform="rotate(-0 498.002319 202.952794)">Mixed normotensive/hypertensive population; hypertensive subgroup results were insufficient.</text>
+   </g>
+   <g id="text_50">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="214.144343" transform="rotate(-0 357.800724 214.144343)">TEAM-UP (Yap 2022)</text>
+   </g>
+   <g id="text_51">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="214.144343" transform="rotate(-0 498.002319 214.144343)">Six nursing-home participants had a pressure injury at baseline despite PI-free eligibility.</text>
+   </g>
+   <g id="text_52">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="225.335892" transform="rotate(-0 357.800724 225.335892)">Vanderwee 2007</text>
+   </g>
+   <g id="text_53">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="225.335892" transform="rotate(-0 498.002319 225.335892)">Included participants with a pre-existing stage 1 pressure injury.</text>
+   </g>
+   <g id="text_54">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="256.202422" transform="rotate(-0 357.800724 256.202422)">SELECT (Ryan 2020)</text>
+   </g>
+   <g id="text_55">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="256.245885" transform="rotate(-0 498.002319 256.245885)">Hypertensive-subgroup results were absent or insufficient.</text>
+   </g>
+   <g id="text_56">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="267.437434" transform="rotate(-0 357.800724 267.437434)">SCALE 2014</text>
+   </g>
+   <g id="text_57">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="267.437434" transform="rotate(-0 498.002319 267.437434)">Hypertensive-subgroup results were absent or insufficient.</text>
+   </g>
+   <g id="text_58">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="278.628983" transform="rotate(-0 357.800724 278.628983)">SCOUT 2010</text>
+   </g>
+   <g id="text_59">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="278.628983" transform="rotate(-0 498.002319 278.628983)">Hypertensive-subgroup results were absent or insufficient.</text>
+   </g>
+   <g id="text_60">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="309.538976" transform="rotate(-0 357.800724 309.538976)">CURPAP (Sandri 2010)</text>
+   </g>
+   <g id="text_61">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="309.538976" transform="rotate(-0 498.002319 309.538976)">Control received surfactant early after CPAP failure rather than selectively.</text>
+   </g>
+   <g id="text_62">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="320.6924" transform="rotate(-0 357.800724 320.6924)">Rojas 2009</text>
+   </g>
+   <g id="text_63">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="320.730525" transform="rotate(-0 498.002319 320.730525)">Surfactant was given very early after respiratory-distress signs—not prophylactically.</text>
+   </g>
+   <g id="text_64">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="331.922074" transform="rotate(-0 357.800724 331.922074)">Villadsen 2014</text>
+   </g>
+   <g id="text_65">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="331.922074" transform="rotate(-0 498.002319 331.922074)">Hip-osteoarthritis exercise was delivered in an ineligible perioperative context.</text>
+   </g>
+   <g id="text_66">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="362.832067" transform="rotate(-0 357.800724 362.832067)">Battista 2017</text>
+   </g>
+   <g id="text_67">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="362.832067" transform="rotate(-0 498.002319 362.832067)">The randomized trial report was retracted.</text>
+   </g>
+   <g id="text_68">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="374.023616" transform="rotate(-0 357.800724 374.023616)">Das 2017</text>
+   </g>
+   <g id="text_69">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="374.023616" transform="rotate(-0 498.002319 374.023616)">Secondary analysis of data already reported by two included randomized trials.</text>
+   </g>
+   <g id="text_70">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="385.215165" transform="rotate(-0 357.800724 385.215165)">Prochaska 2009</text>
+   </g>
+   <g id="text_71">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="385.215165" transform="rotate(-0 498.002319 385.215165)">Protocol only; full results were represented by an included study.</text>
+   </g>
+   <g id="text_72">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="416.125158" transform="rotate(-0 357.800724 416.125158)">Grossmann 2007</text>
+   </g>
+   <g id="text_73">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="416.125158" transform="rotate(-0 498.002319 416.125158)">Bladder fluorescence cystoscopy was performed in an ineligible surveillance setting.</text>
+   </g>
+   <g id="text_74">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="427.316707" transform="rotate(-0 357.800724 427.316707)">SCIMITAR+ 2019</text>
+   </g>
+   <g id="text_75">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="427.316707" transform="rotate(-0 498.002319 427.316707)">Smoking-cessation participants came from primary care/community mental-health sites.</text>
+   </g>
+   <g id="text_76">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="438.508256" transform="rotate(-0 357.800724 438.508256)">Daneshmand 2017</text>
+   </g>
+   <g id="text_77">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="438.508256" transform="rotate(-0 498.002319 438.508256)">Blue-light cystoscopy was evaluated in surveillance rather than the eligible setting.</text>
+   </g>
+   <g id="text_78">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="469.418249" transform="rotate(-0 357.800724 469.418249)">Antinori 2008</text>
+   </g>
+   <g id="text_79">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="469.418249" transform="rotate(-0 498.002319 469.418249)">IMSI-versus-ICSI trial; Cochrane did not specify which eligibility criterion failed.</text>
+   </g>
+   <g id="text_80">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="480.609798" transform="rotate(-0 357.800724 480.609798)">Setti 2012b</text>
+   </g>
+   <g id="text_81">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="480.609798" transform="rotate(-0 498.002319 480.609798)">IMSI in advanced maternal age; Cochrane did not specify the failed criterion.</text>
+   </g>
+   <g id="text_82">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="491.801347" transform="rotate(-0 357.800724 491.801347)">Balaban 2011</text>
+   </g>
+   <g id="text_83">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="491.801347" transform="rotate(-0 498.002319 491.801347)">High-magnification sperm selection; Cochrane did not specify the failed criterion.</text>
+   </g>
+   <g id="text_84">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="528.307114" transform="rotate(-0 357.800724 528.307114)">Paul 2002</text>
+   </g>
+   <g id="text_85">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="528.307114" transform="rotate(-0 498.002319 528.307114)">The infant transfusion-volume trial did not report an eligible review outcome.</text>
+   </g>
+   <g id="text_86">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="539.498663" transform="rotate(-0 357.800724 539.498663)">Schuck 2016</text>
+   </g>
+   <g id="text_87">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="539.498663" transform="rotate(-0 498.002319 539.498663)">NRT requests, 1-week abstinence and quit attempts were not eligible review outcomes.</text>
+   </g>
+   <g id="text_88">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="581.600205" transform="rotate(-0 357.800724 581.600205)">Ventura-Abreu 2021</text>
+   </g>
+   <g id="text_89">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="581.600205" transform="rotate(-0 498.002319 581.600205)">Two-eye enrollment produced non-independent observations.</text>
+   </g>
+   <g id="text_90">
+    <text style="fill: #20252b; font: 700 9.76px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="592.791754" transform="rotate(-0 357.800724 592.791754)">NCT03894631</text>
+   </g>
+   <g id="text_91">
+    <text style="fill: #20252b; font: 9.76px 'DejaVu Sans'; text-anchor: start" x="498.002319" y="592.791754" transform="rotate(-0 498.002319 592.791754)">Within-person comparison assigned intervention and comparator to the same participant.</text>
+   </g>
+   <g id="text_92">
+    <text style="fill: #20252b; font: 700 16.8px 'DejaVu Sans'; text-anchor: start" x="357.800724" y="14.925375" transform="rotate(-0 357.800724 14.925375)">B  Examples: study and Cochrane exclusion reason</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2f23dfbe67">
+   <rect x="122.0016" y="24.925375" width="219.064993" height="586.224"/>
+  </clipPath>
+  <clipPath id="p06c6f6c2b5">
+   <rect x="357.800724" y="24.925375" width="389.448876" height="586.224"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,102 @@
+## Bottom line
+
+Across individual randomized IVF/ICSI trials, **daily rFSH generally produces ovarian stimulation that is at least as effective as urinary FSH or human menopausal gonadotropin**, and it sometimes produces slightly more oocytes or requires a lower total FSH dose. However, those differences have **usually not translated into a clearly higher live-birth rate**. ([PubMed][1])
+
+Compared with highly purified hMG, which provides both FSH and LH-like activity, rFSH frequently produces **more follicles or oocytes**, while HP-hMG may produce a different steroid environment and, in some trials, a higher proportion of usable or top-quality embryos. Nevertheless, most large trials reported comparable ongoing-pregnancy or cumulative live-birth outcomes. ([PubMed][2])
+
+The clearest clinically important subgroup finding comes from women predicted to be **high responders**: in MEGASET-HR, HP-hMG and rFSH produced nearly identical cumulative live-birth rates, but OHSS was substantially less frequent with HP-hMG. This finding should not automatically be generalized to women with average or low ovarian reserve. ([PubMed][3])
+
+## What the head-to-head studies found
+
+### 1. rFSH versus urinary or highly purified urinary FSH
+
+| Primary study       | Participants and comparison                                            | Main findings                                                                                                                                                                                                                    |
+| ------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Out et al., 1995    | 981 women; follitropin beta versus urinary FSH                         | rFSH produced more oocytes, 10.84 versus 8.95, with a lower total dose and shorter stimulation. Ongoing pregnancy per attempt was 22.2% versus 18.2%, which was not statistically significant. Safety was similar. ([PubMed][1]) |
+| Hedon et al., 1995  | 99 women; follitropin beta versus urinary FSH                          | Oocyte yield was similar, 9.7 versus 8.9. Ongoing-pregnancy rates numerically favored rFSH but were not significantly different; no meaningful safety difference was detected. ([PubMed][4])                                     |
+| Lenton et al., 2000 | 155 treated women; follitropin alfa versus highly purified urinary FSH | Oocyte yield was 10.2 versus 10.8. Live birth was 33.8% versus 26.7%, but none of the efficacy comparisons was statistically significant. OHSS occurred in 8.6% versus 7.9%. ([PubMed][5])                                       |
+| Baker et al., 2009  | 152 women; highly purified urinary FSH versus follitropin alfa         | Mean oocyte yield was 16.3 versus 17.1, and the live-birth rate was exactly 38.2% in both groups. ([PubMed][6])                                                                                                                  |
+
+**Interpretation:** rFSH may be somewhat more pharmacologically efficient than older urinary FSH preparations, particularly in the large Out trial, but the better-quality studies did not establish a reliable pregnancy or live-birth advantage. ([PubMed][1])
+
+### 2. rFSH versus hMG or highly purified hMG
+
+| Primary study                          | Participants and comparison                                                        | Main findings                                                                                                                                                                                                        |
+| -------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Strehler et al., 2001                  | 578 women; rFSH versus hMG                                                         | rFSH produced more oocytes but required more ampoules. Clinical pregnancy after embryo transfer was 30.1% with rFSH and 32.3% with hMG, with no significant difference. ([PubMed][2])                                |
+| European and Israeli Study Group, 2002 | 727 treated women; HP-hMG versus rFSH                                              | Ongoing pregnancy was 25% with HP-hMG and 22% with rFSH. HP-hMG met the trial’s noninferiority criterion. OHSS, miscarriage and tolerability were similar. ([ScienceDirect][7])                                      |
+| MERIT, Andersen et al., 2006           | 731 women; HP-hMG versus follitropin alfa, long agonist protocol                   | Ongoing pregnancy was 27% versus 22%; the confidence interval did not establish statistical superiority. The treatments produced different ovarian, endocrine and embryologic response profiles. ([OUP Academic][8]) |
+| MEGASET, Devroey et al., 2012          | 749 women; HP-hMG versus rFSH, antagonist protocol with single-blastocyst transfer | Fresh ongoing pregnancy was approximately 29% versus 27%. Cumulative live birth, including subsequent frozen transfer, was 40% versus 38%. HP-hMG was noninferior. ([PubMed][9])                                     |
+| MEGASET-HR, Witz et al., 2020          | 620 women with AMH ≥5 ng/mL; HP-hMG versus rFSH                                    | Cumulative live birth was essentially identical: 50.6% versus 51.5%. OHSS was 9.7% with HP-hMG versus 21.4% with rFSH, and early pregnancy loss was also lower in the HP-hMG group. ([PubMed][3])                    |
+
+**Interpretation:** In average-prognosis populations, HP-hMG and rFSH have generally produced similar ongoing-pregnancy and live-birth outcomes despite differences in oocyte numbers and embryo-development measures. In predicted high responders, the MEGASET-HR results support considering HP-hMG when reducing excessive response or OHSS is a major objective, although this is one specific population and protocol. ([ScienceDirect][7])
+
+### 3. Daily rFSH versus long-acting corifollitropin alfa
+
+Corifollitropin alfa is a long-acting recombinant FSH analog designed so that one injection supplies FSH activity during approximately the first seven days of stimulation.
+
+| Primary study                   | Population                                               | Main findings                                                                                                                                                                                                        |
+| ------------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ENGAGE, Devroey et al., 2009    | 1,506 treated women, generally younger normal responders | Ongoing pregnancy was 38.9% with one corifollitropin injection versus 38.1% with daily rFSH. Corifollitropin met the noninferiority criterion. ([PubMed][10])                                                        |
+| ENSURE Study Group, 2010        | 396 women weighing ≤60 kg                                | Corifollitropin produced more oocytes, 13.3 versus 10.6. Moderate/severe OHSS was 3.4% versus 1.6%; the trial was principally designed around ovarian response rather than pregnancy. ([PubMed][11])                 |
+| PURSUE, Boostanfar et al., 2015 | 1,390 women aged 35–42                                   | Oocytes were 10.7 versus 10.3. Live birth was 21.3% with corifollitropin and 23.4% with daily rFSH; OHSS was 1.7% in both groups. Noninferiority was established. ([PubMed][12])                                     |
+| Li et al., 2026                 | 474 Chinese women with normal ovarian reserve            | Corifollitropin alfa N02 produced 12.1 versus 10.9 oocytes. Ongoing pregnancy was 38.8% versus 44.3%, with a confidence interval compatible with no meaningful difference; OHSS was 3.8% versus 2.5%. ([PubMed][13]) |
+
+**Interpretation:** Long-acting corifollitropin reduces the number of injections and produces broadly comparable pregnancy outcomes in the populations studied. Some trials found modestly more oocytes. Because its first-week exposure is set by a single injection, it provides less opportunity for dose adjustment during that period than daily rFSH. ([PubMed][10])
+
+### 4. rFSH alone versus rFSH plus recombinant LH
+
+These trials address whether adding LH activity is helpful rather than replacing rFSH.
+
+* In Marrs et al., 431 women were randomized to rFSH alone or rFSH plus recombinant LH. Overall, the number of mature oocytes and implantation rate did not improve with LH. Exploratory age results suggested a possible benefit in women 35 or older, but the subgroup differences were not definitive. ([PubMed][14])
+* In De Placido et al., women who had an unexpectedly inadequate early response to rFSH were randomized to recombinant LH supplementation or a substantial increase in the rFSH dose. LH supplementation produced more cumulus–oocyte complexes, 9.0 versus 6.1, suggesting that selected hypo-responsive patients may respond differently from the general IVF population. ([PubMed][15])
+* In a smaller trial of women aged 35–39, adding LH did not significantly change oocyte or embryo quantity or quality, although implantation and live birth numerically favored LH supplementation. ([PubMed][16])
+
+**Interpretation:** Routine LH supplementation for everyone receiving rFSH is not supported by these studies. A benefit remains plausible in selected groups—such as an unexpectedly inadequate response or some older patients—but the evidence is inconsistent and often based on relatively small subgroup analyses. ([PubMed][14])
+
+## Important limitations when applying the studies
+
+Many older trials used long GnRH-agonist suppression, cleavage-stage transfer and transfer of up to two or three embryos. More recent studies more often used antagonist protocols, blastocyst culture, single-embryo transfer and frozen transfers. Consequently, differences found in an older trial may not apply directly to a current clinic’s protocol. ([PubMed][1])
+
+Several of the large studies were noninferiority trials. A noninferiority result means that the alternative did not perform worse than rFSH by more than a prespecified margin; it does not prove that the treatments are identical or that one is superior. Some trials were primarily powered for oocyte yield rather than live birth, making small but clinically meaningful live-birth differences difficult to exclude. ([ScienceDirect][7])
+
+For an individual IVF cycle, the most relevant modifiers are likely to be the predicted ovarian response—particularly AMH/AFC and previous stimulation response—along with age and the clinic’s trigger, embryo-transfer and OHSS-prevention strategy. This is an inference from the markedly different findings in average responders, high responders and initially inadequate responders rather than proof that one gonadotropin is universally preferable. ([PubMed][3])
+
+## Primary studies identified
+
+All items below are individual clinical trials or reports of individual randomized trials—not systematic reviews, meta-analyses, guidelines or committee opinions.
+
+1. **Out HJ, et al.** “A prospective, randomized, assessor-blind, multicentre study comparing recombinant and urinary follicle stimulating hormone (Puregon versus Metrodin) in in-vitro fertilization.” *Human Reproduction*. 1995. PMID 8567765; DOI 10.1093/oxfordjournals.humrep.a135740. ([PubMed][1])
+2. **Hedon B, et al.** “Efficacy and safety of recombinant follicle stimulating hormone (Puregon) in infertile women pituitary-suppressed with triptorelin undergoing in-vitro fertilization.” *Human Reproduction*. 1995. PMID 8822422; DOI 10.1093/oxfordjournals.humrep.a135866. ([PubMed][4])
+3. **Lenton E, et al.** “Induction of ovulation in women undergoing assisted reproductive techniques: recombinant human FSH versus highly purified urinary FSH.” *Human Reproduction*. 2000. PMID 10783345; DOI 10.1093/humrep/15.5.1021. ([PubMed][5])
+4. **Schats R, et al.** “Ovarian stimulation during assisted reproduction treatment: a comparison of recombinant and highly purified urinary human FSH.” *Human Reproduction*. 2000. PMID 10920087; DOI 10.1093/humrep/15.8.1691. ([PubMed][17])
+5. **Baker VL, et al.** “Clinical efficacy of highly purified urinary FSH versus recombinant FSH in volunteers undergoing controlled ovarian stimulation for in vitro fertilization.” *Fertility and Sterility*. 2009. PMID 18367182; DOI 10.1016/j.fertnstert.2008.01.064. ([PubMed][6])
+6. **Strehler E, et al.** “Impact of recombinant follicle-stimulating hormone and human menopausal gonadotropins on in vitro fertilization outcome.” *Fertility and Sterility*. 2001. PMID 11172835; DOI 10.1016/S0015-0282(00)01696-4. ([PubMed][2])
+7. **European and Israeli Study Group.** “Efficacy and safety of highly purified menotropin versus recombinant follicle-stimulating hormone in IVF/ICSI cycles.” *Fertility and Sterility*. 2002. PMID 12215327; DOI 10.1016/S0015-0282(02)03250-8. ([ScienceDirect][7])
+8. **Andersen AN, et al.; MERIT Group.** “Clinical outcome following stimulation with highly purified hMG or recombinant FSH in patients undergoing IVF.” *Human Reproduction*. 2006. DOI 10.1093/humrep/del284. ([OUP Academic][8])
+9. **Devroey P, et al.; MEGASET Trial Group.** “A randomized assessor-blind trial comparing highly purified hMG and recombinant FSH in a GnRH antagonist cycle with compulsory single-blastocyst transfer.” *Fertility and Sterility*. 2012. PMID 22244781; DOI 10.1016/j.fertnstert.2011.12.016. ([PubMed][9])
+10. **Witz CA, et al.; MEGASET-HR Trial Group.** “Randomized, assessor-blinded trial comparing highly purified human menotropin and recombinant follicle-stimulating hormone in high responders undergoing ICSI.” *Fertility and Sterility*. 2020. PMID 32416978; DOI 10.1016/j.fertnstert.2020.03.029. ([PubMed][3])
+11. **Devroey P, et al.** “A double-blind, non-inferiority RCT comparing corifollitropin alfa and recombinant FSH during the first seven days of ovarian stimulation.” *Human Reproduction*. 2009. PMID 19684043; DOI 10.1093/humrep/dep291. ([PubMed][10])
+12. **Corifollitropin Alfa Ensure Study Group.** “Corifollitropin alfa for ovarian stimulation in IVF: a randomized trial in lower-body-weight women.” *Reproductive BioMedicine Online*. 2010. PMID 20483664; DOI 10.1016/j.rbmo.2010.03.019. ([PubMed][11])
+13. **Boostanfar R, et al.** “Large, comparative, randomized double-blind trial confirming noninferiority of pregnancy rates for corifollitropin alfa compared with recombinant FSH in older patients undergoing IVF.” *Fertility and Sterility*. 2015. PMID 26003273; DOI 10.1016/j.fertnstert.2015.04.018. ([PubMed][12])
+14. **Li T, et al.** “Corifollitropin alfa N02 versus recombinant FSH for ovarian stimulation: a phase 3 trial and safety study in Chinese women.” *Reproductive BioMedicine Online*. 2026. PMID 42462332; DOI 10.1016/j.rbmo.2026.105822. ([PubMed][13])
+15. **Marrs R, et al.** “Randomized trial to compare recombinant human FSH with or without recombinant human LH in women undergoing assisted reproduction treatment.” *Reproductive BioMedicine Online*. 2004. PMID 14989794; DOI 10.1016/S1472-6483(10)60513-5. ([PubMed][14])
+16. **De Placido G, et al.** “Recombinant human LH supplementation versus recombinant human FSH step-up protocol in women with an initial inadequate ovarian response.” *Human Reproduction*. 2005. PMID 15576390; DOI 10.1093/humrep/deh625. ([PubMed][15])
+
+[1]: https://pubmed.ncbi.nlm.nih.gov/8567765/?utm_source=chatgpt.com "A prospective, randomized, assessor-blind, multicentre study comparing recombinant and urinary follicle stimulating hormone (Puregon versus Metrodin) in in-vitro fertilization - PubMed"
+[2]: https://pubmed.ncbi.nlm.nih.gov/11172835/?utm_source=chatgpt.com "Impact of recombinant follicle-stimulating hormone and human menopausal gonadotropins on in vitro fertilization outcome - PubMed"
+[3]: https://pubmed.ncbi.nlm.nih.gov/32416978/?utm_source=chatgpt.com "Randomized, assessor-blinded trial comparing highly purified human menotropin and recombinant follicle-stimulating hormone in high responders undergoing intracytoplasmic sperm injection - PubMed"
+[4]: https://pubmed.ncbi.nlm.nih.gov/8822422/?utm_source=chatgpt.com "Efficacy and safety of recombinant follicle stimulating hormone (Puregon) in infertile women pituitary-suppressed with triptorelin undergoing in-vitro fertilization: a prospective, randomized, assessor-blind, multicentre trial - PubMed"
+[5]: https://pubmed.ncbi.nlm.nih.gov/10783345/?utm_source=chatgpt.com "Induction of ovulation in women undergoing assisted reproductive techniques: recombinant human FSH (follitropin alpha) versus highly purified urinary FSH (urofollitropin HP) - PubMed"
+[6]: https://pubmed.ncbi.nlm.nih.gov/18367182/?utm_source=chatgpt.com "Clinical efficacy of highly purified urinary FSH versus recombinant FSH in volunteers undergoing controlled ovarian stimulation for in vitro fertilization: a randomized, multicenter, investigator-blind trial - PubMed"
+[7]: https://www.sciencedirect.com/science/article/pii/S0015028202032508?utm_source=chatgpt.com "Efficacy and safety of highly purified menotropin versus recombinant follicle-stimulating hormone in in vitro fertilization/intracytoplasmic sperm injection cycles: a randomized, comparative trial - ScienceDirect"
+[8]: https://academic.oup.com/humrep/article/21/12/3217/2939137?utm_source=chatgpt.com "Clinical outcome following stimulation with highly purified hMG or recombinant FSH in patients undergoing IVF: a randomized assessor-blind controlled trial | Human Reproduction | Oxford Academic"
+[9]: https://pubmed.ncbi.nlm.nih.gov/22244781/?utm_source=chatgpt.com "A randomized assessor-blind trial comparing highly purified hMG and recombinant FSH in a GnRH antagonist cycle with compulsory single-blastocyst transfer - PubMed"
+[10]: https://pubmed.ncbi.nlm.nih.gov/19684043/?utm_source=chatgpt.com "A double-blind, non-inferiority RCT comparing corifollitropin alfa and recombinant FSH during the first seven days of ovarian stimulation using a GnRH antagonist protocol - PubMed"
+[11]: https://pubmed.ncbi.nlm.nih.gov/20483664/?utm_source=chatgpt.com "Corifollitropin alfa for ovarian stimulation in IVF: a randomized trial in lower-body-weight women - PubMed"
+[12]: https://pubmed.ncbi.nlm.nih.gov/26003273/?utm_source=chatgpt.com "Large, comparative, randomized double-blind trial confirming noninferiority of pregnancy rates for corifollitropin alfa compared with recombinant follicle-stimulating hormone in a gonadotropin-releasing hormone antagonist controlled ovarian stimulation protocol in older patients undergoing in vitro fertilization - PubMed"
+[13]: https://pubmed.ncbi.nlm.nih.gov/42462332/?utm_source=chatgpt.com "Corifollitropin alfa N02 versus recombinant FSH for ovarian stimulation: a phase 3 trial and safety study in Chinese women - PubMed"
+[14]: https://pubmed.ncbi.nlm.nih.gov/14989794/?utm_source=chatgpt.com "Randomized trial to compare the effect of recombinant human FSH (follitropin alfa) with or without recombinant human LH in women undergoing assisted reproduction treatment - PubMed"
+[15]: https://pubmed.ncbi.nlm.nih.gov/15576390/?utm_source=chatgpt.com "Recombinant human LH supplementation versus recombinant human FSH (rFSH) step-up protocol during controlled ovarian stimulation in normogonadotrophic women with initial inadequate ovarian response to rFSH. A multicentre, prospective, randomized controlled trial - PubMed"
+[16]: https://pubmed.ncbi.nlm.nih.gov/20031032/?utm_source=chatgpt.com "Mid-follicular LH supplementation in women aged 35-39 years undergoing ICSI cycles: a randomized controlled study - PubMed"
+[17]: https://pubmed.ncbi.nlm.nih.gov/10920087/?utm_source=chatgpt.com "Ovarian stimulation during assisted reproduction treatment: a comparison of recombinant and highly purified urinary human FSH. On behalf of The Feronia and Apis study group - PubMed"

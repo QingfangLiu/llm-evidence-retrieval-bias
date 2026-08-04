@@ -1,0 +1,23 @@
+This gives me enough well-sourced primary studies (RCTs and cohort studies) across time, including one showing no benefit — good for a balanced picture. Let me compile the answer now.
+
+## Primary Studies: Blue-Light vs. White-Light TURBT for NMIBC
+
+Below are individual primary studies (RCTs and cohort studies) — no reviews, meta-analyses, or guidelines included.
+
+**1. Stenzl et al., J Urol 2010** (NCT00233402) — Multicenter (28 centers, US/Canada/Europe) RCT, n=814. Patients underwent white light cystoscopy and mapping of lesions, followed by resection when indicated, with the fluorescence group also receiving intravesical hexaminolevulinate before undergoing additional blue-light inspection. During 9-month follow-up, recurrence occurred in 47% of the fluorescence group vs. 56% of the white-light group (p=0.026), a 16% relative risk reduction.
+
+**2. Long-term follow-up of the same cohort — PMC 2012** — Assessed 551 participants from the original randomized fluorescence-cystoscopy trial, following patients from the white-light (n=280) and fluorescence (n=271) arms at 3, 6, and 9 months. Hexaminolevulinate fluorescence cystoscopy significantly improved long-term recurrence-free survival, with a trend toward improved bladder preservation.
+
+**3. Geavlete et al. (Re-TURBT recurrence study), Urology 2010** — Single-center prospective RCT, n=446. Patients were randomized to blue-light or standard white-light cystoscopy/resection; high-risk NMIBC patients (CIS, pTaG3, pT1) from both arms underwent standard re-TURBT 6 weeks later. This trial found a large reduction in residual tumor at re-TURBT with blue light (cited by later papers as 31.2% with white light vs. 11.1% with blue light, p=0.0001).
+
+**4. Heer et al. (PHOTO Trial), NEJM Evidence 2022** — Pragmatic, multicenter (22 UK NHS hospitals), open-label RCT. Participants with a suspected first diagnosis of intermediate- or high-risk NMIBC were randomized 1:1 to PDD-guided TURBT or standard white-light TURBT, with time to recurrence at 3 years as the primary outcome. Notably, this trial found **no significant benefit**: the photosensitizer-based approach was not associated with a reduction in time to recurrence, with only a small, non-significant absolute risk reduction of 3.8 percentage points (95% CI −13.4 to 6.6). It also found no difference in disease progression between the white-light and blue-light groups (HR 1.41; 95% CI 0.67–2.96).
+
+**5. Chan et al. (UK single-center cohort), BJUI Compass 2023** — Single-center UK study of 101 patients undergoing blue-light cystoscopy from July 2017–November 2020, divided into a primary arm (no prior bladder malignancy diagnosis, n=41) and a secondary re-resection arm (n=57), followed for 24 months. In the secondary arm, blue-light re-resection detected significantly more CIS than white light (20.7% vs. 51.7%, p=0.0277), with 3.4% upstaged to muscle-invasive disease. Recurrence rates at 24 months were 33.3% (primary arm) and 37.5% (secondary arm).
+
+**6. Marquardt et al. (retrospective monocentric cohort), Life (Basel) 2022** — Retrospective study comparing extended TURBT performed with conventional white-light cystoscopy vs. photodynamic diagnostics, restricted to patients undergoing resection of a primary tumor, with recurrence-free survival and overall survival as endpoints, analyzed via Kaplan-Meier and Cox regression.
+
+**7. Daneshmand et al., J Urol 2018** (referenced by Cysview manufacturer materials) — Phase III comparative multicenter study of blue-light **flexible** cystoscopy (surveillance setting) with hexaminolevulinate vs. white light — relevant to detection/safety data, though set in surveillance rather than initial TURBT.
+
+**On complications specifically:** I could not locate a single primary study reporting complication rates as its main focus outside the trials above — complication/adverse-event data mostly appear as secondary endpoints within the RCTs already listed (e.g., PHOTO trial tracked Clavien-Dindo surgical complications and CTCAE adverse events up to 3 months post-TURBT).
+
+A note on what this body of evidence shows: the earlier hexaminolevulinate trials (Stenzl 2010, Geavlete 2010) found meaningful recurrence reductions with blue light, but the more recent, pragmatic PHOTO trial (2022) — arguably the highest-quality, most real-world RCT — found no significant recurrence or progression benefit. This inconsistency is worth discussing directly with your urologist, since it may affect how strongly blue light is recommended in your specific case.

@@ -1,0 +1,143 @@
+review,study_label,cochrane_exclusion_reason,reason_categories,response_study_mentions
+CD000510,Iarŭkova 1999,"Design: retrospective study comparing the use of prophylactic curosurf (200 mg/kg) vs rescue curosurf treatment (200 mg/kg) if indicated. This study had, mistakenly, been included in the previous version of the review.",study_design,4
+CD000510,Morley 2008,"Excluded from this review because the trial did not give prophylactic surfactant treatment to all infants in a high risk group, and the research team selected those infants who neither needed acute resuscitation or had no signs of respiratory distress. In the remaining infants, surfactant treatment was not considered as mandatory and followed local protocols.",population;intervention,3
+CD000510,Rojas 2009,"Excluded from this review because the treatment group received surfactant as ""very early surfactant"" once the first RDS signs appeared, instead of prophylactic administration of surfactant.",intervention;timing_or_follow_up,10
+CD000510,Sandri 2010,"Excluded because of the comparison: the control group received ""early surfactant"" soon after treatment failure on CPAP instead of selective administration of surfactant, according to the definitions of interventions used in this review.",comparator;timing_or_follow_up,28
+CD001452,Correcher 2012,Design : not a randomized controlled trial,study_design,13
+CD001452,Logan 1999,Design : not a randomized controlled trial,study_design,16
+CD005354,Abyholm 2008,wrong intervention - dose-response trial of corifollitropin alfa,intervention,2
+CD005354,Boostanfar 2010,wrong intervention - corifollitropin alfa,intervention,18
+CD005354,Boostanfar 2015,wrong intervention - corifollitropin alfa,intervention,11
+CD005354,Filicori 2003,wrong intervention - rFSH or HMG vs rFSH or HMG +hCG,intervention,1
+CD005354,Hillensjo 2009,wrong intervention - corifollitropin vs rFSH,intervention,9
+CD005354,Khair 2020,wrong study design - post-hoc analysis,study_design,4
+CD005354,Melo 2010,wrong population - patients received donor oocytes,population,2
+CD005354,Pacchiarotti 2007,wrong comparator - rFSH vs a combination of uFSH and rFSH,comparator,1
+CD005354,Requena 2010,"wrong study design - not truly randomised, allocation by order of inclusion",study_design,1
+CD005354,Tulppala 1999,wrong intervention - comparison of two rFSH preparations,intervention,1
+CD005354,Westerguard 1996,wrong intervention - FSH-HP vs HMG,intervention,1
+CD007654,Broom 2002,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,4
+CD007654,CAMELLIA-TIMI 2018,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,8
+CD007654,COR-I 2010,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,9
+CD007654,EQUIP 2012,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,5
+CD007654,Faria 2002,Weight-reducing drug in intervention group is no longer approved.,intervention,3
+CD007654,Garvey 2021,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,1
+CD007654,McMahon 2000,Weight-reducing drug in intervention group is no longer approved.,intervention,1
+CD007654,McMahon 2002,Weight-reducing drug in intervention group is no longer approved.,intervention,4
+CD007654,Ryan 2020,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,36
+CD007654,SCALE obesity and prediabetes 2014,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,11
+CD007654,SCOUT 2010,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,11
+CD007654,SEQUEL 2014,The study is not a randomised controlled trial.,study_design,4
+CD007654,STEP 4 2021,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,4
+CD007654,STEP 6 2022,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,2
+CD007654,Sharma 2002,The study is not a randomised controlled trial.,study_design,1
+CD007654,Sjöström 1998,The study includes normotensive and hypertensive participants but reports no or insufficient results for the hypertensive subgroup.,population;insufficient_or_unavailable_data,2
+CD007912,Bennell 2014,Multimodial intervention including exercise,intervention,26
+CD007912,Bieler 2017,Does not include an eligible comparator intervention,comparator,11
+CD007912,Hoeksma 2004,No non-exercise control. Manual therapy vs. exercise,comparator,4
+CD007912,Kjeldsen 2022,Does not include an eligible comparator intervention,comparator,11
+CD007912,Pisters 2010b,No non-exercise group. Both treatment allocation were supervised by physiotherapists and involved exercise-focused programmes,comparator,1
+CD007912,Steinhilber 2012,Included people with total hip replacement,population,1
+CD007912,Uusi-Rasi 2017,Not an RCT,study_design,7
+CD007912,Veenhof 2006,No non-exercise control. Both treatment allocations (behavioural graded activity or usual physiotherapy care) were supervised by physiotherapists and involved exercise-focused programmes,comparator,1
+CD007912,Villadsen 2014,Is perioperative,timing_or_follow_up,5
+CD007912,Wainwright 2023,Exercise delivered as part of physiotherapy in control arm,comparator,9
+CD009532,Baart 2020,"Ineligible intervention: not iron supplementation, focus on donation interval, and advice regarding nutrition.",intervention,7
+CD009532,Bryant 2012b,"Ineligible study design: a non-randomised, comparative study of ferrous sulphate or ferrous gluconate in deferred versus non-deferred blood donors.",study_design,14
+CD009532,Hasan 2022,Ineligible intervention: use of a mobile phone app; both groups received the same iron supplementation.,intervention;comparator,1
+CD009532,Magnussen 2008,"Ineligible study design: a non-randomised trial comparing 2 iron preparations in blood donors, where treatment allocation was made on the basis of adverse effects.",study_design,6
+CD009532,NCT04949165,Ineligible study design: non-randomised trial.,study_design,1
+CD009532,Radtke 2005,A single-arm trial of elemental iron in blood donors.,study_design,1
+CD009958,De Meyer 2019,"PI stage 1 was not a recruitment exclusion criteria. Inclusion criteria: ""free of PU cat. II—IV and IAD cat. 2 on bony prominences as a result of lying and/or sitting at the start of the study""",population,4
+CD009958,Girard 2014,"ICU patients with existing PI at baseline were also included in the randomisation. Results for participants with and without PI at baseline were not separated in the analysis, therefore it was not possible to undertake subgroup analyses on those participants who were PI-free at baseline.",population;insufficient_or_unavailable_data,5
+CD009958,Jiang 2020,"Different repositioning regime used with different support surfaces No analysis undertaken to control for the difference i.e, we cannot not disentangle effect of different mattresses.",intervention;insufficient_or_unavailable_data,2
+CD009958,Kapp 2023,Intervention is medical device: turning and positioning system (two-hourly or as required according to clinician assessment),intervention,2
+CD009958,Malekara 2025,Twelve participants had PI at baseline,population,6
+CD009958,Vanderwee 2007,Patients who had a pre-existing stage 1 PI (i.e. non-blanchable erythema) were included; those who did not have non-blanchable erythema (n = 1944) were excluded.,population,24
+CD009958,Yap 2022,"Inclusion criteria states participants without PI (on admission or within 72 hours). In the results section, six participants had a PI on Baseline Day 1",population,29
+CD010051,Ayres 2024,Ineligible comparator,comparator,7
+CD010051,Feng 2024,Ineligible comparator: punctal plug,comparator,10
+CD010051,Gao 2024,Ineligible comparator: steroid,comparator,6
+CD010051,Hom 2006,Ineligible participants: in people with contact lens intolerance,population,1
+CD010051,Lee 2016 || Lee 2016a,Ineligible comparator: diquafosol,comparator,1
+CD010051,NCT06392438,Ineligible comparator: intense pulse light,comparator,4
+CD010051,Roberts 2007a,Ineligible comparator: punctal occlusion,comparator,1
+CD010051,Su 2011,De-escalation study: people with DES and treated with topical CsA twice daily for 1 year randomized to maintain twice daily dosing or decrease to once daily dosing for 6 months,intervention;comparator,3
+CD010051,Wang 2008,Ineligible study design: not an RCT,study_design,1
+CD010461,Antinori 2008,This study did not meet our inclusion criteria.,unspecified_eligibility,24
+CD010461,Balaban 2011,This study did not meet our inclusion criteria.,unspecified_eligibility,7
+CD010461,Battista 2017,This study was retracted.,publication_or_trial_status,8
+CD010461,Casciani 2014,Not prospective or randomised,study_design,2
+CD010461,Fleming 2007,Not an RCT (observational study),study_design,2
+CD010461,Ghosh 2007,Not an RCT (observational study),study_design,4
+CD010461,Gianaroli 2008,This study was pseudo-randomised.,study_design,9
+CD010461,Jin 2015,Pseudo-randomised (randomised based on odd or even number date of retrieval),study_design,4
+CD010461,Kim 2014,Comparison made with IMSI (subject of a separate Cochrane Review),comparator,1
+CD010461,Knez 2011,This study did not meet our inclusion criteria.,unspecified_eligibility,5
+CD010461,NCT03659812 2018,This study had the wrong patient population.,population,12
+CD010461,Norozi-Hafshejani 2022,This study was the wrong study design.,study_design,4
+CD010461,Setti 2011,This study did not meet our inclusion criteria.,unspecified_eligibility,1
+CD010461,Setti 2012b,This study did not meet our inclusion criteria.,unspecified_eligibility,9
+CD010461,Stimpfel 2017,Not randomised,study_design,3
+CD010461,West 2022,This study was the wrong study design.,study_design,11
+CD012161,Garg 2020b,Wrong comparison (biosimilar),comparator,3
+CD012161,Heise 2016,Wrong study duration,timing_or_follow_up,3
+CD012161,Kazda 2022,Wrong study duration,timing_or_follow_up,1
+CD012161,Lalli 1999,Mixed insulin,intervention,2
+CD012161,Lindholm 1999,Follow-up duration too short,timing_or_follow_up,3
+CD012161,Vignati 1997,Follow-up duration too short,timing_or_follow_up,1
+CD012751,Sandborn 2010b (WELCOME),Wrong intervention (different regimens of the same biologic),intervention;comparator,1
+CD013776,Daneshmand 2017,Ineligible setting (surveillance),setting,3
+CD013776,Fradet 2007,Ineligible setting (surveillance),setting,3
+CD013776,Gallagher 2017,Ineligible study design (non-randomized trial),study_design,5
+CD013776,Geavlete 2009,Ineligible study design (non-randomized trial),study_design,4
+CD013776,Grossmann 2007,Ineligible setting (surveillance),setting,7
+CD013776,JPRN-UMIN000035712,Ineligible study design (non-randomized trial),study_design,6
+CD013776,NCT01675219,Ineligible study design (ineligible follow-up regimen),study_design;timing_or_follow_up,5
+CD015136,De Vera 2014,Did not end up publishing,publication_or_trial_status,1
+CD015136,Green 2008,Ineligible comparator,comparator,13
+CD015136,Jiang 2021,Ineligible study design,study_design,2
+CD015136,Lyons 2016,Ineligible comparator,comparator,9
+CD015136,Mikuls 2019,Ineligible intervention,intervention,1
+CD015136,Pham 2023,Ineligible intervention,intervention,3
+CD015136,Polgreen 2020,Ineligible patient/population,population,1
+CD015156,Feyzioğlu 2018,Ineligible study design - protocol for case series design,study_design;publication_or_trial_status,1
+CD015156,Gerulis 2004,Ineligible study design - cohort study with non-randomised interventions and unclear processes for allocating treatments,study_design,1
+CD015156,Lucciani 2016,Unable to source data - no response from authors for requests of data,insufficient_or_unavailable_data,2
+CD015156,Perhamre 2011 (b),Ineligible study design - cohort study,study_design,21
+CD015156,Rathleff 2020,Ineligible study design - cohort study,study_design,23
+CD015156,University  of Delaware 2021,Ineligible study design - registration of a cohort study,study_design;publication_or_trial_status,2
+CD015156,Wu 2022,Ineligible participant population - condition inadequately described in adults over the age of likelihood of condition being present,population,17
+CD015186,Ayub 2025,Ineligible study design: not randomized controlled trial,study_design,13
+CD015186,Golaszewska 2023,Ineligible intervention: not MIGS,intervention,1
+CD015186,Greenwood 2023,Ineligible study design: not randomized controlled trial,study_design,12
+CD015186,Matlach 2015,Ineligible intervention: not MIGS,intervention,3
+CD015186,NCT03894631,"Ineligible unit of analysis: within-person study, intervention and comparator are in the same participant.",unit_of_analysis,1
+CD015186,NCT05666440,Ineligible study design: not randomized controlled trial,study_design,2
+CD015186,Sato 2018b,Ineligible study design: not randomized controlled trial,study_design,1
+CD015186,Sato 2021,Ineligible comparator: compared different variations of the same MIGS,comparator,7
+CD015186,Ventura-Abreu 2021,Ineligible unit of analysis (two-eye enrolment / non-independent data),unit_of_analysis,15
+CD015264,Bjørke-Monsen 2011,"Ineligible route of administration (injection). Double-blind randomised controlled trial in Norway. Infants, aged less than 8 months, were randomly assigned to receive 1) intramuscular vitamin B 12 (400 µg) or 2) no intervention.",intervention,14
+CD015264,Finberg 1952,"Ineligible comparison group. Quasi-randomised trial in the United States of America. Premature infants, in 1 week of life, were assigned to 1) 0.6 cc polyvisol, and aqueous polyvitamin preparation, containing vitamin B 12 , or 2) 0.6 cc polyvisol and 30 µg of vitamin B 12 until discharge.",comparator,1
+CD015264,Haiden 2006,"Ineligible route of administration (intravenous and subcutaneous). Randomised controlled trial in Austria. Premature infants, weighing 801-1300 g, were randomly assigned to receive 1) intravenous vitamin B 12 (3 μg/kg/day), subcutaneous vitamin B 12 (21 μg/kg/week) and oral folic acid (100 μg/kg/day), or 2) oral folic acid (60 μg/kg/day), both groups received iron, vitamin E and erythropoietin.",intervention,1
+CD015264,Hess 2019,"Ineligible comparison group. Randomised controlled trial in Lao People's Democratic Republic. Children, aged 6-23 months, were randomly assigned 1) micronutrient powder (6 mg iron, 10 mg zinc and thirteen other micronutrients), or 2) a placebo.",comparator,2
+CD015264,Larcomb 1954,"Ineligible comparison group. Randomised controlled trial in the United States. Children, aged 6-17 years, were randomly assigned to 1) a controlled diet with vitamin B 12 (20μg), or 2) controlled diet with placebo. Both groups received a daily multiple vitamin supplement containing vitamin 1 μg B 12 activity.",comparator,5
+CD015264,Torsvik 2015,"Ineligible route of administration (intramuscular). Double-blind randomised controlled trial in Norway. Healthy infants, birthweight 2000-3000 g, with impaired total homocysteine (tHcy > 6.5 μmol/L) were randomly assigned 1) 400 μg hydroxycobalamin intramuscularly, or 2) a placebo injection.",intervention,9
+CD015264,Worthington-White 1994,"Ineligible route of administration (intramuscular). Randomised trial in the United States. Premature infants, less than 1800g and less than 36 weeks gestation, were randomly assigned 1) intramuscular vitamin B 12 100 μg, monthly, 2) oral folate 0.1mg, daily, 2) intramuscular vitamin B 12 100μg, monthly plus oral folate 0.1mg, daily, or 4) no intervention.",intervention,5
+CD015898,Covello 2016,Wrong intervention (No volume comparison),intervention;comparator,3
+CD015898,Hebert 1997,Wrong intervention (Compared transfusion over admission),intervention,11
+CD015898,Holst 2014,Wrong intervention (no volume comparison),intervention;comparator,5
+CD015898,Luo 2023,Wrong intervention (No volume comparison),intervention;comparator,2
+CD015898,Paul 2002,wrong outcome,outcome,19
+CD015934,Bennett 2017,"Ineligible Study Design - Interventional study, not an RCT",study_design,5
+CD015934,Bruguera 2018,Withdrawn Clinical Trial - Budget insufficient to cover the study scope proposed and recruitment rates projected to be insufficient,publication_or_trial_status,1
+CD015934,Das 2017,"Already reporting data in included studies - This study is an analysis of data from two pre-existing RCTs that are already included (Hickman, et al, 2015; J. J. Prochaska, et al, 2014)",publication_or_trial_status,5
+CD015934,Japuntich 2019,"Ineligible Setting - Patients were treated as day treatment program patients, not inpatients",setting,1
+CD015934,Peckham 2019,Ineligible Setting - Patients were recruited from primary care & community-based mental health sites,setting,7
+CD015934,Petersen Williams 2025,Ineligible setting - intervention initiated following discharge,setting;timing_or_follow_up,2
+CD015934,Prochaska 2009,Protocol only - Full results published and included in Prochaska 2014,publication_or_trial_status,3
+CD015934,Schuck 2016,"Ineligible Outcomes - Does not report on any of the primary or secondary outcomes of interest. Reports on patients' interest to continue NRT post-discharge, 1-week abstinence rates, and quit attempts at 1-week follow-up.",outcome,3
+CD016085,DETERMINE,Wrong patient population: patient with an acute stroke previos EVT. Also wrong intervention: the intervention is administered DURING thrombectomy and not after.,population;intervention;timing_or_follow_up,1
+CD016085,INDIVIDUATE,"Wrong patient population: patients with a stroke before the EVT. Wrong intervention: blood pressure management during the EVT, not post-procedure.",population;intervention;timing_or_follow_up,1
+CD016085,THE BEST,"Wrong study design: observational study, non-randomised.",study_design,1
+CD016104,MERMAID-1,"Early termination due to changes in the treatment landscape, with no subgroup data available",publication_or_trial_status;insufficient_or_unavailable_data,1
