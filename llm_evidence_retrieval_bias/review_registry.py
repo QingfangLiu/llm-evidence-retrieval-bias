@@ -15,6 +15,11 @@ from zipfile import ZipFile
 REPO_ROOT = Path(__file__).resolve().parent.parent
 RETRIEVAL_BIAS_DIR = REPO_ROOT
 REVIEWS_DIR = RETRIEVAL_BIAS_DIR / "reviews"
+DATA_DIR = RETRIEVAL_BIAS_DIR / "data"
+ANALYSIS_DATA_DIR = DATA_DIR / "analysis"
+CURATION_DATA_DIR = DATA_DIR / "curation"
+CACHE_DATA_DIR = DATA_DIR / "cache"
+REVIEW_DATA_DIR = DATA_DIR / "reviews"
 SOURCE_REVIEWS_DIR = REPO_ROOT / "source_reviews"
 
 SOURCE_FILENAMES = {
@@ -35,7 +40,7 @@ class ReviewSource:
     @property
     def matches_path(self) -> Path:
         return (
-            REVIEWS_DIR
+            REVIEW_DATA_DIR
             / self.review_id
             / f"{self.review_id.lower()}_role_study_matches.csv"
         )

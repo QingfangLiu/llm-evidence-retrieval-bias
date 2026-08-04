@@ -44,11 +44,13 @@ Figure 5:
 Figure 1 reads the marginal mean response-level recall from the current
 `retrieval_bias_demo/data.js` artifact. It validates the stored means and sample
 SDs against response-level recall reconstructed from the 20 committed
-`*_role_study_matches.csv` tables. A grayscale 3 × 3 heatmap with square cells
+`data/reviews/*/*_role_study_matches.csv`
+tables. A grayscale 3 × 3 heatmap with square cells
 shows the mean response-level recall for each chatbot–user-role combination.
 The chatbot marginal means are aligned above the heatmap columns, and the
 user-role marginal means are aligned as horizontal bars beside the heatmap
-rows. The top-right panel reads `role_consistency_jaccard.csv` and shows the
+rows. The top-right panel reads `data/analysis/role_consistency_jaccard.csv`
+and shows the
 included-study replicate-consistency marginals: mean pairwise Jaccard
 similarity across the four replicate responses in each review, chatbot, and
 user-role cell, summarized separately by chatbot and user role. Its error bars
@@ -76,17 +78,20 @@ complement. The excluded-study not-cited bars are truncated with break marks
 so the smaller intersection counts remain legible; their labels report the
 full count of 789 studies not cited by any chatbot or role.
 
-Figure 3 reads `cited_excluded_reason_counts.csv` and
-`cited_excluded_study_reason_audit.csv`. It ranks the non-mutually-exclusive
+Figure 3 reads `data/analysis/cited_excluded_reason_counts.csv` and
+`data/analysis/cited_excluded_study_reason_audit.csv`.
+It ranks the non-mutually-exclusive
 reason categories by their unique cited excluded study count and prints both
 the count and percentage of the 142-study denominator. For each category, it
 selects up to three studies with the largest `response_study_mentions` value;
 ties are resolved by review ID and study label. The concise display wording is
-kept separately in `figure_3_example_annotations.csv`. The figure build
+kept separately in `data/curation/figure_3_example_annotations.csv`.
+The figure build
 validates that this file covers exactly the deterministically selected studies,
 with no missing or stale annotations.
 
-Figure 4 reads all 20 curated `*_role_study_matches.csv` tables and assigns
+Figure 4 reads all 20 curated `data/reviews/*/*_role_study_matches.csv`
+tables and assigns
 each distinct response-study match to one mutually exclusive category:
 `included`, `cochrane_excluded`, or other. Other combines every remaining
 status, including Cochrane ongoing or awaiting-classification studies,

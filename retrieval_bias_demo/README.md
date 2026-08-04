@@ -36,7 +36,7 @@ python3 retrieval_bias_demo/build_demo.py
 ```
 
 `scripts/fetch_citation_counts.py` makes live PubMed/Semantic Scholar calls and
-writes `citation_counts_by_study.csv`, which
+writes `data/analysis/citation_counts_by_study.csv`, which
 `scripts/analyze_recall_by_characteristic.py` requires to exist. It has its own
 cache and does not need to be rerun on every build - only when you want
 fresher citation counts. Its output also includes `is_open_access`
@@ -45,14 +45,14 @@ citation counts use), feeding the "Open access by recall pattern" section
 below.
 
 `scripts/analyze_recall_logistic_regression.py` requires
-`recall_pattern_by_characteristic.csv` (written by
+`data/analysis/recall_pattern_by_characteristic.csv` (written by
 `scripts/analyze_recall_by_characteristic.py`, run just before it) and writes
-`logistic_regression_results.json`, which `build_demo.py`
+`data/analysis/logistic_regression_results.json`, which `build_demo.py`
 reads to render the "Multiple logistic regression on recall" table.
 
 `scripts/analyze_role_dependence_logistic_regression.py` reads the same
-`recall_pattern_by_characteristic.csv` and writes
-`role_dependence_logistic_regression_results.json`, which
+`data/analysis/recall_pattern_by_characteristic.csv` and writes
+`data/analysis/role_dependence_logistic_regression_results.json`, which
 `build_demo.py` reads to render the "Multiple logistic regression on role
 dependence" table - the same model refit on the two role-universality groups
 described below instead of on recalled-vs-not.
@@ -63,13 +63,13 @@ their respective match tables. For every entry in
 table, README, included RIS, excluded RIS, and analysis-data rows. It also
 reads:
 
-- `recall_pattern_by_characteristic.csv` (written by
+- `data/analysis/recall_pattern_by_characteristic.csv` (written by
   `scripts/analyze_recall_by_characteristic.py`; feeds the "Study characteristics by
   recall pattern" distribution charts on the Across-reviews tab)
-- `logistic_regression_results.json` (written by
+- `data/analysis/logistic_regression_results.json` (written by
   `scripts/analyze_recall_logistic_regression.py`; feeds the "Multiple logistic
   regression on recall" table on the Across-reviews tab)
-- `role_dependence_logistic_regression_results.json` (written
+- `data/analysis/role_dependence_logistic_regression_results.json` (written
   by `scripts/analyze_role_dependence_logistic_regression.py`; feeds the "Multiple
   logistic regression on role dependence" table on the Across-reviews tab)
 Study truth for all 20 reviews is prepared directly from their RIS exports;
@@ -385,7 +385,7 @@ grouped by which user role(s) - patient, clinician, researcher - recalled
 each study (`role_recall_pattern`, built the same way as `recall_pattern`
 but from each match row's `role_id` instead of its `model`) instead of
 which chatbot(s) did. Both are computed by `scripts/analyze_recall_by_characteristic.py`
-(added to the same `recall_pattern_by_characteristic.csv` join, alongside
+(added to the same `data/analysis/recall_pattern_by_characteristic.csv` join, alongside
 `recalled_by_patient`/`recalled_by_clinician`/`recalled_by_researcher`) and
 rendered by `build_role_characteristic_distributions()` and
 `build_role_open_access_distribution()` in `build_demo.py`, reusing the same

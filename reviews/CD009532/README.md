@@ -58,7 +58,8 @@ python3 reviews/CD009532/analyze_cd009532_roles.py
 ```
 
 The script validates all 36 response files and writes
-`cd009532_role_study_matches.csv`. Citations are deduplicated at the Cochrane study
+`data/reviews/CD009532/cd009532_role_study_matches.csv`.
+Citations are deduplicated at the Cochrane study
 cluster level, so multiple reports from HEIRS, STRIDE, or another trial count once
 per response. Included and excluded status is validated directly against
 `CD009532-included.ris` and `CD009532-excluded.ris`; no `benchmark.json` is required

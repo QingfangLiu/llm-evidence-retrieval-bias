@@ -5,7 +5,7 @@ The 20 review-specific match tables identify chatbot-cited study clusters and
 their Cochrane status. This analysis keeps only ``cochrane_excluded`` rows,
 deduplicates them by (review, Cochrane study label), joins each cluster to the
 exclusion reason in the review's excluded RIS export, and applies the explicit
-decisions in ``cited_excluded_reason_curation.csv``.
+decisions in ``data/curation/cited_excluded_reason_curation.csv``.
 
 The curation is intentionally separate from both the Cochrane source data and
 the generated summaries. A new cited excluded study therefore causes a hard
@@ -27,15 +27,19 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
-from llm_evidence_retrieval_bias.review_registry import review_sources  # noqa: E402
+from llm_evidence_retrieval_bias.review_registry import (  # noqa: E402
+    ANALYSIS_DATA_DIR,
+    CURATION_DATA_DIR,
+    review_sources,
+)
 
 RETRIEVAL_BIAS_DIR = REPO_ROOT
-TAXONOMY_PATH = RETRIEVAL_BIAS_DIR / "cited_excluded_reason_taxonomy.csv"
-CURATION_PATH = RETRIEVAL_BIAS_DIR / "cited_excluded_reason_curation.csv"
-STUDY_AUDIT_PATH = RETRIEVAL_BIAS_DIR / "cited_excluded_study_reason_audit.csv"
-CATEGORY_COUNTS_PATH = RETRIEVAL_BIAS_DIR / "cited_excluded_reason_counts.csv"
+TAXONOMY_PATH = CURATION_DATA_DIR / "cited_excluded_reason_taxonomy.csv"
+CURATION_PATH = CURATION_DATA_DIR / "cited_excluded_reason_curation.csv"
+STUDY_AUDIT_PATH = ANALYSIS_DATA_DIR / "cited_excluded_study_reason_audit.csv"
+CATEGORY_COUNTS_PATH = ANALYSIS_DATA_DIR / "cited_excluded_reason_counts.csv"
 COMBINATION_COUNTS_PATH = (
-    RETRIEVAL_BIAS_DIR / "cited_excluded_reason_combination_counts.csv"
+    ANALYSIS_DATA_DIR / "cited_excluded_reason_combination_counts.csv"
 )
 
 

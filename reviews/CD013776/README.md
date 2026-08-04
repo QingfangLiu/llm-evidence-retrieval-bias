@@ -73,7 +73,8 @@ python3 reviews/CD013776/analyze_cd013776_roles.py
 ```
 
 The script validates all 36 response files and writes
-`cd013776_role_study_matches.csv`. Study identification uses each complete saved
+`data/reviews/CD013776/cd013776_role_study_matches.csv`.
+Study identification uses each complete saved
 response, not only a terminal bibliography. Any explicitly identifiable primary
 study named in the narrative, a table, an inline list, or a caveat is retained
 once per response. Terminal reference lists help resolve identity but do not

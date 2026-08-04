@@ -33,10 +33,10 @@ record `citation_count`/`citation_count_pmid` already describe.
 
 Two artifacts are written:
 
-- `pmid_resolution_cache.json` / reuses the PubMed ESearch/EFetch caching
+- `data/cache/pmid_resolution_cache.json` / reuses the PubMed ESearch/EFetch caching
   built into the imported module, plus a local Semantic Scholar response
   cache, so repeat runs do not re-hit either API for already-seen records.
-- `citation_counts_by_study.csv` - one row per included study, with its
+- `data/analysis/citation_counts_by_study.csv` - one row per included study, with its
   resolved PMIDs, resolution methods, Semantic Scholar match, citation
   count, open-access status, and citations per year. Blank `citation_count`
   means no PMID could be resolved with reasonable confidence, or none of its
@@ -78,11 +78,15 @@ try:
     import build_reference_indexing_from_cochrane_ris as ris_lib  # noqa: E402
 except ModuleNotFoundError:
     ris_lib = None  # type: ignore[assignment]
-from llm_evidence_retrieval_bias.review_registry import REVIEW_SOURCES  # noqa: E402
+from llm_evidence_retrieval_bias.review_registry import (  # noqa: E402
+    ANALYSIS_DATA_DIR,
+    CACHE_DATA_DIR,
+    REVIEW_SOURCES,
+)
 
-PMID_CACHE_PATH = RETRIEVAL_BIAS_DIR / "pmid_resolution_cache.json"
-SEMANTIC_SCHOLAR_CACHE_PATH = RETRIEVAL_BIAS_DIR / "semantic_scholar_cache.json"
-OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "citation_counts_by_study.csv"
+PMID_CACHE_PATH = CACHE_DATA_DIR / "pmid_resolution_cache.json"
+SEMANTIC_SCHOLAR_CACHE_PATH = CACHE_DATA_DIR / "semantic_scholar_cache.json"
+OUTPUT_PATH = ANALYSIS_DATA_DIR / "citation_counts_by_study.csv"
 SEMANTIC_SCHOLAR_BATCH_URL = "https://api.semanticscholar.org/graph/v1/paper/batch"
 SEMANTIC_SCHOLAR_BATCH_SIZE = 250
 SEMANTIC_SCHOLAR_THROTTLE_SECONDS = 1.1

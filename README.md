@@ -1,22 +1,31 @@
 # Retrieval-bias experiments
 
 Each Cochrane review has its own folder named with the review ID. Completed
-experiments keep the review-specific analysis script, curated citation-match
-table, and unchanged chatbot answers together. A planned experiment can begin
-with a README that fixes the prompts and run protocol before responses are
-collected:
+experiments keep the review-specific analysis script, README, and unchanged
+chatbot answers together. Curated CSV/JSON data artifacts live under `data/`.
+A planned experiment can begin with a README that fixes the prompts and run
+protocol before responses are collected:
 
 ```text
 ./
 ├── reviews/
 │   ├── CD000510/
 │   │   ├── analyze_cd000510_roles.py
-│   │   ├── cd000510_role_study_matches.csv
 │   │   ├── README.md
 │   │   └── <36 model-role response files>
 │   ├── CD001452/
 │   ├── ...
 │   └── CD016104/
+├── data/
+│   ├── analysis/
+│   ├── cache/
+│   ├── curation/
+│   └── reviews/
+│       ├── CD000510/
+│       │   └── cd000510_role_study_matches.csv
+│       ├── CD001452/
+│       ├── ...
+│       └── CD016104/
 ├── retrieval_bias_demo/
 ├── figures/
 ├── llm_evidence_retrieval_bias/
@@ -234,7 +243,7 @@ python3 scripts/analyze_cited_excluded_reasons.py
 ```
 
 The analysis reads `cochrane_excluded` rows from every registered
-`*_role_study_matches.csv`, deduplicates them by review and Cochrane study
+`data/reviews/*/*_role_study_matches.csv`, deduplicates them by review and Cochrane study
 label, and joins each cluster to the `N1` exclusion reason in that review's
 excluded RIS export. The current inputs contain 856 response-study mentions
 representing 142 unique excluded study clusters across all 20 reviews. All 142
@@ -242,16 +251,16 @@ clusters resolve to exactly one distinct Cochrane exclusion reason.
 
 The audit artifacts have separate responsibilities:
 
-- `cited_excluded_reason_taxonomy.csv` defines the high-level categories and
+- `data/curation/cited_excluded_reason_taxonomy.csv` defines the high-level categories and
   their boundaries.
-- `cited_excluded_reason_curation.csv` records only the reviewed category
+- `data/curation/cited_excluded_reason_curation.csv` records only the reviewed category
   decision for each cited excluded study cluster.
-- `cited_excluded_study_reason_audit.csv` joins the Cochrane reason, reviewed
+- `data/analysis/cited_excluded_study_reason_audit.csv` joins the Cochrane reason, reviewed
   categories, and number of response-study mentions so every classification
   can be checked against its source wording.
-- `cited_excluded_reason_counts.csv` counts unique study clusters and
+- `data/analysis/cited_excluded_reason_counts.csv` counts unique study clusters and
   response-study mentions for each category.
-- `cited_excluded_reason_combination_counts.csv` counts mutually exclusive
+- `data/analysis/cited_excluded_reason_combination_counts.csv` counts mutually exclusive
   category combinations.
 
 Reason categories are multi-label because Cochrane can identify more than one
@@ -280,7 +289,7 @@ the same set, 0.0 = no overlap between any pair). It reports two scopes:
 `all_candidates` (every resolved candidate, a measure of raw output stability)
 and `included_only` (candidates matched to a Cochrane-included label, a measure
 of how consistently a model/role finds the same correct studies). Results are
-written to `role_consistency_jaccard.csv`, one row per
+written to `data/analysis/role_consistency_jaccard.csv`, one row per
 review/model/role/scope.
 
 The committed aggregate contains 360 rows: 20 reviews × 3 chatbots × 3 roles
@@ -322,12 +331,12 @@ characteristics:
   fails for studies with no DOI/PMID on record, and even a resolved abstract
   often never states a single overall N), so it was replaced entirely by this
   local source;
-- citations per year, from `citation_counts_by_study.csv` (written by
+- citations per year, from `data/analysis/citation_counts_by_study.csv` (written by
   `scripts/fetch_citation_counts.py`, run separately - see below). Publication year
   and sample size are both properties of the review's own data; citations
   per year additionally requires resolving each study's PMID and looking up
   a live citation count, so it is documented as its own step;
-- open-access status (`is_open_access`), from the same `citation_counts_by_study.csv`
+- open-access status (`is_open_access`), from the same `data/analysis/citation_counts_by_study.csv`
   row - Semantic Scholar's flag for the same best-matched PMID citation
   counts already use. A binary characteristic, so it is reported as a rate
   with a Fisher's exact test rather than the mean/median/Mann-Whitney
@@ -338,7 +347,7 @@ characteristics:
 
 Year, sample size, citations per year, and open-access status are all
 available regardless of recall pattern; design is not. Results are written
-to `recall_pattern_by_characteristic.csv`, one row per review/study with its
+to `data/analysis/recall_pattern_by_characteristic.csv`, one row per review/study with its
 recall pattern, year, sample size, citations per year, open-access status,
 and design category.
 
@@ -382,9 +391,9 @@ study's `citation_count` is the maximum across all of its resolved PMIDs
 typically cited less than the original trial), and `citations_per_year`
 divides that by years since the study's Cochrane-reported publication year.
 Blank values mean PMID resolution or the Semantic Scholar lookup failed, not
-zero citations. Results are cached in `pmid_resolution_cache.json` (PubMed)
-and `semantic_scholar_cache.json` (Semantic Scholar) so repeat runs do not
-re-hit either API, and written to `citation_counts_by_study.csv`, which
+zero citations. Results are cached in `data/cache/pmid_resolution_cache.json` (PubMed)
+and `data/cache/semantic_scholar_cache.json` (Semantic Scholar) so repeat runs do not
+re-hit either API, and written to `data/analysis/citation_counts_by_study.csv`, which
 includes `citations_per_year`, the raw `citation_count` it is derived from,
 and `is_open_access` - Semantic Scholar's open-access flag for that same
 best-matched PMID (known for 376 of 442 studies). A cached
@@ -443,7 +452,7 @@ clusters), since studies nest within reviews and that mildly violates the
 independence assumption a plain logistic regression relies on. Total
 citations is excluded from the model entirely (not just deprioritized)
 given its rho=0.80 with citations per year. Results are written to
-`logistic_regression_results.json` and printed as a coefficient table with
+`data/analysis/logistic_regression_results.json` and printed as a coefficient table with
 clustered and naive p-values, odds ratios with 95% CIs, Variance Inflation
 Factors, and fit statistics.
 
@@ -457,7 +466,7 @@ is 3.4e-09.
 
 This coefficient table is also rendered directly in the demo's Across-reviews
 tab (see `retrieval_bias_demo/README.md`, "Multiple logistic regression on
-recall"), reading `logistic_regression_results.json` rather than refitting
+recall"), reading `data/analysis/logistic_regression_results.json` rather than refitting
 the model in the browser.
 
 ## Citation issues (`identity_issue`) are not fabrication
@@ -480,7 +489,7 @@ now covers all 23 such rows. Twenty-two resolve to real papers or protocols,
 although several conflate an author, comparator, intervention, or secondary
 source; only one - a "Ratner RE" citation for a lispro-vs-regular-insulin
 trial in CD012161 - could not be matched to a real publication despite
-targeted search. See `unresolved_candidate_fabrication_check.csv` for the
+targeted search. See `data/analysis/unresolved_candidate_fabrication_check.csv` for the
 per-entry queries, best matches, and verdicts.
 
 **`identity_issue` is never used to filter or exclude a citation anywhere in

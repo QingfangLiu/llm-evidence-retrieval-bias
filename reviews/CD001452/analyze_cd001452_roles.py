@@ -25,7 +25,7 @@ SOURCE_ZIP = (
     / "2026_issue_7"
     / "CD001452-SUP-06-dataPackage.zip"
 )
-MATCHES_PATH = REVIEW_DIR / "cd001452_role_study_matches.csv"
+MATCHES_PATH = REPO_ROOT / "data" / "reviews" / REVIEW_DIR.name / "cd001452_role_study_matches.csv"
 ROLES = ("patient", "clinician", "researcher")
 MODELS = ("claude", "gemini", "gpt")
 EXPECTED_LIST_ENTRIES = {"claude": 75, "gemini": 37, "gpt": 102}

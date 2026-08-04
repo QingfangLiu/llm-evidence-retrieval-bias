@@ -136,7 +136,8 @@ python3 reviews/CD001452/analyze_cd001452_roles.py
 The script validates the 36-file inventory and expected terminal-list entry
 counts, requires every listed citation to resolve, validates every
 Cochrane-classified label against the RIS exports, and writes
-`cd001452_role_study_matches.csv`. The standard match table preserves the raw
+`data/reviews/CD001452/cd001452_role_study_matches.csv`.
+The standard match table preserves the raw
 reported citation, canonical candidate, source-review status, study label,
 design, identity flags, and audit notes.
 

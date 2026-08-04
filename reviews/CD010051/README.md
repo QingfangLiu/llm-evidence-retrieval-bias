@@ -113,7 +113,8 @@ python3 reviews/CD010051/analyze_cd010051_roles.py
 The script validates the 36-file inventory and expected terminal-list entry
 counts, resolves all listed citations, validates every Cochrane-classified
 label against the RIS exports, and writes
-`cd010051_role_study_matches.csv`. Multiple reports of one study are retained
+`data/reviews/CD010051/cd010051_role_study_matches.csv`.
+Multiple reports of one study are retained
 in `reported_citation`, separated by ` || `, but the study is credited only
 once per response. `identity_issue=1` marks an identifiable citation with
 conflicting bibliographic details.

@@ -35,16 +35,17 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
 from llm_evidence_retrieval_bias.review_registry import (  # noqa: E402
+    ANALYSIS_DATA_DIR,
     ReviewSource,
     review_sources,
 )
 
-DEFAULT_CHARACTERISTIC_ROWS = REPO_ROOT / "recall_pattern_by_characteristic.csv"
+DEFAULT_CHARACTERISTIC_ROWS = ANALYSIS_DATA_DIR / "recall_pattern_by_characteristic.csv"
 DEFAULT_LOGISTIC_REGRESSION_RESULTS = (
-    REPO_ROOT / "logistic_regression_results.json"
+    ANALYSIS_DATA_DIR / "logistic_regression_results.json"
 )
 DEFAULT_ROLE_DEPENDENCE_LOGISTIC_REGRESSION_RESULTS = (
-    REPO_ROOT / "role_dependence_logistic_regression_results.json"
+    ANALYSIS_DATA_DIR / "role_dependence_logistic_regression_results.json"
 )
 DEFAULT_OUTPUT = Path(__file__).resolve().parent / "data.js"
 

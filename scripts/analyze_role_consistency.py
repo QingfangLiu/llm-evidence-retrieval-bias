@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Measure within-cell replicate consistency across all role experiments.
 
-Each review's `*_role_study_matches.csv` records the studies one response
+Each review's `data/reviews/*/*_role_study_matches.csv` records the studies one response
 retrieved. For every (review, model, role) cell there are four independent
 replicates. This script computes the pairwise Jaccard similarity between
 every replicate pair in a cell, in two scopes:
@@ -15,7 +15,7 @@ every replicate pair in a cell, in two scopes:
 A cell's mean Jaccard across its six replicate pairs is a self-consistency
 score: 1.0 means all four replicates named the same study set, 0.0 means no
 overlap between any pair. It writes one row per (review, model, role, scope)
-to `role_consistency_jaccard.csv`.
+to `data/analysis/role_consistency_jaccard.csv`.
 """
 
 from __future__ import annotations
@@ -30,10 +30,13 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
-from llm_evidence_retrieval_bias.review_registry import review_sources  # noqa: E402
+from llm_evidence_retrieval_bias.review_registry import (  # noqa: E402
+    ANALYSIS_DATA_DIR,
+    review_sources,
+)
 
 RETRIEVAL_BIAS_DIR = REPO_ROOT
-OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "role_consistency_jaccard.csv"
+OUTPUT_PATH = ANALYSIS_DATA_DIR / "role_consistency_jaccard.csv"
 MODELS = ("claude", "gemini", "gpt")
 ROLES = ("patient", "clinician", "researcher")
 

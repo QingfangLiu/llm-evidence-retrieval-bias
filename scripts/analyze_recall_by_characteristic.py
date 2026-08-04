@@ -22,7 +22,7 @@ six study characteristics:
   only ~15-20% coverage with meaningfully more uncertainty per value; this
   local source covers ~88% of included studies with no network dependency,
   so it replaced the PubMed approach entirely;
-- citations per year, read from `citation_counts_by_study.csv` (written by
+- citations per year, read from `data/analysis/citation_counts_by_study.csv` (written by
   `scripts/fetch_citation_counts.py`). That script resolves each study's PMIDs via
   the repository's existing Cochrane RIS reference-resolution pipeline
   (explicit PMID, DOI search, then a validated citation search - see its
@@ -76,10 +76,13 @@ from scipy.stats import fisher_exact
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
-from llm_evidence_retrieval_bias.review_registry import review_sources  # noqa: E402
+from llm_evidence_retrieval_bias.review_registry import (  # noqa: E402
+    ANALYSIS_DATA_DIR,
+    review_sources,
+)
 
 RETRIEVAL_BIAS_DIR = REPO_ROOT
-OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "recall_pattern_by_characteristic.csv"
+OUTPUT_PATH = ANALYSIS_DATA_DIR / "recall_pattern_by_characteristic.csv"
 MODELS = ("claude", "gemini", "gpt")
 MODEL_LABELS = {"claude": "Claude", "gemini": "Gemini", "gpt": "GPT"}
 ROLES = ("patient", "clinician", "researcher")
@@ -128,7 +131,7 @@ def load_citation_metrics() -> tuple[
     PMID citation_count already uses.
     """
 
-    path = RETRIEVAL_BIAS_DIR / "citation_counts_by_study.csv"
+    path = ANALYSIS_DATA_DIR / "citation_counts_by_study.csv"
     citations_per_year: dict[tuple[str, str], float] = {}
     citation_count: dict[tuple[str, str], int] = {}
     is_open_access: dict[tuple[str, str], bool] = {}

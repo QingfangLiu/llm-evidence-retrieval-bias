@@ -102,7 +102,8 @@ python3 reviews/CD007654/analyze_cd007654_roles.py
 The script validates the 36-file inventory and the expected terminal-list entry
 counts, resolves listed citations to study clusters, validates Cochrane included
 and excluded labels directly against the review's RIS exports, and writes
-`cd007654_role_study_matches.csv`. When multiple terminal-list citations resolve
+`data/reviews/CD007654/cd007654_role_study_matches.csv`.
+When multiple terminal-list citations resolve
 to one study cluster, the CSV keeps all of them in `reported_citation`, separated
 by ` || `, but credits the cluster only once for that response.
 

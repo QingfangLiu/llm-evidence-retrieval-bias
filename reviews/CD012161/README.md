@@ -123,7 +123,8 @@ python3 reviews/CD012161/analyze_cd012161_roles.py
 The script validates the 36-file inventory and expected terminal-list entry
 counts, resolves each listed citation to one or more study clusters, validates
 Cochrane labels directly against all three RIS exports, and writes
-`cd012161_role_study_matches.csv`. Multiple reports of one trial are retained
+`data/reviews/CD012161/cd012161_role_study_matches.csv`.
+Multiple reports of one trial are retained
 in `reported_citation`, separated by ` || `, but the trial is credited only
 once per response. `identity_issue=1` marks a resolved citation with conflicting
 bibliographic details.

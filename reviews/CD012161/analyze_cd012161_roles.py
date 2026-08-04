@@ -25,7 +25,7 @@ SOURCE_DIR = (
     / "CD012161-SUP-06-dataPackage"
     / "CD012161-study-data"
 )
-MATCHES_PATH = REVIEW_DIR / "cd012161_role_study_matches.csv"
+MATCHES_PATH = REPO_ROOT / "data" / "reviews" / REVIEW_DIR.name / "cd012161_role_study_matches.csv"
 ROLES = ("patient", "clinician", "researcher")
 MODELS = ("claude", "gemini", "gpt")
 EXPECTED_LIST_ENTRIES = {"claude": 184, "gemini": 48, "gpt": 213}

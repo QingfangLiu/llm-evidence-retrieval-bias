@@ -52,13 +52,17 @@ FIGURE_3_OUTPUT_STEM = FIGURES_DIR / "figure_3_cited_excluded_reasons"
 FIGURE_4_OUTPUT_STEM = FIGURES_DIR / "figure_4_candidate_status_composition"
 FIGURE_5_OUTPUT_STEM = FIGURES_DIR / "figure_5_proportional_venn_overlap"
 CITED_EXCLUDED_STUDY_AUDIT_PATH = (
-    RETRIEVAL_BIAS_DIR / "cited_excluded_study_reason_audit.csv"
+    RETRIEVAL_BIAS_DIR / "data" / "analysis" / "cited_excluded_study_reason_audit.csv"
 )
 CITED_EXCLUDED_REASON_COUNTS_PATH = (
-    RETRIEVAL_BIAS_DIR / "cited_excluded_reason_counts.csv"
+    RETRIEVAL_BIAS_DIR / "data" / "analysis" / "cited_excluded_reason_counts.csv"
 )
-FIGURE_3_ANNOTATIONS_PATH = FIGURES_DIR / "figure_3_example_annotations.csv"
-ROLE_CONSISTENCY_PATH = RETRIEVAL_BIAS_DIR / "role_consistency_jaccard.csv"
+FIGURE_3_ANNOTATIONS_PATH = (
+    RETRIEVAL_BIAS_DIR / "data" / "curation" / "figure_3_example_annotations.csv"
+)
+ROLE_CONSISTENCY_PATH = (
+    RETRIEVAL_BIAS_DIR / "data" / "analysis" / "role_consistency_jaccard.csv"
+)
 
 sys.path.insert(0, str(RETRIEVAL_BIAS_DIR))
 from llm_evidence_retrieval_bias.review_registry import review_sources

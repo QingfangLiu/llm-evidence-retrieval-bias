@@ -48,7 +48,7 @@ Run from the repository root:
 
     python3 scripts/analyze_recall_logistic_regression.py
 
-Writes `logistic_regression_results.json` (coefficients, odds ratios, 95%
+Writes `data/analysis/logistic_regression_results.json` (coefficients, odds ratios, 95%
 CIs, p-values, VIFs, and fit statistics) and prints a summary.
 """
 
@@ -57,6 +57,7 @@ from __future__ import annotations
 import csv
 import json
 import math
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -66,9 +67,13 @@ import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT))
+
+from llm_evidence_retrieval_bias.review_registry import ANALYSIS_DATA_DIR  # noqa: E402
+
 RETRIEVAL_BIAS_DIR = REPO_ROOT
-INPUT_PATH = RETRIEVAL_BIAS_DIR / "recall_pattern_by_characteristic.csv"
-OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "logistic_regression_results.json"
+INPUT_PATH = ANALYSIS_DATA_DIR / "recall_pattern_by_characteristic.csv"
+OUTPUT_PATH = ANALYSIS_DATA_DIR / "logistic_regression_results.json"
 CITATIONS_PER_YEAR_OFFSET = 0.01
 PREDICTORS = ["year", "log_sample_size", "log_citations_per_year", "is_open_access"]
 
