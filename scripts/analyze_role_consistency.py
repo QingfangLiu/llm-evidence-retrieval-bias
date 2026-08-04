@@ -23,13 +23,16 @@ from __future__ import annotations
 import csv
 import itertools
 import statistics as stats
+import sys
 from collections import defaultdict
 from pathlib import Path
 
-from review_registry import review_sources
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT))
 
-REPO_ROOT = Path(__file__).resolve().parent
-RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
+from llm_evidence_retrieval_bias.review_registry import review_sources  # noqa: E402
+
+RETRIEVAL_BIAS_DIR = REPO_ROOT
 OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "role_consistency_jaccard.csv"
 MODELS = ("claude", "gemini", "gpt")
 ROLES = ("patient", "clinician", "researcher")

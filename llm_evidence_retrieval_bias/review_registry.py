@@ -12,8 +12,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from zipfile import ZipFile
 
-REPO_ROOT = Path(__file__).resolve().parent
-RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parent.parent
+RETRIEVAL_BIAS_DIR = REPO_ROOT
 REVIEWS_DIR = RETRIEVAL_BIAS_DIR / "reviews"
 SOURCE_REVIEWS_DIR = REPO_ROOT / "source_reviews"
 

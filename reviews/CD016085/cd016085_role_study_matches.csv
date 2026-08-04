@@ -1,232 +1,232 @@
 run_id,model,role_id,replicate,source_file,reported_citation,canonical_candidate,ground_truth_status,cochrane_study_label,design,identity_issue,notes
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD016085/claude-clinician-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD016085/claude-clinician-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD016085/claude-clinician-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD016085/claude-clinician-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD016085/claude-clinician-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD016085/claude-clinician-1.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD016085/claude-clinician-1.md,CRISIS I,CRISIS I,cochrane_awaiting,CRISIS I,registered trial,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD016085/claude-clinician-1.md,INTENSE,INTENSE,outside_other,,registered ongoing multicenter RCT,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD016085/claude-clinician-1.md,ENCHANTED3/MT,ENCHANTED3/MT,cochrane_ongoing,ENCHANTED3/MT,adaptive-platform randomized trial,0,
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD016085/claude-clinician-2.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD016085/claude-clinician-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD016085/claude-clinician-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD016085/claude-clinician-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD016085/claude-clinician-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD016085/claude-clinician-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD016085/claude-clinician-2.md,INTENSE,INTENSE,outside_other,,registered ongoing multicenter RCT,0,
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD016085/claude-clinician-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD016085/claude-clinician-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD016085/claude-clinician-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD016085/claude-clinician-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD016085/claude-clinician-3.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD016085/claude-clinician-3.md,INTENSE,INTENSE,outside_other,,registered ongoing multicenter RCT,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD016085/claude-clinician-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD016085/claude-clinician-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD016085/claude-clinician-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD016085/claude-clinician-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD016085/claude-clinician-4.md,CLEVER,CLEVER,included,CLEVER,single-center RCT,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD016085/claude-clinician-4.md,'BEST' feasibility precursor with a trial/meta-analysis publication; DETECT NCT04484350,DETECT,included,DETECT,single-center feasibility RCT,1,"The response describes DETECT's randomized design and mixed trial/meta-analysis publication as a 'BEST' feasibility precursor, then later calls DETECT unpublished.; The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study."
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD016085/claude-clinician-4.md,CRISIS I,CRISIS I,cochrane_awaiting,CRISIS I,registered trial,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD016085/claude-clinician-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-claude-patient-1,claude,patient,1,retrieval_bias/CD016085/claude-patient-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD016085/claude-patient-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD016085/claude-patient-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-patient-1,claude,patient,1,retrieval_bias/CD016085/claude-patient-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD016085/claude-patient-1.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,CHASE (possible trial),CHASE-MT,cochrane_awaiting,CHASE-MT,registered trial,1,The response names only 'CHASE' in its search preamble; it is mapped to the Cochrane awaiting-classification CHASE-MT registry by context.
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,INDIVIDUATE,INDIVIDUATE,cochrane_excluded,INDIVIDUATE,exploratory RCT,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,DETERMINE,DETERMINE,cochrane_excluded,DETERMINE,randomized-trial protocol,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD016085/claude-patient-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD016085/claude-patient-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD016085/claude-patient-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-patient-3,claude,patient,3,retrieval_bias/CD016085/claude-patient-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD016085/claude-patient-3.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD016085/claude-patient-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD016085/claude-patient-3.md,ENCHANTED3/MT,ENCHANTED3/MT,cochrane_ongoing,ENCHANTED3/MT,adaptive-platform randomized trial,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD016085/claude-patient-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD016085/claude-patient-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD016085/claude-patient-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD016085/claude-patient-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD016085/claude-patient-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-patient-4,claude,patient,4,retrieval_bias/CD016085/claude-patient-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD016085/claude-patient-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD016085/claude-researcher-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD016085/claude-researcher-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD016085/claude-researcher-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD016085/claude-researcher-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD016085/claude-researcher-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD016085/claude-researcher-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD016085/claude-researcher-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD016085/claude-researcher-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD016085/claude-researcher-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD016085/claude-researcher-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD016085/claude-researcher-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD016085/claude-researcher-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD016085/claude-researcher-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD016085/claude-researcher-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD016085/claude-researcher-3.md,Mistry et al.; randomized trial of early intensive BP lowering on cerebral perfusion; NCT03443596,Sharma 2018,cochrane_awaiting,Sharma 2018,single-center randomized trial,1,The response attributes NCT03443596 and its trial report to Mistry; the Cochrane records identify Sharma as the lead author.
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD016085/claude-researcher-3.md,"Mistry et al. Systolic blood pressure within 24 hours after thrombectomy and functional outcomes; reported as n=11,019",Mistry 2017 post-thrombectomy BP study,outside_other,,retrospective multicenter cohort,1,"The response identifies the Mistry 2017 multicenter cohort but reports 11,019 participants; the publication enrolled 228."
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD016085/claude-researcher-3.md,INTERACT4,INTERACT4,outside_other,,prehospital randomized trial,0,The response explicitly excludes this pre-reperfusion trial from its final list but still identifies it by name.
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD016085/claude-researcher-3.md,BEST observational cohort,BEST observational cohort,cochrane_excluded,THE BEST,prospective multicenter cohort,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD016085/claude-researcher-3.md,Matusevicius 2020 BP-after-EVT study,Matusevicius 2020 BP-after-EVT study,outside_other,,multicenter registry cohort,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,CRISIS I,CRISIS I,cochrane_awaiting,CRISIS I,registered trial,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,CLEVER,CLEVER,included,CLEVER,single-center RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD016085/claude-researcher-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gemini-clinician-1,gemini,clinician,1,retrieval_bias/CD016085/gemini-clinician-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gemini-clinician-1,gemini,clinician,1,retrieval_bias/CD016085/gemini-clinician-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-clinician-1,gemini,clinician,1,retrieval_bias/CD016085/gemini-clinician-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-clinician-1,gemini,clinician,1,retrieval_bias/CD016085/gemini-clinician-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD016085/gemini-clinician-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD016085/gemini-clinician-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD016085/gemini-clinician-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD016085/gemini-clinician-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD016085/gemini-clinician-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD016085/gemini-clinician-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD016085/gemini-clinician-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD016085/gemini-clinician-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD016085/gemini-clinician-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD016085/gemini-clinician-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD016085/gemini-clinician-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD016085/gemini-clinician-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gemini-patient-1,gemini,patient,1,retrieval_bias/CD016085/gemini-patient-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-patient-1,gemini,patient,1,retrieval_bias/CD016085/gemini-patient-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-patient-1,gemini,patient,1,retrieval_bias/CD016085/gemini-patient-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gemini-patient-2,gemini,patient,2,retrieval_bias/CD016085/gemini-patient-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-patient-2,gemini,patient,2,retrieval_bias/CD016085/gemini-patient-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-patient-2,gemini,patient,2,retrieval_bias/CD016085/gemini-patient-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-patient-3,gemini,patient,3,retrieval_bias/CD016085/gemini-patient-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-patient-3,gemini,patient,3,retrieval_bias/CD016085/gemini-patient-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-patient-3,gemini,patient,3,retrieval_bias/CD016085/gemini-patient-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-patient-4,gemini,patient,4,retrieval_bias/CD016085/gemini-patient-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gemini-patient-4,gemini,patient,4,retrieval_bias/CD016085/gemini-patient-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-patient-4,gemini,patient,4,retrieval_bias/CD016085/gemini-patient-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-patient-4,gemini,patient,4,retrieval_bias/CD016085/gemini-patient-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gemini-patient-4,gemini,patient,4,retrieval_bias/CD016085/gemini-patient-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD016085/gemini-researcher-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD016085/gemini-researcher-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD016085/gemini-researcher-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD016085/gemini-researcher-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD016085/gemini-researcher-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD016085/gemini-researcher-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD016085/gemini-researcher-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD016085/gemini-researcher-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD016085/gemini-researcher-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD016085/gemini-researcher-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD016085/gemini-researcher-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD016085/gemini-researcher-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD016085/gemini-researcher-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD016085/gemini-researcher-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD016085/gemini-researcher-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD016085/gemini-researcher-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD016085/gpt-clinician-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD016085/gpt-clinician-1.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD016085/gpt-clinician-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD016085/gpt-clinician-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD016085/gpt-clinician-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD016085/gpt-clinician-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD016085/gpt-clinician-1.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD016085/gpt-clinician-1.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD016085/gpt-clinician-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD016085/gpt-clinician-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD016085/gpt-clinician-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD016085/gpt-clinician-2.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD016085/gpt-clinician-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD016085/gpt-clinician-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD016085/gpt-clinician-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD016085/gpt-clinician-2.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD016085/gpt-clinician-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD016085/gpt-clinician-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD016085/gpt-clinician-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD016085/gpt-clinician-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD016085/gpt-clinician-3.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD016085/gpt-clinician-3.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD016085/gpt-clinician-3.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD016085/gpt-clinician-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD016085/gpt-clinician-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD016085/gpt-clinician-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD016085/gpt-clinician-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD016085/gpt-clinician-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD016085/gpt-clinician-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD016085/gpt-clinician-4.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD016085/gpt-clinician-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD016085/gpt-clinician-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD016085/gpt-patient-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD016085/gpt-patient-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD016085/gpt-patient-1.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD016085/gpt-patient-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD016085/gpt-patient-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD016085/gpt-patient-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD016085/gpt-patient-1.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD016085/gpt-patient-1.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD016085/gpt-patient-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD016085/gpt-patient-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD016085/gpt-patient-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD016085/gpt-patient-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD016085/gpt-patient-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD016085/gpt-patient-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD016085/gpt-patient-2.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD016085/gpt-patient-2.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD016085/gpt-patient-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD016085/gpt-patient-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD016085/gpt-patient-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD016085/gpt-patient-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD016085/gpt-patient-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD016085/gpt-patient-3.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD016085/gpt-patient-3.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD016085/gpt-patient-3.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD016085/gpt-patient-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD016085/gpt-patient-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD016085/gpt-patient-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD016085/gpt-patient-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD016085/gpt-patient-4.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD016085/gpt-patient-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD016085/gpt-patient-4.md,CLEVER,CLEVER,included,CLEVER,single-center RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD016085/gpt-patient-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD016085/gpt-patient-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD016085/gpt-researcher-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD016085/gpt-researcher-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD016085/gpt-researcher-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD016085/gpt-researcher-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD016085/gpt-researcher-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD016085/gpt-researcher-1.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD016085/gpt-researcher-1.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD016085/gpt-researcher-1.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD016085/gpt-researcher-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD016085/gpt-researcher-2.md,Stepanchenko 2026 thrombolysis BP trial,Stepanchenko 2026 thrombolysis BP trial,outside_other,,single-center randomized conference report,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD016085/gpt-researcher-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD016085/gpt-researcher-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD016085/gpt-researcher-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD016085/gpt-researcher-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD016085/gpt-researcher-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD016085/gpt-researcher-2.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD016085/gpt-researcher-2.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD016085/gpt-researcher-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD016085/gpt-researcher-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD016085/gpt-researcher-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD016085/gpt-researcher-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD016085/gpt-researcher-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD016085/gpt-researcher-3.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD016085/gpt-researcher-3.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD016085/gpt-researcher-3.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD016085/gpt-researcher-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD016085/gpt-researcher-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD016085/gpt-researcher-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD016085/gpt-researcher-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD016085/gpt-researcher-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD016085/gpt-researcher-4.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD016085/gpt-researcher-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD016085/gpt-researcher-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+claude-clinician-1,claude,clinician,1,reviews/CD016085/claude-clinician-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+claude-clinician-1,claude,clinician,1,reviews/CD016085/claude-clinician-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-clinician-1,claude,clinician,1,reviews/CD016085/claude-clinician-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-clinician-1,claude,clinician,1,reviews/CD016085/claude-clinician-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-clinician-1,claude,clinician,1,reviews/CD016085/claude-clinician-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-clinician-1,claude,clinician,1,reviews/CD016085/claude-clinician-1.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+claude-clinician-1,claude,clinician,1,reviews/CD016085/claude-clinician-1.md,CRISIS I,CRISIS I,cochrane_awaiting,CRISIS I,registered trial,0,
+claude-clinician-1,claude,clinician,1,reviews/CD016085/claude-clinician-1.md,INTENSE,INTENSE,outside_other,,registered ongoing multicenter RCT,0,
+claude-clinician-1,claude,clinician,1,reviews/CD016085/claude-clinician-1.md,ENCHANTED3/MT,ENCHANTED3/MT,cochrane_ongoing,ENCHANTED3/MT,adaptive-platform randomized trial,0,
+claude-clinician-2,claude,clinician,2,reviews/CD016085/claude-clinician-2.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+claude-clinician-2,claude,clinician,2,reviews/CD016085/claude-clinician-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-clinician-2,claude,clinician,2,reviews/CD016085/claude-clinician-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-clinician-2,claude,clinician,2,reviews/CD016085/claude-clinician-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-clinician-2,claude,clinician,2,reviews/CD016085/claude-clinician-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-clinician-2,claude,clinician,2,reviews/CD016085/claude-clinician-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+claude-clinician-2,claude,clinician,2,reviews/CD016085/claude-clinician-2.md,INTENSE,INTENSE,outside_other,,registered ongoing multicenter RCT,0,
+claude-clinician-3,claude,clinician,3,reviews/CD016085/claude-clinician-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-clinician-3,claude,clinician,3,reviews/CD016085/claude-clinician-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-clinician-3,claude,clinician,3,reviews/CD016085/claude-clinician-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-clinician-3,claude,clinician,3,reviews/CD016085/claude-clinician-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-clinician-3,claude,clinician,3,reviews/CD016085/claude-clinician-3.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+claude-clinician-3,claude,clinician,3,reviews/CD016085/claude-clinician-3.md,INTENSE,INTENSE,outside_other,,registered ongoing multicenter RCT,0,
+claude-clinician-4,claude,clinician,4,reviews/CD016085/claude-clinician-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-clinician-4,claude,clinician,4,reviews/CD016085/claude-clinician-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-clinician-4,claude,clinician,4,reviews/CD016085/claude-clinician-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-clinician-4,claude,clinician,4,reviews/CD016085/claude-clinician-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-clinician-4,claude,clinician,4,reviews/CD016085/claude-clinician-4.md,CLEVER,CLEVER,included,CLEVER,single-center RCT,0,
+claude-clinician-4,claude,clinician,4,reviews/CD016085/claude-clinician-4.md,'BEST' feasibility precursor with a trial/meta-analysis publication; DETECT NCT04484350,DETECT,included,DETECT,single-center feasibility RCT,1,"The response describes DETECT's randomized design and mixed trial/meta-analysis publication as a 'BEST' feasibility precursor, then later calls DETECT unpublished.; The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study."
+claude-clinician-4,claude,clinician,4,reviews/CD016085/claude-clinician-4.md,CRISIS I,CRISIS I,cochrane_awaiting,CRISIS I,registered trial,0,
+claude-clinician-4,claude,clinician,4,reviews/CD016085/claude-clinician-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+claude-patient-1,claude,patient,1,reviews/CD016085/claude-patient-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-patient-1,claude,patient,1,reviews/CD016085/claude-patient-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-patient-1,claude,patient,1,reviews/CD016085/claude-patient-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-patient-1,claude,patient,1,reviews/CD016085/claude-patient-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-patient-1,claude,patient,1,reviews/CD016085/claude-patient-1.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,CHASE (possible trial),CHASE-MT,cochrane_awaiting,CHASE-MT,registered trial,1,The response names only 'CHASE' in its search preamble; it is mapped to the Cochrane awaiting-classification CHASE-MT registry by context.
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,INDIVIDUATE,INDIVIDUATE,cochrane_excluded,INDIVIDUATE,exploratory RCT,0,
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,DETERMINE,DETERMINE,cochrane_excluded,DETERMINE,randomized-trial protocol,0,
+claude-patient-2,claude,patient,2,reviews/CD016085/claude-patient-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+claude-patient-3,claude,patient,3,reviews/CD016085/claude-patient-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-patient-3,claude,patient,3,reviews/CD016085/claude-patient-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-patient-3,claude,patient,3,reviews/CD016085/claude-patient-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-patient-3,claude,patient,3,reviews/CD016085/claude-patient-3.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+claude-patient-3,claude,patient,3,reviews/CD016085/claude-patient-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-patient-3,claude,patient,3,reviews/CD016085/claude-patient-3.md,ENCHANTED3/MT,ENCHANTED3/MT,cochrane_ongoing,ENCHANTED3/MT,adaptive-platform randomized trial,0,
+claude-patient-3,claude,patient,3,reviews/CD016085/claude-patient-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+claude-patient-4,claude,patient,4,reviews/CD016085/claude-patient-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+claude-patient-4,claude,patient,4,reviews/CD016085/claude-patient-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-patient-4,claude,patient,4,reviews/CD016085/claude-patient-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-patient-4,claude,patient,4,reviews/CD016085/claude-patient-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-patient-4,claude,patient,4,reviews/CD016085/claude-patient-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-patient-4,claude,patient,4,reviews/CD016085/claude-patient-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+claude-researcher-1,claude,researcher,1,reviews/CD016085/claude-researcher-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+claude-researcher-1,claude,researcher,1,reviews/CD016085/claude-researcher-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-researcher-1,claude,researcher,1,reviews/CD016085/claude-researcher-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-researcher-1,claude,researcher,1,reviews/CD016085/claude-researcher-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-researcher-1,claude,researcher,1,reviews/CD016085/claude-researcher-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-researcher-2,claude,researcher,2,reviews/CD016085/claude-researcher-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-researcher-2,claude,researcher,2,reviews/CD016085/claude-researcher-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-researcher-2,claude,researcher,2,reviews/CD016085/claude-researcher-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-researcher-2,claude,researcher,2,reviews/CD016085/claude-researcher-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-researcher-2,claude,researcher,2,reviews/CD016085/claude-researcher-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+claude-researcher-3,claude,researcher,3,reviews/CD016085/claude-researcher-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+claude-researcher-3,claude,researcher,3,reviews/CD016085/claude-researcher-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-researcher-3,claude,researcher,3,reviews/CD016085/claude-researcher-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-researcher-3,claude,researcher,3,reviews/CD016085/claude-researcher-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-researcher-3,claude,researcher,3,reviews/CD016085/claude-researcher-3.md,Mistry et al.; randomized trial of early intensive BP lowering on cerebral perfusion; NCT03443596,Sharma 2018,cochrane_awaiting,Sharma 2018,single-center randomized trial,1,The response attributes NCT03443596 and its trial report to Mistry; the Cochrane records identify Sharma as the lead author.
+claude-researcher-3,claude,researcher,3,reviews/CD016085/claude-researcher-3.md,"Mistry et al. Systolic blood pressure within 24 hours after thrombectomy and functional outcomes; reported as n=11,019",Mistry 2017 post-thrombectomy BP study,outside_other,,retrospective multicenter cohort,1,"The response identifies the Mistry 2017 multicenter cohort but reports 11,019 participants; the publication enrolled 228."
+claude-researcher-3,claude,researcher,3,reviews/CD016085/claude-researcher-3.md,INTERACT4,INTERACT4,outside_other,,prehospital randomized trial,0,The response explicitly excludes this pre-reperfusion trial from its final list but still identifies it by name.
+claude-researcher-3,claude,researcher,3,reviews/CD016085/claude-researcher-3.md,BEST observational cohort,BEST observational cohort,cochrane_excluded,THE BEST,prospective multicenter cohort,0,
+claude-researcher-3,claude,researcher,3,reviews/CD016085/claude-researcher-3.md,Matusevicius 2020 BP-after-EVT study,Matusevicius 2020 BP-after-EVT study,outside_other,,multicenter registry cohort,0,
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,CRISIS I,CRISIS I,cochrane_awaiting,CRISIS I,registered trial,0,
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,CLEVER,CLEVER,included,CLEVER,single-center RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD016085/claude-researcher-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gemini-clinician-1,gemini,clinician,1,reviews/CD016085/gemini-clinician-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gemini-clinician-1,gemini,clinician,1,reviews/CD016085/gemini-clinician-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-clinician-1,gemini,clinician,1,reviews/CD016085/gemini-clinician-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-clinician-1,gemini,clinician,1,reviews/CD016085/gemini-clinician-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-clinician-2,gemini,clinician,2,reviews/CD016085/gemini-clinician-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-clinician-2,gemini,clinician,2,reviews/CD016085/gemini-clinician-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-clinician-2,gemini,clinician,2,reviews/CD016085/gemini-clinician-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gemini-clinician-2,gemini,clinician,2,reviews/CD016085/gemini-clinician-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-clinician-3,gemini,clinician,3,reviews/CD016085/gemini-clinician-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-clinician-3,gemini,clinician,3,reviews/CD016085/gemini-clinician-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-clinician-3,gemini,clinician,3,reviews/CD016085/gemini-clinician-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-clinician-3,gemini,clinician,3,reviews/CD016085/gemini-clinician-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gemini-clinician-4,gemini,clinician,4,reviews/CD016085/gemini-clinician-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-clinician-4,gemini,clinician,4,reviews/CD016085/gemini-clinician-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-clinician-4,gemini,clinician,4,reviews/CD016085/gemini-clinician-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-clinician-4,gemini,clinician,4,reviews/CD016085/gemini-clinician-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gemini-patient-1,gemini,patient,1,reviews/CD016085/gemini-patient-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-patient-1,gemini,patient,1,reviews/CD016085/gemini-patient-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-patient-1,gemini,patient,1,reviews/CD016085/gemini-patient-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gemini-patient-2,gemini,patient,2,reviews/CD016085/gemini-patient-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-patient-2,gemini,patient,2,reviews/CD016085/gemini-patient-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-patient-2,gemini,patient,2,reviews/CD016085/gemini-patient-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-patient-3,gemini,patient,3,reviews/CD016085/gemini-patient-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-patient-3,gemini,patient,3,reviews/CD016085/gemini-patient-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-patient-3,gemini,patient,3,reviews/CD016085/gemini-patient-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-patient-4,gemini,patient,4,reviews/CD016085/gemini-patient-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gemini-patient-4,gemini,patient,4,reviews/CD016085/gemini-patient-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-patient-4,gemini,patient,4,reviews/CD016085/gemini-patient-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-patient-4,gemini,patient,4,reviews/CD016085/gemini-patient-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gemini-patient-4,gemini,patient,4,reviews/CD016085/gemini-patient-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-researcher-1,gemini,researcher,1,reviews/CD016085/gemini-researcher-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-researcher-1,gemini,researcher,1,reviews/CD016085/gemini-researcher-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-researcher-1,gemini,researcher,1,reviews/CD016085/gemini-researcher-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-researcher-1,gemini,researcher,1,reviews/CD016085/gemini-researcher-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gemini-researcher-2,gemini,researcher,2,reviews/CD016085/gemini-researcher-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-researcher-2,gemini,researcher,2,reviews/CD016085/gemini-researcher-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-researcher-2,gemini,researcher,2,reviews/CD016085/gemini-researcher-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-researcher-3,gemini,researcher,3,reviews/CD016085/gemini-researcher-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gemini-researcher-3,gemini,researcher,3,reviews/CD016085/gemini-researcher-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gemini-researcher-3,gemini,researcher,3,reviews/CD016085/gemini-researcher-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-researcher-3,gemini,researcher,3,reviews/CD016085/gemini-researcher-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-researcher-3,gemini,researcher,3,reviews/CD016085/gemini-researcher-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gemini-researcher-4,gemini,researcher,4,reviews/CD016085/gemini-researcher-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gemini-researcher-4,gemini,researcher,4,reviews/CD016085/gemini-researcher-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gemini-researcher-4,gemini,researcher,4,reviews/CD016085/gemini-researcher-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gemini-researcher-4,gemini,researcher,4,reviews/CD016085/gemini-researcher-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD016085/gpt-clinician-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD016085/gpt-clinician-1.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-clinician-1,gpt,clinician,1,reviews/CD016085/gpt-clinician-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD016085/gpt-clinician-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD016085/gpt-clinician-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-clinician-1,gpt,clinician,1,reviews/CD016085/gpt-clinician-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD016085/gpt-clinician-1.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-clinician-1,gpt,clinician,1,reviews/CD016085/gpt-clinician-1.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD016085/gpt-clinician-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-clinician-2,gpt,clinician,2,reviews/CD016085/gpt-clinician-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD016085/gpt-clinician-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD016085/gpt-clinician-2.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-clinician-2,gpt,clinician,2,reviews/CD016085/gpt-clinician-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD016085/gpt-clinician-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-clinician-2,gpt,clinician,2,reviews/CD016085/gpt-clinician-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD016085/gpt-clinician-2.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD016085/gpt-clinician-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD016085/gpt-clinician-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-clinician-3,gpt,clinician,3,reviews/CD016085/gpt-clinician-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD016085/gpt-clinician-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD016085/gpt-clinician-3.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-clinician-3,gpt,clinician,3,reviews/CD016085/gpt-clinician-3.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD016085/gpt-clinician-3.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-clinician-3,gpt,clinician,3,reviews/CD016085/gpt-clinician-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD016085/gpt-clinician-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD016085/gpt-clinician-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD016085/gpt-clinician-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD016085/gpt-clinician-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-clinician-4,gpt,clinician,4,reviews/CD016085/gpt-clinician-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD016085/gpt-clinician-4.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-clinician-4,gpt,clinician,4,reviews/CD016085/gpt-clinician-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD016085/gpt-clinician-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-patient-1,gpt,patient,1,reviews/CD016085/gpt-patient-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-patient-1,gpt,patient,1,reviews/CD016085/gpt-patient-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-patient-1,gpt,patient,1,reviews/CD016085/gpt-patient-1.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-patient-1,gpt,patient,1,reviews/CD016085/gpt-patient-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-patient-1,gpt,patient,1,reviews/CD016085/gpt-patient-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-patient-1,gpt,patient,1,reviews/CD016085/gpt-patient-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-patient-1,gpt,patient,1,reviews/CD016085/gpt-patient-1.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-patient-1,gpt,patient,1,reviews/CD016085/gpt-patient-1.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD016085/gpt-patient-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD016085/gpt-patient-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD016085/gpt-patient-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD016085/gpt-patient-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD016085/gpt-patient-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-patient-2,gpt,patient,2,reviews/CD016085/gpt-patient-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-patient-2,gpt,patient,2,reviews/CD016085/gpt-patient-2.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD016085/gpt-patient-2.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-patient-3,gpt,patient,3,reviews/CD016085/gpt-patient-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD016085/gpt-patient-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD016085/gpt-patient-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD016085/gpt-patient-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-patient-3,gpt,patient,3,reviews/CD016085/gpt-patient-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD016085/gpt-patient-3.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-patient-3,gpt,patient,3,reviews/CD016085/gpt-patient-3.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD016085/gpt-patient-3.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-patient-4,gpt,patient,4,reviews/CD016085/gpt-patient-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD016085/gpt-patient-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD016085/gpt-patient-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD016085/gpt-patient-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-patient-4,gpt,patient,4,reviews/CD016085/gpt-patient-4.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-patient-4,gpt,patient,4,reviews/CD016085/gpt-patient-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD016085/gpt-patient-4.md,CLEVER,CLEVER,included,CLEVER,single-center RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD016085/gpt-patient-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-patient-4,gpt,patient,4,reviews/CD016085/gpt-patient-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD016085/gpt-researcher-1.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD016085/gpt-researcher-1.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD016085/gpt-researcher-1.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD016085/gpt-researcher-1.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD016085/gpt-researcher-1.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-researcher-1,gpt,researcher,1,reviews/CD016085/gpt-researcher-1.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-researcher-1,gpt,researcher,1,reviews/CD016085/gpt-researcher-1.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD016085/gpt-researcher-1.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-researcher-2,gpt,researcher,2,reviews/CD016085/gpt-researcher-2.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD016085/gpt-researcher-2.md,Stepanchenko 2026 thrombolysis BP trial,Stepanchenko 2026 thrombolysis BP trial,outside_other,,single-center randomized conference report,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD016085/gpt-researcher-2.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD016085/gpt-researcher-2.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD016085/gpt-researcher-2.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-researcher-2,gpt,researcher,2,reviews/CD016085/gpt-researcher-2.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD016085/gpt-researcher-2.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-researcher-2,gpt,researcher,2,reviews/CD016085/gpt-researcher-2.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD016085/gpt-researcher-2.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-researcher-3,gpt,researcher,3,reviews/CD016085/gpt-researcher-3.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD016085/gpt-researcher-3.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD016085/gpt-researcher-3.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD016085/gpt-researcher-3.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD016085/gpt-researcher-3.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-researcher-3,gpt,researcher,3,reviews/CD016085/gpt-researcher-3.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-researcher-3,gpt,researcher,3,reviews/CD016085/gpt-researcher-3.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD016085/gpt-researcher-3.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.
+gpt-researcher-4,gpt,researcher,4,reviews/CD016085/gpt-researcher-4.md,ENCHANTED,ENCHANTED,included,ENCHANTED,multicenter phase III RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD016085/gpt-researcher-4.md,BP-TARGET,BP-TARGET,included,BP-TARGET,multicenter RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD016085/gpt-researcher-4.md,ENCHANTED2/MT,ENCHANTED2/MT,included,ENCHANTED2/MT,multicenter phase III RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD016085/gpt-researcher-4.md,OPTIMAL-BP,OPTIMAL-BP,included,OPTIMAL-BP,multicenter RCT,0,The 2026 one-year report is grouped with the original OPTIMAL-BP trial.
+gpt-researcher-4,gpt,researcher,4,reviews/CD016085/gpt-researcher-4.md,BEST-II,BEST-II,included,The BEST-II,multicenter phase II RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD016085/gpt-researcher-4.md,DETECT,DETECT,included,DETECT,single-center feasibility RCT,0,The cited publication also contains a meta-analysis; only its original randomized DETECT component is treated as the primary study.
+gpt-researcher-4,gpt,researcher,4,reviews/CD016085/gpt-researcher-4.md,IDENTIFY,IDENTIFY,included,IDENTIFY,multicenter RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD016085/gpt-researcher-4.md,HOPE,HOPE,cochrane_ongoing,HOPE STUDY,multicenter RCT,0,The Cochrane package classifies HOPE as ongoing; several responses cite its June 2026 primary-results publication.

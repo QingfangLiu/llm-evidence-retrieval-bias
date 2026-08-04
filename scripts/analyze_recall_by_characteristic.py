@@ -23,7 +23,7 @@ six study characteristics:
   local source covers ~88% of included studies with no network dependency,
   so it replaced the PubMed approach entirely;
 - citations per year, read from `citation_counts_by_study.csv` (written by
-  `fetch_citation_counts.py`). That script resolves each study's PMIDs via
+  `scripts/fetch_citation_counts.py`). That script resolves each study's PMIDs via
   the repository's existing Cochrane RIS reference-resolution pipeline
   (explicit PMID, DOI search, then a validated citation search - see its
   module docstring), fetches citation counts from the Semantic Scholar Graph
@@ -67,15 +67,18 @@ import io
 import math
 import re
 import statistics as stats
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
 from scipy.stats import fisher_exact
 
-from review_registry import review_sources
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT))
 
-REPO_ROOT = Path(__file__).resolve().parent
-RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
+from llm_evidence_retrieval_bias.review_registry import review_sources  # noqa: E402
+
+RETRIEVAL_BIAS_DIR = REPO_ROOT
 OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "recall_pattern_by_characteristic.csv"
 MODELS = ("claude", "gemini", "gpt")
 MODEL_LABELS = {"claude": "Claude", "gemini": "Gemini", "gpt": "GPT"}
@@ -116,13 +119,13 @@ def load_citation_metrics() -> tuple[
 ]:
     """Map (review, study_label) to citations/year, raw citation_count, and open-access status.
 
-    All three come from fetch_citation_counts.py's output. citations_per_year
-    is the primary impact measure (see its module docstring for why: it
-    controls for a study's age, unlike a raw count); citation_count is kept
-    alongside it so both the age-normalized and raw pictures are visible,
-    per the user's request rather than only reporting one. is_open_access is
-    Semantic Scholar's flag for the same best-matched PMID citation_count
-    already uses.
+    All three come from scripts/fetch_citation_counts.py's output.
+    citations_per_year is the primary impact measure (see its module
+    docstring for why: it controls for a study's age, unlike a raw count);
+    citation_count is kept alongside it so both the age-normalized and raw
+    pictures are visible, per the user's request rather than only reporting
+    one. is_open_access is Semantic Scholar's flag for the same best-matched
+    PMID citation_count already uses.
     """
 
     path = RETRIEVAL_BIAS_DIR / "citation_counts_by_study.csv"

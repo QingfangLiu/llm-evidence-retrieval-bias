@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Multiple logistic regression on role dependence: year, sample size, citations/year, open access.
 
-Companion to analyze_recall_logistic_regression.py, restricted to the two
-role-universality groups build_demo.py's ROLE_UNIVERSALITY_GROUPS renders:
+Companion to scripts/analyze_recall_logistic_regression.py, restricted to the
+two role-universality groups build_demo.py's ROLE_UNIVERSALITY_GROUPS renders:
 studies recalled by all three user roles ("Role-agnostic recall") versus
 studies recalled by only some of the three retained role-recall-combination
 groups - Researcher only, Clinician+Researcher, Patient+Researcher - every
@@ -18,19 +18,19 @@ log(citations_per_year + 0.01) + is_open_access
 Answers whether these four characteristics independently predict needing a
 researcher-role response to surface a study, once the others are controlled
 for - the two-group box plots and Fisher's exact test in
-analyze_recall_by_characteristic.py and the demo can show that each
+scripts/analyze_recall_by_characteristic.py and the demo can show that each
 characteristic differs between the two groups on its own, but not whether that
 holds once the others are accounted for.
 Outcome is coded 1 for "Researcher-dependent recall" so a positive
 coefficient means higher values of that predictor make researcher-dependence
 more likely - directly answering "what does claiming to be a researcher
-additionally unlock." See analyze_recall_logistic_regression.py's docstring
-for the log-transform, clustering, and VIF rationale, all reused unchanged
-here.
+additionally unlock." See scripts/analyze_recall_logistic_regression.py's
+docstring for the log-transform, clustering, and VIF rationale, all reused
+unchanged here.
 
 Run from the repository root:
 
-    python3 analyze_role_dependence_logistic_regression.py
+    python3 scripts/analyze_role_dependence_logistic_regression.py
 
 Writes `role_dependence_logistic_regression_results.json` (coefficients, odds
 ratios, 95% CIs, p-values, VIFs, and fit statistics) and prints a summary.
@@ -49,8 +49,8 @@ import pandas as pd
 import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
-REPO_ROOT = Path(__file__).resolve().parent
-RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[1]
+RETRIEVAL_BIAS_DIR = REPO_ROOT
 INPUT_PATH = RETRIEVAL_BIAS_DIR / "recall_pattern_by_characteristic.csv"
 OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "role_dependence_logistic_regression_results.json"
 CITATIONS_PER_YEAR_OFFSET = 0.01

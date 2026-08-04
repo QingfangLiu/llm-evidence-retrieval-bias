@@ -80,7 +80,7 @@ analysis uses only the available response text.
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD015186/analyze_cd015186_roles.py
+python3 reviews/CD015186/analyze_cd015186_roles.py
 ```
 
 The script validates all 36 response files and writes

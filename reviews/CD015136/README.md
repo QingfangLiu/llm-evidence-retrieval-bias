@@ -67,7 +67,7 @@ settings not listed above have not been recorded and should not be inferred.
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD015136/analyze_cd015136_roles.py
+python3 reviews/CD015136/analyze_cd015136_roles.py
 ```
 
 The script validates all 36 response files and writes

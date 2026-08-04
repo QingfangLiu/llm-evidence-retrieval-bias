@@ -130,7 +130,7 @@ one ongoing study labels. It has no awaiting-classification RIS export.
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD001452/analyze_cd001452_roles.py
+python3 reviews/CD001452/analyze_cd001452_roles.py
 ```
 
 The script validates the 36-file inventory and expected terminal-list entry

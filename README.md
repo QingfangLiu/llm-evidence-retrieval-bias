@@ -19,12 +19,17 @@ collected:
 │   └── CD016104/
 ├── retrieval_bias_demo/
 ├── figures/
-├── review_registry.py
-└── analyze_*.py
+├── llm_evidence_retrieval_bias/
+│   ├── __init__.py
+│   └── review_registry.py
+└── scripts/
+    ├── analyze_*.py
+    └── fetch_citation_counts.py
 ```
 
 For a future review, create a sibling folder such as `reviews/CD012345/`, then
-add its title and Cochrane source package to `review_registry.py`.
+add its title and Cochrane source package to
+`llm_evidence_retrieval_bias/review_registry.py`.
 Review-specific candidate extraction remains in each review folder; aggregate
 analyses and the demo use the shared registry to discover the current review
 set and source artifacts.
@@ -35,8 +40,8 @@ This repository now treats its own top-level directory as the project root.
 Scripts that regenerate match tables or rebuild cross-review characteristics
 expect Cochrane source packages under `source_reviews/`, preserving the
 existing `2026_issue_6/` and `2026_issue_7/` subdirectories recorded in
-`review_registry.py`. The PMID/citation refresh script also expects the former
-parent repo's RIS reference-resolution helper at
+`llm_evidence_retrieval_bias/review_registry.py`. The PMID/citation refresh
+script also expects the former parent repo's RIS reference-resolution helper at
 `benchmark_tools/build_reference_indexing_from_cochrane_ris.py`.
 
 `source_reviews/` is intentionally not included in this repository because it
@@ -44,12 +49,12 @@ contains Cochrane review data packages, including RIS exports and analysis-data
 rows, that are not redistributed here for Cochrane copyright/licensing reasons.
 To fully regenerate the analyses, restore `source_reviews/` locally from an
 authorized copy of the source material while preserving the paths recorded in
-`review_registry.py`.
+`llm_evidence_retrieval_bias/review_registry.py`.
 
-`benchmark_tools/` is also not present in this checkout; `fetch_citation_counts.py`
-needs its RIS reference-resolution helper from the former parent repository.
-The committed CSV, JSON, figure, and demo artifacts can still be inspected
-without either directory.
+`benchmark_tools/` is also not present in this checkout;
+`scripts/fetch_citation_counts.py` needs its RIS reference-resolution helper
+from the former parent repository. The committed CSV, JSON, figure, and demo
+artifacts can still be inspected without either directory.
 
 ## 2026 Issue 7 expansion
 
@@ -220,12 +225,12 @@ the review data-package RIS exports.
 
 ## Cochrane exclusion reasons among chatbot-cited studies
 
-`analyze_cited_excluded_reasons.py` provides a descriptive, study-cluster-level
+`scripts/analyze_cited_excluded_reasons.py` provides a descriptive, study-cluster-level
 audit of the studies that chatbots cited even though the corresponding Cochrane
 review explicitly excluded them. Run from the repository root:
 
 ```bash
-python3 analyze_cited_excluded_reasons.py
+python3 scripts/analyze_cited_excluded_reasons.py
 ```
 
 The analysis reads `cochrane_excluded` rows from every registered
@@ -260,12 +265,12 @@ reason. This analysis is descriptive and runs no statistical model.
 
 ## Cross-review role consistency
 
-`analyze_role_consistency.py` measures replicate-to-replicate randomness within
+`scripts/analyze_role_consistency.py` measures replicate-to-replicate randomness within
 each (review, model, role) cell, independent of the review-specific analyses
 above. Run from the repository root:
 
 ```bash
-python3 analyze_role_consistency.py
+python3 scripts/analyze_role_consistency.py
 ```
 
 For every cell's four replicates, the script computes the pairwise Jaccard
@@ -289,12 +294,12 @@ differences between chatbots.
 
 ## Recall pattern by study characteristic
 
-`analyze_recall_by_characteristic.py` asks what distinguishes studies that no
+`scripts/analyze_recall_by_characteristic.py` asks what distinguishes studies that no
 chatbot ever recalls, or that only one chatbot recalls, from the rest. Run
 from the repository root:
 
 ```bash
-python3 analyze_recall_by_characteristic.py
+python3 scripts/analyze_recall_by_characteristic.py
 ```
 
 For the 20 reviews with a balanced user-role experiment, it labels every
@@ -318,7 +323,7 @@ characteristics:
   often never states a single overall N), so it was replaced entirely by this
   local source;
 - citations per year, from `citation_counts_by_study.csv` (written by
-  `fetch_citation_counts.py`, run separately - see below). Publication year
+  `scripts/fetch_citation_counts.py`, run separately - see below). Publication year
   and sample size are both properties of the review's own data; citations
   per year additionally requires resolving each study's PMID and looking up
   a live citation count, so it is documented as its own step;
@@ -352,13 +357,13 @@ mainly descriptive because it is defined only for recalled studies:
 
 ### Citations per year (fetched from PubMed and Semantic Scholar)
 
-`fetch_citation_counts.py` resolves each included study's PMID(s) and fetches
-citation counts, run separately from (and before) `analyze_recall_by_characteristic.py`
+`scripts/fetch_citation_counts.py` resolves each included study's PMID(s) and fetches
+citation counts, run separately from (and before) `scripts/analyze_recall_by_characteristic.py`
 since it makes live network calls:
 
 ```bash
-python3 fetch_citation_counts.py
-python3 analyze_recall_by_characteristic.py
+python3 scripts/fetch_citation_counts.py
+python3 scripts/analyze_recall_by_characteristic.py
 ```
 
 PMID resolution reuses the repository's existing, tested reference-resolution
@@ -385,7 +390,7 @@ and `is_open_access` - Semantic Scholar's open-access flag for that same
 best-matched PMID (known for 376 of 442 studies). A cached
 Semantic Scholar entry from before `isOpenAccess` was added to the fetched
 fields is treated as stale and refetched once, rather than permanently
-missing the field. `analyze_recall_by_characteristic.py` reports both:
+missing the field. `scripts/analyze_recall_by_characteristic.py` reports both:
 citations per year as the primary impact measure, and total citations as a
 secondary, unnormalized view kept alongside it rather than instead of it. The
 two can disagree; in this dataset both distinguish recalled from
@@ -418,14 +423,14 @@ citations. VIFs for the fitted predictors remain low (1.19-1.54).
 
 ### Multiple logistic regression
 
-`analyze_recall_logistic_regression.py` fits `logit(recalled) ~ year +
+`scripts/analyze_recall_logistic_regression.py` fits `logit(recalled) ~ year +
 log(sample_size) + log(citations_per_year + 0.01) + is_open_access` to ask
 whether each characteristic has an independent effect once the others are
 controlled for - the pairwise comparisons and correlation matrix above can
 each show a difference, but not whether it survives alongside the others:
 
 ```bash
-python3 analyze_recall_logistic_regression.py
+python3 scripts/analyze_recall_logistic_regression.py
 ```
 
 Uses the same 330 of 442 studies with all four predictors present (adding

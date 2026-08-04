@@ -23,7 +23,7 @@ resolved PMIDs' Semantic Scholar records - typically the main trial report,
 since companion/follow-up papers are usually cited less than the original
 trial. `citations_per_year` divides that by the number of years since the
 study's Cochrane-reported publication year (see
-`analyze_recall_by_characteristic.py`), floored at 1 year, specifically to
+`scripts/analyze_recall_by_characteristic.py`), floored at 1 year, specifically to
 avoid confusing "cited a lot" with "has existed long enough to be cited a
 lot" - recent studies mechanically have less time to accumulate citations
 regardless of their eventual influence. `is_open_access` is Semantic
@@ -46,9 +46,9 @@ Two artifacts are written:
 Run from the repository root, one review at a time while validating, or all
 20 at once:
 
-    python3 fetch_citation_counts.py --reviews CD012161
-    python3 fetch_citation_counts.py
-    python3 fetch_citation_counts.py --no-network
+    python3 scripts/fetch_citation_counts.py --reviews CD012161
+    python3 scripts/fetch_citation_counts.py
+    python3 scripts/fetch_citation_counts.py --no-network
 
 `--no-network` reuses only what is already cached (both PubMed and Semantic
 Scholar), for iterating without spending new API calls.
@@ -68,16 +68,17 @@ from typing import Any
 
 import requests
 
-REPO_ROOT = Path(__file__).resolve().parent
-RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[1]
+RETRIEVAL_BIAS_DIR = REPO_ROOT
 BENCHMARK_TOOLS_DIR = REPO_ROOT / "benchmark_tools"
+sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(BENCHMARK_TOOLS_DIR))
 
 try:
     import build_reference_indexing_from_cochrane_ris as ris_lib  # noqa: E402
 except ModuleNotFoundError:
     ris_lib = None  # type: ignore[assignment]
-from review_registry import REVIEW_SOURCES  # noqa: E402
+from llm_evidence_retrieval_bias.review_registry import REVIEW_SOURCES  # noqa: E402
 
 PMID_CACHE_PATH = RETRIEVAL_BIAS_DIR / "pmid_resolution_cache.json"
 SEMANTIC_SCHOLAR_CACHE_PATH = RETRIEVAL_BIAS_DIR / "semantic_scholar_cache.json"
@@ -95,9 +96,10 @@ def require_ris_lib() -> Any:
         raise SystemExit(
             "Missing benchmark_tools/build_reference_indexing_from_cochrane_ris.py. "
             "Restore the benchmark_tools directory from the former parent repo before "
-            "running fetch_citation_counts.py."
+            "running scripts/fetch_citation_counts.py."
         )
     return ris_lib
+
 
 def parse_ris_text(text: str) -> list[dict[str, list[str]]]:
     """Parse RIS text loaded from either an extracted package or ZIP member."""
@@ -250,7 +252,7 @@ def fetch_semantic_scholar_batch(
 
 
 def load_year_by_label(review: str) -> dict[str, int | None]:
-    """Reuse the same RIS year extraction as analyze_recall_by_characteristic.py."""
+    """Reuse the same RIS year extraction as scripts/analyze_recall_by_characteristic.py."""
 
     import re
 

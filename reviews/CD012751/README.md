@@ -107,7 +107,7 @@ The Cochrane included and excluded study references are available directly from:
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD012751/analyze_cd012751_roles.py
+python3 reviews/CD012751/analyze_cd012751_roles.py
 ```
 
 The script validates the 36-file inventory and expected terminal-list entry

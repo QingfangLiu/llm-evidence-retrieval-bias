@@ -111,7 +111,7 @@ Manual extraction is not required.
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD000510/analyze_cd000510_roles.py
+python3 reviews/CD000510/analyze_cd000510_roles.py
 ```
 
 The script validates the 36-file inventory and expected terminal-list entry

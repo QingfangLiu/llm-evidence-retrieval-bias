@@ -61,7 +61,7 @@ FIGURE_3_ANNOTATIONS_PATH = FIGURES_DIR / "figure_3_example_annotations.csv"
 ROLE_CONSISTENCY_PATH = RETRIEVAL_BIAS_DIR / "role_consistency_jaccard.csv"
 
 sys.path.insert(0, str(RETRIEVAL_BIAS_DIR))
-from review_registry import review_sources
+from llm_evidence_retrieval_bias.review_registry import review_sources
 
 MODELS = ("claude", "gemini", "gpt")
 ROLES = ("patient", "clinician", "researcher")

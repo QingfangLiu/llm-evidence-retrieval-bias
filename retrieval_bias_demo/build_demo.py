@@ -34,7 +34,10 @@ from overlap_metrics import (
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from review_registry import ReviewSource, review_sources  # noqa: E402
+from llm_evidence_retrieval_bias.review_registry import (  # noqa: E402
+    ReviewSource,
+    review_sources,
+)
 
 DEFAULT_CHARACTERISTIC_ROWS = REPO_ROOT / "recall_pattern_by_characteristic.csv"
 DEFAULT_LOGISTIC_REGRESSION_RESULTS = (

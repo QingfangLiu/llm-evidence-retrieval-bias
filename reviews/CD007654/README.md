@@ -96,7 +96,7 @@ separate candidates; otherwise, one list entry begins as one candidate.
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD007654/analyze_cd007654_roles.py
+python3 reviews/CD007654/analyze_cd007654_roles.py
 ```
 
 The script validates the 36-file inventory and the expected terminal-list entry

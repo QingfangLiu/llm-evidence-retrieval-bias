@@ -79,7 +79,7 @@ uses the complete available text.
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD015156/analyze_cd015156_roles.py
+python3 reviews/CD015156/analyze_cd015156_roles.py
 ```
 
 The script validates all 36 response files and writes

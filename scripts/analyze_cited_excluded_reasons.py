@@ -20,13 +20,16 @@ from __future__ import annotations
 import csv
 import html
 import re
+import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from review_registry import review_sources
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT))
 
-REPO_ROOT = Path(__file__).resolve().parent
-RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
+from llm_evidence_retrieval_bias.review_registry import review_sources  # noqa: E402
+
+RETRIEVAL_BIAS_DIR = REPO_ROOT
 TAXONOMY_PATH = RETRIEVAL_BIAS_DIR / "cited_excluded_reason_taxonomy.csv"
 CURATION_PATH = RETRIEVAL_BIAS_DIR / "cited_excluded_reason_curation.csv"
 STUDY_AUDIT_PATH = RETRIEVAL_BIAS_DIR / "cited_excluded_study_reason_audit.csv"

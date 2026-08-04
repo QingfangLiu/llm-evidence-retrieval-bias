@@ -123,7 +123,7 @@ included, 63 excluded, 30 awaiting-classification, and seven ongoing labels.
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD005354/analyze_cd005354_roles.py
+python3 reviews/CD005354/analyze_cd005354_roles.py
 ```
 
 The script validates the 36-file inventory and expected terminal-list entry

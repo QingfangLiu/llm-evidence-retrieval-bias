@@ -4,7 +4,7 @@
 Answers whether these four characteristics have independent effects on
 whether at least one chatbot recalled a study, after controlling for the
 others - the pairwise comparisons and correlation matrix in
-`analyze_recall_by_characteristic.py` and the demo can show that each
+`scripts/analyze_recall_by_characteristic.py` and the demo can show that each
 characteristic differs between "recalled" and "not recalled" on its own,
 but not whether that holds once the others are accounted for.
 
@@ -22,7 +22,7 @@ Model: logit(P(recalled)) ~ year + log(sample_size) + log(citations_per_year + 0
   this script's own VIF check), so including both would make their
   individual coefficients unstable. Citations per year is used as the
   primary impact measure for the reasons documented in
-  analyze_recall_by_characteristic.py.
+  scripts/analyze_recall_by_characteristic.py.
 - Uses `statsmodels.Logit` rather than a hand-rolled implementation -
   logistic regression's fitting and inference are easy to get subtly wrong
   by hand, and statsmodels is a standard, trusted implementation already a
@@ -41,12 +41,12 @@ Only included studies with year, sample size, citations per year, and
 open-access status all present are used (complete-case analysis). In
 practice this does not narrow the population further than the three-
 predictor model used before it: citations_per_year and is_open_access come
-from the same best-matched PMID (see fetch_citation_counts.py), so a study
-with one has the other.
+from the same best-matched PMID (see scripts/fetch_citation_counts.py), so a
+study with one has the other.
 
 Run from the repository root:
 
-    python3 analyze_recall_logistic_regression.py
+    python3 scripts/analyze_recall_logistic_regression.py
 
 Writes `logistic_regression_results.json` (coefficients, odds ratios, 95%
 CIs, p-values, VIFs, and fit statistics) and prints a summary.
@@ -65,8 +65,8 @@ import pandas as pd
 import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
-REPO_ROOT = Path(__file__).resolve().parent
-RETRIEVAL_BIAS_DIR = Path(__file__).resolve().parent
+REPO_ROOT = Path(__file__).resolve().parents[1]
+RETRIEVAL_BIAS_DIR = REPO_ROOT
 INPUT_PATH = RETRIEVAL_BIAS_DIR / "recall_pattern_by_characteristic.csv"
 OUTPUT_PATH = RETRIEVAL_BIAS_DIR / "logistic_regression_results.json"
 CITATIONS_PER_YEAR_OFFSET = 0.01

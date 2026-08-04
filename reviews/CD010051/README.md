@@ -107,7 +107,7 @@ RIS exports directly from the ZIP archive. The package contains 58 included,
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD010051/analyze_cd010051_roles.py
+python3 reviews/CD010051/analyze_cd010051_roles.py
 ```
 
 The script validates the 36-file inventory and expected terminal-list entry

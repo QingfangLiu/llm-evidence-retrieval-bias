@@ -1,308 +1,308 @@
 run_id,model,role_id,replicate,source_file,reported_citation,canonical_candidate,ground_truth_status,cochrane_study_label,design,identity_issue,notes
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD009958/claude-clinician-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD009958/claude-clinician-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD009958/claude-clinician-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD009958/claude-clinician-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD009958/claude-clinician-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD009958/claude-clinician-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-clinician-1,claude,clinician,1,retrieval_bias/CD009958/claude-clinician-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD009958/claude-clinician-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD009958/claude-clinician-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD009958/claude-clinician-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD009958/claude-clinician-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD009958/claude-clinician-2.md,Manzano F et al. — Colombian ICU cluster-RCT protocol,NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,1,The response attributes the Colombian ICU cluster-RCT protocol to Manzano; its setting and protocol description resolve to PENFUP/NCT04604665.
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD009958/claude-clinician-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-clinician-2,claude,clinician,2,retrieval_bias/CD009958/claude-clinician-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD009958/claude-clinician-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD009958/claude-clinician-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD009958/claude-clinician-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD009958/claude-clinician-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD009958/claude-clinician-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD009958/claude-clinician-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD009958/claude-clinician-3.md,Unspecified 30° versus 90° stroke-position trial,Unspecified 30° versus 90° stroke-position trial,unresolved,,,0,"No authors, year, journal, or identifier were supplied."
-claude-clinician-3,claude,clinician,3,retrieval_bias/CD009958/claude-clinician-3.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD009958/claude-clinician-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD009958/claude-clinician-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD009958/claude-clinician-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD009958/claude-clinician-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD009958/claude-clinician-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD009958/claude-clinician-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD009958/claude-clinician-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-clinician-4,claude,clinician,4,retrieval_bias/CD009958/claude-clinician-4.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD009958/claude-patient-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD009958/claude-patient-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD009958/claude-patient-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD009958/claude-patient-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-patient-1,claude,patient,1,retrieval_bias/CD009958/claude-patient-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD009958/claude-patient-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD009958/claude-patient-1.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
-claude-patient-1,claude,patient,1,retrieval_bias/CD009958/claude-patient-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-patient-2,claude,patient,2,retrieval_bias/CD009958/claude-patient-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD009958/claude-patient-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-patient-2,claude,patient,2,retrieval_bias/CD009958/claude-patient-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD009958/claude-patient-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-patient-2,claude,patient,2,retrieval_bias/CD009958/claude-patient-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD009958/claude-patient-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-patient-2,claude,patient,2,retrieval_bias/CD009958/claude-patient-2.md,Winkelman and Chiang 2010,Winkelman and Chiang 2010,outside_observational,,manual-turning study,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD009958/claude-patient-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD009958/claude-patient-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-patient-3,claude,patient,3,retrieval_bias/CD009958/claude-patient-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD009958/claude-patient-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-patient-3,claude,patient,3,retrieval_bias/CD009958/claude-patient-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD009958/claude-patient-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-patient-3,claude,patient,3,retrieval_bias/CD009958/claude-patient-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD009958/claude-patient-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD009958/claude-patient-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-patient-4,claude,patient,4,retrieval_bias/CD009958/claude-patient-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD009958/claude-patient-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-patient-4,claude,patient,4,retrieval_bias/CD009958/claude-patient-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD009958/claude-patient-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD009958/claude-patient-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-patient-4,claude,patient,4,retrieval_bias/CD009958/claude-patient-4.md,Zhou 2014,Zhou 2014,included,Zhou 2014,RCT,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,1,"The citation names Defloor 2005, but its two-arm 16-home description belongs to Vanderwee 2007."
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-researcher-1,claude,researcher,1,retrieval_bias/CD009958/claude-researcher-1.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD009958/claude-researcher-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD009958/claude-researcher-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD009958/claude-researcher-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD009958/claude-researcher-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD009958/claude-researcher-2.md,Darvall 2018,Darvall 2018,outside_observational,,pre-post intervention study,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD009958/claude-researcher-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD009958/claude-researcher-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD009958/claude-researcher-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-researcher-2,claude,researcher,2,retrieval_bias/CD009958/claude-researcher-2.md,Vanderwee 2005 support-surface trial,Vanderwee 2005 support-surface trial,outside_other,,RCT of alternating-pressure mattresses,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD009958/claude-researcher-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD009958/claude-researcher-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD009958/claude-researcher-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD009958/claude-researcher-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD009958/claude-researcher-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD009958/claude-researcher-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD009958/claude-researcher-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-researcher-3,claude,researcher,3,retrieval_bias/CD009958/claude-researcher-3.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Paulden 2014 TURN economic analysis,Paulden 2014 TURN economic analysis,included,Paulden 2014,economic substudy,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,"Zhou Q et al. (2014 trial, China)",Zhou 2014,included,Zhou 2014,RCT,1,The response gives the lead author as Zhou Q rather than Zhou X.
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-claude-researcher-4,claude,researcher,4,retrieval_bias/CD009958/claude-researcher-4.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
-gemini-clinician-1,gemini,clinician,1,retrieval_bias/CD009958/gemini-clinician-1.md,Still 2013 Turn Team study,Still 2013 Turn Team study,outside_observational,,before-after intervention study,0,
-gemini-clinician-1,gemini,clinician,1,retrieval_bias/CD009958/gemini-clinician-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gemini-clinician-1,gemini,clinician,1,retrieval_bias/CD009958/gemini-clinician-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD009958/gemini-clinician-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD009958/gemini-clinician-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD009958/gemini-clinician-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD009958/gemini-clinician-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gemini-clinician-2,gemini,clinician,2,retrieval_bias/CD009958/gemini-clinician-2.md,Kapp 2019 tilt-maintenance study,Kapp 2019 tilt-maintenance study,outside_observational,,observational study,0,
-gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD009958/gemini-clinician-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD009958/gemini-clinician-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gemini-clinician-3,gemini,clinician,3,retrieval_bias/CD009958/gemini-clinician-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD009958/gemini-clinician-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD009958/gemini-clinician-4.md,Vanderwee et al. (2006),Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,1,"The response gives 2006, while the Cochrane study label and issue year are 2007.; Participants had pre-existing stage 1 pressure injury."
-gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD009958/gemini-clinician-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-clinician-4,gemini,clinician,4,retrieval_bias/CD009958/gemini-clinician-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gemini-patient-1,gemini,patient,1,retrieval_bias/CD009958/gemini-patient-1.md,Still 2013 Turn Team study,Still 2013 Turn Team study,outside_observational,,before-after intervention study,0,
-gemini-patient-1,gemini,patient,1,retrieval_bias/CD009958/gemini-patient-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gemini-patient-1,gemini,patient,1,retrieval_bias/CD009958/gemini-patient-1.md,Bai 2020 foam-mattress cohort,Bai 2020 foam-mattress cohort,outside_observational,,prospective cohort,0,
-gemini-patient-2,gemini,patient,2,retrieval_bias/CD009958/gemini-patient-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gemini-patient-2,gemini,patient,2,retrieval_bias/CD009958/gemini-patient-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gemini-patient-2,gemini,patient,2,retrieval_bias/CD009958/gemini-patient-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-patient-3,gemini,patient,3,retrieval_bias/CD009958/gemini-patient-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gemini-patient-3,gemini,patient,3,retrieval_bias/CD009958/gemini-patient-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gemini-patient-3,gemini,patient,3,retrieval_bias/CD009958/gemini-patient-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gemini-patient-3,gemini,patient,3,retrieval_bias/CD009958/gemini-patient-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-patient-3,gemini,patient,3,retrieval_bias/CD009958/gemini-patient-3.md,Kapp 2019 tilt-maintenance study,Kapp 2019 tilt-maintenance study,outside_observational,,observational study,0,
-gemini-patient-3,gemini,patient,3,retrieval_bias/CD009958/gemini-patient-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gemini-patient-4,gemini,patient,4,retrieval_bias/CD009958/gemini-patient-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gemini-patient-4,gemini,patient,4,retrieval_bias/CD009958/gemini-patient-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-patient-4,gemini,patient,4,retrieval_bias/CD009958/gemini-patient-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD009958/gemini-researcher-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD009958/gemini-researcher-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD009958/gemini-researcher-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-researcher-1,gemini,researcher,1,retrieval_bias/CD009958/gemini-researcher-1.md,Kapp 2019 tilt-maintenance study,Kapp 2019 tilt-maintenance study,outside_observational,,observational study,0,
-gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD009958/gemini-researcher-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD009958/gemini-researcher-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD009958/gemini-researcher-2.md,Still 2013 Turn Team study,Still 2013 Turn Team study,outside_observational,,before-after intervention study,0,
-gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD009958/gemini-researcher-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-researcher-2,gemini,researcher,2,retrieval_bias/CD009958/gemini-researcher-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD009958/gemini-researcher-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD009958/gemini-researcher-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD009958/gemini-researcher-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gemini-researcher-3,gemini,researcher,3,retrieval_bias/CD009958/gemini-researcher-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD009958/gemini-researcher-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD009958/gemini-researcher-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD009958/gemini-researcher-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gemini-researcher-4,gemini,researcher,4,retrieval_bias/CD009958/gemini-researcher-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Gattinoni 2001 prone-positioning trial,Gattinoni 2001 prone-positioning trial,outside_other,,RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
-gpt-clinician-1,gpt,clinician,1,retrieval_bias/CD009958/gpt-clinician-1.md,Peterson 2008 head-of-bed physiology study,Peterson 2008 head-of-bed physiology study,outside_physiological,,healthy-volunteer physiological study,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
-gpt-clinician-2,gpt,clinician,2,retrieval_bias/CD009958/gpt-clinician-2.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Källman 2015 lying-position physiology study,Källman 2015 lying-position physiology study,outside_physiological,,physiological study,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Curvilinear supine-position trial 2018,Curvilinear supine-position trial 2018,outside_other,,clinical trial,0,
-gpt-clinician-3,gpt,clinician,3,retrieval_bias/CD009958/gpt-clinician-3.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-gpt-clinician-4,gpt,clinician,4,retrieval_bias/CD009958/gpt-clinician-4.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Jiang 2020,Jiang 2020,cochrane_excluded,Jiang 2020,comparative study,0,Repositioning regimen and support surface differed together.
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,De Meyer 2019 (PROTECT),De Meyer 2019 (PROTECT),cochrane_excluded,De Meyer 2019,cluster-randomized trial,0,Participants with stage 1 pressure injury were eligible.
-gpt-patient-1,gpt,patient,1,retrieval_bias/CD009958/gpt-patient-1.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
-gpt-patient-2,gpt,patient,2,retrieval_bias/CD009958/gpt-patient-2.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Jiang 2020,Jiang 2020,cochrane_excluded,Jiang 2020,comparative study,0,Repositioning regimen and support surface differed together.
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,De Meyer 2019 (PROTECT),De Meyer 2019 (PROTECT),cochrane_excluded,De Meyer 2019,cluster-randomized trial,0,Participants with stage 1 pressure injury were eligible.
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
-gpt-patient-3,gpt,patient,3,retrieval_bias/CD009958/gpt-patient-3.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Rich 2011,Rich 2011,outside_observational,,observational cohort,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Kapp 2023 turning-and-positioning system trial,Kapp 2023 turning-and-positioning system trial,cochrane_excluded,Kapp 2023,RCT,0,The intervention was a turning and positioning medical device.
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Colin 1996 lateral-position physiology study,Colin 1996 lateral-position physiology study,outside_physiological,,healthy-volunteer physiological study,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Källman 2015 lying-position physiology study,Källman 2015 lying-position physiology study,outside_physiological,,physiological study,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Peterson 2008 head-of-bed physiology study,Peterson 2008 head-of-bed physiology study,outside_physiological,,healthy-volunteer physiological study,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Peterson 2010 turning-pressure study,Peterson 2010 turning-pressure study,outside_physiological,,healthy-volunteer physiological study,0,
-gpt-patient-4,gpt,patient,4,retrieval_bias/CD009958/gpt-patient-4.md,Kim and Shin 2021 interface-pressure study,Kim and Shin 2021 interface-pressure study,outside_physiological,,healthy-volunteer physiological study,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Curvilinear supine-position trial 2018,Curvilinear supine-position trial 2018,outside_other,,clinical trial,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,De Meyer 2019 (PROTECT),De Meyer 2019 (PROTECT),cochrane_excluded,De Meyer 2019,cluster-randomized trial,0,Participants with stage 1 pressure injury were eligible.
-gpt-researcher-1,gpt,researcher,1,retrieval_bias/CD009958/gpt-researcher-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,De Meyer 2019 (PROTECT),De Meyer 2019 (PROTECT),cochrane_excluded,De Meyer 2019,cluster-randomized trial,0,Participants with stage 1 pressure injury were eligible.
-gpt-researcher-2,gpt,researcher,2,retrieval_bias/CD009958/gpt-researcher-2.md,Kapp 2023 turning-and-positioning system trial,Kapp 2023 turning-and-positioning system trial,cochrane_excluded,Kapp 2023,RCT,0,The intervention was a turning and positioning medical device.
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
-gpt-researcher-3,gpt,researcher,3,retrieval_bias/CD009958/gpt-researcher-3.md,Peterson 2008 head-of-bed physiology study,Peterson 2008 head-of-bed physiology study,outside_physiological,,healthy-volunteer physiological study,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Curvilinear supine-position trial 2018,Curvilinear supine-position trial 2018,outside_other,,clinical trial,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Colin 1996 lateral-position physiology study,Colin 1996 lateral-position physiology study,outside_physiological,,healthy-volunteer physiological study,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Peterson 2008 head-of-bed physiology study,Peterson 2008 head-of-bed physiology study,outside_physiological,,healthy-volunteer physiological study,0,
-gpt-researcher-4,gpt,researcher,4,retrieval_bias/CD009958/gpt-researcher-4.md,Kim and Shin 2021 interface-pressure study,Kim and Shin 2021 interface-pressure study,outside_physiological,,healthy-volunteer physiological study,0,
+claude-clinician-1,claude,clinician,1,reviews/CD009958/claude-clinician-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-clinician-1,claude,clinician,1,reviews/CD009958/claude-clinician-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-clinician-1,claude,clinician,1,reviews/CD009958/claude-clinician-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-clinician-1,claude,clinician,1,reviews/CD009958/claude-clinician-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-clinician-1,claude,clinician,1,reviews/CD009958/claude-clinician-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+claude-clinician-1,claude,clinician,1,reviews/CD009958/claude-clinician-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-clinician-1,claude,clinician,1,reviews/CD009958/claude-clinician-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-clinician-2,claude,clinician,2,reviews/CD009958/claude-clinician-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-clinician-2,claude,clinician,2,reviews/CD009958/claude-clinician-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-clinician-2,claude,clinician,2,reviews/CD009958/claude-clinician-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-clinician-2,claude,clinician,2,reviews/CD009958/claude-clinician-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-clinician-2,claude,clinician,2,reviews/CD009958/claude-clinician-2.md,Manzano F et al. — Colombian ICU cluster-RCT protocol,NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,1,The response attributes the Colombian ICU cluster-RCT protocol to Manzano; its setting and protocol description resolve to PENFUP/NCT04604665.
+claude-clinician-2,claude,clinician,2,reviews/CD009958/claude-clinician-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-clinician-2,claude,clinician,2,reviews/CD009958/claude-clinician-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-clinician-3,claude,clinician,3,reviews/CD009958/claude-clinician-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-clinician-3,claude,clinician,3,reviews/CD009958/claude-clinician-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-clinician-3,claude,clinician,3,reviews/CD009958/claude-clinician-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-clinician-3,claude,clinician,3,reviews/CD009958/claude-clinician-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-clinician-3,claude,clinician,3,reviews/CD009958/claude-clinician-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-clinician-3,claude,clinician,3,reviews/CD009958/claude-clinician-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-clinician-3,claude,clinician,3,reviews/CD009958/claude-clinician-3.md,Unspecified 30° versus 90° stroke-position trial,Unspecified 30° versus 90° stroke-position trial,unresolved,,,0,"No authors, year, journal, or identifier were supplied."
+claude-clinician-3,claude,clinician,3,reviews/CD009958/claude-clinician-3.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
+claude-clinician-4,claude,clinician,4,reviews/CD009958/claude-clinician-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-clinician-4,claude,clinician,4,reviews/CD009958/claude-clinician-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-clinician-4,claude,clinician,4,reviews/CD009958/claude-clinician-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-clinician-4,claude,clinician,4,reviews/CD009958/claude-clinician-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-clinician-4,claude,clinician,4,reviews/CD009958/claude-clinician-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+claude-clinician-4,claude,clinician,4,reviews/CD009958/claude-clinician-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-clinician-4,claude,clinician,4,reviews/CD009958/claude-clinician-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-clinician-4,claude,clinician,4,reviews/CD009958/claude-clinician-4.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
+claude-patient-1,claude,patient,1,reviews/CD009958/claude-patient-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-patient-1,claude,patient,1,reviews/CD009958/claude-patient-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-patient-1,claude,patient,1,reviews/CD009958/claude-patient-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+claude-patient-1,claude,patient,1,reviews/CD009958/claude-patient-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-patient-1,claude,patient,1,reviews/CD009958/claude-patient-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-patient-1,claude,patient,1,reviews/CD009958/claude-patient-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-patient-1,claude,patient,1,reviews/CD009958/claude-patient-1.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
+claude-patient-1,claude,patient,1,reviews/CD009958/claude-patient-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-patient-2,claude,patient,2,reviews/CD009958/claude-patient-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-patient-2,claude,patient,2,reviews/CD009958/claude-patient-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-patient-2,claude,patient,2,reviews/CD009958/claude-patient-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-patient-2,claude,patient,2,reviews/CD009958/claude-patient-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-patient-2,claude,patient,2,reviews/CD009958/claude-patient-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-patient-2,claude,patient,2,reviews/CD009958/claude-patient-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-patient-2,claude,patient,2,reviews/CD009958/claude-patient-2.md,Winkelman and Chiang 2010,Winkelman and Chiang 2010,outside_observational,,manual-turning study,0,
+claude-patient-3,claude,patient,3,reviews/CD009958/claude-patient-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-patient-3,claude,patient,3,reviews/CD009958/claude-patient-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-patient-3,claude,patient,3,reviews/CD009958/claude-patient-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-patient-3,claude,patient,3,reviews/CD009958/claude-patient-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-patient-3,claude,patient,3,reviews/CD009958/claude-patient-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+claude-patient-3,claude,patient,3,reviews/CD009958/claude-patient-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-patient-3,claude,patient,3,reviews/CD009958/claude-patient-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-patient-4,claude,patient,4,reviews/CD009958/claude-patient-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-patient-4,claude,patient,4,reviews/CD009958/claude-patient-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-patient-4,claude,patient,4,reviews/CD009958/claude-patient-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-patient-4,claude,patient,4,reviews/CD009958/claude-patient-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-patient-4,claude,patient,4,reviews/CD009958/claude-patient-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+claude-patient-4,claude,patient,4,reviews/CD009958/claude-patient-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-patient-4,claude,patient,4,reviews/CD009958/claude-patient-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-patient-4,claude,patient,4,reviews/CD009958/claude-patient-4.md,Zhou 2014,Zhou 2014,included,Zhou 2014,RCT,0,
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,1,"The citation names Defloor 2005, but its two-arm 16-home description belongs to Vanderwee 2007."
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-researcher-1,claude,researcher,1,reviews/CD009958/claude-researcher-1.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+claude-researcher-2,claude,researcher,2,reviews/CD009958/claude-researcher-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-researcher-2,claude,researcher,2,reviews/CD009958/claude-researcher-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-researcher-2,claude,researcher,2,reviews/CD009958/claude-researcher-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-researcher-2,claude,researcher,2,reviews/CD009958/claude-researcher-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+claude-researcher-2,claude,researcher,2,reviews/CD009958/claude-researcher-2.md,Darvall 2018,Darvall 2018,outside_observational,,pre-post intervention study,0,
+claude-researcher-2,claude,researcher,2,reviews/CD009958/claude-researcher-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-researcher-2,claude,researcher,2,reviews/CD009958/claude-researcher-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-researcher-2,claude,researcher,2,reviews/CD009958/claude-researcher-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-researcher-2,claude,researcher,2,reviews/CD009958/claude-researcher-2.md,Vanderwee 2005 support-surface trial,Vanderwee 2005 support-surface trial,outside_other,,RCT of alternating-pressure mattresses,0,
+claude-researcher-3,claude,researcher,3,reviews/CD009958/claude-researcher-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-researcher-3,claude,researcher,3,reviews/CD009958/claude-researcher-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-researcher-3,claude,researcher,3,reviews/CD009958/claude-researcher-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-researcher-3,claude,researcher,3,reviews/CD009958/claude-researcher-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+claude-researcher-3,claude,researcher,3,reviews/CD009958/claude-researcher-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-researcher-3,claude,researcher,3,reviews/CD009958/claude-researcher-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-researcher-3,claude,researcher,3,reviews/CD009958/claude-researcher-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-researcher-3,claude,researcher,3,reviews/CD009958/claude-researcher-3.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Paulden 2014 TURN economic analysis,Paulden 2014 TURN economic analysis,included,Paulden 2014,economic substudy,0,
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,"Zhou Q et al. (2014 trial, China)",Zhou 2014,included,Zhou 2014,RCT,1,The response gives the lead author as Zhou Q rather than Zhou X.
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+claude-researcher-4,claude,researcher,4,reviews/CD009958/claude-researcher-4.md,NCT04604665 (PENFUP),NCT04604665 (PENFUP),cochrane_ongoing,NCT04604665,ongoing cluster-randomized trial,0,
+gemini-clinician-1,gemini,clinician,1,reviews/CD009958/gemini-clinician-1.md,Still 2013 Turn Team study,Still 2013 Turn Team study,outside_observational,,before-after intervention study,0,
+gemini-clinician-1,gemini,clinician,1,reviews/CD009958/gemini-clinician-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gemini-clinician-1,gemini,clinician,1,reviews/CD009958/gemini-clinician-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-clinician-2,gemini,clinician,2,reviews/CD009958/gemini-clinician-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gemini-clinician-2,gemini,clinician,2,reviews/CD009958/gemini-clinician-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gemini-clinician-2,gemini,clinician,2,reviews/CD009958/gemini-clinician-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-clinician-2,gemini,clinician,2,reviews/CD009958/gemini-clinician-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gemini-clinician-2,gemini,clinician,2,reviews/CD009958/gemini-clinician-2.md,Kapp 2019 tilt-maintenance study,Kapp 2019 tilt-maintenance study,outside_observational,,observational study,0,
+gemini-clinician-3,gemini,clinician,3,reviews/CD009958/gemini-clinician-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gemini-clinician-3,gemini,clinician,3,reviews/CD009958/gemini-clinician-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gemini-clinician-3,gemini,clinician,3,reviews/CD009958/gemini-clinician-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-clinician-4,gemini,clinician,4,reviews/CD009958/gemini-clinician-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gemini-clinician-4,gemini,clinician,4,reviews/CD009958/gemini-clinician-4.md,Vanderwee et al. (2006),Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,1,"The response gives 2006, while the Cochrane study label and issue year are 2007.; Participants had pre-existing stage 1 pressure injury."
+gemini-clinician-4,gemini,clinician,4,reviews/CD009958/gemini-clinician-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-clinician-4,gemini,clinician,4,reviews/CD009958/gemini-clinician-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gemini-patient-1,gemini,patient,1,reviews/CD009958/gemini-patient-1.md,Still 2013 Turn Team study,Still 2013 Turn Team study,outside_observational,,before-after intervention study,0,
+gemini-patient-1,gemini,patient,1,reviews/CD009958/gemini-patient-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gemini-patient-1,gemini,patient,1,reviews/CD009958/gemini-patient-1.md,Bai 2020 foam-mattress cohort,Bai 2020 foam-mattress cohort,outside_observational,,prospective cohort,0,
+gemini-patient-2,gemini,patient,2,reviews/CD009958/gemini-patient-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gemini-patient-2,gemini,patient,2,reviews/CD009958/gemini-patient-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gemini-patient-2,gemini,patient,2,reviews/CD009958/gemini-patient-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-patient-3,gemini,patient,3,reviews/CD009958/gemini-patient-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gemini-patient-3,gemini,patient,3,reviews/CD009958/gemini-patient-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gemini-patient-3,gemini,patient,3,reviews/CD009958/gemini-patient-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gemini-patient-3,gemini,patient,3,reviews/CD009958/gemini-patient-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-patient-3,gemini,patient,3,reviews/CD009958/gemini-patient-3.md,Kapp 2019 tilt-maintenance study,Kapp 2019 tilt-maintenance study,outside_observational,,observational study,0,
+gemini-patient-3,gemini,patient,3,reviews/CD009958/gemini-patient-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gemini-patient-4,gemini,patient,4,reviews/CD009958/gemini-patient-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gemini-patient-4,gemini,patient,4,reviews/CD009958/gemini-patient-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-patient-4,gemini,patient,4,reviews/CD009958/gemini-patient-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gemini-researcher-1,gemini,researcher,1,reviews/CD009958/gemini-researcher-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gemini-researcher-1,gemini,researcher,1,reviews/CD009958/gemini-researcher-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gemini-researcher-1,gemini,researcher,1,reviews/CD009958/gemini-researcher-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-researcher-1,gemini,researcher,1,reviews/CD009958/gemini-researcher-1.md,Kapp 2019 tilt-maintenance study,Kapp 2019 tilt-maintenance study,outside_observational,,observational study,0,
+gemini-researcher-2,gemini,researcher,2,reviews/CD009958/gemini-researcher-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gemini-researcher-2,gemini,researcher,2,reviews/CD009958/gemini-researcher-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gemini-researcher-2,gemini,researcher,2,reviews/CD009958/gemini-researcher-2.md,Still 2013 Turn Team study,Still 2013 Turn Team study,outside_observational,,before-after intervention study,0,
+gemini-researcher-2,gemini,researcher,2,reviews/CD009958/gemini-researcher-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-researcher-2,gemini,researcher,2,reviews/CD009958/gemini-researcher-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gemini-researcher-3,gemini,researcher,3,reviews/CD009958/gemini-researcher-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gemini-researcher-3,gemini,researcher,3,reviews/CD009958/gemini-researcher-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gemini-researcher-3,gemini,researcher,3,reviews/CD009958/gemini-researcher-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gemini-researcher-3,gemini,researcher,3,reviews/CD009958/gemini-researcher-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gemini-researcher-4,gemini,researcher,4,reviews/CD009958/gemini-researcher-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gemini-researcher-4,gemini,researcher,4,reviews/CD009958/gemini-researcher-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gemini-researcher-4,gemini,researcher,4,reviews/CD009958/gemini-researcher-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gemini-researcher-4,gemini,researcher,4,reviews/CD009958/gemini-researcher-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Gattinoni 2001 prone-positioning trial,Gattinoni 2001 prone-positioning trial,outside_other,,RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
+gpt-clinician-1,gpt,clinician,1,reviews/CD009958/gpt-clinician-1.md,Peterson 2008 head-of-bed physiology study,Peterson 2008 head-of-bed physiology study,outside_physiological,,healthy-volunteer physiological study,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
+gpt-clinician-2,gpt,clinician,2,reviews/CD009958/gpt-clinician-2.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Källman 2015 lying-position physiology study,Källman 2015 lying-position physiology study,outside_physiological,,physiological study,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Curvilinear supine-position trial 2018,Curvilinear supine-position trial 2018,outside_other,,clinical trial,0,
+gpt-clinician-3,gpt,clinician,3,reviews/CD009958/gpt-clinician-3.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+gpt-clinician-4,gpt,clinician,4,reviews/CD009958/gpt-clinician-4.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Jiang 2020,Jiang 2020,cochrane_excluded,Jiang 2020,comparative study,0,Repositioning regimen and support surface differed together.
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,De Meyer 2019 (PROTECT),De Meyer 2019 (PROTECT),cochrane_excluded,De Meyer 2019,cluster-randomized trial,0,Participants with stage 1 pressure injury were eligible.
+gpt-patient-1,gpt,patient,1,reviews/CD009958/gpt-patient-1.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
+gpt-patient-2,gpt,patient,2,reviews/CD009958/gpt-patient-2.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Jiang 2020,Jiang 2020,cochrane_excluded,Jiang 2020,comparative study,0,Repositioning regimen and support surface differed together.
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,De Meyer 2019 (PROTECT),De Meyer 2019 (PROTECT),cochrane_excluded,De Meyer 2019,cluster-randomized trial,0,Participants with stage 1 pressure injury were eligible.
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
+gpt-patient-3,gpt,patient,3,reviews/CD009958/gpt-patient-3.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Rich 2011,Rich 2011,outside_observational,,observational cohort,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Kapp 2023 turning-and-positioning system trial,Kapp 2023 turning-and-positioning system trial,cochrane_excluded,Kapp 2023,RCT,0,The intervention was a turning and positioning medical device.
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Colin 1996 lateral-position physiology study,Colin 1996 lateral-position physiology study,outside_physiological,,healthy-volunteer physiological study,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Källman 2015 lying-position physiology study,Källman 2015 lying-position physiology study,outside_physiological,,physiological study,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Peterson 2008 head-of-bed physiology study,Peterson 2008 head-of-bed physiology study,outside_physiological,,healthy-volunteer physiological study,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Peterson 2010 turning-pressure study,Peterson 2010 turning-pressure study,outside_physiological,,healthy-volunteer physiological study,0,
+gpt-patient-4,gpt,patient,4,reviews/CD009958/gpt-patient-4.md,Kim and Shin 2021 interface-pressure study,Kim and Shin 2021 interface-pressure study,outside_physiological,,healthy-volunteer physiological study,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Curvilinear supine-position trial 2018,Curvilinear supine-position trial 2018,outside_other,,clinical trial,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,De Meyer 2019 (PROTECT),De Meyer 2019 (PROTECT),cochrane_excluded,De Meyer 2019,cluster-randomized trial,0,Participants with stage 1 pressure injury were eligible.
+gpt-researcher-1,gpt,researcher,1,reviews/CD009958/gpt-researcher-1.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,De Meyer 2019 (PROTECT),De Meyer 2019 (PROTECT),cochrane_excluded,De Meyer 2019,cluster-randomized trial,0,Participants with stage 1 pressure injury were eligible.
+gpt-researcher-2,gpt,researcher,2,reviews/CD009958/gpt-researcher-2.md,Kapp 2023 turning-and-positioning system trial,Kapp 2023 turning-and-positioning system trial,cochrane_excluded,Kapp 2023,RCT,0,The intervention was a turning and positioning medical device.
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Vanderwee 2007,Vanderwee 2007,cochrane_excluded,Vanderwee 2007,RCT,0,Participants had pre-existing stage 1 pressure injury.
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Gay 2025 ESCARD prone-position bundle trial,Gay 2025 ESCARD prone-position bundle trial,outside_other,,stepped-wedge randomized trial,0,Published after the review search date.
+gpt-researcher-3,gpt,researcher,3,reviews/CD009958/gpt-researcher-3.md,Peterson 2008 head-of-bed physiology study,Peterson 2008 head-of-bed physiology study,outside_physiological,,healthy-volunteer physiological study,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Defloor 2005,Defloor 2005,included,Defloor 2005,cluster-randomized trial,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Bergstrom 2013 (TURN),Bergstrom 2013 (TURN),included,Bergstrom 2013,RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Manzano 2014,Manzano 2014,included,Manzano 2014,RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Yap 2022 (TEAM-UP),Yap 2022 (TEAM-UP),cochrane_excluded,Yap 2022,cluster-randomized trial,0,Six participants had pressure injury at baseline.
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Pickham 2018 (LS-HAPI),Pickham 2018 (LS-HAPI),included,Pickham 2018,RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Young 2004,Young 2004,included,Young 2004,RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Moore 2011,Moore 2011,included,Moore 2011,cluster-randomized trial,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Girard 2014 prone-positioning analysis,Girard 2014 prone-positioning analysis,cochrane_excluded,Girard 2014,RCT analysis,0,Results were not separable for participants without pressure injury at baseline.
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Ghezeljeh 2017,Ghezeljeh 2017,included,Ghezeljeh 2017,RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Curvilinear supine-position trial 2018,Curvilinear supine-position trial 2018,outside_other,,clinical trial,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Jin 2024,Jin 2024,included,Jin 2024,RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Zhang 2024,Zhang 2024,included,Zhang 2024,RCT,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Malekara 2025,Malekara 2025,cochrane_excluded,Malekara 2025,RCT,0,Some participants had pressure injury at baseline.
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Colin 1996 lateral-position physiology study,Colin 1996 lateral-position physiology study,outside_physiological,,healthy-volunteer physiological study,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Peterson 2008 head-of-bed physiology study,Peterson 2008 head-of-bed physiology study,outside_physiological,,healthy-volunteer physiological study,0,
+gpt-researcher-4,gpt,researcher,4,reviews/CD009958/gpt-researcher-4.md,Kim and Shin 2021 interface-pressure study,Kim and Shin 2021 interface-pressure study,outside_physiological,,healthy-volunteer physiological study,0,

@@ -117,7 +117,7 @@ available directly from:
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD012161/analyze_cd012161_roles.py
+python3 reviews/CD012161/analyze_cd012161_roles.py
 ```
 
 The script validates the 36-file inventory and expected terminal-list entry

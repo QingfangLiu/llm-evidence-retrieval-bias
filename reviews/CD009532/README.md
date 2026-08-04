@@ -54,7 +54,7 @@ metadata and documentation belong in this README rather than in the raw response
 Run from the repository root:
 
 ```bash
-python3 retrieval_bias/CD009532/analyze_cd009532_roles.py
+python3 reviews/CD009532/analyze_cd009532_roles.py
 ```
 
 The script validates all 36 response files and writes
