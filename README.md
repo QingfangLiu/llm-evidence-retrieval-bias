@@ -3,6 +3,9 @@
 Each Cochrane review has its own folder named with the review ID. Completed
 experiments keep the review-specific analysis script, README, and unchanged
 chatbot answers together. Curated CSV/JSON data artifacts live under `data/`.
+
+Online demo: <https://qingfangliu.github.io/llm-evidence-retrieval-bias/demo/>
+
 Current layout:
 
 ```text
