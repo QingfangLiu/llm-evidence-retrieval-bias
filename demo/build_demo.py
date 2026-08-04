@@ -17,9 +17,7 @@ from typing import Any
 from overlap_metrics import (
     calculate_balanced_label_permutation_baseline,
     calculate_blocked_mean_range_permutation_test,
-    calculate_chi_square_test,
     calculate_fisher_exact_test,
-    calculate_fisher_posthoc_test,
     calculate_mann_whitney_test,
     calculate_multi_set_jaccard,
     calculate_replicate_consistency,
@@ -41,9 +39,6 @@ from shared.review_registry import (  # noqa: E402
 DEFAULT_CHARACTERISTIC_ROWS = ANALYSIS_DATA_DIR / "recall_pattern_by_characteristic.csv"
 DEFAULT_LOGISTIC_REGRESSION_RESULTS = (
     ANALYSIS_DATA_DIR / "logistic_regression_results.json"
-)
-DEFAULT_ROLE_DEPENDENCE_LOGISTIC_REGRESSION_RESULTS = (
-    ANALYSIS_DATA_DIR / "role_dependence_logistic_regression_results.json"
 )
 DEFAULT_OUTPUT = Path(__file__).resolve().parent / "data.js"
 
@@ -866,133 +861,6 @@ def build_open_access_distribution(rows: list[dict[str, str]]) -> dict[str, Any]
     return {
         "recallStatus": recall_status_items,
         "recallStatusTest": recall_status_test,
-    }
-
-
-# Role-recall-combination groups (mutually exclusive exact user-role
-# combination, read from role_recall_pattern) focus on studies retrieved by
-# the researcher role and compare them with studies retrieved by every role.
-# Non-researcher-only patterns remain in the shared "recalled vs. not"
-# comparison but are outside this narrower researcher-contribution analysis.
-ROLE_RECALL_COMBINATION_GROUPS = [
-    ("role-researcher-only", "Researcher only", lambda row: row["role_recall_pattern"] == "Researcher only"),
-    (
-        "role-clinician-researcher",
-        "Clinician+Researcher",
-        lambda row: row["role_recall_pattern"] == "Clinician+Researcher",
-    ),
-    (
-        "role-patient-researcher",
-        "Patient+Researcher",
-        lambda row: row["role_recall_pattern"] == "Patient+Researcher",
-    ),
-    ("role-all-three", "All three", lambda row: row["role_recall_pattern"] == "All three"),
-]
-
-
-def build_role_open_access_distribution(rows: list[dict[str, str]]) -> dict[str, Any]:
-    """Build open-access rate data for role-recall-combination groups.
-
-    Groups by role_recall_pattern instead of recall_pattern. The recall-status
-    Fisher's exact test is not repeated here because recall status is the same
-    regardless of whether studies are grouped by chatbot or user role.
-    """
-
-    items = []
-    for group_id, label, predicate in ROLE_RECALL_COMBINATION_GROUPS:
-        known_values = [
-            int(row["is_open_access"]) for row in rows
-            if predicate(row) and row["is_open_access"].strip()
-        ]
-        if not known_values:
-            raise ValueError(f"No is_open_access values found for group {group_id}")
-        items.append(
-            {
-                "groupId": group_id,
-                "label": label,
-                "openCount": sum(known_values),
-                "total": len(known_values),
-                "rate": sum(known_values) / len(known_values),
-            }
-        )
-
-    combination_test = calculate_chi_square_test(
-        [item["openCount"] for item in items],
-        [item["total"] for item in items],
-        labels=[item["label"] for item in items],
-    )
-    combination_posthoc = calculate_fisher_posthoc_test(
-        [item["openCount"] for item in items],
-        [item["total"] for item in items],
-        labels=[item["label"] for item in items],
-    )
-    group_id_by_label = {item["label"]: item["groupId"] for item in items}
-    for comparison in combination_posthoc:
-        comparison["groupIdA"] = group_id_by_label[comparison["groupLabelA"]]
-        comparison["groupIdB"] = group_id_by_label[comparison["groupLabelB"]]
-
-    return {
-        "recallCombination": items,
-        "recallCombinationTest": combination_test,
-        "recallCombinationPosthoc": combination_posthoc,
-    }
-
-
-# Role-universality groups pool the three retained role-recall-combination
-# groups above into one "Researcher-dependent recall" group (every one of
-# them includes the researcher role) and compare it against "Role-agnostic
-# recall" (All three roles) as a plain two-group split. Unlike the four-way
-# ROLE_RECALL_COMBINATION_GROUPS split above, this answers a narrower
-# question directly: what distinguishes studies that needed a
-# researcher-role response to surface at all, from studies any role's
-# response finds. "Not recalled" and the non-researcher-only patterns omitted
-# from ROLE_RECALL_COMBINATION_GROUPS are excluded from both groups here too.
-ROLE_UNIVERSALITY_GROUPS = [
-    (
-        "role-dependent",
-        "Researcher-dependent recall",
-        lambda row: row["role_recall_pattern"] in {"Researcher only", "Clinician+Researcher", "Patient+Researcher"},
-    ),
-    ("role-agnostic", "Role-agnostic recall", lambda row: row["role_recall_pattern"] == "All three"),
-]
-
-
-def build_role_universality_open_access(rows: list[dict[str, str]]) -> dict[str, Any]:
-    """Build open-access rate data for role-universality groups (Fisher's exact test).
-
-    Mirrors build_open_access_distribution's recall-status treatment
-    (Fisher's exact on a 2x2 table), applied to ROLE_UNIVERSALITY_GROUPS.
-    """
-
-    items = []
-    for group_id, label, predicate in ROLE_UNIVERSALITY_GROUPS:
-        known_values = [
-            int(row["is_open_access"]) for row in rows
-            if predicate(row) and row["is_open_access"].strip()
-        ]
-        if not known_values:
-            raise ValueError(f"No is_open_access values found for group {group_id}")
-        items.append(
-            {
-                "groupId": group_id,
-                "label": label,
-                "openCount": sum(known_values),
-                "total": len(known_values),
-                "rate": sum(known_values) / len(known_values),
-            }
-        )
-
-    dependent_item = next(item for item in items if item["groupId"] == "role-dependent")
-    agnostic_item = next(item for item in items if item["groupId"] == "role-agnostic")
-    test = calculate_fisher_exact_test(
-        agnostic_item["openCount"], agnostic_item["total"],
-        dependent_item["openCount"], dependent_item["total"],
-        label_a="Role-agnostic recall", label_b="Researcher-dependent recall",
-    )
-
-    return {
-        "roleUniversality": items,
-        "roleUniversalityTest": test,
     }
 
 
@@ -2017,7 +1885,6 @@ def build_cross_review_summary(
 def build_all_reviews_payload(
     characteristic_rows_path: Path,
     logistic_regression_results_path: Path,
-    role_dependence_logistic_regression_results_path: Path,
 ) -> dict[str, Any]:
     """Build the demo payload from every review in the shared registry."""
 
@@ -2058,19 +1925,6 @@ def build_all_reviews_payload(
     cross_review_summary["citationIssueSummary"] = (
         build_citation_issue_summary(prepared_reviews)
     )
-    cross_review_summary["roleOpenAccessDistribution"] = (
-        build_role_open_access_distribution(characteristic_rows)
-    )
-    cross_review_summary["roleUniversalityOpenAccess"] = (
-        build_role_universality_open_access(characteristic_rows)
-    )
-    cross_review_summary["roleUniversalityLogisticRegression"] = (
-        build_logistic_regression_summary(
-            load_logistic_regression_results(
-                role_dependence_logistic_regression_results_path
-            )
-        )
-    )
     return {
         "artifactVersion": "2026-07-26-retrieval-bias-demo-v41",
         "crossReviewSummary": cross_review_summary,
@@ -2094,18 +1948,12 @@ def run_registry_build() -> None:
         type=Path,
         default=DEFAULT_LOGISTIC_REGRESSION_RESULTS,
     )
-    parser.add_argument(
-        "--role-dependence-logistic-regression-results",
-        type=Path,
-        default=DEFAULT_ROLE_DEPENDENCE_LOGISTIC_REGRESSION_RESULTS,
-    )
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     args = parser.parse_args()
 
     payload = build_all_reviews_payload(
         args.characteristic_rows,
         args.logistic_regression_results,
-        args.role_dependence_logistic_regression_results,
     )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     serialized = json.dumps(payload, ensure_ascii=True, indent=2)

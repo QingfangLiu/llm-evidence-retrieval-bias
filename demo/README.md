@@ -52,7 +52,6 @@ python3 reviews/CD016104/analyze_cd016104_roles.py
 python3 scripts/fetch_citation_counts.py  # network; only needed to refresh citation counts
 python3 scripts/analyze_recall_by_characteristic.py
 python3 scripts/analyze_recall_logistic_regression.py
-python3 scripts/analyze_role_dependence_logistic_regression.py
 python3 demo/build_demo.py
 ```
 
@@ -71,13 +70,6 @@ below.
 `data/analysis/logistic_regression_results.json`, which `build_demo.py`
 reads to render the "Multiple logistic regression on recall" table.
 
-`scripts/analyze_role_dependence_logistic_regression.py` reads the same
-`data/analysis/recall_pattern_by_characteristic.csv` and writes
-`data/analysis/role_dependence_logistic_regression_results.json`, which
-`build_demo.py` reads to render the "Multiple logistic regression on role
-dependence" table - the same model refit on the two role-universality groups
-described below instead of on recalled-vs-not.
-
 The analysis commands validate the curated response annotations and rewrite
 their respective match tables. For every entry in
 `shared/review_registry.py`, the demo builder reads the review's match
@@ -90,9 +82,6 @@ reads:
 - `data/analysis/logistic_regression_results.json` (written by
   `scripts/analyze_recall_logistic_regression.py`; feeds the "Multiple logistic
   regression on recall" table on the Across-reviews tab)
-- `data/analysis/role_dependence_logistic_regression_results.json` (written
-  by `scripts/analyze_role_dependence_logistic_regression.py`; feeds the "Multiple
-  logistic regression on role dependence" table on the Across-reviews tab)
 Study truth for all 20 reviews is prepared directly from their RIS exports;
 the demo build does not require or create benchmark JSON files. The builder
 writes `demo/data.js`, and the browser only renders this prepared
@@ -353,55 +342,6 @@ the analysis. See `README.md`, "Citation issues
 (`identity_issue`) are not fabrication," for the full investigation,
 including a dedicated check of the rarer case where a citation could not be
 resolved to any study at all.
-
-Further down the Across-reviews tab, **Open access by recall pattern (user
-role)** groups the open-access comparison by which user role(s) - patient,
-clinician, researcher - recalled each study (`role_recall_pattern`, built the
-same way as `recall_pattern` but from each match row's `role_id` instead of
-its `model`) instead of which chatbot(s) did. This panel focuses on researcher
-contribution: "Researcher only" (43), "Clinician+Researcher" (28),
-"Patient+Researcher" (9), and "All three" (234) are shown. "Clinician only"
-(8), "Patient only" (4), and "Patient+Clinician" (2) remain in the shared
-"recalled vs. not" comparison but are outside this narrower question.
-"All three" is the dominant role pattern by a wide margin.
-
-The four-way researcher-focused split above remains uneven. At the end of the
-Across-reviews tab, **Open access by role dependence** and **Multiple logistic
-regression on role dependence** instead pool the three non-universal groups
-into one comparator, turning it into a plain two-group split:
-
-- **Role-agnostic recall** - the study was recalled by all three roles
-  (`role_recall_pattern == "All three"`, n=234).
-- **Researcher-dependent recall** - the study was recalled by only some of
-  the roles, from the same three retained combination groups above
-  (Researcher only, Clinician+Researcher, Patient+Researcher pooled, n=80).
-  Every one of those three groups includes the researcher role, so
-  membership in this pooled group means at least one non-researcher role
-  (patient and/or clinician) missed the study even though a researcher-role
-  response found it - directly isolating what the researcher role adds
-  beyond the patient and clinician roles. Studies never recalled by any
-  response, and the three non-researcher-only patterns omitted from the
-  combination panels above (Patient only, Clinician only, Patient+Clinician), are excluded
-  from both groups here too.
-
-`ROLE_UNIVERSALITY_GROUPS` in `build_demo.py` defines the pooling;
-`build_role_universality_open_access()` computes the Fisher's exact test for
-open access on this pooled split. `scripts/analyze_role_dependence_logistic_regression.py`
-refits the same `logit(P) ~ year + log(sample_size) + log(citations_per_year
-+ 0.01) + is_open_access` model as `scripts/analyze_recall_logistic_regression.py`
-(review-clustered SEs, naive-p comparison, VIF), but on this two-group
-outcome instead of recalled-vs-not: the outcome is coded 1 for
-"Researcher-dependent recall," so a positive, significant coefficient means
-higher values of that predictor make researcher-dependence more likely -
-directly answering what claiming to be a researcher additionally unlocks.
-In the current data (n=250 complete-case studies across 20 reviews), none of
-the four predictors is independently significant with review-clustered
-standard errors: year p=0.62, log sample size p=0.36, log citations per year
-p=0.10, and open access p=0.10. The model as a whole is also not significant
-against the null (likelihood-ratio p=0.185).
-`renderLogisticRegressionSection()` in `app.js` is a shared renderer
-parameterized by title and outcome description, reused for both the recall and
-role-dependence regression tables rather than duplicated.
 
 ## Add another review
 

@@ -846,58 +846,6 @@
     `;
   }
 
-  function renderRoleOpenAccessDistribution() {
-    const openAccess = activeExperiment.roleOpenAccessDistribution;
-    if (!openAccess) {
-      return "";
-    }
-    return `
-      <section class="panel cross-summary-section" aria-labelledby="role-open-access-summary-title">
-        <header class="cross-summary-heading">
-          <div>
-            <h2 id="role-open-access-summary-title">Open access by recall pattern (user role)</h2>
-            <p>
-              The same open-access comparison as "Open access by recall pattern" above, now
-              grouped by the exact combination of user role(s) that recalled each study
-              (with the same retained role-combination groups used in the role-dependence
-              analyses). A chi-square test of independence is the omnibus test, followed
-              by Bonferroni-adjusted pairwise Fisher's exact tests.
-            </p>
-          </div>
-        </header>
-        <div class="summary-dimension-grid distribution-grid">
-          ${renderRateCard("Open access — by role combination", openAccess.recallCombination, openAccess.recallCombinationTest, openAccess.recallCombinationPosthoc)}
-        </div>
-      </section>
-    `;
-  }
-
-  function renderRoleUniversalityOpenAccess() {
-    const openAccess = activeExperiment.roleUniversalityOpenAccess;
-    if (!openAccess) {
-      return "";
-    }
-    return `
-      <section class="panel cross-summary-section" aria-labelledby="role-universality-open-access-title">
-        <header class="cross-summary-heading">
-          <div>
-            <h2 id="role-universality-open-access-title">Open access by role dependence</h2>
-            <p>
-              Open-access status grouped by role dependence: "Role-agnostic recall"
-              (all three roles recalled the study) versus "Researcher-dependent recall"
-              (the retained role-combination groups that required a researcher-role
-              response). Uses Fisher's exact test, the same binary-outcome treatment as
-              the "recalled vs. not" open-access comparison.
-            </p>
-          </div>
-        </header>
-        <div class="summary-dimension-grid distribution-grid">
-          ${renderRateCard("Open access — role-agnostic vs. researcher-dependent", openAccess.roleUniversality, openAccess.roleUniversalityTest)}
-        </div>
-      </section>
-    `;
-  }
-
   function computeValueDomain(values, scale) {
     const low = Math.min(...values);
     const high = Math.max(...values);
@@ -1187,14 +1135,6 @@
       titleId: "logistic-regression-title",
       heading: "Multiple logistic regression on recall",
       outcomeDescription: "P(recalled by at least one chatbot)",
-    });
-  }
-
-  function renderRoleUniversalityLogisticRegressionTable() {
-    return renderLogisticRegressionSection(activeExperiment.roleUniversalityLogisticRegression, {
-      titleId: "role-universality-logistic-regression-title",
-      heading: "Multiple logistic regression on role dependence",
-      outcomeDescription: "P(researcher-dependent recall, vs. role-agnostic recall)",
     });
   }
 
@@ -1493,9 +1433,6 @@
       ${renderPredictorCorrelations()}
       ${renderLogisticRegressionTable()}
       ${renderCitationIssueSummary()}
-      ${renderRoleOpenAccessDistribution()}
-      ${renderRoleUniversalityOpenAccess()}
-      ${renderRoleUniversalityLogisticRegressionTable()}
     `;
   }
 
