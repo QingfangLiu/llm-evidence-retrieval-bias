@@ -73,27 +73,36 @@ standalone repo does not call them.
 The committed CSV, JSON, figure, and demo artifacts can still be inspected
 without `source_reviews/`.
 
-## 2026 Issue 7 expansion
+## Review set
 
-Eleven reviews from Cochrane 2026 Issue 7 were staged as retrieval-bias
-experiments. Together they cover 215 included primary-study clusters.
-All 11 now have complete 36-run user-role experiments and review-specific
-analyses.
+The current dataset contains 20 completed Cochrane Issue 6 and Issue 7
+user-role experiments, covering 442 included primary-study clusters.
 
-| Review | Clinical question | Included primary-study clusters | Status |
-| --- | --- | ---: | --- |
-| `CD000510` | Prophylactic versus selective surfactant in preterm infants | 10 | Complete |
-| `CD001452` | Venepuncture versus heel lance in term neonates | 8 | Complete |
-| `CD005354` | rFSH versus other gonadotropins in assisted reproduction | 59 | Complete |
-| `CD007912` | Exercise for hip osteoarthritis | 18 | Complete |
-| `CD010051` | Topical ciclosporine A for dry eye disease | 58 | Complete |
-| `CD015156` | Non-surgical treatment of lower-limb apophyseal injuries | 10 | Complete |
-| `CD015186` | Minimally invasive trabecular surgery for open-angle glaucoma | 10 | Complete |
-| `CD015898` | Larger versus smaller red-cell transfusion volumes | 12 | Complete |
-| `CD015934` | Smoking cessation in inpatient psychiatry settings | 10 | Complete |
-| `CD016085` | Blood-pressure management after reperfused ischemic stroke | 9 | Complete |
-| `CD016104` | Perioperative immunotherapy for localized NSCLC in older adults | 11 | Complete |
-| **Total** | **11 reviews** | **215** | **11 complete** |
+| Issue | Review | Clinical question | Included clusters |
+| --- | --- | --- | ---: |
+| 6 | `CD007654` | Weight-reducing drugs in people with hypertension | 8 |
+| 6 | `CD009532` | Iron supplementation for blood donors | 38 |
+| 6 | `CD009958` | Repositioning for pressure injury prevention | 13 |
+| 6 | `CD010461` | Advanced sperm selection techniques for assisted reproduction | 5 |
+| 6 | `CD012161` | Short-acting insulin analogues for type 1 diabetes | 15 |
+| 6 | `CD012751` | Biologic drugs for Crohn's disease | 94 |
+| 6 | `CD013776` | Blue versus white light for bladder-cancer resection | 17 |
+| 6 | `CD015136` | Telepharmacy services for non-communicable diseases | 21 |
+| 6 | `CD015264` | Vitamin B12 supplementation in children | 16 |
+| **6 total** | **9 reviews** |  | **227** |
+| 7 | `CD000510` | Prophylactic versus selective surfactant in preterm infants | 10 |
+| 7 | `CD001452` | Venepuncture versus heel lance in term neonates | 8 |
+| 7 | `CD005354` | rFSH versus other gonadotropins in assisted reproduction | 59 |
+| 7 | `CD007912` | Exercise for hip osteoarthritis | 18 |
+| 7 | `CD010051` | Topical ciclosporine A for dry eye disease | 58 |
+| 7 | `CD015156` | Non-surgical treatment of lower-limb apophyseal injuries | 10 |
+| 7 | `CD015186` | Minimally invasive trabecular surgery for open-angle glaucoma | 10 |
+| 7 | `CD015898` | Red-cell transfusion volume | 12 |
+| 7 | `CD015934` | Smoking cessation in inpatient psychiatry settings | 10 |
+| 7 | `CD016085` | Blood-pressure management after reperfused ischemic stroke | 9 |
+| 7 | `CD016104` | Perioperative immunotherapy for localized NSCLC in older adults | 11 |
+| **7 total** | **11 reviews** |  | **215** |
+| **All** | **20 reviews** |  | **442** |
 
 To validate and regenerate all current citation-match tables, run from the
 repository root:
@@ -120,125 +129,6 @@ python3 reviews/CD015934/analyze_cd015934_roles.py
 python3 reviews/CD016085/analyze_cd016085_roles.py
 python3 reviews/CD016104/analyze_cd016104_roles.py
 ```
-
-These tables cover the CD000510, CD001452, CD005354, CD007654, CD007912,
-CD009532, CD009958, CD010051, CD010461, CD012161, CD012751, CD013776,
-CD015136, CD015156, CD015186, CD015264, CD015898, CD015934, CD016085, and
-CD016104 role experiments.
-
-The CD000510 experiment uses Claude Sonnet 5 at medium effort with thinking on,
-Gemini 3.1 Pro with extended thinking, and ChatGPT 5.5 at high intelligence.
-Its prompts ask each chatbot to list primary studies at the end. Only the
-dedicated terminal list is counted. The analysis reads the Issue 7 Cochrane
-included, excluded, awaiting-classification, and ongoing RIS exports directly
-from the source ZIP archive, so no manual extraction is required.
-
-The CD001452 experiment has four responses per model-role cell, but model
-versions and settings were not recorded. Its analysis counts only the
-dedicated terminal study list and validates included, excluded, and ongoing
-labels directly against the source ZIP's RIS exports. The included RIS has
-eight study clusters and six explicit PubMed IDs. Eight Claude responses
-disclose using review reference lists despite the prompt restriction; the
-review-specific README reports the associated sensitivity check.
-
-The CD010051 experiment uses the same model configurations, role conditions,
-and repetitions. It also counts only the dedicated final study list, groups
-companion publications to the source-package study cluster, and retains
-excluded, ongoing, observational, retracted, secondary, and unresolved
-candidates in the audit table. Its source RIS contains no explicit PubMed IDs,
-so cluster and study-row recall are reported but PMID recall is unavailable.
-
-The CD005354 experiment has four responses per model-role cell, but model
-versions and generation settings were not recorded and are not inferred. Its
-analysis counts only dedicated terminal study lists, groups companion reports
-within a response, and validates included, excluded, awaiting-classification,
-and ongoing labels directly against the source-package RIS exports. The
-included RIS has no explicit PubMed IDs, so recall is reported at the
-study-cluster level. Four Claude responses disclose using secondary citation
-trails despite the prompt restriction; the review-specific README reports the
-associated sensitivity check.
-
-The CD007912 experiment has four responses per model-role cell, but model
-versions and generation settings were not recorded and are not inferred. Its
-analysis counts only the dedicated terminal study list, groups companion
-reports within a response, and validates included, excluded, and ongoing
-labels directly against the source data-package RIS exports. Its included RIS
-also has no explicit PubMed IDs, so recall is reported at the study-cluster
-level. Nine Claude responses disclose review or secondary-source use despite
-the prompt restriction; the review-specific README reports the associated
-sensitivity check.
-
-The CD015156 experiment also has four responses per model-role cell with model
-versions and settings not recorded. Its analysis identifies studies from the
-complete response and validates included, excluded, and ongoing labels against
-the source-package RIS exports. The CD015898 experiment uses the recorded
-Claude Sonnet 5, Gemini 3.1 Pro, and ChatGPT 5.5 configurations and likewise
-uses complete-response identification with source-package label validation.
-
-The CD016104 experiment uses the same three model configurations and four
-independent responses per role. Its analysis identifies studies from the
-complete response, groups linked reports at the study-cluster level, and
-validates included, excluded, and ongoing labels directly against the review
-data-package RIS exports in the source ZIP archive.
-
-The CD015186 experiment uses the same configurations and repetitions. Its
-analysis identifies studies from the complete response, groups linked reports
-at the study-cluster level, and validates included, excluded, ongoing, and
-awaiting-classification labels directly against the source data-package RIS
-exports.
-
-The CD015934 experiment uses the same configurations and repetitions. Its
-analysis likewise identifies studies from the complete response, groups linked
-reports at the study-cluster level, and validates included, excluded, and
-ongoing labels directly against the source data-package RIS exports. It retains
-post-review publications as reports of their corresponding source-package
-study labels rather than treating publication date alone as a new study.
-
-The CD016085 experiment uses the same configurations and repetitions. Its
-analysis identifies studies from the complete response, groups linked reports
-at the study-cluster level, and validates included, excluded,
-awaiting-classification, and ongoing labels directly against the source
-data-package RIS exports. It counts only the randomized primary-study component
-of the combined DETECT publication and retains HOPE's source-package
-classification as ongoing.
-
-The CD007654 experiment tests user-role effects with Claude Sonnet 5 at medium
-effort with thinking on, Gemini 3.1 Pro with extended thinking, and ChatGPT 5.5
-at high intelligence. Its prompt asks each chatbot to list the primary studies
-at the end. As in CD012161 and CD012751, its retrieval boundary is only that
-dedicated terminal list; narrative and inline citations do not add candidates.
-The analysis preserves terminal-list citation errors while resolving and
-deduplicating identifiable reports at the study-cluster level.
-
-The CD012751 experiment uses the same three model configurations and four
-independent responses per role. Its prompts define the dedicated final study
-list as the retrieval boundary. Its analysis preserves explicitly listed
-out-of-scope and citation-conflict entries, splits citations that name multiple
-distinct trials, and validates included and excluded study labels directly
-against the review data-package RIS exports.
-
-The CD012161 experiment uses the same three model configurations and four
-independent responses per role. Its prompts define the dedicated final study
-list as the retrieval boundary. Its analysis validates included, excluded, and
-awaiting-classification labels directly against the review data-package RIS
-exports.
-
-The CD009532 experiment tests user-role effects only. It uses Claude Sonnet 5 at
-medium effort with thinking on, Gemini 3.1 Pro with extended thinking, and ChatGPT
-5.5 at high intelligence. Its analysis resolves study truth directly from the
-Cochrane included/excluded RIS exports rather than requiring a `benchmark.json`.
-
-The CD009958 experiment also tests user-role effects only and uses the same three
-model configurations and four independent responses per role. Its analysis uses
-the complete response to identify retrieved studies and validates Cochrane labels
-against the included, excluded, and ongoing RIS exports.
-
-The CD010461, CD013776, CD015136, and CD015264 experiments use Claude Sonnet 5 at
-medium effort with thinking on, Gemini 3.1 Pro with extended thinking, and
-ChatGPT 5.5 at high intelligence. Each has four independent responses per role.
-Their analyses identify studies from the complete response, group linked reports
-at the study-cluster level, and validate Cochrane classifications directly against
-the review data-package RIS exports.
 
 ## Cochrane exclusion reasons among chatbot-cited studies
 
