@@ -18,10 +18,8 @@ from overlap_metrics import (
     calculate_balanced_label_permutation_baseline,
     calculate_blocked_mean_range_permutation_test,
     calculate_chi_square_test,
-    calculate_dunn_posthoc_test,
     calculate_fisher_exact_test,
     calculate_fisher_posthoc_test,
-    calculate_kruskal_wallis_test,
     calculate_mann_whitney_test,
     calculate_multi_set_jaccard,
     calculate_replicate_consistency,
@@ -771,42 +769,18 @@ def compute_box_plot_stats(values: list[float]) -> dict[str, Any]:
     }
 
 
-# Recall-status (mutually exclusive: recalled by at least one chatbot vs.
-# not) and recall-combination (mutually exclusive exact chatbot combination,
-# excluding the two single-study "Gemini only"/"Claude+Gemini" patterns)
-# groupings, shared by build_characteristic_distributions and
-# build_open_access_distribution so both use the same group definitions.
+# Recall-status groups are mutually exclusive: recalled by at least one
+# chatbot versus not recalled by any chatbot.
 RECALL_STATUS_GROUPS = [
     ("not-recalled", "Not recalled", lambda row: row["recall_pattern"] == "Not recalled"),
     ("recalled", "Recalled", lambda row: row["recall_pattern"] != "Not recalled"),
 ]
-RECALL_COMBINATION_GROUPS = [
-    ("claude-only", "Claude only", lambda row: row["recall_pattern"] == "Claude only"),
-    ("gpt-only", "GPT only", lambda row: row["recall_pattern"] == "GPT only"),
-    ("gemini-gpt", "Gemini+GPT", lambda row: row["recall_pattern"] == "Gemini+GPT"),
-    ("claude-gpt", "Claude+GPT", lambda row: row["recall_pattern"] == "Claude+GPT"),
-    ("all-three", "All three", lambda row: row["recall_pattern"] == "All three"),
-]
 
 
 def build_characteristic_distributions(rows: list[dict[str, str]]) -> dict[str, Any]:
-    """Build year/sample-size/citations-per-year box-plot data for recall-status and recall-combination groups.
-
-    Recall-combination groups are the exact set of chatbot(s) that recalled a
-    study (e.g. "Claude only", "Claude+GPT", "All three"), read directly from
-    the precomputed `recall_pattern` field - mutually exclusive, unlike a
-    per-chatbot "did this chatbot recall it at least once" grouping, which
-    would double-count a study recalled by multiple chatbots. "Gemini only"
-    and "Claude+Gemini" are excluded here: each has only one study in the
-    current data, which would add two single-point box plots for little
-    signal; those two studies remain counted in the "recalled vs. not"
-    comparison above. Each metric also gets a Kruskal-Wallis omnibus test
-    across the recall-combination groups and, following that, Dunn's
-    Bonferroni-adjusted pairwise post-hoc test between every pair of groups.
-    """
+    """Build box-plot data for recalled-vs-not study characteristics."""
 
     recall_status_groups = RECALL_STATUS_GROUPS
-    recall_combination_groups = RECALL_COMBINATION_GROUPS
 
     def build_dimension(
         groups: list[tuple[str, str, Any]], field: str
@@ -833,80 +807,32 @@ def build_characteristic_distributions(rows: list[dict[str, str]]) -> dict[str, 
             label_b="Recalled",
         )
 
-    def build_recall_combination_test(items: list[dict[str, Any]]) -> dict[str, Any]:
-        """Kruskal-Wallis across the mutually exclusive recall-combination groups."""
-
-        return calculate_kruskal_wallis_test(
-            [item["stats"]["values"] for item in items],
-            labels=[item["label"] for item in items],
-        )
-
-    def build_recall_combination_posthoc(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
-        """Dunn's pairwise post-hoc comparisons following the Kruskal-Wallis test above."""
-
-        comparisons = calculate_dunn_posthoc_test(
-            [item["stats"]["values"] for item in items],
-            labels=[item["label"] for item in items],
-        )
-        group_id_by_label = {item["label"]: item["groupId"] for item in items}
-        for comparison in comparisons:
-            comparison["groupIdA"] = group_id_by_label[comparison["groupLabelA"]]
-            comparison["groupIdB"] = group_id_by_label[comparison["groupLabelB"]]
-        return comparisons
-
     year_recall_status = build_dimension(recall_status_groups, "year")
     sample_size_recall_status = build_dimension(recall_status_groups, "sample_size")
     citations_per_year_recall_status = build_dimension(recall_status_groups, "citations_per_year")
     citation_count_recall_status = build_dimension(recall_status_groups, "citation_count")
-    year_recall_combination = build_dimension(recall_combination_groups, "year")
-    sample_size_recall_combination = build_dimension(recall_combination_groups, "sample_size")
-    citations_per_year_recall_combination = build_dimension(recall_combination_groups, "citations_per_year")
-    citation_count_recall_combination = build_dimension(recall_combination_groups, "citation_count")
     return {
         "year": {
             "recallStatus": year_recall_status,
             "recallStatusTest": build_recall_status_test(year_recall_status),
-            "recallCombination": year_recall_combination,
-            "recallCombinationTest": build_recall_combination_test(year_recall_combination),
-            "recallCombinationPosthoc": build_recall_combination_posthoc(year_recall_combination),
         },
         "sampleSize": {
             "recallStatus": sample_size_recall_status,
             "recallStatusTest": build_recall_status_test(sample_size_recall_status),
-            "recallCombination": sample_size_recall_combination,
-            "recallCombinationTest": build_recall_combination_test(sample_size_recall_combination),
-            "recallCombinationPosthoc": build_recall_combination_posthoc(sample_size_recall_combination),
         },
         "citationsPerYear": {
             "recallStatus": citations_per_year_recall_status,
             "recallStatusTest": build_recall_status_test(citations_per_year_recall_status),
-            "recallCombination": citations_per_year_recall_combination,
-            "recallCombinationTest": build_recall_combination_test(citations_per_year_recall_combination),
-            "recallCombinationPosthoc": build_recall_combination_posthoc(citations_per_year_recall_combination),
         },
         "citationCount": {
             "recallStatus": citation_count_recall_status,
             "recallStatusTest": build_recall_status_test(citation_count_recall_status),
-            "recallCombination": citation_count_recall_combination,
-            "recallCombinationTest": build_recall_combination_test(citation_count_recall_combination),
-            "recallCombinationPosthoc": build_recall_combination_posthoc(citation_count_recall_combination),
         },
     }
 
 
 def build_open_access_distribution(rows: list[dict[str, str]]) -> dict[str, Any]:
-    """Build open-access rate data for recall-status and recall-combination groups.
-
-    is_open_access is binary, unlike the four characteristics above, so this
-    reports rates (open count / total with a known status) per group instead
-    of box-plot statistics: a Fisher's exact test for the two mutually
-    exclusive recall-status groups, and a chi-square omnibus test followed by
-    Dunn-style Bonferroni-adjusted pairwise Fisher's exact tests for the five
-    mutually exclusive recall-combination groups - the same statistical
-    pairing (omnibus + pairwise post-hoc) as build_characteristic_distributions
-    uses for its continuous metrics, adapted for a binary outcome. Reuses the
-    same recall-status/recall-combination group definitions.
-    """
+    """Build open-access rates for recalled-vs-not groups."""
 
     def rate_items(groups: list[tuple[str, str, Any]]) -> list[dict[str, Any]]:
         items = []
@@ -929,8 +855,6 @@ def build_open_access_distribution(rows: list[dict[str, str]]) -> dict[str, Any]
         return items
 
     recall_status_items = rate_items(RECALL_STATUS_GROUPS)
-    recall_combination_items = rate_items(RECALL_COMBINATION_GROUPS)
-
     not_recalled_item = next(item for item in recall_status_items if item["groupId"] == "not-recalled")
     recalled_item = next(item for item in recall_status_items if item["groupId"] == "recalled")
     recall_status_test = calculate_fisher_exact_test(
@@ -939,27 +863,9 @@ def build_open_access_distribution(rows: list[dict[str, str]]) -> dict[str, Any]
         label_a="Not recalled", label_b="Recalled",
     )
 
-    recall_combination_test = calculate_chi_square_test(
-        [item["openCount"] for item in recall_combination_items],
-        [item["total"] for item in recall_combination_items],
-        labels=[item["label"] for item in recall_combination_items],
-    )
-    recall_combination_posthoc = calculate_fisher_posthoc_test(
-        [item["openCount"] for item in recall_combination_items],
-        [item["total"] for item in recall_combination_items],
-        labels=[item["label"] for item in recall_combination_items],
-    )
-    group_id_by_label = {item["label"]: item["groupId"] for item in recall_combination_items}
-    for comparison in recall_combination_posthoc:
-        comparison["groupIdA"] = group_id_by_label[comparison["groupLabelA"]]
-        comparison["groupIdB"] = group_id_by_label[comparison["groupLabelB"]]
-
     return {
         "recallStatus": recall_status_items,
         "recallStatusTest": recall_status_test,
-        "recallCombination": recall_combination_items,
-        "recallCombinationTest": recall_combination_test,
-        "recallCombinationPosthoc": recall_combination_posthoc,
     }
 
 
@@ -984,70 +890,12 @@ ROLE_RECALL_COMBINATION_GROUPS = [
 ]
 
 
-def build_role_characteristic_distributions(rows: list[dict[str, str]]) -> dict[str, Any]:
-    """Build year/sample-size/citations-per-year box-plot data for role-recall-combination groups.
-
-    Mirrors build_characteristic_distributions's recall-combination
-    treatment (Kruskal-Wallis omnibus plus Dunn's Bonferroni-adjusted
-    pairwise post-hoc), grouped by which user role(s) recalled a study
-    (role_recall_pattern) instead of which chatbot(s) did. The "recalled vs.
-    not" comparison isn't repeated here: recall status doesn't depend on
-    which dimension groups it, so it's identical to the recallStatus group
-    build_characteristic_distributions already reports.
-    """
-
-    def build_dimension(field: str) -> list[dict[str, Any]]:
-        items = []
-        for group_id, label, predicate in ROLE_RECALL_COMBINATION_GROUPS:
-            values = [float(row[field]) for row in rows if predicate(row) and row[field].strip()]
-            if not values:
-                raise ValueError(f"No {field} values found for group {group_id}")
-            items.append(
-                {"groupId": group_id, "label": label, "stats": compute_box_plot_stats(values)}
-            )
-        return items
-
-    def build_combination_test(items: list[dict[str, Any]]) -> dict[str, Any]:
-        return calculate_kruskal_wallis_test(
-            [item["stats"]["values"] for item in items],
-            labels=[item["label"] for item in items],
-        )
-
-    def build_combination_posthoc(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
-        comparisons = calculate_dunn_posthoc_test(
-            [item["stats"]["values"] for item in items],
-            labels=[item["label"] for item in items],
-        )
-        group_id_by_label = {item["label"]: item["groupId"] for item in items}
-        for comparison in comparisons:
-            comparison["groupIdA"] = group_id_by_label[comparison["groupLabelA"]]
-            comparison["groupIdB"] = group_id_by_label[comparison["groupLabelB"]]
-        return comparisons
-
-    result: dict[str, Any] = {}
-    for key, field in (
-        ("year", "year"),
-        ("sampleSize", "sample_size"),
-        ("citationsPerYear", "citations_per_year"),
-        ("citationCount", "citation_count"),
-    ):
-        items = build_dimension(field)
-        result[key] = {
-            "recallCombination": items,
-            "recallCombinationTest": build_combination_test(items),
-            "recallCombinationPosthoc": build_combination_posthoc(items),
-        }
-    return result
-
-
 def build_role_open_access_distribution(rows: list[dict[str, str]]) -> dict[str, Any]:
     """Build open-access rate data for role-recall-combination groups.
 
-    Mirrors build_open_access_distribution's recall-combination treatment
-    (chi-square omnibus plus Bonferroni-adjusted pairwise Fisher's exact
-    post-hoc), grouped by role_recall_pattern instead of recall_pattern. The
-    recall-status Fisher's exact test isn't repeated here for the same
-    reason build_role_characteristic_distributions skips it.
+    Groups by role_recall_pattern instead of recall_pattern. The recall-status
+    Fisher's exact test is not repeated here because recall status is the same
+    regardless of whether studies are grouped by chatbot or user role.
     """
 
     items = []
@@ -1107,51 +955,6 @@ ROLE_UNIVERSALITY_GROUPS = [
     ),
     ("role-agnostic", "Role-agnostic recall", lambda row: row["role_recall_pattern"] == "All three"),
 ]
-
-
-def build_role_universality_distributions(rows: list[dict[str, str]]) -> dict[str, Any]:
-    """Build year/sample-size/citations-per-year box-plot data for role-universality groups.
-
-    A two-group Mann-Whitney U comparison (Role-agnostic recall vs.
-    Researcher-dependent recall), the same two-group treatment
-    RECALL_STATUS_GROUPS gets in build_characteristic_distributions, applied
-    to ROLE_UNIVERSALITY_GROUPS instead.
-    """
-
-    def build_dimension(field: str) -> list[dict[str, Any]]:
-        items = []
-        for group_id, label, predicate in ROLE_UNIVERSALITY_GROUPS:
-            values = [float(row[field]) for row in rows if predicate(row) and row[field].strip()]
-            if not values:
-                raise ValueError(f"No {field} values found for group {group_id}")
-            items.append(
-                {"groupId": group_id, "label": label, "stats": compute_box_plot_stats(values)}
-            )
-        return items
-
-    def build_universality_test(items: list[dict[str, Any]]) -> dict[str, Any]:
-        dependent = next(item for item in items if item["groupId"] == "role-dependent")
-        agnostic = next(item for item in items if item["groupId"] == "role-agnostic")
-        return calculate_mann_whitney_test(
-            agnostic["stats"]["values"],
-            dependent["stats"]["values"],
-            label_a="Role-agnostic recall",
-            label_b="Researcher-dependent recall",
-        )
-
-    result: dict[str, Any] = {}
-    for key, field in (
-        ("year", "year"),
-        ("sampleSize", "sample_size"),
-        ("citationsPerYear", "citations_per_year"),
-        ("citationCount", "citation_count"),
-    ):
-        items = build_dimension(field)
-        result[key] = {
-            "roleUniversality": items,
-            "roleUniversalityTest": build_universality_test(items),
-        }
-    return result
 
 
 def build_role_universality_open_access(rows: list[dict[str, str]]) -> dict[str, Any]:
@@ -2255,14 +2058,8 @@ def build_all_reviews_payload(
     cross_review_summary["citationIssueSummary"] = (
         build_citation_issue_summary(prepared_reviews)
     )
-    cross_review_summary["roleCharacteristicDistributions"] = (
-        build_role_characteristic_distributions(characteristic_rows)
-    )
     cross_review_summary["roleOpenAccessDistribution"] = (
         build_role_open_access_distribution(characteristic_rows)
-    )
-    cross_review_summary["roleUniversalityDistributions"] = (
-        build_role_universality_distributions(characteristic_rows)
     )
     cross_review_summary["roleUniversalityOpenAccess"] = (
         build_role_universality_open_access(characteristic_rows)

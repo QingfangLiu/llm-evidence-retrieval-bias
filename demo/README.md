@@ -243,18 +243,11 @@ The **Study characteristics by recall pattern** section, further down the
 Across-reviews tab, shows box-and-whisker charts (interquartile box, median
 line, whiskers to the most extreme non-outlier value, individual studies as
 jittered dots) for publication year, sample size, citations per year, and
-total citations, each compared two ways: studies no chatbot ever recalled
-versus studies recalled by at least one, and the exact combination of
-chatbot(s) that recalled each study (Claude only, GPT only, Gemini+GPT,
-Claude+GPT, All three). Recall-combination groups are mutually exclusive -
-unlike a per-chatbot "did this chatbot recall it at least once" grouping,
-which would count a study recalled by multiple chatbots in each of their
-groups. "Gemini only" and "Claude+Gemini" are omitted from the combination
-panels since each has only one study in the current data (those two studies
-remain in the "recalled vs. not" comparison). Sample size, citations per
-year, and total citations all use a log-scaled axis since each spans several
-orders of magnitude; a zero citations-per-year value (no defined log
-position) is clamped to the left edge of that axis rather than dropped.
+total citations, comparing studies no chatbot ever recalled versus studies
+recalled by at least one. Sample size, citations per year, and total citations
+all use a log-scaled axis since each spans several orders of magnitude; a zero
+citations-per-year value (no defined log position) is clamped to the left edge
+of that axis rather than dropped.
 Citations per year and total citations are two views of the same underlying
 Semantic Scholar count - the first divides by years since publication so a
 study is not penalized just for being too new to have accumulated citations,
@@ -268,41 +261,17 @@ box-plot statistics (`characteristicDistributions` in `data.js`) that
 
 The four "recalled vs. not" panels show a Mann-Whitney U test (not recalled
 vs. recalled), since those two groups are mutually exclusive and therefore an
-independent-samples test is valid. The four "by recall combination" panels
-show a Kruskal-Wallis H test across all five combination groups - the
-rank-based generalization of Mann-Whitney to more than two groups, valid for
-the same reason (the groups no longer overlap, unlike the by-chatbot grouping
-this replaced).
-
-Below each Kruskal-Wallis result, a table lists all ten pairwise comparisons
-among the five recall-combination groups (Dunn's test): mean-rank difference,
-z-statistic, raw two-sided p-value, and a Bonferroni-adjusted p-value (raw p
-x 10, capped at 1) with significance stars. Dunn's test pools ranks across
-all five groups at once - the same ranks the omnibus Kruskal-Wallis test
-itself uses - rather than re-ranking within each pair the way ten separate
-Mann-Whitney tests would; the Bonferroni adjustment then controls the
-family-wise error rate that running ten comparisons at an unadjusted p<0.05
-would otherwise inflate. The reusable `calculate_mann_whitney_test`,
-`calculate_kruskal_wallis_test`, and `calculate_dunn_posthoc_test`
-implementations live alongside the other overlap/permutation metrics in
-`demo/overlap_metrics.py`.
+independent-samples test is valid. The reusable
+`calculate_mann_whitney_test` implementation lives alongside the other
+overlap/permutation metrics in `demo/overlap_metrics.py`.
 
 The **Open access by recall pattern** section, right below it, applies the
-same two comparisons (recalled vs. not, and by recall combination) to
-`is_open_access` - Semantic Scholar's open-access flag for a study's
-best-matched PMID (the same one `citation_count` uses). Unlike the four
-characteristics above, this is binary, so each group is shown as a rate bar
-(open count / total with a known status) rather than a box plot, and the
-statistical tests are the binary-outcome analogs of the ones used above:
-Fisher's exact test for the two mutually exclusive recall-status groups
-(instead of Mann-Whitney), and a chi-square test of independence for the
-five recall-combination groups (instead of Kruskal-Wallis), followed by the
-same Bonferroni-adjusted pairwise post-hoc treatment - here using pairwise
-Fisher's exact tests instead of Dunn's test, since the outcome is a rate,
-not a rank. The reusable `calculate_fisher_exact_test`,
-`calculate_chi_square_test`, and `calculate_fisher_posthoc_test`
-implementations live alongside the other overlap/permutation metrics in
-`demo/overlap_metrics.py`.
+same recalled-versus-not comparison to `is_open_access` - Semantic Scholar's
+open-access flag for a study's best-matched PMID (the same one
+`citation_count` uses). Unlike the four characteristics above, this is binary,
+so each group is shown as a rate bar (open count / total with a known status)
+rather than a box plot. The comparison uses Fisher's exact test, implemented
+alongside the other overlap/permutation metrics in `demo/overlap_metrics.py`.
 
 Open-access status is 45% among not-recalled studies and 56% among recalled
 studies; the univariate Fisher's exact p-value is 0.077. It is also not
@@ -385,34 +354,21 @@ the analysis. See `README.md`, "Citation issues
 including a dedicated check of the rarer case where a citation could not be
 resolved to any study at all.
 
-Further down the Across-reviews tab, **Study characteristics by
-recall pattern (user role)** and **Open access by recall pattern (user
-role)** repeat the two "by recall combination" comparisons above, but
-grouped by which user role(s) - patient, clinician, researcher - recalled
-each study (`role_recall_pattern`, built the same way as `recall_pattern`
-but from each match row's `role_id` instead of its `model`) instead of
-which chatbot(s) did. Both are computed by `scripts/analyze_recall_by_characteristic.py`
-(added to the same `data/analysis/recall_pattern_by_characteristic.csv` join, alongside
-`recalled_by_patient`/`recalled_by_clinician`/`recalled_by_researcher`) and
-rendered by `build_role_characteristic_distributions()` and
-`build_role_open_access_distribution()` in `build_demo.py`, reusing the same
-box-plot, Kruskal-Wallis/Dunn, and chi-square/Fisher machinery as the
-chatbot version above. The "recalled vs. not" comparison isn't repeated a
-second time here: recall status doesn't depend on which dimension groups
-it, so it's identical to the "recalled vs. not" panels already shown in the
-chatbot-based sections. These panels focus on researcher contribution:
-"Researcher only" (43), "Clinician+Researcher" (28),
+Further down the Across-reviews tab, **Open access by recall pattern (user
+role)** groups the open-access comparison by which user role(s) - patient,
+clinician, researcher - recalled each study (`role_recall_pattern`, built the
+same way as `recall_pattern` but from each match row's `role_id` instead of
+its `model`) instead of which chatbot(s) did. This panel focuses on researcher
+contribution: "Researcher only" (43), "Clinician+Researcher" (28),
 "Patient+Researcher" (9), and "All three" (234) are shown. "Clinician only"
 (8), "Patient only" (4), and "Patient+Clinician" (2) remain in the shared
 "recalled vs. not" comparison but are outside this narrower question.
 "All three" is the dominant role pattern by a wide margin.
 
 The four-way researcher-focused split above remains uneven. At the end of the
-Across-reviews tab, **Study characteristics
-by role dependence**, **Open access by role dependence**, and **Multiple
-logistic regression on role dependence** instead pool the three
-non-universal groups into one comparator, turning it into a plain two-group
-split:
+Across-reviews tab, **Open access by role dependence** and **Multiple logistic
+regression on role dependence** instead pool the three non-universal groups
+into one comparator, turning it into a plain two-group split:
 
 - **Role-agnostic recall** - the study was recalled by all three roles
   (`role_recall_pattern == "All three"`, n=234).
@@ -428,19 +384,9 @@ split:
   combination panels above (Patient only, Clinician only, Patient+Clinician), are excluded
   from both groups here too.
 
-In the current univariate comparisons, researcher-dependent studies have a
-smaller median sample size (157 vs. 221.5; p=0.017) and fewer total citations
-(43 vs. 75; p=0.005). Citations per year are borderline (4.62 vs. 6.25;
-p=0.062), while publication year (p=0.85) and open access (p=1.0) do not
-differ.
-
 `ROLE_UNIVERSALITY_GROUPS` in `build_demo.py` defines the pooling;
-`build_role_universality_distributions()` and
-`build_role_universality_open_access()` compute a two-group Mann-Whitney U
-test per characteristic and a Fisher's exact test for open access - the same
-two-group machinery `build_characteristic_distributions()` and
-`build_open_access_distribution()` already use for "recalled vs. not",
-applied to this pooled split instead. `scripts/analyze_role_dependence_logistic_regression.py`
+`build_role_universality_open_access()` computes the Fisher's exact test for
+open access on this pooled split. `scripts/analyze_role_dependence_logistic_regression.py`
 refits the same `logit(P) ~ year + log(sample_size) + log(citations_per_year
 + 0.01) + is_open_access` model as `scripts/analyze_recall_logistic_regression.py`
 (review-clustered SEs, naive-p comparison, VIF), but on this two-group

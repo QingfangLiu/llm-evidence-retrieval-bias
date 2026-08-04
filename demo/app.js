@@ -658,47 +658,10 @@
   }
 
   function renderDistributionTestDetail(test) {
-    if (test.method === "Kruskal-Wallis H") {
-      const groupSummary = test.groupLabels
-        .map((label, index) => `${label} n=${number(test.sampleSizes[index])}`)
-        .join(", ");
-      return `${text(test.method)}, ${text(groupSummary)} · p${permutationPValue(test.pValue)}`;
-    }
     return `${text(test.method)}, ${text(test.comparisonLabel)} (n=${number(test.sampleSizeA)} vs. n=${number(test.sampleSizeB)}) · p${permutationPValue(test.pValue)}`;
   }
 
-  function renderDunnPosthocTable(posthoc) {
-    if (!Array.isArray(posthoc) || !posthoc.length) {
-      return "";
-    }
-    const rows = posthoc.map((comparison) => `
-      <tr>
-        <th scope="row">${text(comparison.groupLabelA)} vs. ${text(comparison.groupLabelB)}</th>
-        <td>${(comparison.meanRankA - comparison.meanRankB).toFixed(1)}</td>
-        <td>${comparison.zStatistic.toFixed(2)}</td>
-        <td>${permutationPValue(comparison.pValueRaw)}</td>
-        <td>${permutationPValue(comparison.pValueBonferroni)}${text(significanceStars(comparison.pValueBonferroni))}</td>
-      </tr>
-    `).join("");
-    return `
-      <div class="summary-table-wrap posthoc-wrap">
-        <table class="summary-table logistic-regression-table posthoc-table">
-          <thead>
-            <tr>
-              <th scope="col">Pairwise comparison (Dunn's test)</th>
-              <th scope="col">Mean rank diff.</th>
-              <th scope="col">z</th>
-              <th scope="col">Raw p</th>
-              <th scope="col">Bonferroni p</th>
-            </tr>
-          </thead>
-          <tbody>${rows}</tbody>
-        </table>
-      </div>
-    `;
-  }
-
-  function renderDistributionCard(title, scale, domain, formatValue, items, test, posthoc) {
+  function renderDistributionCard(title, scale, domain, formatValue, items, test) {
     const xScale = makeDistributionScale(domain, scale);
     const rows = items.map((item) => renderDistributionRow(item, xScale, formatValue)).join("");
     const axisMarks = distributionTicks(domain, scale).map((tick) => `
@@ -710,7 +673,6 @@
         <small>${renderDistributionTestDetail(test)}</small>
       </div>
     ` : "";
-    const posthocMarkup = posthoc ? renderDunnPosthocTable(posthoc) : "";
     return `
       <article class="summary-dimension distribution-card">
         <h3>${text(title)}</h3>
@@ -722,7 +684,6 @@
           </div>
         </div>
         ${testMarkup}
-        ${posthocMarkup}
       </article>
     `;
   }
@@ -732,19 +693,19 @@
     if (!distributions) {
       return "";
     }
-    const yearItems = [...distributions.year.recallStatus, ...distributions.year.recallCombination];
+    const yearItems = distributions.year.recallStatus;
     const yearDomain = computeDistributionDomain(yearItems, "linear");
     const yearFormat = (value) => Math.round(value).toString();
 
-    const sizeItems = [...distributions.sampleSize.recallStatus, ...distributions.sampleSize.recallCombination];
+    const sizeItems = distributions.sampleSize.recallStatus;
     const sizeDomain = computeDistributionDomain(sizeItems, "log");
     const sizeFormat = (value) => number(Math.round(value));
 
-    const citationItems = [...distributions.citationsPerYear.recallStatus, ...distributions.citationsPerYear.recallCombination];
+    const citationItems = distributions.citationsPerYear.recallStatus;
     const citationDomain = computeDistributionDomain(citationItems, "log");
     const citationFormat = (value) => (value < 10 ? value.toFixed(1) : number(Math.round(value)));
 
-    const countItems = [...distributions.citationCount.recallStatus, ...distributions.citationCount.recallCombination];
+    const countItems = distributions.citationCount.recallStatus;
     const countDomain = computeDistributionDomain(countItems, "log");
     const countFormat = (value) => number(Math.round(value));
 
@@ -762,29 +723,18 @@
               same Semantic Scholar count, unnormalized - shown alongside citations per
               year rather than instead of it, since a raw count is confounded with a
               study's age), compared for studies no chatbot ever recalled versus studies
-              recalled by at least one, and for the exact combination of chatbot(s) that
-              recalled each study. Recall-combination groups are mutually exclusive - each
-              recalled study belongs to exactly one of them - unlike a per-chatbot "did
-              this chatbot recall it at least once" grouping, which would count a study
-              recalled by multiple chatbots in each of their groups. "Gemini only" and
-              "Claude+Gemini" are omitted here since each has only one study in the current
-              data; those two studies remain in the "recalled vs. not" comparison above.
-              Boxes show the interquartile range with a median line; whiskers extend to the
-              most extreme value within 1.5x the IQR; dots beyond the whiskers are
-              outliers. Each small dot is one study, jittered vertically only for
-              visibility.
+              recalled by at least one. Boxes show the interquartile range with a median
+              line; whiskers extend to the most extreme value within 1.5x the IQR; dots
+              beyond the whiskers are outliers. Each small dot is one study, jittered
+              vertically only for visibility.
             </p>
           </div>
         </header>
         <div class="summary-dimension-grid distribution-grid">
           ${renderDistributionCard("Publication year — recalled vs. not", "linear", yearDomain, yearFormat, distributions.year.recallStatus, distributions.year.recallStatusTest)}
-          ${renderDistributionCard("Publication year — by recall combination", "linear", yearDomain, yearFormat, distributions.year.recallCombination, distributions.year.recallCombinationTest, distributions.year.recallCombinationPosthoc)}
           ${renderDistributionCard("Sample size — recalled vs. not (log scale)", "log", sizeDomain, sizeFormat, distributions.sampleSize.recallStatus, distributions.sampleSize.recallStatusTest)}
-          ${renderDistributionCard("Sample size — by recall combination (log scale)", "log", sizeDomain, sizeFormat, distributions.sampleSize.recallCombination, distributions.sampleSize.recallCombinationTest, distributions.sampleSize.recallCombinationPosthoc)}
           ${renderDistributionCard("Citations per year — recalled vs. not (log scale)", "log", citationDomain, citationFormat, distributions.citationsPerYear.recallStatus, distributions.citationsPerYear.recallStatusTest)}
-          ${renderDistributionCard("Citations per year — by recall combination (log scale)", "log", citationDomain, citationFormat, distributions.citationsPerYear.recallCombination, distributions.citationsPerYear.recallCombinationTest, distributions.citationsPerYear.recallCombinationPosthoc)}
           ${renderDistributionCard("Total citations — recalled vs. not (log scale)", "log", countDomain, countFormat, distributions.citationCount.recallStatus, distributions.citationCount.recallStatusTest)}
-          ${renderDistributionCard("Total citations — by recall combination (log scale)", "log", countDomain, countFormat, distributions.citationCount.recallCombination, distributions.citationCount.recallCombinationTest, distributions.citationCount.recallCombinationPosthoc)}
         </div>
       </section>
     `;
@@ -883,70 +833,14 @@
             <p>
               Semantic Scholar's open-access flag for the same best-matched PMID used for
               citation counts, compared for studies no chatbot ever recalled versus studies
-              recalled by at least one, and for the exact combination of chatbot(s) that
-              recalled each study (same recall-combination groups as above). Unlike the
-              four characteristics above, this is binary, so each group is shown as a rate
-              rather than a box plot: the two-group comparison uses Fisher's exact test, and
-              the five-group comparison uses a chi-square test of independence as the
-              omnibus test, followed by Bonferroni-adjusted pairwise Fisher's exact tests.
+              recalled by at least one. Unlike the four characteristics above, this is
+              binary, so each group is shown as a rate rather than a box plot; the
+              two-group comparison uses Fisher's exact test.
             </p>
           </div>
         </header>
         <div class="summary-dimension-grid distribution-grid">
           ${renderRateCard("Open access — recalled vs. not", openAccess.recallStatus, openAccess.recallStatusTest)}
-          ${renderRateCard("Open access — by recall combination", openAccess.recallCombination, openAccess.recallCombinationTest, openAccess.recallCombinationPosthoc)}
-        </div>
-      </section>
-    `;
-  }
-
-  function renderRoleCharacteristicDistributions() {
-    const distributions = activeExperiment.roleCharacteristicDistributions;
-    if (!distributions) {
-      return "";
-    }
-    const yearItems = distributions.year.recallCombination;
-    const yearDomain = computeDistributionDomain(yearItems, "linear");
-    const yearFormat = (value) => Math.round(value).toString();
-
-    const sizeItems = distributions.sampleSize.recallCombination;
-    const sizeDomain = computeDistributionDomain(sizeItems, "log");
-    const sizeFormat = (value) => number(Math.round(value));
-
-    const citationItems = distributions.citationsPerYear.recallCombination;
-    const citationDomain = computeDistributionDomain(citationItems, "log");
-    const citationFormat = (value) => (value < 10 ? value.toFixed(1) : number(Math.round(value)));
-
-    const countItems = distributions.citationCount.recallCombination;
-    const countDomain = computeDistributionDomain(countItems, "log");
-    const countFormat = (value) => number(Math.round(value));
-
-    return `
-      <section class="panel cross-summary-section" aria-labelledby="role-characteristics-summary-title">
-        <header class="cross-summary-heading">
-          <div>
-            <h2 id="role-characteristics-summary-title">Study characteristics by recall pattern (user role)</h2>
-            <p>
-              The same four characteristics as "Study characteristics by recall pattern"
-              above (publication year, sample size, citations per year, total citations),
-              now compared for the exact combination of user role(s) - patient, clinician,
-              researcher - that recalled each study, aggregated across all three chatbots.
-              Recall-combination groups are mutually exclusive, same as the chatbot version.
-              "Patient only" (2 studies), "Clinician only" (3), and "Patient+Clinician" (1)
-              are omitted here since each falls below the four-study floor used for the
-              chatbot combinations' smallest retained group (Gemini+GPT, n=4); those studies
-              remain in the "recalled vs. not" comparison above, which is unchanged by this
-              role breakdown since recall status doesn't depend on which dimension groups it.
-              Boxes show the interquartile range with a median line; whiskers extend to the
-              most extreme value within 1.5x the IQR; dots beyond the whiskers are outliers.
-            </p>
-          </div>
-        </header>
-        <div class="summary-dimension-grid distribution-grid">
-          ${renderDistributionCard("Publication year — by role combination", "linear", yearDomain, yearFormat, distributions.year.recallCombination, distributions.year.recallCombinationTest, distributions.year.recallCombinationPosthoc)}
-          ${renderDistributionCard("Sample size — by role combination (log scale)", "log", sizeDomain, sizeFormat, distributions.sampleSize.recallCombination, distributions.sampleSize.recallCombinationTest, distributions.sampleSize.recallCombinationPosthoc)}
-          ${renderDistributionCard("Citations per year — by role combination (log scale)", "log", citationDomain, citationFormat, distributions.citationsPerYear.recallCombination, distributions.citationsPerYear.recallCombinationTest, distributions.citationsPerYear.recallCombinationPosthoc)}
-          ${renderDistributionCard("Total citations — by role combination (log scale)", "log", countDomain, countFormat, distributions.citationCount.recallCombination, distributions.citationCount.recallCombinationTest, distributions.citationCount.recallCombinationPosthoc)}
         </div>
       </section>
     `;
@@ -965,60 +859,14 @@
             <p>
               The same open-access comparison as "Open access by recall pattern" above, now
               grouped by the exact combination of user role(s) that recalled each study
-              (same groups and floor as the role characteristics section above). A
-              chi-square test of independence is the omnibus test, followed by
-              Bonferroni-adjusted pairwise Fisher's exact tests.
+              (with the same retained role-combination groups used in the role-dependence
+              analyses). A chi-square test of independence is the omnibus test, followed
+              by Bonferroni-adjusted pairwise Fisher's exact tests.
             </p>
           </div>
         </header>
         <div class="summary-dimension-grid distribution-grid">
           ${renderRateCard("Open access — by role combination", openAccess.recallCombination, openAccess.recallCombinationTest, openAccess.recallCombinationPosthoc)}
-        </div>
-      </section>
-    `;
-  }
-
-  function renderRoleUniversalityDistributions() {
-    const distributions = activeExperiment.roleUniversalityDistributions;
-    if (!distributions) {
-      return "";
-    }
-    const yearDomain = computeDistributionDomain(distributions.year.roleUniversality, "linear");
-    const yearFormat = (value) => Math.round(value).toString();
-
-    const sizeDomain = computeDistributionDomain(distributions.sampleSize.roleUniversality, "log");
-    const sizeFormat = (value) => number(Math.round(value));
-
-    const citationDomain = computeDistributionDomain(distributions.citationsPerYear.roleUniversality, "log");
-    const citationFormat = (value) => (value < 10 ? value.toFixed(1) : number(Math.round(value)));
-
-    const countDomain = computeDistributionDomain(distributions.citationCount.roleUniversality, "log");
-    const countFormat = (value) => number(Math.round(value));
-
-    return `
-      <section class="panel cross-summary-section" aria-labelledby="role-universality-summary-title">
-        <header class="cross-summary-heading">
-          <div>
-            <h2 id="role-universality-summary-title">Study characteristics by role dependence</h2>
-            <p>
-              The same four characteristics as above, now compared as a plain two-group
-              split: "Role-agnostic recall" (all three roles recalled the study) versus
-              "Researcher-dependent recall" (the three retained role-combination groups
-              above pooled together - Researcher only, Clinician+Researcher, and
-              Patient+Researcher - every one of which required a researcher-role
-              response to surface the study, since patient and/or clinician missed it).
-              Pooling those three groups turns the sparse four-way comparison above into
-              a well-powered two-group Mann-Whitney U test, and answers a narrower
-              question directly: what distinguishes studies that specifically needed a
-              researcher-role response to be found, from studies any role's response finds.
-            </p>
-          </div>
-        </header>
-        <div class="summary-dimension-grid distribution-grid">
-          ${renderDistributionCard("Publication year — role-agnostic vs. researcher-dependent", "linear", yearDomain, yearFormat, distributions.year.roleUniversality, distributions.year.roleUniversalityTest)}
-          ${renderDistributionCard("Sample size — role-agnostic vs. researcher-dependent (log scale)", "log", sizeDomain, sizeFormat, distributions.sampleSize.roleUniversality, distributions.sampleSize.roleUniversalityTest)}
-          ${renderDistributionCard("Citations per year — role-agnostic vs. researcher-dependent (log scale)", "log", citationDomain, citationFormat, distributions.citationsPerYear.roleUniversality, distributions.citationsPerYear.roleUniversalityTest)}
-          ${renderDistributionCard("Total citations — role-agnostic vs. researcher-dependent (log scale)", "log", countDomain, countFormat, distributions.citationCount.roleUniversality, distributions.citationCount.roleUniversalityTest)}
         </div>
       </section>
     `;
@@ -1035,11 +883,11 @@
           <div>
             <h2 id="role-universality-open-access-title">Open access by role dependence</h2>
             <p>
-              The same open-access comparison as above, grouped by role dependence
-              (same two-group split as "Study characteristics by role dependence" above)
-              instead of the four-way role combination. Uses Fisher's exact test, the
-              same binary-outcome treatment as the "recalled vs. not" open-access
-              comparison.
+              Open-access status grouped by role dependence: "Role-agnostic recall"
+              (all three roles recalled the study) versus "Researcher-dependent recall"
+              (the retained role-combination groups that required a researcher-role
+              response). Uses Fisher's exact test, the same binary-outcome treatment as
+              the "recalled vs. not" open-access comparison.
             </p>
           </div>
         </header>
@@ -1645,9 +1493,7 @@
       ${renderPredictorCorrelations()}
       ${renderLogisticRegressionTable()}
       ${renderCitationIssueSummary()}
-      ${renderRoleCharacteristicDistributions()}
       ${renderRoleOpenAccessDistribution()}
-      ${renderRoleUniversalityDistributions()}
       ${renderRoleUniversalityOpenAccess()}
       ${renderRoleUniversalityLogisticRegressionTable()}
     `;
