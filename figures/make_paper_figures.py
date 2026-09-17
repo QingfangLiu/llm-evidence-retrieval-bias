@@ -1295,8 +1295,8 @@ def draw_proportional_venn_panel(
     inner = subplot_spec.subgridspec(
         1,
         2,
-        width_ratios=(3.0, 1.08),
-        wspace=0.07,
+        width_ratios=(2.68, 1.40),
+        wspace=0.06,
     )
     diagram_axis = figure.add_subplot(inner[0, 0])
     summary_axis = figure.add_subplot(inner[0, 1])
@@ -1304,12 +1304,13 @@ def draw_proportional_venn_panel(
     diagram_axis.axis("off")
     summary_axis.axis("off")
 
+    summary_fontsize = 10.2
     status_label = (
         "Cochrane included" if study_status == "included" else "Cochrane excluded"
     )
     diagram_axis.text(
         -1.95,
-        1.89,
+        1.97,
         f"{panel_label}  {style['title']}",
         ha="left",
         va="top",
@@ -1319,11 +1320,11 @@ def draw_proportional_venn_panel(
     )
     diagram_axis.text(
         -1.68,
-        1.68,
+        1.76,
         f"{status_label} studies (N = {benchmark_count})",
         ha="left",
         va="top",
-        fontsize=8.6,
+        fontsize=summary_fontsize,
         color=TEXT_COLOR,
     )
     box_left = -1.76
@@ -1372,7 +1373,7 @@ def draw_proportional_venn_panel(
             str(count),
             ha="center",
             va="center",
-            fontsize=8.4 if count else 7.0,
+            fontsize=9.0 if count else 7.5,
             fontweight="bold",
             color=TEXT_COLOR if count else MUTED_TEXT_COLOR,
             bbox={
@@ -1411,7 +1412,7 @@ def draw_proportional_venn_panel(
         f"Studies cited (of {benchmark_count})",
         ha="left",
         va="top",
-        fontsize=8.7,
+        fontsize=summary_fontsize,
         fontweight="bold",
         color=TEXT_COLOR,
     )
@@ -1423,7 +1424,7 @@ def draw_proportional_venn_panel(
     for index, (label, count, color) in enumerate(
         zip(studies_cited_labels, set_counts, set_colors)
     ):
-        y_position = 1.18 - index * 0.47
+        y_position = 1.02 - index * 0.48
         summary_axis.scatter(
             [0.05],
             [y_position],
@@ -1439,15 +1440,21 @@ def draw_proportional_venn_panel(
             f"{label}\n{count} ({100 * count / benchmark_count:.1f}%)",
             ha="left",
             va="center",
-            fontsize=7.3,
+            fontsize=summary_fontsize,
             color=TEXT_COLOR,
-            linespacing=1.05,
+            linespacing=1.15,
         )
 
     pair_specs = (
         ("firstSecondOnly", 0, 1),
         ("firstThirdOnly", 0, 2),
         ("secondThirdOnly", 1, 2),
+    )
+    # Full names appear in the cited list immediately above these pair labels.
+    pair_labels = (
+        ("Claude", "Gemini", "GPT")
+        if dimension == "chatbot"
+        else ("Patient", "Clin.", "Res.")
     )
     jaccard_lines = [
         f"All three: {shared_all_count} ({100 * shared_all_count / union_count:.1f}%)"
@@ -1458,28 +1465,28 @@ def draw_proportional_venn_panel(
             set_counts[first_index] + set_counts[second_index] - pair_intersection
         )
         jaccard_lines.append(
-            f"{expected_labels[first_index]}–{expected_labels[second_index]}: "
+            f"{pair_labels[first_index]}–{pair_labels[second_index]}: "
             f"{pair_intersection} ({100 * pair_intersection / pair_union:.1f}%)"
         )
     summary_axis.text(
         0.0,
-        -0.32,
+        -0.30,
         f"Overlap (of {union_count} cited)",
         ha="left",
         va="top",
-        fontsize=8.7,
+        fontsize=summary_fontsize,
         fontweight="bold",
         color=TEXT_COLOR,
     )
     summary_axis.text(
         0.0,
-        -0.70,
+        -0.52,
         "\n".join(jaccard_lines),
         ha="left",
         va="top",
-        fontsize=7.4,
+        fontsize=summary_fontsize,
         color=TEXT_COLOR,
-        linespacing=1.52,
+        linespacing=1.40,
     )
     summary_axis.set_xlim(0, 1)
     summary_axis.set_ylim(-1.62, 1.98)
@@ -1499,7 +1506,7 @@ def create_figure_3(demo_data: dict[str, Any]):
     )
     panels = load_main_overlap_panels(demo_data)
     figure = plt.figure(figsize=(10.4, 6.9), facecolor="white")
-    outer = figure.add_gridspec(2, 2, wspace=0.20, hspace=0.10)
+    outer = figure.add_gridspec(2, 2, wspace=0.12, hspace=0.00)
     panel_specs = (
         ("included", "chatbot", "A"),
         ("included", "role", "B"),
