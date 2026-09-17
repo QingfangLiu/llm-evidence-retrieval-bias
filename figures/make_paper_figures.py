@@ -291,8 +291,10 @@ def load_included_jaccard_summaries() -> dict[str, dict[str, dict[str, float]]]:
 
 def review_clustered_bootstrap_intervals(
     response_rows: list[dict[str, str | int | float]],
+    *,
+    metric_field: str = "recall",
 ) -> dict[str, dict[str, dict[str, float]]]:
-    """Estimate percentile CIs by resampling reviews with all responses intact."""
+    """Estimate metric CIs by resampling reviews with all responses intact."""
 
     review_ids = sorted({str(row["review"]) for row in response_rows})
     if len(review_ids) != 20:
@@ -313,7 +315,7 @@ def review_clustered_bootstrap_intervals(
         for review_index, review_id in enumerate(review_ids):
             for group_index, group in enumerate(groups):
                 values = [
-                    float(row["recall"])
+                    float(row[metric_field])
                     for row in response_rows
                     if (
                         row["review"] == review_id
@@ -351,6 +353,7 @@ def blocked_pairwise_permutation_test(
     first_group: str,
     second_group: str,
     seed: int,
+    metric_field: str = "recall",
 ) -> dict[str, float | int | str]:
     """Compare two groups while permuting labels within balanced blocks."""
 
@@ -364,7 +367,7 @@ def blocked_pairwise_permutation_test(
         if group not in (first_group, second_group):
             continue
         block = (str(row["review"]), str(row[blocking_field]))
-        blocks[block][group].append(float(row["recall"]))
+        blocks[block][group].append(float(row[metric_field]))
 
     block_values: list[list[float]] = []
     for block, values in sorted(blocks.items()):
@@ -437,6 +440,8 @@ def holm_adjust(
 
 def calculate_pairwise_tests(
     response_rows: list[dict[str, str | int | float]],
+    *,
+    metric_field: str = "recall",
 ) -> dict[str, list[dict[str, float | int | str]]]:
     """Calculate the three Holm-adjusted pairwise tests per panel."""
 
@@ -459,6 +464,7 @@ def calculate_pairwise_tests(
                         + dimension_index * 100
                         + pair_index
                     ),
+                    metric_field=metric_field,
                 )
             )
         holm_adjust(dimension_results)
@@ -566,6 +572,7 @@ def draw_chatbot_margin(
     summaries: dict[str, dict[str, float]],
     confidence_intervals: dict[str, dict[str, float]],
     pairwise_results: list[dict[str, float | int | str]],
+    metric_label: str = "recall",
 ) -> None:
     """Draw chatbot marginal means above the aligned heatmap columns."""
 
@@ -623,7 +630,7 @@ def draw_chatbot_margin(
         )
 
     axis.set_ylabel(
-        "Mean response-level\nrecall (%)",
+        f"Mean response-level\n{metric_label} (%)",
         fontsize=9,
         fontweight="bold",
         color=TEXT_COLOR,
@@ -690,6 +697,7 @@ def draw_role_margin(
     summaries: dict[str, dict[str, float]],
     confidence_intervals: dict[str, dict[str, float]],
     pairwise_results: list[dict[str, float | int | str]],
+    metric_label: str = "recall",
 ) -> None:
     """Draw user-role marginal means beside the aligned heatmap rows."""
 
@@ -755,7 +763,7 @@ def draw_role_margin(
         color=TEXT_COLOR,
     )
     axis.set_xlabel(
-        "Mean response-level recall (%)",
+        f"Mean response-level {metric_label} (%)",
         fontsize=9,
         fontweight="bold",
         color=TEXT_COLOR,

@@ -22,6 +22,33 @@ Figure 3:
 
 - `figure_3_proportional_venn_overlap.pdf`
 
+Included-study precision figure (version 1):
+
+- `figure_4_included_study_precision.pdf`
+- Regenerate only this figure with `python3 figures/make_included_precision_figure.py`.
+  Use the same `MPLCONFIGDIR` and `XDG_CACHE_HOME` settings shown above.
+
+Included-plus-excluded Cochrane-listed share (version 2):
+
+- `figure_5_included_excluded_study_precision.pdf`
+- Regenerate only this figure with
+  `python3 figures/make_included_precision_figure.py --version 2`.
+
+Version 1 precision is calculated separately for every response as the number
+of distinct cited candidate study clusters matched to a Cochrane-included
+study divided by all distinct cited candidate study clusters. Cochrane-excluded
+and other candidates remain in the denominator. The heatmap shows the mean of
+80 responses per chatbot-role cell; each margin averages 240 response-level
+ratios, giving every response equal weight. Marginal whiskers are 95% review-
+clustered percentile bootstrap intervals. Pairwise significance brackets use
+the same 50,000-permutation blocked tests and Holm adjustment as Figure 2.
+Version 2 keeps all cited candidates in the denominator but counts both
+Cochrane-included and Cochrane-excluded candidates in the numerator. It is a
+broader Cochrane-listed share, not precision against the included-study
+reference standard. All other plotting and inference choices match version 1.
+Both PDFs display `Precision =` followed by their full numerator-over-
+denominator fraction in the upper-right area, with no bottom definition note.
+
 Figure 1 reads all 20 curated `data/reviews/*/*_role_study_matches.csv`
 tables and assigns
 each distinct response-study match to one mutually exclusive category:
