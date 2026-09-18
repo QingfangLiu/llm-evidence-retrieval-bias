@@ -1,0 +1,16 @@
+model,identity,evidence_level,responses,denominator
+claude,matching_2026_cochrane,used_study_identification,1,240
+claude,matching_2026_cochrane,review_mentioned,10,240
+claude,older_or_unspecified_cochrane,used_study_identification,16,240
+claude,older_or_unspecified_cochrane,review_mentioned,39,240
+claude,not_applicable,no_detected,174,240
+gemini,matching_2026_cochrane,used_study_identification,0,240
+gemini,matching_2026_cochrane,review_mentioned,0,240
+gemini,older_or_unspecified_cochrane,used_study_identification,0,240
+gemini,older_or_unspecified_cochrane,review_mentioned,0,240
+gemini,not_applicable,no_detected,240,240
+gpt,matching_2026_cochrane,used_study_identification,0,240
+gpt,matching_2026_cochrane,review_mentioned,0,240
+gpt,older_or_unspecified_cochrane,used_study_identification,0,240
+gpt,older_or_unspecified_cochrane,review_mentioned,0,240
+gpt,not_applicable,no_detected,240,240

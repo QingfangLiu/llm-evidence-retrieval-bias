@@ -1,0 +1,103 @@
+source_file,identity_detail,evidence_detail,evidence_line,note
+reviews/CD000510/claude-clinician-1.md,unspecified_cochrane,mention_only,31,Offers to pull the review list later.
+reviews/CD000510/claude-clinician-2.md,unspecified_cochrane,used_study_identification,31,Says Cochrane reviews were used to identify and verify trials; version unspecified.
+reviews/CD000510/claude-clinician-3.md,unspecified_cochrane,used_study_identification,32,Says trials were sourced from a Cochrane citation list; version unspecified.
+reviews/CD000510/claude-clinician-4.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD000510/claude-patient-1.md,unspecified_cochrane,reported_hit,1,Says Cochrane reviews came up in search; no review identified.
+reviews/CD000510/claude-patient-4.md,unspecified_cochrane,mention_only,37,Labels a trial as cited in a Cochrane review; consultation is unclear.
+reviews/CD000510/claude-researcher-2.md,unspecified_cochrane,reported_hit,53,Says Cochrane and other reviews were found in search; use is unclear.
+reviews/CD000510/claude-researcher-3.md,unspecified_cochrane,mention_only,52,Mentions citation lists and Cochrane as a proposed future check; source of lists unclear.
+reviews/CD000510/claude-researcher-4.md,named_prior,used_study_identification,1,"Explicitly mined Rojas-Reyes 2012, not the 2026 edition."
+reviews/CD000510/gemini-researcher-1.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD001452/claude-clinician-1.md,unspecified_cochrane,mention_only,21,Names Shah and Ohlsson Cochrane review but only says it was excluded.
+reviews/CD001452/claude-clinician-2.md,named_prior,used_study_identification,25,Cross-verified studies using 2001-2011 review editions.
+reviews/CD001452/claude-clinician-3.md,unspecified_cochrane,mention_only,1,Describes trials underpinning a Cochrane review; use unclear.
+reviews/CD001452/claude-clinician-4.md,unspecified_cochrane,used_study_identification,1,Says listed primary trials are those the Cochrane review draws on plus independently found trials.
+reviews/CD001452/claude-patient-2.md,unspecified_cochrane,mention_only,17,"Mentions the Cochrane review's existence, with no use claim."
+reviews/CD001452/claude-patient-3.md,unspecified_cochrane,mention_only,30,Excludes a Cochrane review and refers to trial registries; review use unclear.
+reviews/CD001452/claude-researcher-1.md,unspecified_cochrane,used_study_identification,5,Says reviews including Cochrane were used to trace underlying trials.
+reviews/CD001452/claude-researcher-2.md,unspecified_cochrane,used_study_identification,29,Says trials were identified through Cochrane review citation lists.
+reviews/CD001452/claude-researcher-3.md,named_prior,used_study_identification,26,Discusses trials in the reference list of older 2000-2011 review versions.
+reviews/CD001452/claude-researcher-4.md,unspecified_cochrane,used_study_identification,1,Explicitly says Cochrane reference lists were used to locate trials.
+reviews/CD005354/claude-clinician-4.md,unspecified_cochrane,mention_only,37,Names a Cochrane review among excluded secondary sources.
+reviews/CD005354/claude-patient-3.md,unspecified_cochrane,reported_hit,29,Says the topic's Cochrane review appeared in search results.
+reviews/CD005354/claude-patient-4.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD005354/claude-researcher-1.md,unspecified_cochrane,reported_hit,45,Says Cochrane reviews surfaced repeatedly in searches.
+reviews/CD005354/claude-researcher-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD005354/claude-researcher-3.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD005354/claude-researcher-4.md,unspecified_cochrane,used_study_identification,68,Says several citations were pulled from Cochrane reference lists.
+reviews/CD007654/gpt-clinician-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD007654/gpt-patient-3.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD007912/claude-clinician-1.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD007912/claude-patient-1.md,unspecified_cochrane,mention_only,46,Proposes checking a Cochrane included-studies list later.
+reviews/CD007912/claude-researcher-1.md,probable_target_2026,reported_hit,50,Says a 2026 Cochrane hip OA review surfaced in search; ID not given.
+reviews/CD007912/claude-researcher-2.md,probable_target_2026,used_study_identification,3,Says the 2026 Cochrane update helped identify primary trials.
+reviews/CD007912/claude-researcher-3.md,unspecified_cochrane,mention_only,35,Proposes Cochrane reference-list searching later.
+reviews/CD007912/claude-researcher-4.md,unspecified_cochrane,used_study_identification,3,Says a Cochrane review helped locate underlying primary trials; edition unclear.
+reviews/CD007912/gpt-patient-3.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD009532/claude-clinician-2.md,named_prior,mention_only,1,Names the 2014 Cochrane review as excluded.
+reviews/CD009532/claude-clinician-3.md,named_prior,mention_only,31,"Says the 2014 review surfaced in citations, not necessarily search results."
+reviews/CD009532/claude-clinician-4.md,unspecified_cochrane,mention_only,44,Names a Cochrane review as excluded without identifying edition.
+reviews/CD009532/claude-patient-1.md,unspecified_cochrane,mention_only,27,Names the Cochrane review as excluded without identifying edition.
+reviews/CD009532/claude-researcher-1.md,named_prior,reported_hit,28,Says the 2014 Cochrane review turned up in searches.
+reviews/CD009532/claude-researcher-2.md,named_prior,mention_only,41,Names 2014 CD009532 as excluded and a potential citation trail.
+reviews/CD009532/claude-researcher-3.md,named_prior,mention_only,28,Names 2014 CD009532 as a potential citation-tracing seed.
+reviews/CD009958/claude-clinician-1.md,unspecified_cochrane,used_review_information,37,Reports pooled effect and assessment from a Cochrane review.
+reviews/CD009958/claude-patient-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD009958/claude-researcher-1.md,named_prior,used_study_identification,34,Says older Gillespie 2020/2014 review included-studies list identified trials.
+reviews/CD009958/claude-researcher-2.md,unspecified_cochrane,reported_hit,41,Says Cochrane and other reviews surfaced in search.
+reviews/CD009958/claude-researcher-3.md,unspecified_cochrane,used_review_information,23,"Reports Cochrane pooled-trial summary, but not citation-list use."
+reviews/CD009958/claude-researcher-4.md,named_prior,used_study_identification,44,Describes Gillespie 2020 review as a map of primary studies.
+reviews/CD010051/claude-clinician-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD010051/claude-patient-1.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD010051/claude-researcher-3.md,named_prior,used_study_identification,68,Says 2019 and 2022 Cochrane reviews were used to identify trials.
+reviews/CD010051/gpt-clinician-3.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD010051/gpt-patient-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD010461/claude-patient-4.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD010461/claude-researcher-1.md,unspecified_cochrane,reported_hit,44,Says Cochrane reviews surfaced; offers to pull full references later.
+reviews/CD010461/claude-researcher-2.md,unspecified_cochrane,used_study_identification,47,Says listed primary studies were cited by Cochrane reviews that surfaced in search.
+reviews/CD010461/claude-researcher-4.md,unspecified_cochrane,reported_hit,36,Says Cochrane reviews surfaced in searches and were flagged as pointers.
+reviews/CD012161/claude-clinician-2.md,unspecified_cochrane,mention_only,56,"Names Cochrane reviews among excluded sources, with no use claim."
+reviews/CD012751/claude-researcher-4.md,probable_target_2026,reported_hit,5,Says a 2026 Cochrane network meta-analysis appeared in search; ID not given.
+reviews/CD012751/gemini-researcher-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD012751/gpt-researcher-1.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD013776/claude-clinician-2.md,unspecified_cochrane,mention_only,41,Refers to summary Cochrane figures without a lookup claim.
+reviews/CD013776/claude-patient-1.md,unspecified_cochrane,mention_only,1,"Notes that trials recur in a Cochrane review, without use claim."
+reviews/CD013776/claude-researcher-2.md,unspecified_cochrane,reported_hit,36,Says Cochrane and other reviews appeared in searches.
+reviews/CD013776/claude-researcher-3.md,unspecified_cochrane,reported_hit,41,Says a Cochrane review appeared in search results and was excluded.
+reviews/CD015136/claude-patient-1.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015136/claude-patient-3.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015136/gemini-clinician-1.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015136/gpt-clinician-3.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015136/gpt-researcher-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015136/gpt-researcher-4.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015156/claude-clinician-1.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015156/claude-clinician-3.md,probable_target_2026,used_review_information,39,Uses a trial sample size attributed to the Cochrane summary; target inferred from topic and 10-study count.
+reviews/CD015156/claude-researcher-3.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015186/claude-researcher-3.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015186/claude-researcher-4.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015264/claude-clinician-1.md,confirmed_target_2026,mention_only,51,Names the 2026 target review and offers to mine its list later.
+reviews/CD015264/claude-clinician-2.md,unspecified_cochrane,used_review_information,34,Attributes three prior RCTs to a Cochrane protocol/review; edition unclear.
+reviews/CD015264/claude-clinician-3.md,confirmed_target_2026,used_review_information,35,Reports the exact 2026 review's 16-trial count and population details.
+reviews/CD015264/claude-clinician-4.md,unspecified_cochrane,reported_hit,1,"Says a Cochrane protocol/review surfaced, without clear edition."
+reviews/CD015264/claude-patient-2.md,unspecified_cochrane,used_study_identification,46,Says Cochrane review/protocol was used as a citation trail to locate trials.
+reviews/CD015264/claude-patient-4.md,confirmed_target_2026,mention_only,25,Names completed 2026 review CD015264 but suggests using it later.
+reviews/CD015264/claude-researcher-1.md,probable_target_2026,mention_only,28,"Names Larvie 2026 review and earlier protocol, proposes future list check."
+reviews/CD015264/claude-researcher-2.md,confirmed_target_2026,reported_hit,36,Says the 2026 CD015264 review surfaced repeatedly.
+reviews/CD015264/claude-researcher-3.md,probable_target_2026,mention_only,58,Names Larvie 2026 protocol/review but does not identify exact edition.
+reviews/CD015264/claude-researcher-4.md,unspecified_cochrane,mention_only,29,"Calls Larvie 2026 CD015264 a live protocol, so completed-review identity is uncertain."
+reviews/CD015898/claude-clinician-3.md,unspecified_cochrane,mention_only,19,Mentions a Cochrane protocol search without identifying edition.
+reviews/CD015898/claude-patient-1.md,unspecified_cochrane,mention_only,47,Names a Cochrane review among excluded sources.
+reviews/CD015898/claude-patient-3.md,named_prior,used_review_information,1,Attributes a claim to the Cochrane group and a 2024 protocol.
+reviews/CD015898/claude-researcher-1.md,named_prior,mention_only,30,Names a 2024 review/protocol and proposes future list check.
+reviews/CD015898/claude-researcher-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD015898/claude-researcher-3.md,named_prior,mention_only,31,Names a prior protocol as a potential future cross-check.
+reviews/CD015934/claude-patient-4.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD016085/claude-researcher-4.md,probable_target_2026,mention_only,12,"Mentions a 2026 Cochrane review matching the topic, without ID or use claim."
+reviews/CD016085/gpt-clinician-1.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD016085/gpt-clinician-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD016085/gpt-patient-3.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD016085/gpt-patient-4.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD016085/gpt-researcher-1.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD016085/gpt-researcher-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
+reviews/CD016104/claude-researcher-2.md,not_applicable,no_detected,,Screen cue does not establish a Cochrane review lookup or use; see screen passage.
