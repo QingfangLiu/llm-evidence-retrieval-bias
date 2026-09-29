@@ -8,6 +8,8 @@ This repository accompanies the following paper, accepted for the
 **Do AI chatbots find what experts would? Effects of model, user role, and
 sample size on study retrieval for medical questions**
 
+**Preprint:** [arXiv:2608.13786](https://arxiv.org/abs/2608.13786)
+
 **Authors:** Qingfang Liu<sup>1</sup>, Qiao Jin<sup>2</sup>, Joe D.
 Menke<sup>3</sup>, Thorsten Kahnt<sup>1</sup>, and Zhiyong Lu<sup>2,†</sup>
 
@@ -28,71 +30,14 @@ Menke<sup>3</sup>, Thorsten Kahnt<sup>1</sup>, and Zhiyong Lu<sup>2,†</sup>
 The supplementary file referenced in the paper is available here:
 [PSB 2027 Supplementary Materials (PDF)](PSB2027_Supplementary_Materials_Liu_et_al.pdf).
 
+## Online interactive demo
+
 The [online interactive demo](https://qingfangliu.github.io/llm-evidence-retrieval-bias/demo/)
 lets readers explore which studies each chatbot retrieved for patient,
 clinician, and researcher prompts across the 20 Cochrane reviews, together
 with across-review summaries of recall and overlap.
 
-Current layout:
-
-```text
-./
-├── reviews/
-│   ├── CD000510/
-│   │   ├── analyze_cd000510_roles.py
-│   │   ├── README.md
-│   │   └── <36 model-role response files>
-│   ├── CD001452/
-│   ├── ...
-│   └── CD016104/
-├── data/
-│   ├── analysis/
-│   ├── cache/
-│   ├── curation/
-│   └── reviews/
-│       ├── CD000510/
-│       │   └── cd000510_role_study_matches.csv
-│       ├── CD001452/
-│       ├── ...
-│       └── CD016104/
-├── demo/
-├── figures/
-├── shared/
-│   ├── __init__.py
-│   └── review_registry.py
-├── benchmark_tools/
-│   ├── build_reference_indexing_from_cochrane_ris.py
-│   ├── cochrane_review_source.py
-│   ├── pubmed_utils.py
-│   └── reference_indexing_schema.py
-└── scripts/
-    ├── analyze_*.py
-    └── fetch_citation_counts.py
-```
-
-## Standalone source inputs
-
-This repository now treats its own top-level directory as the project root.
-Scripts that regenerate match tables or rebuild cross-review characteristics
-expect Cochrane source packages under `source_reviews/`, preserving the
-existing `2026_issue_6/` and `2026_issue_7/` subdirectories recorded in
-`shared/review_registry.py`.
-
-`source_reviews/` is intentionally not included in this repository because it
-contains Cochrane review data packages, including RIS exports and analysis-data
-rows, that are not redistributed here for Cochrane copyright/licensing reasons.
-To fully regenerate the analyses, restore `source_reviews/` locally from an
-authorized copy of the source material while preserving the paths recorded in
-`shared/review_registry.py`.
-
-`benchmark_tools/` contains only the minimal RIS reference-resolution helper
-needed by `scripts/fetch_citation_counts.py`: the Cochrane RIS resolver, its
-TSV schema helper, a small source-file finder, and PubMed/PMC lookup helpers.
-
-The committed CSV, JSON, figure, and demo artifacts can still be inspected
-without `source_reviews/`.
-
-## Review set
+## Cochrane reviews included in the study
 
 The current dataset contains 20 completed Cochrane Issue 6 and Issue 7
 user-role experiments, covering 442 included primary-study clusters.
@@ -125,3 +70,25 @@ user-role experiments, covering 442 included primary-study clusters.
 
 Detailed analysis methods, regeneration commands, output descriptions, and
 interpretation notes are kept in [docs/analysis.md](docs/analysis.md).
+
+## Standalone source inputs
+
+This repository now treats its own top-level directory as the project root.
+Scripts that regenerate match tables or rebuild cross-review characteristics
+expect Cochrane source packages under `source_reviews/`, preserving the
+existing `2026_issue_6/` and `2026_issue_7/` subdirectories recorded in
+`shared/review_registry.py`.
+
+`source_reviews/` is intentionally not included in this repository because it
+contains Cochrane review data packages, including RIS exports and analysis-data
+rows, that are not redistributed here for Cochrane copyright/licensing reasons.
+To fully regenerate the analyses, restore `source_reviews/` locally from an
+authorized copy of the source material while preserving the paths recorded in
+`shared/review_registry.py`.
+
+`benchmark_tools/` contains only the minimal RIS reference-resolution helper
+needed by `scripts/fetch_citation_counts.py`: the Cochrane RIS resolver, its
+TSV schema helper, a small source-file finder, and PubMed/PMC lookup helpers.
+
+The committed CSV, JSON, figure, and demo artifacts can still be inspected
+without `source_reviews/`.
