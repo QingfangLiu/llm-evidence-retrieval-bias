@@ -2,8 +2,9 @@
 
 ## Paper
 
-This repository accompanies the following paper, accepted for the
-[Pacific Symposium on Biocomputing 2027 (PSB 2027)](https://psb.stanford.edu/):
+This repository accompanies the following paper, which was accepted for an
+oral presentation at the [Pacific Symposium on Biocomputing 2027 (PSB
+2027)](https://psb.stanford.edu/):
 
 **Do AI chatbots find what experts would? Effects of model, user role, and
 sample size on study retrieval for medical questions**
@@ -11,7 +12,7 @@ sample size on study retrieval for medical questions**
 **Preprint:** [arXiv:2608.13786](https://arxiv.org/abs/2608.13786)
 
 **Authors:** Qingfang Liu<sup>1</sup>, Qiao Jin<sup>2</sup>, Joe D.
-Menke<sup>3</sup>, Thorsten Kahnt<sup>1</sup>, and Zhiyong Lu<sup>2,†</sup>
+Menke<sup>3</sup>, Thorsten Kahnt<sup>1</sup>, and Zhiyong Lu<sup>2</sup>
 
 1. National Institute on Drug Abuse Intramural Research Program, National
    Institutes of Health, Baltimore, MD, USA
@@ -20,11 +21,6 @@ Menke<sup>3</sup>, Thorsten Kahnt<sup>1</sup>, and Zhiyong Lu<sup>2,†</sup>
 3. School of Information Sciences, University of Illinois Urbana–Champaign,
    Champaign, IL, USA
 
-**Contact:** `qingfang.liu@nih.gov`, `qiao.jin@nih.gov`,
-`thorsten.kahnt@nih.gov`, `zhiyong.lu@nih.gov`, and `jmenke2@illinois.edu`
-
-<sup>†</sup> Corresponding author.
-
 ## Supplementary materials
 
 The supplementary file referenced in the paper is available here:
@@ -32,15 +28,15 @@ The supplementary file referenced in the paper is available here:
 
 ## Online interactive demo
 
-The [online interactive demo](https://qingfangliu.github.io/llm-evidence-retrieval-bias/demo/)
-lets readers explore which studies each chatbot retrieved for patient,
-clinician, and researcher prompts across the 20 Cochrane reviews, together
-with across-review summaries of recall and overlap.
+Use the [online interactive demo](https://qingfangliu.github.io/llm-evidence-retrieval-bias/demo/)
+to explore which studies each chatbot retrieved for patient, clinician, and
+researcher prompts across the 20 Cochrane reviews. You can also view
+across-review summaries of recall and overlap.
 
 ## Cochrane reviews included in the study
 
 The current dataset contains 20 completed Cochrane Issue 6 and Issue 7
-user-role experiments, covering 442 included primary-study clusters.
+user-role experiments.
 
 | Issue | Review | Clinical question | Included clusters |
 | --- | --- | --- | ---: |
@@ -94,3 +90,8 @@ root.
 `benchmark_tools/` contains the RIS reference-resolution code used by
 `scripts/fetch_citation_counts.py`: the Cochrane RIS resolver, TSV schema
 helper, source-file finder, and PubMed/PMC lookup helpers.
+
+## Repository maintainer
+
+This repository is maintained by **Qingfang Liu**. For questions, contact
+[psychliuqf@gmail.com](mailto:psychliuqf@gmail.com).
