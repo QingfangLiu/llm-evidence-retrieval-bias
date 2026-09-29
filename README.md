@@ -11,8 +11,10 @@ sample size on study retrieval for medical questions**
 
 **Preprint:** [arXiv:2608.13786](https://arxiv.org/abs/2608.13786)
 
+**Official publication:** Link will be added when available.
+
 **Authors:** Qingfang Liu<sup>1</sup>, Qiao Jin<sup>2</sup>, Joe D.
-Menke<sup>3</sup>, Thorsten Kahnt<sup>1</sup>, and Zhiyong Lu<sup>2</sup>
+Menke<sup>3</sup>, Thorsten Kahnt<sup>1</sup>, and Zhiyong Lu<sup>2,†</sup>
 
 1. National Institute on Drug Abuse Intramural Research Program, National
    Institutes of Health, Baltimore, MD, USA
@@ -64,6 +66,17 @@ user-role experiments.
 | **7 total** | **11 reviews** |  | **215** |
 | **All** | **20 reviews** |  | **442** |
 
+## Repository contents
+
+- [`reviews/`](reviews/) contains one folder for each Cochrane review. Each
+  folder includes 36 original chatbot responses (three chatbots × three user
+  roles × four runs), a review-specific README, and an analysis script. The
+  response filenames identify the chatbot, user role, and run number.
+- [`data/`](data/) contains the structured data derived from those responses:
+  per-review citation-to-study match annotations in `data/reviews/`, reviewed
+  curation decisions in `data/curation/`, cross-review results in
+  `data/analysis/`, and lookup caches in `data/cache/`.
+
 ## Data availability and reproducibility
 
 ### What is available in this repository
@@ -84,12 +97,6 @@ Place the authorized packages in `source_reviews/` at the repository root,
 preserving the `2026_issue_6/` and `2026_issue_7/` subdirectories specified in
 `shared/review_registry.py`. Run the regeneration commands from the repository
 root.
-
-### Included helper code
-
-`benchmark_tools/` contains the RIS reference-resolution code used by
-`scripts/fetch_citation_counts.py`: the Cochrane RIS resolver, TSV schema
-helper, source-file finder, and PubMed/PMC lookup helpers.
 
 ## Repository maintainer
 
