@@ -1,10 +1,37 @@
 # Retrieval-bias experiments
 
-Each Cochrane review has its own folder named with the review ID. Completed
-experiments keep the review-specific analysis script, README, and unchanged
-chatbot answers together. Curated CSV/JSON data artifacts live under `data/`.
+## Paper
 
-Online demo: <https://qingfangliu.github.io/llm-evidence-retrieval-bias/demo/>
+This repository accompanies the following paper, accepted for the
+[Pacific Symposium on Biocomputing 2027 (PSB 2027)](https://psb.stanford.edu/):
+
+**Do AI chatbots find what experts would? Effects of model, user role, and
+sample size on study retrieval for medical questions**
+
+**Authors:** Qingfang Liu<sup>1</sup>, Qiao Jin<sup>2</sup>, Joe D.
+Menke<sup>3</sup>, Thorsten Kahnt<sup>1</sup>, and Zhiyong Lu<sup>2,†</sup>
+
+1. National Institute on Drug Abuse Intramural Research Program, National
+   Institutes of Health, Baltimore, MD, USA
+2. National Library of Medicine, National Institutes of Health, Bethesda, MD,
+   USA
+3. School of Information Sciences, University of Illinois Urbana–Champaign,
+   Champaign, IL, USA
+
+**Contact:** `qingfang.liu@nih.gov`, `qiao.jin@nih.gov`,
+`thorsten.kahnt@nih.gov`, `zhiyong.lu@nih.gov`, and `jmenke2@illinois.edu`
+
+<sup>†</sup> Corresponding author.
+
+## Supplementary materials
+
+The supplementary file referenced in the paper is available here:
+[PSB 2027 Supplementary Materials (PDF)](PSB2027_Supplementary_Materials_Liu_et_al.pdf).
+
+The [online interactive demo](https://qingfangliu.github.io/llm-evidence-retrieval-bias/demo/)
+lets readers explore which studies each chatbot retrieved for patient,
+clinician, and researcher prompts across the 20 Cochrane reviews, together
+with across-review summaries of recall and overlap.
 
 Current layout:
 
