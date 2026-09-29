@@ -68,27 +68,29 @@ user-role experiments, covering 442 included primary-study clusters.
 | **7 total** | **11 reviews** |  | **215** |
 | **All** | **20 reviews** |  | **442** |
 
-Detailed analysis methods, regeneration commands, output descriptions, and
-interpretation notes are kept in [docs/analysis.md](docs/analysis.md).
+## Data availability and reproducibility
 
-## Standalone source inputs
+### What is available in this repository
 
-This repository now treats its own top-level directory as the project root.
-Scripts that regenerate match tables or rebuild cross-review characteristics
-expect Cochrane source packages under `source_reviews/`, preserving the
-existing `2026_issue_6/` and `2026_issue_7/` subdirectories recorded in
-`shared/review_registry.py`.
+The committed CSV and JSON results, figures, and interactive demo can be
+inspected without any additional source files. Detailed analysis methods,
+regeneration commands, output descriptions, and interpretation notes are in
+[docs/analysis.md](docs/analysis.md).
 
-`source_reviews/` is intentionally not included in this repository because it
-contains Cochrane review data packages, including RIS exports and analysis-data
-rows, that are not redistributed here for Cochrane copyright/licensing reasons.
-To fully regenerate the analyses, restore `source_reviews/` locally from an
-authorized copy of the source material while preserving the paths recorded in
-`shared/review_registry.py`.
+### What is required for full regeneration
 
-`benchmark_tools/` contains only the minimal RIS reference-resolution helper
-needed by `scripts/fetch_citation_counts.py`: the Cochrane RIS resolver, its
-TSV schema helper, a small source-file finder, and PubMed/PMC lookup helpers.
+Fully regenerating the analyses requires an authorized copy of the Cochrane
+source packages. These packages contain RIS exports and analysis-data rows and
+are not redistributed here because of Cochrane copyright and licensing
+restrictions.
 
-The committed CSV, JSON, figure, and demo artifacts can still be inspected
-without `source_reviews/`.
+Place the authorized packages in `source_reviews/` at the repository root,
+preserving the `2026_issue_6/` and `2026_issue_7/` subdirectories specified in
+`shared/review_registry.py`. Run the regeneration commands from the repository
+root.
+
+### Included helper code
+
+`benchmark_tools/` contains the RIS reference-resolution code used by
+`scripts/fetch_citation_counts.py`: the Cochrane RIS resolver, TSV schema
+helper, source-file finder, and PubMed/PMC lookup helpers.
