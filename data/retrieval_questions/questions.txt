@@ -1,0 +1,420 @@
+Retrieval evaluation questions
+60 questions across 20 clinical topics.
+Grouped by review ID, then patient, clinician, and researcher.
+Role introductions and clinical wording are preserved from the original prompts.
+The study-finding instructions have been removed.
+Regenerate from the repository root: python3 scripts/export_retrieval_questions.py
+
+================================================================================
+CD000510: Prophylactic versus selective surfactant administration in preterm infants
+
+01. Patient [CD000510-patient]
+
+I’m a parent of a preterm baby at risk of respiratory distress syndrome.
+
+I’m trying to understand the benefits and harms of giving surfactant preventively (prophylactic use) versus only after respiratory distress syndrome develops (selective use).
+
+02. Clinician [CD000510-clinician]
+
+I’m a clinician caring for preterm infants at risk of respiratory distress syndrome.
+
+I’m trying to understand the benefits and harms of giving surfactant preventively (prophylactic use) versus only after respiratory distress syndrome develops (selective use).
+
+03. Researcher [CD000510-researcher]
+
+I’m an evidence-synthesis researcher studying surfactant use in preterm infants at risk of respiratory distress syndrome.
+
+I’m trying to understand the benefits and harms of giving surfactant preventively (prophylactic use) versus only after respiratory distress syndrome develops (selective use).
+
+================================================================================
+CD001452: Venepuncture versus heel lance for blood sampling in term neonates
+
+04. Patient [CD001452-patient]
+
+I’m a parent of a full-term newborn baby who needs a blood sample.
+
+I’m trying to understand whether taking blood from a vein with a needle (venepuncture) is better than using a heel lance for full-term newborn babies.
+
+05. Clinician [CD001452-clinician]
+
+I’m a clinician caring for full-term newborn babies who need blood samples.
+
+I’m trying to understand whether taking blood from a vein with a needle (venepuncture) is better than using a heel lance for full-term newborn babies.
+
+06. Researcher [CD001452-researcher]
+
+I’m an evidence-synthesis researcher studying blood sampling in full-term newborn babies.
+
+I’m trying to understand whether taking blood from a vein with a needle (venepuncture) is better than using a heel lance for full-term newborn babies.
+
+================================================================================
+CD005354: Recombinant follicle-stimulating hormone (rFSH) versus other recombinant or urinary gonadotropins for ovarian stimulation in assisted reproductive technology cycles
+
+07. Patient [CD005354-patient]
+
+I’m a woman undergoing IVF and need hormone treatment to stimulate my ovaries.
+
+I’m trying to understand how recombinant follicle-stimulating hormone (rFSH) compares with other gonadotropin hormones for stimulating the ovaries during IVF.
+
+08. Clinician [CD005354-clinician]
+
+I’m a clinician caring for women undergoing IVF who need hormone treatment to stimulate their ovaries.
+
+I’m trying to understand how recombinant follicle-stimulating hormone (rFSH) compares with other gonadotropin hormones for stimulating the ovaries during IVF.
+
+09. Researcher [CD005354-researcher]
+
+I’m an evidence-synthesis researcher studying hormones used to stimulate the ovaries during IVF.
+
+I’m trying to understand how recombinant follicle-stimulating hormone (rFSH) compares with other gonadotropin hormones for stimulating the ovaries during IVF.
+
+================================================================================
+CD007654: Long-term effects of weight-reducing drugs in people with hypertension
+
+10. Patient [CD007654-patient]
+
+I have high blood pressure, and I’m considering taking medicine to help me lose weight.
+
+I’m trying to understand whether weight-loss medicines improve the health of people with high blood pressure.
+
+11. Clinician [CD007654-clinician]
+
+I’m a clinician caring for people with high blood pressure who are considering taking medicine to help them lose weight.
+
+I’m trying to understand whether weight-loss medicines improve the health of people with high blood pressure.
+
+12. Researcher [CD007654-researcher]
+
+I’m an evidence-synthesis researcher studying weight-loss medicines in people with high blood pressure.
+
+I’m trying to understand whether weight-loss medicines improve the health of people with high blood pressure.
+
+================================================================================
+CD007912: Exercise for osteoarthritis of the hip
+
+13. Patient [CD007912-patient]
+
+I have hip osteoarthritis and am considering exercise to help manage it.
+
+I’m trying to understand whether land-based exercise reduces pain and improves joint function in adults with hip osteoarthritis.
+
+14. Clinician [CD007912-clinician]
+
+I’m a clinician caring for adults with hip osteoarthritis who are considering exercise.
+
+I’m trying to understand whether land-based exercise reduces pain and improves joint function in adults with hip osteoarthritis.
+
+15. Researcher [CD007912-researcher]
+
+I’m an evidence-synthesis researcher studying land-based exercise for adults with hip osteoarthritis.
+
+I’m trying to understand whether land-based exercise reduces pain and improves joint function in adults with hip osteoarthritis.
+
+================================================================================
+CD009532: Oral or parenteral iron supplementation to reduce deferral, iron deficiency and/or anaemia in blood donors
+
+16. Patient [CD009532-patient]
+
+I’m a blood donor who has been told that my iron level is low or that I may not be able to donate because of low iron. I’m trying to understand whether taking iron supplements can improve iron stores and reduce the chance of being unable to donate because of low iron.
+
+17. Clinician [CD009532-clinician]
+
+I’m a clinician caring for blood donors who have low iron levels or are deferred from donation because of low hemoglobin or iron deficiency. I’m trying to understand whether taking iron supplements can improve iron stores and reduce the chance of being unable to donate because of low iron.
+
+18. Researcher [CD009532-researcher]
+
+I’m an evidence-synthesis researcher studying iron supplementation in blood donors. I’m trying to understand whether taking iron supplements can improve iron stores and reduce the chance of being unable to donate because of low iron.
+
+================================================================================
+CD009958: Repositioning for pressure injury prevention in adults
+
+19. Patient [CD009958-patient]
+
+I’m a patient at risk of developing pressure injuries (bedsores).
+
+I’m trying to understand how often adults at risk of pressure injuries should be repositioned and which body positions work best to prevent pressure injuries.
+
+20. Clinician [CD009958-clinician]
+
+I’m a clinician caring for adults at risk of developing pressure injuries (bedsores).
+
+I’m trying to understand how often adults at risk of pressure injuries should be repositioned and which body positions work best to prevent pressure injuries.
+
+21. Researcher [CD009958-researcher]
+
+I’m an evidence-synthesis researcher studying pressure-injury prevention in adults.
+
+I’m trying to understand how often adults at risk of pressure injuries should be repositioned and which body positions work best to prevent pressure injuries.
+
+================================================================================
+CD010051: Topical ciclosporine A therapy for dry eye disease
+
+22. Patient [CD010051-patient]
+
+I have dry eye disease and am considering cyclosporine A eye drops.
+
+I’m trying to understand the benefits and harms of cyclosporine A (CsA) eye drops for people with dry eye disease.
+
+23. Clinician [CD010051-clinician]
+
+I’m a clinician caring for people with dry eye disease who are considering cyclosporine A eye drops.
+
+I’m trying to understand the benefits and harms of cyclosporine A (CsA) eye drops for people with dry eye disease.
+
+24. Researcher [CD010051-researcher]
+
+I’m an evidence-synthesis researcher studying cyclosporine A eye drops for people with dry eye disease.
+
+I’m trying to understand the benefits and harms of cyclosporine A (CsA) eye drops for people with dry eye disease.
+
+================================================================================
+CD010461: Advanced sperm selection techniques for assisted reproduction
+
+25. Patient [CD010461-patient]
+
+I’m a patient trying to have a baby through IVF/ICSI.
+
+I’m trying to understand whether advanced sperm selection techniques improve the effectiveness of assisted reproduction compared with standard sperm selection.
+
+26. Clinician [CD010461-clinician]
+
+I’m a clinician caring for patients trying to have a baby through IVF/ICSI.
+
+I’m trying to understand whether advanced sperm selection techniques improve the effectiveness of assisted reproduction compared with standard sperm selection.
+
+27. Researcher [CD010461-researcher]
+
+I’m an evidence-synthesis researcher studying sperm selection in IVF/ICSI.
+
+I’m trying to understand whether advanced sperm selection techniques improve the effectiveness of assisted reproduction compared with standard sperm selection.
+
+================================================================================
+CD012161: (Ultra-)short-acting insulin analogues for adults with type 1 diabetes mellitus on multiple daily injections: a network meta-analysis
+
+28. Patient [CD012161-patient]
+
+I have type 1 diabetes, use multiple daily insulin injections, and am considering whether a faster-acting insulin might be right for me.
+
+I'm trying to understand the benefits and harms of faster-acting insulin analogues compared with regular human insulin or another faster-acting insulin for adults with type 1 diabetes on multiple daily injections.
+
+29. Clinician [CD012161-clinician]
+
+I'm a clinician caring for adults with type 1 diabetes who use multiple daily insulin injections and are considering a faster-acting type of insulin.
+
+I'm trying to understand the benefits and harms of faster-acting insulin analogues compared with regular human insulin or another faster-acting insulin for adults with type 1 diabetes on multiple daily injections.
+
+30. Researcher [CD012161-researcher]
+
+I'm an evidence-synthesis researcher studying faster-acting insulin analogues for adults with type 1 diabetes who use multiple daily insulin injections.
+
+I'm trying to understand the benefits and harms of faster-acting insulin analogues compared with regular human insulin or another faster-acting insulin for adults with type 1 diabetes on multiple daily injections.
+
+================================================================================
+CD012751: Biologic drugs for induction and maintenance of remission in Crohn's disease: a network meta-analysis
+
+31. Patient [CD012751-patient]
+
+I have Crohn's disease and am considering a biologic or other advanced treatment.
+
+I'm trying to understand the benefits and harms of biologic or advanced treatments for inducing or maintaining remission in people with Crohn's disease.
+
+32. Clinician [CD012751-clinician]
+
+I'm a clinician caring for people with Crohn's disease who are considering a biologic or other advanced treatment.
+
+I'm trying to understand the benefits and harms of biologic or advanced treatments for inducing or maintaining remission in people with Crohn's disease.
+
+33. Researcher [CD012751-researcher]
+
+I'm an evidence-synthesis researcher studying biologic and other advanced treatments for Crohn's disease.
+
+I'm trying to understand the benefits and harms of biologic or advanced treatments for inducing or maintaining remission in people with Crohn's disease.
+
+================================================================================
+CD013776: Blue versus white light for transurethral resection of non-muscle invasive bladder cancer
+
+34. Patient [CD013776-patient]
+
+I’m a patient considering surgery for a suspected non-muscle-invasive bladder tumor.
+
+I’m trying to understand whether blue-light-assisted transurethral resection of a bladder tumor (TURBT) is better than standard white-light TURBT, especially for preventing the cancer from returning or progressing and for avoiding complications.
+
+35. Clinician [CD013776-clinician]
+
+I’m a clinician caring for patients considering surgery for a suspected non-muscle-invasive bladder tumor.
+
+I’m trying to understand whether blue-light-assisted transurethral resection of a bladder tumor (TURBT) is better than standard white-light TURBT, especially for preventing the cancer from returning or progressing and for avoiding complications.
+
+36. Researcher [CD013776-researcher]
+
+I’m an evidence-synthesis researcher studying surgery for suspected non-muscle-invasive bladder tumors.
+
+I’m trying to understand whether blue-light-assisted transurethral resection of a bladder tumor (TURBT) is better than standard white-light TURBT, especially for preventing the cancer from returning or progressing and for avoiding complications.
+
+================================================================================
+CD015136: Clinical effectiveness of telepharmacy services in patients with non-communicable diseases in ambulatory care settings
+
+37. Patient [CD015136-patient]
+
+I’m a patient living with a long-term health condition and receiving care outside a hospital.
+
+I’m trying to understand whether remote pharmacy care (telepharmacy) works better than usual care for people with long-term health conditions who are not in hospital.
+
+38. Clinician [CD015136-clinician]
+
+I’m a clinician caring for people with long-term health conditions outside a hospital.
+
+I’m trying to understand whether remote pharmacy care (telepharmacy) works better than usual care for people with long-term health conditions who are not in hospital.
+
+39. Researcher [CD015136-researcher]
+
+I’m an evidence-synthesis researcher studying telepharmacy for people with long-term health conditions outside a hospital.
+
+I’m trying to understand whether remote pharmacy care (telepharmacy) works better than usual care for people with long-term health conditions who are not in hospital.
+
+================================================================================
+CD015156: Non-surgical treatment for lower limb apophyseal injuries
+
+40. Patient [CD015156-patient]
+
+I’m a parent of a child with growth-plate pain (apophysitis) in the hip, knee, or foot.
+
+I’m trying to understand which nonsurgical treatments work best for children and adolescents with lower-limb growth-plate pain (apophysitis).
+
+41. Clinician [CD015156-clinician]
+
+I’m a clinician caring for children and adolescents with lower-limb growth-plate pain (apophysitis).
+
+I’m trying to understand which nonsurgical treatments work best for children and adolescents with lower-limb growth-plate pain (apophysitis).
+
+42. Researcher [CD015156-researcher]
+
+I’m an evidence-synthesis researcher studying nonsurgical treatments for lower-limb growth-plate pain (apophysitis) in children and adolescents.
+
+I’m trying to understand which nonsurgical treatments work best for children and adolescents with lower-limb growth-plate pain (apophysitis).
+
+================================================================================
+CD015186: Minimally invasive trabecular meshwork surgery for open-angle glaucoma
+
+43. Patient [CD015186-patient]
+
+I have open-angle glaucoma and am considering minimally invasive glaucoma surgery.
+
+I’m trying to understand the benefits and harms of minimally invasive glaucoma surgery that acts on the eye’s drainage channel called Schlemm’s canal (SC-MIGS).
+
+44. Clinician [CD015186-clinician]
+
+I’m a clinician caring for people with open-angle glaucoma who are considering minimally invasive glaucoma surgery.
+
+I’m trying to understand the benefits and harms of minimally invasive glaucoma surgery that acts on the eye’s drainage channel called Schlemm’s canal (SC-MIGS).
+
+45. Researcher [CD015186-researcher]
+
+I’m an evidence-synthesis researcher studying minimally invasive glaucoma surgery for people with open-angle glaucoma.
+
+I’m trying to understand the benefits and harms of minimally invasive glaucoma surgery that acts on the eye’s drainage channel called Schlemm’s canal (SC-MIGS).
+
+================================================================================
+CD015264: Vitamin B12 supplementation for growth, development, and cognition in children
+
+46. Patient [CD015264-patient]
+
+I’m a parent of a child under 12 years of age.
+
+I’m trying to understand whether vitamin B12 supplements improve the nutrition and health of children under 12 compared with placebo, no supplementation, or the same supplements without vitamin B12.
+
+47. Clinician [CD015264-clinician]
+
+I’m a clinician caring for children under 12 years of age.
+
+I’m trying to understand whether vitamin B12 supplements improve the nutrition and health of children under 12 compared with placebo, no supplementation, or the same supplements without vitamin B12.
+
+48. Researcher [CD015264-researcher]
+
+I’m an evidence-synthesis researcher studying vitamin B12 supplementation in children under 12 years of age.
+
+I’m trying to understand whether vitamin B12 supplements improve the nutrition and health of children under 12 compared with placebo, no supplementation, or the same supplements without vitamin B12.
+
+================================================================================
+CD015898: Larger versus smaller red blood cell volume per transfusion in hospitalized adults, children and preterm neonates
+
+49. Patient [CD015898-patient]
+
+I’m a patient who may need a red blood cell transfusion.
+
+I’m trying to understand the benefits and harms of giving a larger or smaller amount of red blood cells during each transfusion to hospital patients of any age.
+
+50. Clinician [CD015898-clinician]
+
+I’m a clinician caring for hospital patients who need red blood cell transfusions.
+
+I’m trying to understand the benefits and harms of giving a larger or smaller amount of red blood cells during each transfusion to hospital patients of any age.
+
+51. Researcher [CD015898-researcher]
+
+I’m an evidence-synthesis researcher studying red blood cell transfusions in hospital patients.
+
+I’m trying to understand the benefits and harms of giving a larger or smaller amount of red blood cells during each transfusion to hospital patients of any age.
+
+================================================================================
+CD015934: Interventions for smoking cessation in inpatient psychiatry settings
+
+52. Patient [CD015934-patient]
+
+I smoke and I’m being treated in a hospital psychiatry ward for a mental illness.
+
+I’m trying to understand whether quit-smoking programmes started in hospital psychiatry wards help adults being treated for mental illness stop smoking.
+
+53. Clinician [CD015934-clinician]
+
+I’m a clinician caring for adults who smoke while they are being treated in a hospital psychiatry ward.
+
+I’m trying to understand whether quit-smoking programmes started in hospital psychiatry wards help adults being treated for mental illness stop smoking.
+
+54. Researcher [CD015934-researcher]
+
+I’m an evidence-synthesis researcher studying quit-smoking programmes started while adults are being treated in hospital psychiatry wards.
+
+I’m trying to understand whether quit-smoking programmes started in hospital psychiatry wards help adults being treated for mental illness stop smoking.
+
+================================================================================
+CD016085: Blood pressure management in reperfused ischemic stroke
+
+55. Patient [CD016085-patient]
+
+I’ve had an ischemic stroke and received treatment to reopen a blocked artery in my brain.
+
+I’m trying to understand the benefits and risks of lowering blood pressure more intensively compared with standard blood pressure control after treatment to restore blood flow following a stroke.
+
+56. Clinician [CD016085-clinician]
+
+I’m a clinician caring for people who have received treatment to reopen a blocked brain artery after an ischemic stroke.
+
+I’m trying to understand the benefits and risks of lowering blood pressure more intensively compared with standard blood pressure control after treatment to restore blood flow following a stroke.
+
+57. Researcher [CD016085-researcher]
+
+I’m an evidence-synthesis researcher studying blood pressure control after treatment to restore blood flow following an ischemic stroke.
+
+I’m trying to understand the benefits and risks of lowering blood pressure more intensively compared with standard blood pressure control after treatment to restore blood flow following a stroke.
+
+================================================================================
+CD016104: Perioperative immune checkpoint inhibitors with or without chemotherapy versus placebo/no treatment in elderly people with localized non-small cell lung cancer
+
+58. Patient [CD016104-patient]
+
+I’m an older adult with non-small cell lung cancer that is still limited to one area, and I may have surgery.
+
+I’m trying to understand the benefits and harms of using immune checkpoint inhibitors before or after surgery, either alone or with chemotherapy, compared with a placebo or no treatment.
+
+59. Clinician [CD016104-clinician]
+
+I’m a clinician caring for older adults with non-small cell lung cancer that is still limited to one area and may be treated with surgery.
+
+I’m trying to understand the benefits and harms of using immune checkpoint inhibitors before or after surgery, either alone or with chemotherapy, compared with a placebo or no treatment.
+
+60. Researcher [CD016104-researcher]
+
+I’m an evidence-synthesis researcher studying treatments given around surgery for older adults with non-small cell lung cancer that is still limited to one area.
+
+I’m trying to understand the benefits and harms of using immune checkpoint inhibitors before or after surgery, either alone or with chemotherapy, compared with a placebo or no treatment.

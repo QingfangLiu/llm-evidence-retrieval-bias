@@ -79,6 +79,19 @@ user-role experiments.
 
 ## Data availability and reproducibility
 
+### Questions for testing another retrieval system
+
+[Organized questions](data/retrieval_questions/questions.txt) and a
+[JSON export](data/retrieval_questions/questions.json) contain all 60 role-specific
+prompts, grouped by review and user role. The role introductions and clinical
+wording are preserved; the instructions to find/list primary studies and exclude
+review articles are removed. Original experiment prompts remain in the review
+READMEs. Regenerate these exports with Python 3 (no extra dependencies):
+
+```bash
+python3 scripts/export_retrieval_questions.py
+```
+
 ### What is available in this repository
 
 The committed CSV and JSON results, figures, and interactive demo can be

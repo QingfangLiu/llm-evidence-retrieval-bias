@@ -1,0 +1,482 @@
+[
+  {
+    "question_id": "CD000510-patient",
+    "review_id": "CD000510",
+    "review_title": "Prophylactic versus selective surfactant administration in preterm infants",
+    "role": "patient",
+    "source_readme": "reviews/CD000510/README.md",
+    "question": "I’m a parent of a preterm baby at risk of respiratory distress syndrome.\n\nI’m trying to understand the benefits and harms of giving surfactant preventively (prophylactic use) versus only after respiratory distress syndrome develops (selective use)."
+  },
+  {
+    "question_id": "CD000510-clinician",
+    "review_id": "CD000510",
+    "review_title": "Prophylactic versus selective surfactant administration in preterm infants",
+    "role": "clinician",
+    "source_readme": "reviews/CD000510/README.md",
+    "question": "I’m a clinician caring for preterm infants at risk of respiratory distress syndrome.\n\nI’m trying to understand the benefits and harms of giving surfactant preventively (prophylactic use) versus only after respiratory distress syndrome develops (selective use)."
+  },
+  {
+    "question_id": "CD000510-researcher",
+    "review_id": "CD000510",
+    "review_title": "Prophylactic versus selective surfactant administration in preterm infants",
+    "role": "researcher",
+    "source_readme": "reviews/CD000510/README.md",
+    "question": "I’m an evidence-synthesis researcher studying surfactant use in preterm infants at risk of respiratory distress syndrome.\n\nI’m trying to understand the benefits and harms of giving surfactant preventively (prophylactic use) versus only after respiratory distress syndrome develops (selective use)."
+  },
+  {
+    "question_id": "CD001452-patient",
+    "review_id": "CD001452",
+    "review_title": "Venepuncture versus heel lance for blood sampling in term neonates",
+    "role": "patient",
+    "source_readme": "reviews/CD001452/README.md",
+    "question": "I’m a parent of a full-term newborn baby who needs a blood sample.\n\nI’m trying to understand whether taking blood from a vein with a needle (venepuncture) is better than using a heel lance for full-term newborn babies."
+  },
+  {
+    "question_id": "CD001452-clinician",
+    "review_id": "CD001452",
+    "review_title": "Venepuncture versus heel lance for blood sampling in term neonates",
+    "role": "clinician",
+    "source_readme": "reviews/CD001452/README.md",
+    "question": "I’m a clinician caring for full-term newborn babies who need blood samples.\n\nI’m trying to understand whether taking blood from a vein with a needle (venepuncture) is better than using a heel lance for full-term newborn babies."
+  },
+  {
+    "question_id": "CD001452-researcher",
+    "review_id": "CD001452",
+    "review_title": "Venepuncture versus heel lance for blood sampling in term neonates",
+    "role": "researcher",
+    "source_readme": "reviews/CD001452/README.md",
+    "question": "I’m an evidence-synthesis researcher studying blood sampling in full-term newborn babies.\n\nI’m trying to understand whether taking blood from a vein with a needle (venepuncture) is better than using a heel lance for full-term newborn babies."
+  },
+  {
+    "question_id": "CD005354-patient",
+    "review_id": "CD005354",
+    "review_title": "Recombinant follicle-stimulating hormone (rFSH) versus other recombinant or urinary gonadotropins for ovarian stimulation in assisted reproductive technology cycles",
+    "role": "patient",
+    "source_readme": "reviews/CD005354/README.md",
+    "question": "I’m a woman undergoing IVF and need hormone treatment to stimulate my ovaries.\n\nI’m trying to understand how recombinant follicle-stimulating hormone (rFSH) compares with other gonadotropin hormones for stimulating the ovaries during IVF."
+  },
+  {
+    "question_id": "CD005354-clinician",
+    "review_id": "CD005354",
+    "review_title": "Recombinant follicle-stimulating hormone (rFSH) versus other recombinant or urinary gonadotropins for ovarian stimulation in assisted reproductive technology cycles",
+    "role": "clinician",
+    "source_readme": "reviews/CD005354/README.md",
+    "question": "I’m a clinician caring for women undergoing IVF who need hormone treatment to stimulate their ovaries.\n\nI’m trying to understand how recombinant follicle-stimulating hormone (rFSH) compares with other gonadotropin hormones for stimulating the ovaries during IVF."
+  },
+  {
+    "question_id": "CD005354-researcher",
+    "review_id": "CD005354",
+    "review_title": "Recombinant follicle-stimulating hormone (rFSH) versus other recombinant or urinary gonadotropins for ovarian stimulation in assisted reproductive technology cycles",
+    "role": "researcher",
+    "source_readme": "reviews/CD005354/README.md",
+    "question": "I’m an evidence-synthesis researcher studying hormones used to stimulate the ovaries during IVF.\n\nI’m trying to understand how recombinant follicle-stimulating hormone (rFSH) compares with other gonadotropin hormones for stimulating the ovaries during IVF."
+  },
+  {
+    "question_id": "CD007654-patient",
+    "review_id": "CD007654",
+    "review_title": "Long-term effects of weight-reducing drugs in people with hypertension",
+    "role": "patient",
+    "source_readme": "reviews/CD007654/README.md",
+    "question": "I have high blood pressure, and I’m considering taking medicine to help me lose weight.\n\nI’m trying to understand whether weight-loss medicines improve the health of people with high blood pressure."
+  },
+  {
+    "question_id": "CD007654-clinician",
+    "review_id": "CD007654",
+    "review_title": "Long-term effects of weight-reducing drugs in people with hypertension",
+    "role": "clinician",
+    "source_readme": "reviews/CD007654/README.md",
+    "question": "I’m a clinician caring for people with high blood pressure who are considering taking medicine to help them lose weight.\n\nI’m trying to understand whether weight-loss medicines improve the health of people with high blood pressure."
+  },
+  {
+    "question_id": "CD007654-researcher",
+    "review_id": "CD007654",
+    "review_title": "Long-term effects of weight-reducing drugs in people with hypertension",
+    "role": "researcher",
+    "source_readme": "reviews/CD007654/README.md",
+    "question": "I’m an evidence-synthesis researcher studying weight-loss medicines in people with high blood pressure.\n\nI’m trying to understand whether weight-loss medicines improve the health of people with high blood pressure."
+  },
+  {
+    "question_id": "CD007912-patient",
+    "review_id": "CD007912",
+    "review_title": "Exercise for osteoarthritis of the hip",
+    "role": "patient",
+    "source_readme": "reviews/CD007912/README.md",
+    "question": "I have hip osteoarthritis and am considering exercise to help manage it.\n\nI’m trying to understand whether land-based exercise reduces pain and improves joint function in adults with hip osteoarthritis."
+  },
+  {
+    "question_id": "CD007912-clinician",
+    "review_id": "CD007912",
+    "review_title": "Exercise for osteoarthritis of the hip",
+    "role": "clinician",
+    "source_readme": "reviews/CD007912/README.md",
+    "question": "I’m a clinician caring for adults with hip osteoarthritis who are considering exercise.\n\nI’m trying to understand whether land-based exercise reduces pain and improves joint function in adults with hip osteoarthritis."
+  },
+  {
+    "question_id": "CD007912-researcher",
+    "review_id": "CD007912",
+    "review_title": "Exercise for osteoarthritis of the hip",
+    "role": "researcher",
+    "source_readme": "reviews/CD007912/README.md",
+    "question": "I’m an evidence-synthesis researcher studying land-based exercise for adults with hip osteoarthritis.\n\nI’m trying to understand whether land-based exercise reduces pain and improves joint function in adults with hip osteoarthritis."
+  },
+  {
+    "question_id": "CD009532-patient",
+    "review_id": "CD009532",
+    "review_title": "Oral or parenteral iron supplementation to reduce deferral, iron deficiency and/or anaemia in blood donors",
+    "role": "patient",
+    "source_readme": "reviews/CD009532/README.md",
+    "question": "I’m a blood donor who has been told that my iron level is low or that I may not be able to donate because of low iron. I’m trying to understand whether taking iron supplements can improve iron stores and reduce the chance of being unable to donate because of low iron."
+  },
+  {
+    "question_id": "CD009532-clinician",
+    "review_id": "CD009532",
+    "review_title": "Oral or parenteral iron supplementation to reduce deferral, iron deficiency and/or anaemia in blood donors",
+    "role": "clinician",
+    "source_readme": "reviews/CD009532/README.md",
+    "question": "I’m a clinician caring for blood donors who have low iron levels or are deferred from donation because of low hemoglobin or iron deficiency. I’m trying to understand whether taking iron supplements can improve iron stores and reduce the chance of being unable to donate because of low iron."
+  },
+  {
+    "question_id": "CD009532-researcher",
+    "review_id": "CD009532",
+    "review_title": "Oral or parenteral iron supplementation to reduce deferral, iron deficiency and/or anaemia in blood donors",
+    "role": "researcher",
+    "source_readme": "reviews/CD009532/README.md",
+    "question": "I’m an evidence-synthesis researcher studying iron supplementation in blood donors. I’m trying to understand whether taking iron supplements can improve iron stores and reduce the chance of being unable to donate because of low iron."
+  },
+  {
+    "question_id": "CD009958-patient",
+    "review_id": "CD009958",
+    "review_title": "Repositioning for pressure injury prevention in adults",
+    "role": "patient",
+    "source_readme": "reviews/CD009958/README.md",
+    "question": "I’m a patient at risk of developing pressure injuries (bedsores).\n\nI’m trying to understand how often adults at risk of pressure injuries should be repositioned and which body positions work best to prevent pressure injuries."
+  },
+  {
+    "question_id": "CD009958-clinician",
+    "review_id": "CD009958",
+    "review_title": "Repositioning for pressure injury prevention in adults",
+    "role": "clinician",
+    "source_readme": "reviews/CD009958/README.md",
+    "question": "I’m a clinician caring for adults at risk of developing pressure injuries (bedsores).\n\nI’m trying to understand how often adults at risk of pressure injuries should be repositioned and which body positions work best to prevent pressure injuries."
+  },
+  {
+    "question_id": "CD009958-researcher",
+    "review_id": "CD009958",
+    "review_title": "Repositioning for pressure injury prevention in adults",
+    "role": "researcher",
+    "source_readme": "reviews/CD009958/README.md",
+    "question": "I’m an evidence-synthesis researcher studying pressure-injury prevention in adults.\n\nI’m trying to understand how often adults at risk of pressure injuries should be repositioned and which body positions work best to prevent pressure injuries."
+  },
+  {
+    "question_id": "CD010051-patient",
+    "review_id": "CD010051",
+    "review_title": "Topical ciclosporine A therapy for dry eye disease",
+    "role": "patient",
+    "source_readme": "reviews/CD010051/README.md",
+    "question": "I have dry eye disease and am considering cyclosporine A eye drops.\n\nI’m trying to understand the benefits and harms of cyclosporine A (CsA) eye drops for people with dry eye disease."
+  },
+  {
+    "question_id": "CD010051-clinician",
+    "review_id": "CD010051",
+    "review_title": "Topical ciclosporine A therapy for dry eye disease",
+    "role": "clinician",
+    "source_readme": "reviews/CD010051/README.md",
+    "question": "I’m a clinician caring for people with dry eye disease who are considering cyclosporine A eye drops.\n\nI’m trying to understand the benefits and harms of cyclosporine A (CsA) eye drops for people with dry eye disease."
+  },
+  {
+    "question_id": "CD010051-researcher",
+    "review_id": "CD010051",
+    "review_title": "Topical ciclosporine A therapy for dry eye disease",
+    "role": "researcher",
+    "source_readme": "reviews/CD010051/README.md",
+    "question": "I’m an evidence-synthesis researcher studying cyclosporine A eye drops for people with dry eye disease.\n\nI’m trying to understand the benefits and harms of cyclosporine A (CsA) eye drops for people with dry eye disease."
+  },
+  {
+    "question_id": "CD010461-patient",
+    "review_id": "CD010461",
+    "review_title": "Advanced sperm selection techniques for assisted reproduction",
+    "role": "patient",
+    "source_readme": "reviews/CD010461/README.md",
+    "question": "I’m a patient trying to have a baby through IVF/ICSI.\n\nI’m trying to understand whether advanced sperm selection techniques improve the effectiveness of assisted reproduction compared with standard sperm selection."
+  },
+  {
+    "question_id": "CD010461-clinician",
+    "review_id": "CD010461",
+    "review_title": "Advanced sperm selection techniques for assisted reproduction",
+    "role": "clinician",
+    "source_readme": "reviews/CD010461/README.md",
+    "question": "I’m a clinician caring for patients trying to have a baby through IVF/ICSI.\n\nI’m trying to understand whether advanced sperm selection techniques improve the effectiveness of assisted reproduction compared with standard sperm selection."
+  },
+  {
+    "question_id": "CD010461-researcher",
+    "review_id": "CD010461",
+    "review_title": "Advanced sperm selection techniques for assisted reproduction",
+    "role": "researcher",
+    "source_readme": "reviews/CD010461/README.md",
+    "question": "I’m an evidence-synthesis researcher studying sperm selection in IVF/ICSI.\n\nI’m trying to understand whether advanced sperm selection techniques improve the effectiveness of assisted reproduction compared with standard sperm selection."
+  },
+  {
+    "question_id": "CD012161-patient",
+    "review_id": "CD012161",
+    "review_title": "(Ultra-)short-acting insulin analogues for adults with type 1 diabetes mellitus on multiple daily injections: a network meta-analysis",
+    "role": "patient",
+    "source_readme": "reviews/CD012161/README.md",
+    "question": "I have type 1 diabetes, use multiple daily insulin injections, and am considering whether a faster-acting insulin might be right for me.\n\nI'm trying to understand the benefits and harms of faster-acting insulin analogues compared with regular human insulin or another faster-acting insulin for adults with type 1 diabetes on multiple daily injections."
+  },
+  {
+    "question_id": "CD012161-clinician",
+    "review_id": "CD012161",
+    "review_title": "(Ultra-)short-acting insulin analogues for adults with type 1 diabetes mellitus on multiple daily injections: a network meta-analysis",
+    "role": "clinician",
+    "source_readme": "reviews/CD012161/README.md",
+    "question": "I'm a clinician caring for adults with type 1 diabetes who use multiple daily insulin injections and are considering a faster-acting type of insulin.\n\nI'm trying to understand the benefits and harms of faster-acting insulin analogues compared with regular human insulin or another faster-acting insulin for adults with type 1 diabetes on multiple daily injections."
+  },
+  {
+    "question_id": "CD012161-researcher",
+    "review_id": "CD012161",
+    "review_title": "(Ultra-)short-acting insulin analogues for adults with type 1 diabetes mellitus on multiple daily injections: a network meta-analysis",
+    "role": "researcher",
+    "source_readme": "reviews/CD012161/README.md",
+    "question": "I'm an evidence-synthesis researcher studying faster-acting insulin analogues for adults with type 1 diabetes who use multiple daily insulin injections.\n\nI'm trying to understand the benefits and harms of faster-acting insulin analogues compared with regular human insulin or another faster-acting insulin for adults with type 1 diabetes on multiple daily injections."
+  },
+  {
+    "question_id": "CD012751-patient",
+    "review_id": "CD012751",
+    "review_title": "Biologic drugs for induction and maintenance of remission in Crohn's disease: a network meta-analysis",
+    "role": "patient",
+    "source_readme": "reviews/CD012751/README.md",
+    "question": "I have Crohn's disease and am considering a biologic or other advanced treatment.\n\nI'm trying to understand the benefits and harms of biologic or advanced treatments for inducing or maintaining remission in people with Crohn's disease."
+  },
+  {
+    "question_id": "CD012751-clinician",
+    "review_id": "CD012751",
+    "review_title": "Biologic drugs for induction and maintenance of remission in Crohn's disease: a network meta-analysis",
+    "role": "clinician",
+    "source_readme": "reviews/CD012751/README.md",
+    "question": "I'm a clinician caring for people with Crohn's disease who are considering a biologic or other advanced treatment.\n\nI'm trying to understand the benefits and harms of biologic or advanced treatments for inducing or maintaining remission in people with Crohn's disease."
+  },
+  {
+    "question_id": "CD012751-researcher",
+    "review_id": "CD012751",
+    "review_title": "Biologic drugs for induction and maintenance of remission in Crohn's disease: a network meta-analysis",
+    "role": "researcher",
+    "source_readme": "reviews/CD012751/README.md",
+    "question": "I'm an evidence-synthesis researcher studying biologic and other advanced treatments for Crohn's disease.\n\nI'm trying to understand the benefits and harms of biologic or advanced treatments for inducing or maintaining remission in people with Crohn's disease."
+  },
+  {
+    "question_id": "CD013776-patient",
+    "review_id": "CD013776",
+    "review_title": "Blue versus white light for transurethral resection of non-muscle invasive bladder cancer",
+    "role": "patient",
+    "source_readme": "reviews/CD013776/README.md",
+    "question": "I’m a patient considering surgery for a suspected non-muscle-invasive bladder tumor.\n\nI’m trying to understand whether blue-light-assisted transurethral resection of a bladder tumor (TURBT) is better than standard white-light TURBT, especially for preventing the cancer from returning or progressing and for avoiding complications."
+  },
+  {
+    "question_id": "CD013776-clinician",
+    "review_id": "CD013776",
+    "review_title": "Blue versus white light for transurethral resection of non-muscle invasive bladder cancer",
+    "role": "clinician",
+    "source_readme": "reviews/CD013776/README.md",
+    "question": "I’m a clinician caring for patients considering surgery for a suspected non-muscle-invasive bladder tumor.\n\nI’m trying to understand whether blue-light-assisted transurethral resection of a bladder tumor (TURBT) is better than standard white-light TURBT, especially for preventing the cancer from returning or progressing and for avoiding complications."
+  },
+  {
+    "question_id": "CD013776-researcher",
+    "review_id": "CD013776",
+    "review_title": "Blue versus white light for transurethral resection of non-muscle invasive bladder cancer",
+    "role": "researcher",
+    "source_readme": "reviews/CD013776/README.md",
+    "question": "I’m an evidence-synthesis researcher studying surgery for suspected non-muscle-invasive bladder tumors.\n\nI’m trying to understand whether blue-light-assisted transurethral resection of a bladder tumor (TURBT) is better than standard white-light TURBT, especially for preventing the cancer from returning or progressing and for avoiding complications."
+  },
+  {
+    "question_id": "CD015136-patient",
+    "review_id": "CD015136",
+    "review_title": "Clinical effectiveness of telepharmacy services in patients with non-communicable diseases in ambulatory care settings",
+    "role": "patient",
+    "source_readme": "reviews/CD015136/README.md",
+    "question": "I’m a patient living with a long-term health condition and receiving care outside a hospital.\n\nI’m trying to understand whether remote pharmacy care (telepharmacy) works better than usual care for people with long-term health conditions who are not in hospital."
+  },
+  {
+    "question_id": "CD015136-clinician",
+    "review_id": "CD015136",
+    "review_title": "Clinical effectiveness of telepharmacy services in patients with non-communicable diseases in ambulatory care settings",
+    "role": "clinician",
+    "source_readme": "reviews/CD015136/README.md",
+    "question": "I’m a clinician caring for people with long-term health conditions outside a hospital.\n\nI’m trying to understand whether remote pharmacy care (telepharmacy) works better than usual care for people with long-term health conditions who are not in hospital."
+  },
+  {
+    "question_id": "CD015136-researcher",
+    "review_id": "CD015136",
+    "review_title": "Clinical effectiveness of telepharmacy services in patients with non-communicable diseases in ambulatory care settings",
+    "role": "researcher",
+    "source_readme": "reviews/CD015136/README.md",
+    "question": "I’m an evidence-synthesis researcher studying telepharmacy for people with long-term health conditions outside a hospital.\n\nI’m trying to understand whether remote pharmacy care (telepharmacy) works better than usual care for people with long-term health conditions who are not in hospital."
+  },
+  {
+    "question_id": "CD015156-patient",
+    "review_id": "CD015156",
+    "review_title": "Non-surgical treatment for lower limb apophyseal injuries",
+    "role": "patient",
+    "source_readme": "reviews/CD015156/README.md",
+    "question": "I’m a parent of a child with growth-plate pain (apophysitis) in the hip, knee, or foot.\n\nI’m trying to understand which nonsurgical treatments work best for children and adolescents with lower-limb growth-plate pain (apophysitis)."
+  },
+  {
+    "question_id": "CD015156-clinician",
+    "review_id": "CD015156",
+    "review_title": "Non-surgical treatment for lower limb apophyseal injuries",
+    "role": "clinician",
+    "source_readme": "reviews/CD015156/README.md",
+    "question": "I’m a clinician caring for children and adolescents with lower-limb growth-plate pain (apophysitis).\n\nI’m trying to understand which nonsurgical treatments work best for children and adolescents with lower-limb growth-plate pain (apophysitis)."
+  },
+  {
+    "question_id": "CD015156-researcher",
+    "review_id": "CD015156",
+    "review_title": "Non-surgical treatment for lower limb apophyseal injuries",
+    "role": "researcher",
+    "source_readme": "reviews/CD015156/README.md",
+    "question": "I’m an evidence-synthesis researcher studying nonsurgical treatments for lower-limb growth-plate pain (apophysitis) in children and adolescents.\n\nI’m trying to understand which nonsurgical treatments work best for children and adolescents with lower-limb growth-plate pain (apophysitis)."
+  },
+  {
+    "question_id": "CD015186-patient",
+    "review_id": "CD015186",
+    "review_title": "Minimally invasive trabecular meshwork surgery for open-angle glaucoma",
+    "role": "patient",
+    "source_readme": "reviews/CD015186/README.md",
+    "question": "I have open-angle glaucoma and am considering minimally invasive glaucoma surgery.\n\nI’m trying to understand the benefits and harms of minimally invasive glaucoma surgery that acts on the eye’s drainage channel called Schlemm’s canal (SC-MIGS)."
+  },
+  {
+    "question_id": "CD015186-clinician",
+    "review_id": "CD015186",
+    "review_title": "Minimally invasive trabecular meshwork surgery for open-angle glaucoma",
+    "role": "clinician",
+    "source_readme": "reviews/CD015186/README.md",
+    "question": "I’m a clinician caring for people with open-angle glaucoma who are considering minimally invasive glaucoma surgery.\n\nI’m trying to understand the benefits and harms of minimally invasive glaucoma surgery that acts on the eye’s drainage channel called Schlemm’s canal (SC-MIGS)."
+  },
+  {
+    "question_id": "CD015186-researcher",
+    "review_id": "CD015186",
+    "review_title": "Minimally invasive trabecular meshwork surgery for open-angle glaucoma",
+    "role": "researcher",
+    "source_readme": "reviews/CD015186/README.md",
+    "question": "I’m an evidence-synthesis researcher studying minimally invasive glaucoma surgery for people with open-angle glaucoma.\n\nI’m trying to understand the benefits and harms of minimally invasive glaucoma surgery that acts on the eye’s drainage channel called Schlemm’s canal (SC-MIGS)."
+  },
+  {
+    "question_id": "CD015264-patient",
+    "review_id": "CD015264",
+    "review_title": "Vitamin B12 supplementation for growth, development, and cognition in children",
+    "role": "patient",
+    "source_readme": "reviews/CD015264/README.md",
+    "question": "I’m a parent of a child under 12 years of age.\n\nI’m trying to understand whether vitamin B12 supplements improve the nutrition and health of children under 12 compared with placebo, no supplementation, or the same supplements without vitamin B12."
+  },
+  {
+    "question_id": "CD015264-clinician",
+    "review_id": "CD015264",
+    "review_title": "Vitamin B12 supplementation for growth, development, and cognition in children",
+    "role": "clinician",
+    "source_readme": "reviews/CD015264/README.md",
+    "question": "I’m a clinician caring for children under 12 years of age.\n\nI’m trying to understand whether vitamin B12 supplements improve the nutrition and health of children under 12 compared with placebo, no supplementation, or the same supplements without vitamin B12."
+  },
+  {
+    "question_id": "CD015264-researcher",
+    "review_id": "CD015264",
+    "review_title": "Vitamin B12 supplementation for growth, development, and cognition in children",
+    "role": "researcher",
+    "source_readme": "reviews/CD015264/README.md",
+    "question": "I’m an evidence-synthesis researcher studying vitamin B12 supplementation in children under 12 years of age.\n\nI’m trying to understand whether vitamin B12 supplements improve the nutrition and health of children under 12 compared with placebo, no supplementation, or the same supplements without vitamin B12."
+  },
+  {
+    "question_id": "CD015898-patient",
+    "review_id": "CD015898",
+    "review_title": "Larger versus smaller red blood cell volume per transfusion in hospitalized adults, children and preterm neonates",
+    "role": "patient",
+    "source_readme": "reviews/CD015898/README.md",
+    "question": "I’m a patient who may need a red blood cell transfusion.\n\nI’m trying to understand the benefits and harms of giving a larger or smaller amount of red blood cells during each transfusion to hospital patients of any age."
+  },
+  {
+    "question_id": "CD015898-clinician",
+    "review_id": "CD015898",
+    "review_title": "Larger versus smaller red blood cell volume per transfusion in hospitalized adults, children and preterm neonates",
+    "role": "clinician",
+    "source_readme": "reviews/CD015898/README.md",
+    "question": "I’m a clinician caring for hospital patients who need red blood cell transfusions.\n\nI’m trying to understand the benefits and harms of giving a larger or smaller amount of red blood cells during each transfusion to hospital patients of any age."
+  },
+  {
+    "question_id": "CD015898-researcher",
+    "review_id": "CD015898",
+    "review_title": "Larger versus smaller red blood cell volume per transfusion in hospitalized adults, children and preterm neonates",
+    "role": "researcher",
+    "source_readme": "reviews/CD015898/README.md",
+    "question": "I’m an evidence-synthesis researcher studying red blood cell transfusions in hospital patients.\n\nI’m trying to understand the benefits and harms of giving a larger or smaller amount of red blood cells during each transfusion to hospital patients of any age."
+  },
+  {
+    "question_id": "CD015934-patient",
+    "review_id": "CD015934",
+    "review_title": "Interventions for smoking cessation in inpatient psychiatry settings",
+    "role": "patient",
+    "source_readme": "reviews/CD015934/README.md",
+    "question": "I smoke and I’m being treated in a hospital psychiatry ward for a mental illness.\n\nI’m trying to understand whether quit-smoking programmes started in hospital psychiatry wards help adults being treated for mental illness stop smoking."
+  },
+  {
+    "question_id": "CD015934-clinician",
+    "review_id": "CD015934",
+    "review_title": "Interventions for smoking cessation in inpatient psychiatry settings",
+    "role": "clinician",
+    "source_readme": "reviews/CD015934/README.md",
+    "question": "I’m a clinician caring for adults who smoke while they are being treated in a hospital psychiatry ward.\n\nI’m trying to understand whether quit-smoking programmes started in hospital psychiatry wards help adults being treated for mental illness stop smoking."
+  },
+  {
+    "question_id": "CD015934-researcher",
+    "review_id": "CD015934",
+    "review_title": "Interventions for smoking cessation in inpatient psychiatry settings",
+    "role": "researcher",
+    "source_readme": "reviews/CD015934/README.md",
+    "question": "I’m an evidence-synthesis researcher studying quit-smoking programmes started while adults are being treated in hospital psychiatry wards.\n\nI’m trying to understand whether quit-smoking programmes started in hospital psychiatry wards help adults being treated for mental illness stop smoking."
+  },
+  {
+    "question_id": "CD016085-patient",
+    "review_id": "CD016085",
+    "review_title": "Blood pressure management in reperfused ischemic stroke",
+    "role": "patient",
+    "source_readme": "reviews/CD016085/README.md",
+    "question": "I’ve had an ischemic stroke and received treatment to reopen a blocked artery in my brain.\n\nI’m trying to understand the benefits and risks of lowering blood pressure more intensively compared with standard blood pressure control after treatment to restore blood flow following a stroke."
+  },
+  {
+    "question_id": "CD016085-clinician",
+    "review_id": "CD016085",
+    "review_title": "Blood pressure management in reperfused ischemic stroke",
+    "role": "clinician",
+    "source_readme": "reviews/CD016085/README.md",
+    "question": "I’m a clinician caring for people who have received treatment to reopen a blocked brain artery after an ischemic stroke.\n\nI’m trying to understand the benefits and risks of lowering blood pressure more intensively compared with standard blood pressure control after treatment to restore blood flow following a stroke."
+  },
+  {
+    "question_id": "CD016085-researcher",
+    "review_id": "CD016085",
+    "review_title": "Blood pressure management in reperfused ischemic stroke",
+    "role": "researcher",
+    "source_readme": "reviews/CD016085/README.md",
+    "question": "I’m an evidence-synthesis researcher studying blood pressure control after treatment to restore blood flow following an ischemic stroke.\n\nI’m trying to understand the benefits and risks of lowering blood pressure more intensively compared with standard blood pressure control after treatment to restore blood flow following a stroke."
+  },
+  {
+    "question_id": "CD016104-patient",
+    "review_id": "CD016104",
+    "review_title": "Perioperative immune checkpoint inhibitors with or without chemotherapy versus placebo/no treatment in elderly people with localized non-small cell lung cancer",
+    "role": "patient",
+    "source_readme": "reviews/CD016104/README.md",
+    "question": "I’m an older adult with non-small cell lung cancer that is still limited to one area, and I may have surgery.\n\nI’m trying to understand the benefits and harms of using immune checkpoint inhibitors before or after surgery, either alone or with chemotherapy, compared with a placebo or no treatment."
+  },
+  {
+    "question_id": "CD016104-clinician",
+    "review_id": "CD016104",
+    "review_title": "Perioperative immune checkpoint inhibitors with or without chemotherapy versus placebo/no treatment in elderly people with localized non-small cell lung cancer",
+    "role": "clinician",
+    "source_readme": "reviews/CD016104/README.md",
+    "question": "I’m a clinician caring for older adults with non-small cell lung cancer that is still limited to one area and may be treated with surgery.\n\nI’m trying to understand the benefits and harms of using immune checkpoint inhibitors before or after surgery, either alone or with chemotherapy, compared with a placebo or no treatment."
+  },
+  {
+    "question_id": "CD016104-researcher",
+    "review_id": "CD016104",
+    "review_title": "Perioperative immune checkpoint inhibitors with or without chemotherapy versus placebo/no treatment in elderly people with localized non-small cell lung cancer",
+    "role": "researcher",
+    "source_readme": "reviews/CD016104/README.md",
+    "question": "I’m an evidence-synthesis researcher studying treatments given around surgery for older adults with non-small cell lung cancer that is still limited to one area.\n\nI’m trying to understand the benefits and harms of using immune checkpoint inhibitors before or after surgery, either alone or with chemotherapy, compared with a placebo or no treatment."
+  }
+]
